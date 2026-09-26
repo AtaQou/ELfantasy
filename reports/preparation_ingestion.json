@@ -1,0 +1,892 @@
+{
+  "games_added": 12,
+  "player_rows_added": 285,
+  "mapped_rows": 108,
+  "unmapped": [
+    [
+      "105681",
+      "Asisa Joventut",
+      "Y. Kraag"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "B. Ellis"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "E. Ndiaye"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "R. Rubio"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "N. Laprovittola"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "L. Hakanson"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "A. Reyes"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "E. Sulejmanovic"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "A. Torres"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "I. Nogués"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "S. Birgander"
+    ],
+    [
+      "105681",
+      "Asisa Joventut",
+      "K. Cheatham"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "M. Howard"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "AJ Lawson"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "K. Simmons"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "DJ Stewart"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "C. Duarte"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "S. Joksimovic"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "R. Kurucs"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "T. Sedekerskis"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "M. Spagnolo"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "D. Baugh"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "C. Frisch"
+    ],
+    [
+      "105681",
+      "Kosner Baskonia",
+      "K. Faried"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "K. Taylor"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "J. Puerto"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "N. Reuvers"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "M. Saint-Supery"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "A. Cárdenas"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "D. Osetkowski"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "O. Moore"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "A. Brooks"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "M. Gueye"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "G. Corbalán"
+    ],
+    [
+      "105682",
+      "Valencia Basket",
+      "Y. Sima"
+    ],
+    [
+      "105682",
+      "Barça",
+      "K. Punter"
+    ],
+    [
+      "105682",
+      "Barça",
+      "U. Gibson"
+    ],
+    [
+      "105682",
+      "Barça",
+      "T. Martin"
+    ],
+    [
+      "105682",
+      "Barça",
+      "S. Umude"
+    ],
+    [
+      "105682",
+      "Barça",
+      "J. Robinson"
+    ],
+    [
+      "105682",
+      "Barça",
+      "D. Brizuela"
+    ],
+    [
+      "105682",
+      "Barça",
+      "O. Nkamhoua"
+    ],
+    [
+      "105682",
+      "Barça",
+      "J. Núñez"
+    ],
+    [
+      "105682",
+      "Barça",
+      "O. Balcerowski"
+    ],
+    [
+      "105682",
+      "Barça",
+      "J. Minaya"
+    ],
+    [
+      "105682",
+      "Barça",
+      "J. Nebo"
+    ],
+    [
+      "105682",
+      "Barça",
+      "J. Parra"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "Y. Kraag"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "B. Ellis"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "E. Ndiaye"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "R. Rubio"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "N. Laprovittola"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "L. Hakanson"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "A. Reyes"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "E. Sulejmanovic"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "A. Torres"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "I. Nogués"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "S. Birgander"
+    ],
+    [
+      "105683",
+      "Asisa Joventut",
+      "K. Cheatham"
+    ],
+    [
+      "105683",
+      "Barça",
+      "K. Punter"
+    ],
+    [
+      "105683",
+      "Barça",
+      "U. Gibson"
+    ],
+    [
+      "105683",
+      "Barça",
+      "T. Martin"
+    ],
+    [
+      "105683",
+      "Barça",
+      "S. Umude"
+    ],
+    [
+      "105683",
+      "Barça",
+      "J. Robinson"
+    ],
+    [
+      "105683",
+      "Barça",
+      "D. Brizuela"
+    ],
+    [
+      "105683",
+      "Barça",
+      "O. Nkamhoua"
+    ],
+    [
+      "105683",
+      "Barça",
+      "J. Núñez"
+    ],
+    [
+      "105683",
+      "Barça",
+      "O. Balcerowski"
+    ],
+    [
+      "105683",
+      "Barça",
+      "J. Minaya"
+    ],
+    [
+      "105683",
+      "Barça",
+      "J. Nebo"
+    ],
+    [
+      "105683",
+      "Barça",
+      "J. Parra"
+    ],
+    [
+      "17943",
+      "Olympiacos Piraeus",
+      "ANTONIS KARAGIANNIDIS"
+    ],
+    [
+      "17943",
+      "Fenerbahce Tarfin Istanbul",
+      "MARCUS BINGHAM"
+    ],
+    [
+      "17943",
+      "Fenerbahce Tarfin Istanbul",
+      "JOHNNY JUZANG"
+    ],
+    [
+      "17945",
+      "Olympiacos Piraeus",
+      "ANTONIS KARAGIANNIDIS"
+    ],
+    [
+      "17945",
+      "Real Madrid",
+      "SERGIO LLULL"
+    ],
+    [
+      "17945",
+      "Real Madrid",
+      "DAMIAN JONES"
+    ],
+    [
+      "2006926",
+      "FC Bayern München",
+      "Tobias Jensen"
+    ],
+    [
+      "2006926",
+      "FC Bayern München",
+      "Austin Wiley"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Jonathan Bähre"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Daniel Keppeler"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Jakob Lang"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Richard Balint"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Yuval Hochstadter"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Brendan Terry"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Mylik Wilson"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Jordan Wright"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Trevon Scott"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Jordan Jones"
+    ],
+    [
+      "2006926",
+      "Bamberg Baskets",
+      "Hason Ward"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Patrick Miller"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Kirill Temirov"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Mikhail Vedishchev"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Gleb Firsov"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Andrey Lopatin"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Anton Kvitkovskikh"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Ivan Samoylenko"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Alen Hadzibegovic"
+    ],
+    [
+      "1083463",
+      "Lokomotiv Kuban",
+      "Ruslan Abdulbasirov"
+    ],
+    [
+      "1083463",
+      "Anadolu Efes",
+      "Dario Saric"
+    ],
+    [
+      "1083463",
+      "Anadolu Efes",
+      "Fatts Russell"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Darius Johnson"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Antoine Diot"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Harvey Gauthier"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Yvann Mbaya"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Derek Needham"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Anthony Bria"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Aaron Levarity"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Maxime Roos"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Travante Williams"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Jahvon Blair"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Roanne",
+      "Dylan Affo Mama"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Paris",
+      "Nobel Boungou Colo"
+    ],
+    [
+      "5aec717f-b46e-11f1-a911-19cb68fcd8ab",
+      "Paris",
+      "Tyson Etienne"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "M. Girdžiūnas"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "M. Echodas"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "D. Tarolis"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "K. Žemaitis"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "A. Beručka"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "E. Tubutis"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "L. Kreišmontas"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "Y. Franke"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "E. Fridriksson"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "S. Šarakauskas"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "H. Drell"
+    ],
+    [
+      "11581",
+      "Neptūnas",
+      "R. Somerville"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "E. Ulanovas"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "A. Butkevičius"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "M. Grigonis"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "M. Blaževič"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "Ą. Tubelis"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "J. Valančiūnas"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "D. Giedraitis"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "N. Williams-Goss"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "M. Lo"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "D. Sleva"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "S. Brown"
+    ],
+    [
+      "11581",
+      "Žalgiris",
+      "C. Edwards"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "E. Šaulys"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "A. Mikalauskas"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "L. Vaištaras"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "A. Sidarevičius"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "P. Kulikauskas"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "B. Krikke"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "M. Gervinas"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "J. Carlos"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "G. Shephard"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "L. Wilson"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "S. Davis"
+    ],
+    [
+      "11578",
+      "Gargždai",
+      "R. Kreišmontas"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "E. Ulanovas"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "A. Butkevičius"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "M. Grigonis"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "M. Blaževič"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "Ą. Tubelis"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "J. Valančiūnas"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "D. Giedraitis"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "N. Williams-Goss"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "M. Lo"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "D. Sleva"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "S. Brown"
+    ],
+    [
+      "11578",
+      "Žalgiris",
+      "C. Edwards"
+    ],
+    [
+      "25358",
+      "Armani Olimpia Milano",
+      "R.J. COLE"
+    ],
+    [
+      "25358",
+      "Virtus Costa Bologna",
+      "Rasheed BELLO"
+    ],
+    [
+      "25358",
+      "Virtus Costa Bologna",
+      "Trent FRAZIER"
+    ],
+    [
+      "25358",
+      "Virtus Costa Bologna",
+      "Davide CASARIN"
+    ],
+    [
+      "25358",
+      "Virtus Costa Bologna",
+      "Wendell MOORE"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Octavio MARETTO"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Giovanni DE NICOLAO"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Leonardo CANDI"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Ky BOWMAN"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Enoch BOAKYE"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Giga JANELIDZE"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Jordan PARKS"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Kyle WILTJER"
+    ],
+    [
+      "25359",
+      "Umana Reyer Venezia",
+      "Amedeo TESSITORI"
+    ],
+    [
+      "25359",
+      "Armani Olimpia Milano",
+      "R.J. COLE"
+    ]
+  ]
+}

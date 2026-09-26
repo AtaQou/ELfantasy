@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>EuroLeague Fantasy Control Center</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <div class="brand"><p class="eyebrow">ELFANTASY · PHASE 8C</p><h1>Fantasy Control Center</h1></div>
+    <div class="snapshot" id="snapshot-summary" aria-live="polite">Loading snapshot…</div>
+  </header>
+  <div id="demo-banner" class="demo-banner hidden" role="status">
+    <div><strong>DEMO DATA</strong><span>Synthetic, in-memory fixtures. Production data are disconnected.</span></div>
+    <label>Inspect state<select id="demo-scenario" aria-label="Demo test state"></select></label>
+  </div>
+  <section id="global-readiness" class="readiness-bar" aria-label="Global system readiness">
+    <div class="readiness-loading">Loading season, market, prediction, and rules status…</div>
+  </section>
+  <div class="app-shell">
+    <nav class="sidebar" aria-label="Control Center sections">
+      <button class="nav-item active" data-tab="team" aria-current="page">Current Team</button>
+      <button class="nav-item" data-tab="builder">Team Builder</button>
+      <button class="nav-item" data-tab="recommendations">Strategy / Optimize</button>
+      <button class="nav-item" data-tab="history">History</button>
+      <button class="nav-item" data-tab="dashboard">Data status</button>
+      <button class="nav-item" data-tab="players">Players</button>
+      <button class="nav-item" data-tab="availability">Availability</button>
+      <button class="nav-item" data-tab="strategy">Live Turn Strategy</button>
+      <button class="nav-item" data-tab="value-growth">Value / Growth</button>
+      <button class="nav-item" data-tab="monitoring">Monitoring</button>
+      <div class="sidebar-foot"><span id="transfer-chip">— transfers</span><span id="bank-chip">— credits banked</span></div>
+    </nav>
+    <main id="main-content" tabindex="-1">
+      <div id="global-block" class="block-banner hidden" role="alert"></div>
+      <div id="stale-recommendation" class="warning-banner hidden" role="status">Inputs changed after the displayed recommendation. Run optimization again before acting.</div>
+
+      <section id="tab-dashboard" class="tab active" aria-labelledby="dashboard-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">LIVE DATA</p><h2 id="dashboard-title">Matchday readiness</h2><p class="section-subtitle">Every gate and snapshot used by the decision engine.</p></div>
+          <button id="refresh-button" class="primary" type="button">Update latest data</button>
+        </div>
+        <div id="refresh-message" class="inline-message hidden" role="status" aria-live="polite"></div>
+        <div id="refresh-progress" class="refresh-progress hidden" aria-live="polite"></div>
+        <div id="refresh-changes" class="change-strip hidden"></div>
+        <div id="preseason-state" class="intentional-empty hidden"></div>
+        <div id="status-cards" class="status-grid"></div>
+        <div class="panel">
+          <div class="panel-heading"><div><h3>Source freshness</h3><span>Last valid data remain visible; stale inputs are never hidden.</span></div><span class="read-only-label">FAIL-CLOSED</span></div>
+          <div id="source-freshness" class="source-list"></div>
+        </div>
+      </section>
+
+      <section id="tab-team" class="tab" aria-labelledby="team-title">
+        <div class="section-heading"><div><p class="eyebrow">CURRENT FANTASY TEAM</p><h2 id="team-title">Choose or edit your roster</h2><p class="section-subtitle">Use the ranked suggestions below each role, select several at once, or filter the market.</p></div></div>
+        <div class="team-slot-tabs panel" data-team-slot-tabs role="tablist" aria-label="Current team"><span>Current team</span><button class="team-slot-tab" data-team-slot="1" type="button" role="tab">Team 1</button><button class="team-slot-tab" data-team-slot="2" type="button" role="tab">Team 2</button><button class="team-slot-tab" data-team-slot="3" type="button" role="tab">Team 3</button></div>
+        <div id="team-summary" class="summary-strip"></div>
+        <div class="team-toolbar panel">
+          <label class="grow">Filter available players and coaches<input id="team-search" type="search" placeholder="Search name, team, or position…" autocomplete="off"></label>
+          <button id="team-add-selected" class="secondary" type="button">Add selected</button>
+          <button id="team-lock-selected" class="secondary" type="button">Lock selected</button>
+          <button id="team-remove-selected" class="ghost" type="button">Remove selected</button>
+          <button id="team-clear" class="danger" type="button">Clear entire team</button>
+        </div>
+        <div id="team-validation" class="inline-message" role="status" aria-live="polite"></div>
+        <div id="team-groups" class="position-grid"></div>
+        <section class="panel team-next-step" aria-labelledby="team-next-title">
+          <div><p class="eyebrow">NEXT STEP</p><h3 id="team-next-title">What do you want to do?</h3><p>Complete fixes every selection for that run. Improve allows transfers except for players or the Coach you manually lock.</p></div>
+          <div class="action-buttons"><button id="team-analyze" class="secondary" type="button">Analyze Current Team</button><button id="team-complete-roster" class="primary" type="button">Complete My Roster</button><button id="team-improve-current" class="secondary" type="button">Improve My Team</button></div>
+        </section>
+      </section>
+
+      <section id="tab-builder" class="tab" aria-labelledby="builder-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">MANUAL TEAM BUILDER</p><h2 id="builder-title">Build your team in any order</h2><p class="section-subtitle">Choose any position or price category next. Your draft stays separate until you save it to the selected team.</p></div>
+        </div>
+        <div class="team-slot-tabs panel" data-team-slot-tabs role="tablist" aria-label="Team to build"><span>Save to team</span><button class="team-slot-tab" data-team-slot="1" type="button" role="tab">Team 1</button><button class="team-slot-tab" data-team-slot="2" type="button" role="tab">Team 2</button><button class="team-slot-tab" data-team-slot="3" type="button" role="tab">Team 3</button></div>
+        <div class="builder-controls panel">
+          <label>Total credits available<input id="builder-budget" type="number" min="0" step="0.1" inputmode="decimal"></label>
+          <label>Position<select id="builder-position"><option value="">All positions</option><option>GUARD</option><option>FORWARD</option><option>CENTER</option><option>COACH</option></select></label>
+          <label>Price category<select id="builder-category"><option value="">All prices</option><option value="PREMIUM">Premium (11+ cr)</option><option value="MID">Mid (7–&lt;11 cr)</option><option value="CHEAP">Cheap (4–&lt;7 cr)</option></select></label>
+          <label>Turn<select id="builder-turn"><option value="">All Turns</option></select></label>
+          <label class="grow">Search<input id="builder-query" type="search" placeholder="Player, coach, or team" autocomplete="off"></label>
+          <button id="builder-use-current" class="ghost" type="button">Reload current team</button>
+          <button id="builder-clear" class="danger" type="button">Clear draft</button>
+        </div>
+        <div id="builder-summary" class="summary-strip"></div>
+        <div id="builder-message" class="inline-message" role="status" aria-live="polite"></div>
+        <div class="builder-layout">
+          <section class="panel builder-selected-panel">
+            <div class="panel-heading"><div><h3>Your draft</h3><span id="builder-selected-count">0/11 selected</span></div><div class="builder-save-actions"><button id="builder-save" class="secondary" type="button">Save partial team</button><button id="builder-save-ai" class="primary" type="button">Save &amp; go to AI completion</button></div></div>
+            <div id="builder-selected" class="builder-selected"></div>
+          </section>
+          <section class="panel builder-market-panel">
+            <div class="panel-heading"><div><h3>Available picks</h3><span id="builder-result-count"></span></div><span class="read-only-label">TURN · xMIN · xFP · P90</span></div>
+            <div id="builder-market" class="builder-market"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="tab-players" class="tab" aria-labelledby="players-title">
+        <div class="section-heading"><div><p class="eyebrow">PLAYER EXPLORER</p><h2 id="players-title">Upcoming slate</h2><p class="section-subtitle">Rank for discovery, then inspect the evidence. FP/credit is diagnostic only.</p></div></div>
+        <div class="filter-panel panel">
+          <div class="filters">
+            <label>Ranking view<select id="player-view"><option>BEST EXPECTED FP</option><option>BEST VALUE</option><option>MOST EXPECTED MINUTES</option><option>HIGHEST UPSIDE</option><option>SAFEST</option><option>VALUE CREDIT GROWTH</option></select></label>
+            <label class="grow">Search<input id="player-query" placeholder="Player name" type="search"></label>
+            <label>Team<select id="player-team"><option value="">All teams</option></select></label>
+            <label>Position<select id="player-position"><option value="">All positions</option><option>GUARD</option><option>FORWARD</option><option>CENTER</option></select></label>
+            <label>Price category<select id="player-category"><option value="">All prices</option><option value="PREMIUM">Premium (11+ cr)</option><option value="MID">Mid (7–&lt;11 cr)</option><option value="CHEAP">Cheap (4–&lt;7 cr)</option></select></label>
+            <label>Turn<select id="player-turn"><option value="">All Turns</option></select></label>
+            <label>Status<select id="player-status"><option value="">All statuses</option><option>GREEN</option><option>YELLOW</option><option>RED</option></select></label>
+            <button id="player-reset" class="ghost" type="button">Clear filters</button>
+          </div>
+          <div class="preset-row" role="group" aria-label="Player table column presets">
+            <span>Columns</span><button class="preset active" data-preset="performance" type="button">Performance</button><button class="preset" data-preset="risk" type="button">Risk</button><button class="preset" data-preset="value" type="button">Value</button><button class="preset" data-preset="minutes" type="button">Minutes</button><button class="preset" data-preset="strategy" type="button">Strategy</button><span id="player-result-count" class="result-count"></span>
+          </div>
+        </div>
+        <div class="metric-help" aria-label="Metric definitions"><span title="10% of simulated outcomes are lower than this value."><strong>P10</strong> downside boundary</span><span title="90% of simulated outcomes are lower than this value."><strong>P90</strong> upside boundary</span><span title="Projected Fantasy points divided by current credits."><strong>FP/credit</strong> discovery metric</span></div>
+        <div class="table-wrap"><table id="players-table"><caption>Upcoming Matchday players</caption></table></div>
+      </section>
+
+      <section id="tab-availability" class="tab" aria-labelledby="availability-title">
+        <div class="section-heading"><div><p class="eyebrow">AVAILABILITY</p><h2 id="availability-title">Source status and manual decisions</h2><p class="section-subtitle">Source history stays immutable. Your override changes only the resolved decision used downstream.</p></div></div>
+        <div class="filters panel"><label>Status group<select id="availability-group"><option value="">All</option><option>GREEN</option><option>YELLOW</option><option>RED</option></select></label><label>Team<select id="availability-team"><option value="">All teams</option></select></label><label>Position<select id="availability-position"><option value="">All positions</option><option>GUARD</option><option>FORWARD</option><option>CENTER</option></select></label><label>Turn<select id="availability-turn"><option value="">All Turns</option></select></label><button id="availability-reset" class="ghost" type="button">Clear filters</button></div>
+        <div class="legend"><span class="status green">✓ GREEN · available/probable</span><span class="status yellow">△ YELLOW · uncertain/limited</span><span class="status red">✕ RED · out/ineligible</span></div>
+        <div class="table-wrap"><table id="availability-table"><caption>Availability source, override, and resolved status</caption></table></div>
+      </section>
+
+      <section id="tab-recommendations" class="tab" aria-labelledby="recommendations-title">
+        <div class="section-heading"><div><p class="eyebrow">WHAT DO YOU WANT TO DO?</p><h2 id="recommendations-title">Optimize for the next Matchday</h2><p class="section-subtitle">Complete a partial roster with locked picks, or improve a complete team with controlled transfers.</p></div><button id="optimize-button" class="primary optimize-primary" type="button">Optimize</button></div>
+        <div class="team-slot-tabs panel" data-team-slot-tabs role="tablist" aria-label="Team to optimize"><span>Optimize team</span><button class="team-slot-tab" data-team-slot="1" type="button" role="tab">Team 1</button><button class="team-slot-tab" data-team-slot="2" type="button" role="tab">Team 2</button><button class="team-slot-tab" data-team-slot="3" type="button" role="tab">Team 3</button></div>
+        <div class="optimization-toolbar panel">
+          <label>Goal<select id="optimization-mode"><option value="COMPLETE_ROSTER">Complete My Roster</option><option value="CURRENT_TEAM">Improve My Team</option><option value="BUILD_NEW">Build a new team</option></select></label>
+          <div id="build-budget-controls" class="mode-controls hidden">
+            <label>Total budget (credits)<span class="credit-stepper"><button id="budget-minus" class="tiny" type="button" aria-label="Decrease total budget">−</button><input id="total-budget" type="number" min="0" step="0.1" value="100.0" inputmode="decimal"><button id="budget-plus" class="tiny" type="button" aria-label="Increase total budget">+</button></span></label>
+          </div>
+          <div id="current-team-controls" class="mode-controls">
+            <label><span id="current-credit-label">Remaining credits</span><input id="optimize-bank-credits" type="number" min="0" step="0.1" inputmode="decimal"><small id="current-credit-help" class="field-help">Credits available to purchase players for the currently empty slots.</small></label>
+            <label id="maximum-changes-field" class="hidden">Maximum changes<select id="maximum-changes"><option>0</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option></select><small class="field-help">Maximum number of players the optimizer may replace.</small></label>
+          </div>
+          <p id="optimization-mode-help" class="mode-help"></p>
+        </div>
+        <div id="active-constraints" class="constraint-strip"></div>
+        <div id="optimization-message" class="inline-message hidden" role="status" aria-live="polite"></div>
+        <div id="recommendation-cards" class="recommendation-grid empty-state">Run optimization to compare Best Overall, Safer, and Higher-Upside legal strategies.</div>
+        <div id="alternatives-panel" class="panel alternatives-panel hidden"></div>
+      </section>
+
+      <section id="tab-strategy" class="tab" aria-labelledby="strategy-title">
+        <div class="section-heading"><div><p class="eyebrow">CURRENT TEAM STRATEGY</p><h2 id="strategy-title">Analyze the roster you actually own</h2><p class="section-subtitle">Keep, replace, upgrade, and empty-slot guidance always starts from Current Team.</p></div><button id="analyze-team-button" class="primary" type="button">Analyze Current Team</button></div>
+        <div class="team-slot-tabs panel" data-team-slot-tabs role="tablist" aria-label="Team for live strategy"><span>Strategy team</span><button class="team-slot-tab" data-team-slot="1" type="button" role="tab">Team 1</button><button class="team-slot-tab" data-team-slot="2" type="button" role="tab">Team 2</button><button class="team-slot-tab" data-team-slot="3" type="button" role="tab">Team 3</button></div>
+        <div id="current-team-strategy" class="empty-state">Choose players in Current Team, then analyze the roster here.</div>
+        <div class="section-divider"><div><p class="eyebrow">LIVE PHASE 7 RECOURSE</p><h3>Captain and Turn decisions</h3><p>After a Turn completes, realized players remain locked and legal recourse is evaluated.</p></div><button id="reevaluate-button" class="secondary" type="button">Update Turn Results / Re-evaluate Strategy</button></div>
+        <div id="advisor-message" class="inline-message hidden" role="status" aria-live="polite"></div>
+        <div id="advisor-content" class="empty-state">After a Turn is completed, refresh results and re-evaluate here.</div>
+        <div id="strategy-content" class="empty-state hidden">Pre-Matchday optimization detail appears after a successful optimization.</div>
+      </section>
+
+      <section id="tab-history" class="tab" aria-labelledby="history-title">
+        <div class="section-heading"><div><p class="eyebrow">CANONICAL BASKETBALL HISTORY</p><h2 id="history-title">History</h2><p class="section-subtitle">Browse EuroLeague history and the separately stored 2026 preparation games.</p></div></div>
+        <div class="history-nav panel" role="tablist" aria-label="History sections">
+          <button class="history-tab active" data-history-section="overview" type="button">Overview</button>
+          <button class="history-tab" data-history-section="games" type="button">Games</button>
+          <button class="history-tab" data-history-section="players" type="button">Players</button>
+          <button class="history-tab" data-history-section="teams" type="button">Teams</button>
+          <button class="history-tab" data-history-section="preseason" type="button">2026 Preseason</button>
+        </div>
+        <div id="history-filters" class="filters panel hidden"></div>
+        <div id="history-message" class="inline-message hidden" role="status" aria-live="polite"></div>
+        <div id="history-content" class="empty-state">Open History to load existing canonical data.</div>
+      </section>
+
+      <section id="tab-value-growth" class="tab" aria-labelledby="growth-title">
+        <div class="section-heading"><div><p class="eyebrow">VALUE / CREDIT GROWTH</p><h2 id="growth-title">Secondary price intelligence</h2><p class="section-subtitle">Only competitive current FP value qualifies. Price growth never changes the Phase 7 primary objective.</p></div></div>
+        <div class="metric-help"><span><strong>Expected next credit</strong> is leakage-safe and pregame</span><span><strong>P↑ / P↓</strong> are shadow-validated against the next market</span></div>
+        <div class="table-wrap"><table id="growth-table"><caption>Competitive Fantasy value with credible credit growth</caption></table></div>
+      </section>
+
+      <section id="tab-monitoring" class="tab" aria-labelledby="monitoring-title">
+        <div class="section-heading"><div><p class="eyebrow">READ-ONLY DIAGNOSTICS</p><h2 id="monitoring-title">Shadow validation & monitoring</h2><p class="section-subtitle">Diagnostics observe behavior and calibration; they never alter optimization.</p></div><span class="read-only-label">NO AUTO-CORRECTION</span></div>
+        <div id="monitoring-sample" class="warning-banner"></div>
+        <div class="monitoring-sections">
+          <section class="panel"><div class="panel-heading"><h3>Model performance</h3></div><div id="monitoring-model" class="compact-metrics"></div></section>
+          <section class="panel"><div class="panel-heading"><h3>Strategy behavior</h3></div><div id="monitoring-strategy" class="compact-metrics"></div></section>
+          <section class="panel"><div class="panel-heading"><h3>Availability / data quality</h3></div><div id="monitoring-data" class="compact-metrics"></div></section>
+          <section class="panel"><div class="panel-heading"><h3>Price model</h3></div><div id="monitoring-price" class="compact-metrics"></div></section>
+        </div>
+        <div id="monitoring-alerts" class="panel"></div>
+        <div class="table-wrap"><table id="monitoring-table"><caption>Read-only Matchday behavior history</caption></table></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="player-detail" class="detail-dialog" aria-labelledby="detail-title"><div id="player-detail-content"></div></dialog>
+  <dialog id="history-detail" class="detail-dialog" aria-labelledby="history-detail-title"><div id="history-detail-content"></div></dialog>
+  <dialog id="override-dialog" class="action-dialog" aria-labelledby="override-title">
+    <form id="override-form">
+      <div class="dialog-heading"><div><p class="eyebrow">MANUAL AVAILABILITY</p><h2 id="override-title">Override player status</h2></div><button class="icon-button" id="override-close" type="button" aria-label="Close override dialog">×</button></div>
+      <div id="override-context" class="status-comparison"></div>
+      <label>Manual decision<select id="override-decision"><option>PLAY</option><option>OUT</option><option>UNKNOWN</option><option>LIMITED</option></select></label>
+      <label>Optional note<textarea id="override-note" rows="3" placeholder="Reason or source of your information"></textarea></label>
+      <div class="dialog-actions"><button class="ghost" id="override-clear" type="button">Clear existing override</button><button class="primary" type="submit">Save manual decision</button></div>
+    </form>
+  </dialog>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <div id="sr-live" class="sr-only" aria-live="assertive"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

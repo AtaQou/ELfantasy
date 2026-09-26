@@ -1,0 +1,110 @@
+{
+  "row_counts": {
+    "games": 20,
+    "player_boxscores": 72,
+    "team_boxscores": 6,
+    "play_by_play_events": 1645,
+    "shots": 497,
+    "roster_memberships": 335
+  },
+  "duplicate_game_keys": [],
+  "duplicate_player_game_keys": [],
+  "missing_player_ids": 0,
+  "missing_player_names": 0,
+  "missing_or_unparsed_minutes": 0,
+  "did_not_play_rows": 7,
+  "players_with_minutes_but_is_playing_false": 35,
+  "played_game_statuses": {
+    "Confirmed": 20
+  },
+  "winner_field_mismatch_game_codes": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "team_player_minute_checks": [
+    {
+      "game_code": 1,
+      "team_id": "IST",
+      "observed_minutes": 200.0,
+      "expected_minutes": 200.0,
+      "difference": -0.0
+    },
+    {
+      "game_code": 1,
+      "team_id": "TEL",
+      "observed_minutes": 200.0,
+      "expected_minutes": 200.0,
+      "difference": 0.0
+    },
+    {
+      "game_code": 2,
+      "team_id": "BAS",
+      "observed_minutes": 200.0,
+      "expected_minutes": 200.0,
+      "difference": -0.0
+    },
+    {
+      "game_code": 2,
+      "team_id": "OLY",
+      "observed_minutes": 200.0,
+      "expected_minutes": 200.0,
+      "difference": 0.0
+    },
+    {
+      "game_code": 11,
+      "team_id": "MUN",
+      "observed_minutes": 200.0,
+      "expected_minutes": 200.0,
+      "difference": 0.0
+    },
+    {
+      "game_code": 11,
+      "team_id": "RED",
+      "observed_minutes": 200.0,
+      "expected_minutes": 200.0,
+      "difference": 0.0
+    }
+  ],
+  "substitution_event_counts": {
+    "IN": 182,
+    "OUT": 182
+  },
+  "play_by_play_event_number_inversions": [
+    {
+      "game_code": 1,
+      "inversions": 4
+    },
+    {
+      "game_code": 2,
+      "inversions": 4
+    },
+    {
+      "game_code": 11,
+      "inversions": 4
+    }
+  ],
+  "play_by_play_duplicate_event_keys": [],
+  "play_by_play_events_missing_player_id": 82,
+  "play_by_play_missed_free_throw_events": 19,
+  "shots_missing_player_id": 0,
+  "shot_rows_describing_missed_free_throws": 0,
+  "roster_players_with_multiple_clubs_in_sample_season": [],
+  "roster_player_ids_with_multiple_names": []
+}

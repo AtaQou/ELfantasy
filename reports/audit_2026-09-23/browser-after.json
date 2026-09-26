@@ -1,0 +1,58 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "document": 1440,
+      "overflow": 0
+    },
+    {
+      "width": 1100,
+      "document": 1100,
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "document": 768,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "document": 390,
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "helpers": {
+    "role": "UNKNOWN",
+    "rate": 0.8,
+    "missing": null,
+    "zero": 0
+  },
+  "team_fp_rules": {
+    "full": 127,
+    "players": 120,
+    "missing": 119,
+    "zero": 0,
+    "empty": null
+  },
+  "recommendation_identity": {
+    "same": true,
+    "changedRoster": false,
+    "changedTeam": false,
+    "changedSnapshot": false,
+    "missingFile": false
+  },
+  "changes_only": {
+    "roster": 0,
+    "changes": 3
+  },
+  "new_team_full_roster": true,
+  "builder_recent": true,
+  "live_switch_contract": true,
+  "team_labels": true,
+  "current_team_recent": true,
+  "strategy_recent": true,
+  "player_detail_recent_games": 5,
+  "stale_bootstrap_ignored": true,
+  "keyboard_team_switch": true
+}

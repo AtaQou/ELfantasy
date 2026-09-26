@@ -1,0 +1,139 @@
+{
+  "sources": [
+    {
+      "source": "acb",
+      "games": 3,
+      "player_rows": 72,
+      "newest_game": "2026-09-20T17:00:00.000Z"
+    },
+    {
+      "source": "bbl",
+      "games": 1,
+      "player_rows": 24,
+      "newest_game": "2026-09-20T16:00:00.000Z"
+    },
+    {
+      "source": "lba",
+      "games": 2,
+      "player_rows": 48,
+      "newest_game": "2026-09-20T15:00:00.000Z"
+    },
+    {
+      "source": "lkl",
+      "games": 2,
+      "player_rows": 48,
+      "newest_game": "2026-09-20T13:50:00.000Z"
+    },
+    {
+      "source": "lnb",
+      "games": 1,
+      "player_rows": 22,
+      "newest_game": "2026-09-20T15:00:00.000Z"
+    },
+    {
+      "source": "lnb_pre",
+      "games": 5,
+      "player_rows": 117,
+      "newest_game": "2026-09-13T16:00:00.000Z"
+    },
+    {
+      "source": "olympiacos",
+      "games": 2,
+      "player_rows": 48,
+      "newest_game": "2026-09-19T18:00:00.000Z"
+    },
+    {
+      "source": "vtb",
+      "games": 3,
+      "player_rows": 71,
+      "newest_game": "2026-09-20T16:00:00.000Z"
+    }
+  ],
+  "games_added": 19,
+  "player_rows_added": 450,
+  "prediction_run_id": "671a40ee-b268-5b67-8eb9-734f6d0d1889",
+  "prediction_status": "PARTIAL",
+  "players_using_context": 116,
+  "historical_tables_and_player_count_unchanged": true,
+  "sample": [
+    {
+      "player_name": "Azuolas Tubelis",
+      "preparation_games": 3,
+      "preparation_latest_game": "2026-09-20T16:50:00+03:00",
+      "adjusted_expected_minutes_without_context": 19.5169228441,
+      "adjusted_expected_minutes": 18.8017479094,
+      "preparation_starter_rate": 1.0,
+      "preparation_expected_starter_rate": 1.0,
+      "expected_role": "ROTATION",
+      "preparation_role_change": "TRENDING DOWN",
+      "expected_fp": 11.4207507619,
+      "prediction_change": -0.4288021677
+    },
+    {
+      "player_name": "Sterling Brown",
+      "preparation_games": 3,
+      "preparation_latest_game": "2026-09-20T16:50:00+03:00",
+      "adjusted_expected_minutes_without_context": 21.0729622742,
+      "adjusted_expected_minutes": 20.4081923042,
+      "preparation_starter_rate": 0.1319829908,
+      "preparation_expected_starter_rate": 0.1887619313,
+      "expected_role": "ROTATION",
+      "preparation_role_change": "TRENDING DOWN",
+      "expected_fp": 10.4435458586,
+      "prediction_change": -0.3980937378
+    },
+    {
+      "player_name": "Nigel Williams-Goss",
+      "preparation_games": 3,
+      "preparation_latest_game": "2026-09-20T16:50:00+03:00",
+      "adjusted_expected_minutes_without_context": 20.8571809773,
+      "adjusted_expected_minutes": 20.2794438989,
+      "preparation_starter_rate": 1.0,
+      "preparation_expected_starter_rate": 1.0,
+      "expected_role": "ROTATION",
+      "preparation_role_change": "TRENDING DOWN",
+      "expected_fp": 9.2377422012,
+      "prediction_change": -0.3363165665
+    },
+    {
+      "player_name": "Maodo Lo",
+      "preparation_games": 3,
+      "preparation_latest_game": "2026-09-20T16:50:00+03:00",
+      "adjusted_expected_minutes_without_context": 14.8626911951,
+      "adjusted_expected_minutes": 14.0539520282,
+      "preparation_starter_rate": 0.0,
+      "preparation_expected_starter_rate": 0.0,
+      "expected_role": "ROTATION",
+      "preparation_role_change": "TRENDING DOWN",
+      "expected_fp": 5.7817964854,
+      "prediction_change": -0.2446170683
+    },
+    {
+      "player_name": "Bruno Fernando",
+      "preparation_games": 3,
+      "preparation_latest_game": "2026-09-20T19:00:00+03:00",
+      "adjusted_expected_minutes_without_context": 16.4720489129,
+      "adjusted_expected_minutes": 16.1331163874,
+      "preparation_starter_rate": 1.0,
+      "preparation_expected_starter_rate": 0.6740304006,
+      "expected_role": "ROTATION",
+      "preparation_role_change": "TRENDING DOWN",
+      "expected_fp": 9.5850568097,
+      "prediction_change": -0.2412342208
+    },
+    {
+      "player_name": "Jordan Loyd",
+      "preparation_games": 2,
+      "preparation_latest_game": "2026-09-20T19:00:00+03:00",
+      "adjusted_expected_minutes_without_context": 18.4777595008,
+      "adjusted_expected_minutes": 18.2354331934,
+      "preparation_starter_rate": 1.0,
+      "preparation_expected_starter_rate": 1.0,
+      "expected_role": "ROTATION",
+      "preparation_role_change": "TRENDING DOWN",
+      "expected_fp": 12.5013951802,
+      "prediction_change": -0.2204025708
+    }
+  ],
+  "smoke_passed": true
+}

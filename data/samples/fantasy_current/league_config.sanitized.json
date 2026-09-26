@@ -1,0 +1,557 @@
+{
+  "data": {
+    "status_id": 5,
+    "maintenance": false,
+    "players_list_limitations_enabled": false,
+    "denied_free_agent_trade_creation_offset": 180,
+    "current_competition_id": 30,
+    "current_schedule_id": 30,
+    "current_players_list_id": 30,
+    "allows_head_to_head_tournaments": true,
+    "current_matchday": {
+      "id": 1000,
+      "number": 38,
+      "num_rounds": 2
+    },
+    "current_round": {
+      "id": 1701,
+      "number": 2,
+      "started_at": "2026-04-17T16:59:00.000000Z"
+    },
+    "previous_matchday": {
+      "id": 999,
+      "number": 37
+    },
+    "current_bracket": null,
+    "teams": [
+      {
+        "id": 138,
+        "name": "AS Monaco",
+        "abbreviation": "ASM",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/ASM.png?v=4",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/ASM.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/ASM.png?v=3",
+        "font_url": null,
+        "number_color": "#BCAA6B",
+        "number_border_color": null
+      },
+      {
+        "id": 146,
+        "name": "Anadolu Efes Istanbul",
+        "abbreviation": "EFS",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/EFS.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/EFS.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/EFS.png?v=4",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": "#263D64"
+      },
+      {
+        "id": 143,
+        "name": "Baskonia Vitoria-Gasteiz",
+        "abbreviation": "KBA",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/BKN.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/BKN.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/BKN.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": "#9C1221"
+      },
+      {
+        "id": 144,
+        "name": "Crvena Zvezda Meridianbet Belgrade",
+        "abbreviation": "CZV",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/CZV.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/CZV.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/CZV.png?v=3",
+        "font_url": null,
+        "number_color": "#987941",
+        "number_border_color": "#FFFFFF"
+      },
+      {
+        "id": 311,
+        "name": "Dubai Basketball",
+        "abbreviation": "DUB",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/DUB.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/DUB.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/DUB.png?v=3",
+        "font_url": null,
+        "number_color": "#121212",
+        "number_border_color": null
+      },
+      {
+        "id": 145,
+        "name": "EA7 Emporio Armani Milan",
+        "abbreviation": "EA7",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/EA7.png?v=4",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/EA7.png?v=4",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/EA7.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      },
+      {
+        "id": 140,
+        "name": "FC Barcelona",
+        "abbreviation": "BAR",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/BAR.png?v=4",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/BAR.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/BAR.png?v=4",
+        "font_url": null,
+        "number_color": "#FED841",
+        "number_border_color": null
+      },
+      {
+        "id": 141,
+        "name": "FC Bayern Munich",
+        "abbreviation": "BAY",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/BAY.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/BAY.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/BAY.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      },
+      {
+        "id": 147,
+        "name": "Fenerbahce Beko Istanbul",
+        "abbreviation": "FBB",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/FBB.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/FBB.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/FBB.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": "#121D36"
+      },
+      {
+        "id": 165,
+        "name": "Hapoel IBI Tel Aviv",
+        "abbreviation": "HTA",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/HTA.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/HTA.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/HTA.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": "#D42E2B"
+      },
+      {
+        "id": 139,
+        "name": "LDLC ASVEL Villeurbanne",
+        "abbreviation": "ASV",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/ASV.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/ASV.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/ASV.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      },
+      {
+        "id": 148,
+        "name": "Maccabi Rapyd Tel Aviv",
+        "abbreviation": "MTA",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/MTA.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/MTA.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/MTA.png?v=4",
+        "font_url": null,
+        "number_color": "#3A3B7C",
+        "number_border_color": "#DEC500"
+      },
+      {
+        "id": 149,
+        "name": "Olympiacos Piraeus",
+        "abbreviation": "OLY",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/OLY.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/OLY.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/OLY.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": "#BF0609"
+      },
+      {
+        "id": 151,
+        "name": "Panathinaikos AKTOR Athens",
+        "abbreviation": "PAO",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/PAO.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/PAO.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/PAO.png?v=3",
+        "font_url": null,
+        "number_color": "#BDAE7B",
+        "number_border_color": "#FFFFFF"
+      },
+      {
+        "id": 150,
+        "name": "Paris Basketball",
+        "abbreviation": "PBB",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/PBB.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/PBB.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/PBB.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      },
+      {
+        "id": 152,
+        "name": "Partizan Mozzart Bet Belgrade",
+        "abbreviation": "PAR",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/PAR.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/PAR.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/PAR.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": "#101010"
+      },
+      {
+        "id": 153,
+        "name": "Real Madrid",
+        "abbreviation": "RMB",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/RMB.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/RMB.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/RMB.png?v=3",
+        "font_url": null,
+        "number_color": "#404040",
+        "number_border_color": null
+      },
+      {
+        "id": 174,
+        "name": "Valencia Basket",
+        "abbreviation": "VBC",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/VBC.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/VBC.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/VBC.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      },
+      {
+        "id": 154,
+        "name": "Virtus Bologna",
+        "abbreviation": "VIR",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/VIR.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/VIR.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/VIR.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      },
+      {
+        "id": 155,
+        "name": "Zalgiris Kaunas",
+        "abbreviation": "ZAL",
+        "player_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/players/euroleague/ZAL.png?v=3",
+        "coach_jersey_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/jerseys/coaches/euroleague/ZAL.png?v=3",
+        "logo_url": "https://fantaking-assets.dunkest.com/euroleague-fantasy-challenge/images/logos/teams/euroleague/ZAL.png?v=3",
+        "font_url": null,
+        "number_color": "#FFFFFF",
+        "number_border_color": null
+      }
+    ],
+    "matchdays": [
+      {
+        "id": 963,
+        "number": 1,
+        "display_name": null
+      },
+      {
+        "id": 964,
+        "number": 2,
+        "display_name": null
+      },
+      {
+        "id": 965,
+        "number": 3,
+        "display_name": null
+      },
+      {
+        "id": 966,
+        "number": 4,
+        "display_name": null
+      },
+      {
+        "id": 967,
+        "number": 5,
+        "display_name": null
+      },
+      {
+        "id": 968,
+        "number": 6,
+        "display_name": null
+      },
+      {
+        "id": 969,
+        "number": 7,
+        "display_name": null
+      },
+      {
+        "id": 970,
+        "number": 8,
+        "display_name": null
+      },
+      {
+        "id": 971,
+        "number": 9,
+        "display_name": null
+      },
+      {
+        "id": 972,
+        "number": 10,
+        "display_name": null
+      },
+      {
+        "id": 973,
+        "number": 11,
+        "display_name": null
+      },
+      {
+        "id": 974,
+        "number": 12,
+        "display_name": null
+      },
+      {
+        "id": 975,
+        "number": 13,
+        "display_name": null
+      },
+      {
+        "id": 976,
+        "number": 14,
+        "display_name": null
+      },
+      {
+        "id": 977,
+        "number": 15,
+        "display_name": null
+      },
+      {
+        "id": 978,
+        "number": 16,
+        "display_name": null
+      },
+      {
+        "id": 979,
+        "number": 17,
+        "display_name": null
+      },
+      {
+        "id": 980,
+        "number": 18,
+        "display_name": null
+      },
+      {
+        "id": 981,
+        "number": 19,
+        "display_name": null
+      },
+      {
+        "id": 982,
+        "number": 20,
+        "display_name": null
+      },
+      {
+        "id": 983,
+        "number": 21,
+        "display_name": null
+      },
+      {
+        "id": 984,
+        "number": 22,
+        "display_name": null
+      },
+      {
+        "id": 985,
+        "number": 23,
+        "display_name": null
+      },
+      {
+        "id": 986,
+        "number": 24,
+        "display_name": null
+      },
+      {
+        "id": 987,
+        "number": 25,
+        "display_name": null
+      },
+      {
+        "id": 988,
+        "number": 26,
+        "display_name": null
+      },
+      {
+        "id": 989,
+        "number": 27,
+        "display_name": null
+      },
+      {
+        "id": 990,
+        "number": 28,
+        "display_name": null
+      },
+      {
+        "id": 991,
+        "number": 29,
+        "display_name": null
+      },
+      {
+        "id": 992,
+        "number": 30,
+        "display_name": null
+      },
+      {
+        "id": 993,
+        "number": 31,
+        "display_name": null
+      },
+      {
+        "id": 994,
+        "number": 32,
+        "display_name": null
+      },
+      {
+        "id": 995,
+        "number": 33,
+        "display_name": null
+      },
+      {
+        "id": 996,
+        "number": 34,
+        "display_name": null
+      },
+      {
+        "id": 997,
+        "number": 35,
+        "display_name": null
+      },
+      {
+        "id": 998,
+        "number": 36,
+        "display_name": null
+      },
+      {
+        "id": 999,
+        "number": 37,
+        "display_name": null
+      },
+      {
+        "id": 1000,
+        "number": 38,
+        "display_name": null
+      }
+    ],
+    "game_modes_configs": [
+      {
+        "game_mode_id": 1,
+        "max_num_teams_per_user": 3,
+        "max_num_teams_per_head_to_head_tournament": 20,
+        "num_players_per_team": 11,
+        "num_starter_players": 5,
+        "num_bench_players": 5,
+        "num_coach_players": 1,
+        "num_reserve_players": 0,
+        "max_extra_credits": 0,
+        "cost_per_trade": 0,
+        "additional_num_trades_per_matchday": 0,
+        "players_per_positions": [
+          {
+            "id": 28,
+            "name": "Guard",
+            "num_players": 4
+          },
+          {
+            "id": 29,
+            "name": "Forward",
+            "num_players": 4
+          },
+          {
+            "id": 30,
+            "name": "Center",
+            "num_players": 2
+          },
+          {
+            "id": 31,
+            "name": "Head Coach",
+            "num_players": 1
+          }
+        ],
+        "captain_multiplier": 2,
+        "captain_config": null
+      },
+      {
+        "game_mode_id": 2,
+        "max_num_teams_per_user": 3,
+        "max_num_teams_per_head_to_head_tournament": 20,
+        "num_players_per_team": 13,
+        "num_starter_players": 5,
+        "num_bench_players": 5,
+        "num_coach_players": 0,
+        "num_reserve_players": 3,
+        "max_extra_credits": 0,
+        "cost_per_trade": 0,
+        "additional_num_trades_per_matchday": 0,
+        "players_per_positions": [
+          {
+            "id": 28,
+            "name": "Guard",
+            "num_players": 5
+          },
+          {
+            "id": 29,
+            "name": "Forward",
+            "num_players": 5
+          },
+          {
+            "id": 30,
+            "name": "Center",
+            "num_players": 3
+          }
+        ],
+        "captain_multiplier": 2,
+        "captain_config": null
+      }
+    ],
+    "fantasy_pts_colors": [
+      {
+        "color": "#FFD3D7",
+        "range": {
+          "start": -100,
+          "end": 7.99
+        }
+      },
+      {
+        "color": "#F8FFCF",
+        "range": {
+          "start": 8,
+          "end": 13.99
+        }
+      },
+      {
+        "color": "#BFFADF",
+        "range": {
+          "start": 14,
+          "end": 100
+        }
+      }
+    ],
+    "predictions": null,
+    "match_predictor": {
+      "starts_at": "2026-04-16T18:00:00.000000Z",
+      "configs": {
+        "add_matchups": true,
+        "predictions": [
+          {
+            "type": "winner",
+            "expected_pts": 10,
+            "best_of": null,
+            "draw": false
+          }
+        ]
+      }
+    },
+    "odds_comparator": null,
+    "max_auto_substitutions": null,
+    "mvp_voting_hours": null,
+    "has_paywall": false,
+    "has_jackpot": false,
+    "make_predictions_list_public_offset": null,
+    "reader_tournament": null
+  }
+}

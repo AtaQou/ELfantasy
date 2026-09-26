@@ -1,0 +1,34 @@
+{
+  "catboost_categorical_missing_value": "__MISSING__",
+  "categorical_features": {
+    "direct": [
+      "season",
+      "home_away",
+      "team_id",
+      "opponent_team_id",
+      "fantasy_position",
+      "player_id"
+    ],
+    "minutes": [
+      "season",
+      "home_away",
+      "team_id",
+      "opponent_team_id",
+      "fantasy_position"
+    ],
+    "production": [
+      "season",
+      "home_away",
+      "team_id",
+      "opponent_team_id",
+      "fantasy_position"
+    ]
+  },
+  "feature_order_is_manifest_order": true,
+  "numeric_missing_value": "NaN",
+  "training_state_fingerprints": {
+    "direct": "b1d14f25ef58bf6031e2de1952b1c0c5f4755d5b80825b32508c44e5cc6d464d",
+    "minutes": "fdd64934c281f28d08453d980b75c6d2d9a13be590c62c3241fd14ce69eb2967",
+    "production": "8e306badec184efce734268612f842daefcf8b4d7f4727168d14a5f945af31ff"
+  }
+}

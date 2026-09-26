@@ -1,0 +1,119 @@
+{
+  "top_level_fields": [
+    "data"
+  ],
+  "data_fields": [
+    "fantasy_pts",
+    "label",
+    "match",
+    "matchday",
+    "round",
+    "stats_items"
+  ],
+  "stats_item_names": [
+    "ast",
+    "blk",
+    "blka",
+    "fd",
+    "fg_missed",
+    "pf",
+    "pts",
+    "reb",
+    "tov"
+  ],
+  "schema_inventory": {
+    "$": [
+      "object"
+    ],
+    "data": [
+      "object"
+    ],
+    "data.fantasy_pts": [
+      "integer"
+    ],
+    "data.label": [
+      "string"
+    ],
+    "data.match": [
+      "object"
+    ],
+    "data.match.away_team": [
+      "object"
+    ],
+    "data.match.away_team.abbreviation": [
+      "string"
+    ],
+    "data.match.away_team.id": [
+      "integer"
+    ],
+    "data.match.away_team.name": [
+      "string"
+    ],
+    "data.match.away_team.score": [
+      "integer"
+    ],
+    "data.match.home_team": [
+      "object"
+    ],
+    "data.match.home_team.abbreviation": [
+      "string"
+    ],
+    "data.match.home_team.id": [
+      "integer"
+    ],
+    "data.match.home_team.name": [
+      "string"
+    ],
+    "data.match.home_team.score": [
+      "integer"
+    ],
+    "data.match.id": [
+      "integer"
+    ],
+    "data.match.ot": [
+      "boolean"
+    ],
+    "data.match.started_at": [
+      "string"
+    ],
+    "data.match.status": [
+      "string"
+    ],
+    "data.matchday": [
+      "object"
+    ],
+    "data.matchday.id": [
+      "integer"
+    ],
+    "data.matchday.number": [
+      "integer"
+    ],
+    "data.round": [
+      "object"
+    ],
+    "data.round.id": [
+      "integer"
+    ],
+    "data.round.number": [
+      "integer"
+    ],
+    "data.stats_items": [
+      "array"
+    ],
+    "data.stats_items[]": [
+      "object"
+    ],
+    "data.stats_items[].fantasy_pts": [
+      "integer"
+    ],
+    "data.stats_items[].id": [
+      "integer"
+    ],
+    "data.stats_items[].name": [
+      "string"
+    ],
+    "data.stats_items[].value": [
+      "integer"
+    ]
+  }
+}

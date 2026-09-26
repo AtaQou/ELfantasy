@@ -1,0 +1,685 @@
+{
+  "audit_version": 2,
+  "verdict": "POSSIBLE WITH CAVEATS",
+  "retained_sample_assessment": "POSSIBLE WITH CAVEATS",
+  "scope": {
+    "competition": "EuroLeague",
+    "season_codes": [
+      "E2023",
+      "E2025"
+    ],
+    "game_identifiers": [
+      "E2025_1",
+      "E2025_2",
+      "E2025_11",
+      "E2023_170"
+    ],
+    "fixture_sets": [
+      {
+        "relative_directory": "data/samples/e2025_rounds_1_2",
+        "role": "three regulation games with raw and normalized fixtures",
+        "game_identifiers": [
+          "E2025_1",
+          "E2025_2",
+          "E2025_11"
+        ]
+      },
+      {
+        "relative_directory": "data/samples/rotation_overtime_probe",
+        "role": "bounded official four-overtime raw fixture",
+        "game_identifiers": [
+          "E2023_170"
+        ]
+      }
+    ],
+    "network_calls": 0,
+    "coverage_note": "Three E2025 regulation games and the E2023/170 four-overtime game; this is a fixture audit, not an exhaustive historical guarantee."
+  },
+  "provenance": {
+    "overtime_probe": {
+      "season_code": "E2023",
+      "game_code": 170,
+      "files": [
+        {
+          "relative_path": "data/samples/rotation_overtime_probe/game_170_boxscore.json",
+          "source_url": "https://live.euroleague.net/api/Boxscore?gamecode=170&seasoncode=E2023",
+          "bytes": 13862,
+          "sha256": "0bd2d930e045c35f3c035972a9230950cb976a1796d65081a2f7c14c90d70a79"
+        },
+        {
+          "relative_path": "data/samples/rotation_overtime_probe/game_170_header.json",
+          "source_url": "https://live.euroleague.net/api/Header?gamecode=170&seasoncode=E2023",
+          "bytes": 913,
+          "sha256": "a34261ef3170c8ef65edbd48ccd67b7758d935079db19081483ac3b8de77d879"
+        },
+        {
+          "relative_path": "data/samples/rotation_overtime_probe/game_170_play_by_play.json",
+          "source_url": "https://live.euroleague.net/api/PlaybyPlay?gamecode=170&seasoncode=E2023",
+          "bytes": 198765,
+          "sha256": "7aa375371ea628c5ce7392eda98fcddcdf756becf99d2bd6317523706814d2ff"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "games": 4,
+    "team_games": 8,
+    "regulation_games": 3,
+    "overtime_games": 1,
+    "play_by_play_events": 2386,
+    "boxscore_player_rows": 96,
+    "participating_player_rows": 84,
+    "dnp_player_rows": 12,
+    "substitution_events": 504,
+    "in_events": 252,
+    "out_events": 252,
+    "transaction_groups": 173,
+    "unbalanced_transaction_groups": 0,
+    "multi_player_transaction_groups": 61,
+    "contiguous_transaction_groups": 162,
+    "interleaved_transaction_groups": 11,
+    "quarter_start_transaction_groups": 16,
+    "zero_clock_transaction_groups": 0,
+    "missing_substitution_fields": 0,
+    "non_boxscore_substitution_players": 0,
+    "dnp_substitution_events": 0,
+    "pair_size_distribution": {
+      "1": 112,
+      "2": 46,
+      "3": 12,
+      "4": 3
+    },
+    "timeout_events": 46,
+    "timeouts_with_any_substitution_at_same_clock": 27,
+    "timeouts_with_same_team_substitution_at_same_clock": 19,
+    "timeouts_directly_adjacent_to_substitution": 25,
+    "begin_period_events": 20,
+    "end_period_events": 17,
+    "end_game_events": 4,
+    "duplicate_event_numbers": 0,
+    "event_number_gaps": 208,
+    "event_number_inversions": 17,
+    "fully_duplicated_events": 0,
+    "clock_increases_in_source_order": 19,
+    "substitution_clock_increases_in_source_order": 0,
+    "events_with_transient_non_five_after_event": 269,
+    "non_substitution_events_during_transient_non_five": 0,
+    "invalid_out_events": 0,
+    "invalid_in_events": 0,
+    "settled_non_five_transactions": 0,
+    "unsettled_period_ends": 0,
+    "real_player_tagged_non_substitution_events": 1744,
+    "pseudo_actor_events": 4,
+    "actor_outside_pre_and_post_lineup": 0,
+    "raw_sequence_actor_mismatches": 3,
+    "combined_lineup_segments": 145,
+    "exact_player_minute_rows": 92,
+    "minute_discrepancy_rows": 4,
+    "maximum_absolute_player_minute_error_seconds": 60,
+    "total_absolute_player_minute_error_seconds": 240,
+    "official_total_player_seconds": 108000,
+    "reconstructed_total_player_seconds": 108000
+  },
+  "fixture_alignment": {
+    "normalized_scope_game_identifiers": [
+      "E2025_1",
+      "E2025_2",
+      "E2025_11"
+    ],
+    "raw_only_scope_game_identifiers": [
+      "E2023_170"
+    ],
+    "normalized_play_by_play_rows": 1645,
+    "raw_play_by_play_events": 1645,
+    "play_by_play_counts_match_by_game": true,
+    "normalized_player_boxscore_rows": 72,
+    "raw_player_boxscore_rows": 72,
+    "player_boxscore_counts_match_by_game": true,
+    "normalized_has_source_sequence": true,
+    "normalized_has_source_period": true
+  },
+  "core_invariants": {
+    "all_player_minutes_match_exactly": false,
+    "balanced_substitution_transactions": true,
+    "boxscore_overtime_periods_match_pbp": true,
+    "dnp_players_never_substituted": true,
+    "exactly_five_starters_per_team": true,
+    "header_game_time_matches_pbp_periods": true,
+    "real_actors_in_pre_or_post_lineup": true,
+    "settled_lineups_have_five_players": true,
+    "substitution_fields_complete": true,
+    "substitution_players_are_in_boxscore": true,
+    "team_seconds_match_expected": true,
+    "valid_substitution_membership": true,
+    "raw_and_normalized_fixture_counts_match": true
+  },
+  "core_invariants_passed": false,
+  "structural_invariants": {
+    "balanced_substitution_transactions": true,
+    "boxscore_overtime_periods_match_pbp": true,
+    "dnp_players_never_substituted": true,
+    "exactly_five_starters_per_team": true,
+    "header_game_time_matches_pbp_periods": true,
+    "real_actors_in_pre_or_post_lineup": true,
+    "settled_lineups_have_five_players": true,
+    "substitution_fields_complete": true,
+    "substitution_players_are_in_boxscore": true,
+    "team_seconds_match_expected": true,
+    "valid_substitution_membership": true,
+    "raw_and_normalized_fixture_counts_match": true
+  },
+  "structural_invariants_passed": true,
+  "games": [
+    {
+      "season_code": "E2025",
+      "game_code": 1,
+      "period_count": 4,
+      "overtime_periods": 0,
+      "event_count": 546,
+      "boxscore_player_rows": 24,
+      "participating_player_rows": 23,
+      "dnp_player_rows": 1,
+      "starter_counts": {
+        "IST": 5,
+        "TEL": 5
+      },
+      "period_markers": {
+        "begin_period_events": 4,
+        "end_period_events": 3,
+        "end_game_events": 1
+      },
+      "header_checks": {
+        "header_available": true,
+        "header_game_seconds": 2400,
+        "pbp_period_seconds": 2400,
+        "game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods": 0,
+        "pbp_overtime_periods": 0,
+        "boxscore_overtime_periods_match_pbp": true
+      },
+      "transactions": {
+        "substitution_events": 124,
+        "in_events": 62,
+        "out_events": 62,
+        "transaction_groups": 44,
+        "balanced_transaction_groups": 44,
+        "unbalanced_transaction_groups": 0,
+        "pair_size_distribution": {
+          "1": 31,
+          "2": 9,
+          "3": 3,
+          "4": 1
+        },
+        "multi_player_transaction_groups": 13,
+        "contiguous_transaction_groups": 43,
+        "interleaved_transaction_groups": 1,
+        "quarter_start_transaction_groups": 4,
+        "zero_clock_transaction_groups": 0,
+        "missing_substitution_fields": 0,
+        "non_boxscore_substitution_players": 0,
+        "dnp_substitution_events": 0
+      },
+      "ordering": {
+        "duplicate_event_numbers": 0,
+        "event_number_gaps": 45,
+        "event_number_inversions": 4,
+        "fully_duplicated_events": 0,
+        "clock_increases_in_source_order": 6,
+        "substitution_clock_increases_in_source_order": 0
+      },
+      "timeouts": {
+        "timeout_events": 9,
+        "timeouts_with_any_substitution_at_same_clock": 5,
+        "timeouts_with_same_team_substitution_at_same_clock": 2,
+        "timeouts_directly_adjacent_to_substitution": 4
+      },
+      "actors": {
+        "real_player_tagged_non_substitution_events": 393,
+        "pseudo_actor_events": 2,
+        "pseudo_actor_ids": [
+          "CO_A",
+          "CO_B"
+        ],
+        "actor_outside_pre_and_post_lineup": 0,
+        "raw_sequence_actor_mismatches": 1
+      },
+      "invalid_out_events": 0,
+      "invalid_in_events": 0,
+      "settled_non_five_transactions": 0,
+      "unsettled_period_ends": 0,
+      "events_with_transient_non_five_after_event": 62,
+      "non_substitution_events_during_transient_non_five": 0,
+      "combined_lineup_segments": 37,
+      "exact_player_minute_rows": 24,
+      "minute_discrepancies": [],
+      "maximum_absolute_player_minute_error_seconds": 0,
+      "total_absolute_player_minute_error_seconds": 0,
+      "official_total_player_seconds": 24000,
+      "reconstructed_total_player_seconds": 24000,
+      "team_minute_checks": [
+        {
+          "team_id": "IST",
+          "official_player_seconds": 12000,
+          "reconstructed_player_seconds": 12000,
+          "expected_player_seconds": 12000,
+          "difference_seconds": 0
+        },
+        {
+          "team_id": "TEL",
+          "official_player_seconds": 12000,
+          "reconstructed_player_seconds": 12000,
+          "expected_player_seconds": 12000,
+          "difference_seconds": 0
+        }
+      ],
+      "duplicate_boxscore_player_keys": [],
+      "invariants": {
+        "exactly_five_starters_per_team": true,
+        "balanced_substitution_transactions": true,
+        "valid_substitution_membership": true,
+        "settled_lineups_have_five_players": true,
+        "all_player_minutes_match_exactly": true,
+        "team_seconds_match_expected": true,
+        "substitution_fields_complete": true,
+        "substitution_players_are_in_boxscore": true,
+        "dnp_players_never_substituted": true,
+        "real_actors_in_pre_or_post_lineup": true,
+        "header_game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods_match_pbp": true
+      }
+    },
+    {
+      "season_code": "E2025",
+      "game_code": 2,
+      "period_count": 4,
+      "overtime_periods": 0,
+      "event_count": 603,
+      "boxscore_player_rows": 24,
+      "participating_player_rows": 22,
+      "dnp_player_rows": 2,
+      "starter_counts": {
+        "BAS": 5,
+        "OLY": 5
+      },
+      "period_markers": {
+        "begin_period_events": 4,
+        "end_period_events": 3,
+        "end_game_events": 1
+      },
+      "header_checks": {
+        "header_available": true,
+        "header_game_seconds": 2400,
+        "pbp_period_seconds": 2400,
+        "game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods": 0,
+        "pbp_overtime_periods": 0,
+        "boxscore_overtime_periods_match_pbp": true
+      },
+      "transactions": {
+        "substitution_events": 144,
+        "in_events": 72,
+        "out_events": 72,
+        "transaction_groups": 45,
+        "balanced_transaction_groups": 45,
+        "unbalanced_transaction_groups": 0,
+        "pair_size_distribution": {
+          "1": 25,
+          "2": 15,
+          "3": 3,
+          "4": 2
+        },
+        "multi_player_transaction_groups": 20,
+        "contiguous_transaction_groups": 40,
+        "interleaved_transaction_groups": 5,
+        "quarter_start_transaction_groups": 5,
+        "zero_clock_transaction_groups": 0,
+        "missing_substitution_fields": 0,
+        "non_boxscore_substitution_players": 0,
+        "dnp_substitution_events": 0
+      },
+      "ordering": {
+        "duplicate_event_numbers": 0,
+        "event_number_gaps": 47,
+        "event_number_inversions": 4,
+        "fully_duplicated_events": 0,
+        "clock_increases_in_source_order": 4,
+        "substitution_clock_increases_in_source_order": 0
+      },
+      "timeouts": {
+        "timeout_events": 11,
+        "timeouts_with_any_substitution_at_same_clock": 5,
+        "timeouts_with_same_team_substitution_at_same_clock": 3,
+        "timeouts_directly_adjacent_to_substitution": 5
+      },
+      "actors": {
+        "real_player_tagged_non_substitution_events": 428,
+        "pseudo_actor_events": 0,
+        "pseudo_actor_ids": [],
+        "actor_outside_pre_and_post_lineup": 0,
+        "raw_sequence_actor_mismatches": 2
+      },
+      "invalid_out_events": 0,
+      "invalid_in_events": 0,
+      "settled_non_five_transactions": 0,
+      "unsettled_period_ends": 0,
+      "events_with_transient_non_five_after_event": 80,
+      "non_substitution_events_during_transient_non_five": 0,
+      "combined_lineup_segments": 38,
+      "exact_player_minute_rows": 24,
+      "minute_discrepancies": [],
+      "maximum_absolute_player_minute_error_seconds": 0,
+      "total_absolute_player_minute_error_seconds": 0,
+      "official_total_player_seconds": 24000,
+      "reconstructed_total_player_seconds": 24000,
+      "team_minute_checks": [
+        {
+          "team_id": "BAS",
+          "official_player_seconds": 12000,
+          "reconstructed_player_seconds": 12000,
+          "expected_player_seconds": 12000,
+          "difference_seconds": 0
+        },
+        {
+          "team_id": "OLY",
+          "official_player_seconds": 12000,
+          "reconstructed_player_seconds": 12000,
+          "expected_player_seconds": 12000,
+          "difference_seconds": 0
+        }
+      ],
+      "duplicate_boxscore_player_keys": [],
+      "invariants": {
+        "exactly_five_starters_per_team": true,
+        "balanced_substitution_transactions": true,
+        "valid_substitution_membership": true,
+        "settled_lineups_have_five_players": true,
+        "all_player_minutes_match_exactly": true,
+        "team_seconds_match_expected": true,
+        "substitution_fields_complete": true,
+        "substitution_players_are_in_boxscore": true,
+        "dnp_players_never_substituted": true,
+        "real_actors_in_pre_or_post_lineup": true,
+        "header_game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods_match_pbp": true
+      }
+    },
+    {
+      "season_code": "E2025",
+      "game_code": 11,
+      "period_count": 4,
+      "overtime_periods": 0,
+      "event_count": 496,
+      "boxscore_player_rows": 24,
+      "participating_player_rows": 20,
+      "dnp_player_rows": 4,
+      "starter_counts": {
+        "MUN": 5,
+        "RED": 5
+      },
+      "period_markers": {
+        "begin_period_events": 4,
+        "end_period_events": 3,
+        "end_game_events": 1
+      },
+      "header_checks": {
+        "header_available": true,
+        "header_game_seconds": 2400,
+        "pbp_period_seconds": 2400,
+        "game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods": 0,
+        "pbp_overtime_periods": 0,
+        "boxscore_overtime_periods_match_pbp": true
+      },
+      "transactions": {
+        "substitution_events": 96,
+        "in_events": 48,
+        "out_events": 48,
+        "transaction_groups": 32,
+        "balanced_transaction_groups": 32,
+        "unbalanced_transaction_groups": 0,
+        "pair_size_distribution": {
+          "1": 19,
+          "2": 10,
+          "3": 3
+        },
+        "multi_player_transaction_groups": 13,
+        "contiguous_transaction_groups": 29,
+        "interleaved_transaction_groups": 3,
+        "quarter_start_transaction_groups": 3,
+        "zero_clock_transaction_groups": 0,
+        "missing_substitution_fields": 0,
+        "non_boxscore_substitution_players": 0,
+        "dnp_substitution_events": 0
+      },
+      "ordering": {
+        "duplicate_event_numbers": 0,
+        "event_number_gaps": 45,
+        "event_number_inversions": 4,
+        "fully_duplicated_events": 0,
+        "clock_increases_in_source_order": 5,
+        "substitution_clock_increases_in_source_order": 0
+      },
+      "timeouts": {
+        "timeout_events": 10,
+        "timeouts_with_any_substitution_at_same_clock": 7,
+        "timeouts_with_same_team_substitution_at_same_clock": 5,
+        "timeouts_directly_adjacent_to_substitution": 7
+      },
+      "actors": {
+        "real_player_tagged_non_substitution_events": 376,
+        "pseudo_actor_events": 0,
+        "pseudo_actor_ids": [],
+        "actor_outside_pre_and_post_lineup": 0,
+        "raw_sequence_actor_mismatches": 0
+      },
+      "invalid_out_events": 0,
+      "invalid_in_events": 0,
+      "settled_non_five_transactions": 0,
+      "unsettled_period_ends": 0,
+      "events_with_transient_non_five_after_event": 54,
+      "non_substitution_events_during_transient_non_five": 0,
+      "combined_lineup_segments": 28,
+      "exact_player_minute_rows": 24,
+      "minute_discrepancies": [],
+      "maximum_absolute_player_minute_error_seconds": 0,
+      "total_absolute_player_minute_error_seconds": 0,
+      "official_total_player_seconds": 24000,
+      "reconstructed_total_player_seconds": 24000,
+      "team_minute_checks": [
+        {
+          "team_id": "MUN",
+          "official_player_seconds": 12000,
+          "reconstructed_player_seconds": 12000,
+          "expected_player_seconds": 12000,
+          "difference_seconds": 0
+        },
+        {
+          "team_id": "RED",
+          "official_player_seconds": 12000,
+          "reconstructed_player_seconds": 12000,
+          "expected_player_seconds": 12000,
+          "difference_seconds": 0
+        }
+      ],
+      "duplicate_boxscore_player_keys": [],
+      "invariants": {
+        "exactly_five_starters_per_team": true,
+        "balanced_substitution_transactions": true,
+        "valid_substitution_membership": true,
+        "settled_lineups_have_five_players": true,
+        "all_player_minutes_match_exactly": true,
+        "team_seconds_match_expected": true,
+        "substitution_fields_complete": true,
+        "substitution_players_are_in_boxscore": true,
+        "dnp_players_never_substituted": true,
+        "real_actors_in_pre_or_post_lineup": true,
+        "header_game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods_match_pbp": true
+      }
+    },
+    {
+      "season_code": "E2023",
+      "game_code": 170,
+      "period_count": 8,
+      "overtime_periods": 4,
+      "event_count": 741,
+      "boxscore_player_rows": 24,
+      "participating_player_rows": 19,
+      "dnp_player_rows": 5,
+      "starter_counts": {
+        "MAD": 5,
+        "IST": 5
+      },
+      "period_markers": {
+        "begin_period_events": 8,
+        "end_period_events": 8,
+        "end_game_events": 1
+      },
+      "header_checks": {
+        "header_available": true,
+        "header_game_seconds": 3600,
+        "pbp_period_seconds": 3600,
+        "game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods": 4,
+        "pbp_overtime_periods": 4,
+        "boxscore_overtime_periods_match_pbp": true
+      },
+      "transactions": {
+        "substitution_events": 140,
+        "in_events": 70,
+        "out_events": 70,
+        "transaction_groups": 52,
+        "balanced_transaction_groups": 52,
+        "unbalanced_transaction_groups": 0,
+        "pair_size_distribution": {
+          "1": 37,
+          "2": 12,
+          "3": 3
+        },
+        "multi_player_transaction_groups": 15,
+        "contiguous_transaction_groups": 50,
+        "interleaved_transaction_groups": 2,
+        "quarter_start_transaction_groups": 4,
+        "zero_clock_transaction_groups": 0,
+        "missing_substitution_fields": 0,
+        "non_boxscore_substitution_players": 0,
+        "dnp_substitution_events": 0
+      },
+      "ordering": {
+        "duplicate_event_numbers": 0,
+        "event_number_gaps": 71,
+        "event_number_inversions": 5,
+        "fully_duplicated_events": 0,
+        "clock_increases_in_source_order": 4,
+        "substitution_clock_increases_in_source_order": 0
+      },
+      "timeouts": {
+        "timeout_events": 16,
+        "timeouts_with_any_substitution_at_same_clock": 10,
+        "timeouts_with_same_team_substitution_at_same_clock": 9,
+        "timeouts_directly_adjacent_to_substitution": 9
+      },
+      "actors": {
+        "real_player_tagged_non_substitution_events": 547,
+        "pseudo_actor_events": 2,
+        "pseudo_actor_ids": [
+          "CO_A",
+          "CO_B"
+        ],
+        "actor_outside_pre_and_post_lineup": 0,
+        "raw_sequence_actor_mismatches": 0
+      },
+      "invalid_out_events": 0,
+      "invalid_in_events": 0,
+      "settled_non_five_transactions": 0,
+      "unsettled_period_ends": 0,
+      "events_with_transient_non_five_after_event": 73,
+      "non_substitution_events_during_transient_non_five": 0,
+      "combined_lineup_segments": 42,
+      "exact_player_minute_rows": 20,
+      "minute_discrepancies": [
+        {
+          "team_id": "MAD",
+          "player_id": "P001392",
+          "official_seconds": 2575,
+          "reconstructed_seconds": 2635,
+          "difference_seconds": 60
+        },
+        {
+          "team_id": "MAD",
+          "player_id": "P005928",
+          "official_seconds": 2792,
+          "reconstructed_seconds": 2732,
+          "difference_seconds": -60
+        },
+        {
+          "team_id": "IST",
+          "player_id": "P012788",
+          "official_seconds": 1438,
+          "reconstructed_seconds": 1498,
+          "difference_seconds": 60
+        },
+        {
+          "team_id": "IST",
+          "player_id": "PLHK",
+          "official_seconds": 3176,
+          "reconstructed_seconds": 3116,
+          "difference_seconds": -60
+        }
+      ],
+      "maximum_absolute_player_minute_error_seconds": 60,
+      "total_absolute_player_minute_error_seconds": 240,
+      "official_total_player_seconds": 36000,
+      "reconstructed_total_player_seconds": 36000,
+      "team_minute_checks": [
+        {
+          "team_id": "MAD",
+          "official_player_seconds": 18000,
+          "reconstructed_player_seconds": 18000,
+          "expected_player_seconds": 18000,
+          "difference_seconds": 0
+        },
+        {
+          "team_id": "IST",
+          "official_player_seconds": 18000,
+          "reconstructed_player_seconds": 18000,
+          "expected_player_seconds": 18000,
+          "difference_seconds": 0
+        }
+      ],
+      "duplicate_boxscore_player_keys": [],
+      "invariants": {
+        "exactly_five_starters_per_team": true,
+        "balanced_substitution_transactions": true,
+        "valid_substitution_membership": true,
+        "settled_lineups_have_five_players": true,
+        "all_player_minutes_match_exactly": false,
+        "team_seconds_match_expected": true,
+        "substitution_fields_complete": true,
+        "substitution_players_are_in_boxscore": true,
+        "dnp_players_never_substituted": true,
+        "real_actors_in_pre_or_post_lineup": true,
+        "header_game_time_matches_pbp_periods": true,
+        "boxscore_overtime_periods_match_pbp": true
+      }
+    }
+  ],
+  "known_caveats": [
+    "Only four games across E2023 and E2025 are retained in the audited sample.",
+    "The real four-overtime fixture has four player-minute discrepancies of exactly 60 seconds even though both team totals and every structural lineup invariant reconcile.",
+    "Event numbers and full event clocks are not monotonic enough to define source order.",
+    "Same-clock substitution transactions can be interleaved with free throws, opponent substitutions, or timeouts.",
+    "A small number of same-clock statistical events are recorded after the credited player has been substituted out.",
+    "Older seasons require a stratified integrity audit before historical lineups are treated as production data."
+  ],
+  "recommended_ordering_algorithm": [
+    "Order API period containers explicitly: FirstQuarter, SecondQuarter, ThirdQuarter, ForthQuarter, then each overtime period.",
+    "Initialize Quarter 1 from the five box-score starters and carry the ending lineup into later periods.",
+    "Preserve source_sequence and source_period; never sort by NUMBEROFPLAY.",
+    "Accrue stint time from decreasing remaining clocks: 600 seconds in regulation and 300 seconds in overtime.",
+    "Process equal-clock IN/OUT events in source order and publish a lineup only when the pending team state returns to five.",
+    "Use explicit substitutions rather than timeout events as lineup boundaries.",
+    "Retain lineup_before and lineup_after for events at a substitution clock and flag ambiguous same-clock attribution.",
+    "Quarantine games that fail membership, five-player-state, clock-order, or official-minute reconciliation checks."
+  ]
+}

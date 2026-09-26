@@ -1,0 +1,40 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "document": 1440,
+      "overflow": 0
+    },
+    {
+      "width": 1100,
+      "document": 1100,
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "document": 768,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "document": 390,
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "helpers": {
+    "role": "UNKNOWN",
+    "rate": 0.8,
+    "missing": null,
+    "zero": 0
+  },
+  "recommendation_identity": {
+    "same": true,
+    "changedRoster": false,
+    "changedTeam": false,
+    "changedSnapshot": false,
+    "missingFile": false
+  },
+  "stale_bootstrap_ignored": true,
+  "keyboard_team_switch": true
+}

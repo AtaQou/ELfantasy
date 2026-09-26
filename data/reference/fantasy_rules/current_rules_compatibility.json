@@ -1,0 +1,26 @@
+{
+  "evidence_version": "phase8_current_rules_compatibility_v1",
+  "season_code": "E2026",
+  "verified_at": "2026-09-02T00:00:00+00:00",
+  "verification_status": "VERIFIED_CURRENT_SEASON",
+  "reason": "The current official Classic rules retain the frozen roster, lineup, Turn, transfer, and scoring semantics, and the official E2026 Fantasy market is live.",
+  "base_ruleset_version": "elfc_classic_e2025_v1",
+  "base_rules_fingerprint": "4a0ce84d92138df78375698305f0b191fc1aca55a855793c69c7dd6f4574564e",
+  "requires_current_market": true,
+  "verified_compatible_fields": [
+    "budget",
+    "roster_positions",
+    "coach_slot",
+    "team_player_limit",
+    "formations",
+    "captain_and_bench_multipliers",
+    "turn_substitutions",
+    "transfer_limit"
+  ],
+  "official_sources": [
+    "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules",
+    "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/initial-team",
+    "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/managing-your-team",
+    "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/players-scoring"
+  ]
+}

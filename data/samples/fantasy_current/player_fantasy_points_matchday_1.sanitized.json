@@ -1,0 +1,88 @@
+{
+  "data": {
+    "matchday": {
+      "id": 963,
+      "number": 1
+    },
+    "round": {
+      "id": 1624,
+      "number": 2
+    },
+    "match": {
+      "id": 7955,
+      "status": "played",
+      "ot": false,
+      "started_at": "2025-10-01T17:30:00.000000Z",
+      "home_team": {
+        "id": 138,
+        "name": "AS Monaco",
+        "abbreviation": "ASM",
+        "score": 84
+      },
+      "away_team": {
+        "id": 155,
+        "name": "Zalgiris Kaunas",
+        "abbreviation": "ZAL",
+        "score": 89
+      }
+    },
+    "fantasy_pts": 21,
+    "stats_items": [
+      {
+        "id": 191,
+        "name": "pts",
+        "value": 24,
+        "fantasy_pts": 24
+      },
+      {
+        "id": 192,
+        "name": "reb",
+        "value": 3,
+        "fantasy_pts": 3
+      },
+      {
+        "id": 193,
+        "name": "ast",
+        "value": 5,
+        "fantasy_pts": 5
+      },
+      {
+        "id": 195,
+        "name": "tov",
+        "value": 3,
+        "fantasy_pts": -3
+      },
+      {
+        "id": 196,
+        "name": "blk",
+        "value": 1,
+        "fantasy_pts": 1
+      },
+      {
+        "id": 197,
+        "name": "blka",
+        "value": 1,
+        "fantasy_pts": -1
+      },
+      {
+        "id": 198,
+        "name": "fd",
+        "value": 2,
+        "fantasy_pts": 2
+      },
+      {
+        "id": 199,
+        "name": "pf",
+        "value": 1,
+        "fantasy_pts": -1
+      },
+      {
+        "id": 200,
+        "name": "fg_missed",
+        "value": 9,
+        "fantasy_pts": -9
+      }
+    ],
+    "label": "opponent"
+  }
+}

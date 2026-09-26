@@ -1,0 +1,16 @@
+{
+  "core_rows": 54642,
+  "dataset_fingerprint": "c02fd9e781cdc090f6bedd2c16b2ca47d3d47007d79ed25ab9c8cd342f8c64b3",
+  "generated_at": "2026-08-12T12:52:33.908637+00:00",
+  "lineup_rows": 35712,
+  "onoff_rows": 35206,
+  "opponent_shot_rows": 36189,
+  "primary_eval_rows": 29232,
+  "reconstruction_fingerprint": "6884c06dba8fe3ce907210af0cb80c3acac53b85a1624d71908b4476e6ceb722",
+  "rich_all_major_rows": 35145,
+  "rich_any_rows": 36243,
+  "rich_feature_count": 116,
+  "rich_feature_pipeline_version": "phase3b_rich_v1",
+  "rotation_rows": 35712,
+  "shot_rows": 35610
+}

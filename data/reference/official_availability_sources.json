@@ -1,0 +1,33 @@
+{
+  "source_policy": "Official EuroLeague report URLs discovered from the official site. Null timestamps are intentional and are never inferred.",
+  "sources": [
+    {
+      "season_code": "E2022",
+      "matchday_number": 12,
+      "source_url": "https://www.euroleaguebasketball.net/euroleague/news/euroleague-round-12-injury-report/",
+      "published_at": null,
+      "publication_time_reliable": false
+    },
+    {
+      "season_code": "E2022",
+      "matchday_number": 26,
+      "source_url": "https://www.euroleaguebasketball.net/news/euroleague-injury-report-round-26/",
+      "published_at": null,
+      "publication_time_reliable": false
+    },
+    {
+      "season_code": "E2024",
+      "matchday_number": 26,
+      "source_url": "https://www.euroleaguebasketball.net/en/euroleague/news/injury-report-round-26-tae2425/",
+      "published_at": null,
+      "publication_time_reliable": false
+    },
+    {
+      "season_code": "E2025",
+      "matchday_number": 21,
+      "source_url": "https://www.euroleaguebasketball.net/euroleague/news/euroleague-injury-report-round-21/",
+      "published_at": null,
+      "publication_time_reliable": false
+    }
+  ]
+}

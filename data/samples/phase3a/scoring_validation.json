@@ -1,0 +1,180 @@
+{
+  "canonical_base_formula_vs_pir": {
+    "exact": 60101,
+    "exact_rate": 1.0,
+    "note": "PIR equality is a validation result, not the target definition; the scoring engine calculates every component explicitly.",
+    "rows": 60101
+  },
+  "generated_at": "2026-08-12T11:23:14.472254+00:00",
+  "official_e2025_detailed_samples": {
+    "compared": 2,
+    "exact": 2,
+    "exact_rate": 1.0,
+    "rows": [
+      {
+        "calculated_fantasy_points": 21.0,
+        "exact": true,
+        "fantasy_id": "3765",
+        "matchday": 1,
+        "official_fantasy_points": 21.0
+      },
+      {
+        "calculated_fantasy_points": 30.8,
+        "exact": true,
+        "fantasy_id": "3765",
+        "matchday": 38,
+        "official_fantasy_points": 30.8
+      }
+    ]
+  },
+  "official_legacy_pdk_validation": {
+    "E2022": {
+      "canonical_compared": 6654,
+      "canonical_difference_counts": {},
+      "canonical_exact": 6654,
+      "canonical_exact_rate": 1.0,
+      "discrepancy_interpretation": "The retained Fantasy response always obeys the formula using its own component values. Small cross-feed differences reflect official box-score corrections/provider snapshots and are not force-adjusted.",
+      "not_uniquely_canonical_mapped": 333,
+      "official_component_formula_exact": 6987,
+      "official_component_formula_exact_rate": 1.0,
+      "official_rows": 6987
+    },
+    "E2023": {
+      "canonical_compared": 6796,
+      "canonical_difference_counts": {
+        "-0.90": 3,
+        "-1.00": 28,
+        "-1.10": 29,
+        "-2.00": 2,
+        "-2.20": 1,
+        "-3.00": 1,
+        "-5.00": 1,
+        "0.90": 1,
+        "1.00": 21,
+        "1.10": 18,
+        "2.20": 1,
+        "3.00": 1
+      },
+      "canonical_exact": 6689,
+      "canonical_exact_rate": 0.9842554443790466,
+      "discrepancy_interpretation": "The retained Fantasy response always obeys the formula using its own component values. Small cross-feed differences reflect official box-score corrections/provider snapshots and are not force-adjusted.",
+      "not_uniquely_canonical_mapped": 277,
+      "official_component_formula_exact": 7073,
+      "official_component_formula_exact_rate": 1.0,
+      "official_rows": 7073
+    },
+    "E2024": {
+      "canonical_compared": 6772,
+      "canonical_difference_counts": {
+        "-0.90": 1,
+        "-1.00": 11,
+        "-1.10": 13,
+        "-2.20": 1,
+        "-3.00": 1,
+        "0.90": 1,
+        "1.00": 12,
+        "1.10": 8,
+        "2.20": 1,
+        "3.00": 1
+      },
+      "canonical_exact": 6722,
+      "canonical_exact_rate": 0.9926166568222091,
+      "discrepancy_interpretation": "The retained Fantasy response always obeys the formula using its own component values. Small cross-feed differences reflect official box-score corrections/provider snapshots and are not force-adjusted.",
+      "not_uniquely_canonical_mapped": 150,
+      "official_component_formula_exact": 6922,
+      "official_component_formula_exact_rate": 1.0,
+      "official_rows": 6922
+    }
+  },
+  "representative_canonical_cases": [
+    {
+      "base_score": 53.0,
+      "case": "high_score",
+      "fantasy_points": 58.3,
+      "game_id": "d14ae6be-468e-592a-8b03-a5fce28c205a",
+      "player_id": "faaf90f4-212d-577b-a113-944b5a99c143",
+      "round_number": 11,
+      "season": "E2019",
+      "started": true,
+      "win_bonus": 5.3
+    },
+    {
+      "base_score": -13.0,
+      "case": "low_score",
+      "fantasy_points": -13.0,
+      "game_id": "1ae1f44b-c40e-5d3f-ba7e-ab84464121e4",
+      "player_id": "4cf49754-3254-5ad8-9340-866e1e12be3a",
+      "round_number": 4,
+      "season": "E2018",
+      "started": true,
+      "win_bonus": 0.0
+    },
+    {
+      "base_score": 10.0,
+      "case": "turnovers",
+      "fantasy_points": 10.0,
+      "game_id": "9f7864c4-4586-5ee9-b005-1a2afa09b1cf",
+      "player_id": "df5d3618-9ae3-50bd-993a-0748eb7400df",
+      "round_number": 27,
+      "season": "E2018",
+      "started": false,
+      "win_bonus": 0.0
+    },
+    {
+      "base_score": 15.0,
+      "case": "blocks",
+      "fantasy_points": 16.5,
+      "game_id": "a1792b7d-56df-5657-a4b5-7d6fdd93012f",
+      "player_id": "929c516d-df2b-52ec-89a6-f0d949bf2e85",
+      "round_number": 11,
+      "season": "E2018",
+      "started": true,
+      "win_bonus": 1.5
+    },
+    {
+      "base_score": 17.0,
+      "case": "steals",
+      "fantasy_points": 17.0,
+      "game_id": "ab59a1dc-7bb5-5c36-b9a0-07e88e454fb7",
+      "player_id": "5c8cf4f2-bb9d-5f3c-a20e-4c4252ecb320",
+      "round_number": 1,
+      "season": "E2018",
+      "started": true,
+      "win_bonus": 0.0
+    },
+    {
+      "base_score": 14.0,
+      "case": "fouls",
+      "fantasy_points": 14.0,
+      "game_id": "3cb3c8de-69b3-59e6-ab18-a3221a1590ad",
+      "player_id": "cd420f71-4768-5643-b453-8a629666a452",
+      "round_number": 3,
+      "season": "E2018",
+      "started": true,
+      "win_bonus": 0.0
+    },
+    {
+      "base_score": 17.0,
+      "case": "overtime",
+      "fantasy_points": 18.7,
+      "game_id": "51c0568e-ddf6-507f-a91b-23dc22590317",
+      "player_id": "0060f90c-4c85-5a4d-8d0f-7f166c9fc4e8",
+      "round_number": 4,
+      "season": "E2018",
+      "started": false,
+      "win_bonus": 1.7
+    },
+    {
+      "base_score": 15.0,
+      "case": "bench",
+      "fantasy_points": 16.5,
+      "game_id": "b58cfbee-c50f-5543-bd2a-dafdc6404cf8",
+      "player_id": "114afe59-9f2c-54e9-b9c1-16b448790c07",
+      "round_number": 1,
+      "season": "E2018",
+      "started": false,
+      "win_bonus": 1.5
+    }
+  ],
+  "target_rule_version": "ELFC_PLAYER_V1_STANDARDIZED_2025"
+}

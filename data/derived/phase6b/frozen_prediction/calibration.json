@@ -1,0 +1,104 @@
+{
+  "availability_adjustment": "PHASE5B_LOCATION_SHIFT",
+  "classifiers": {
+    "20": {
+      "coefficient": 0.9246603543874539,
+      "intercept": -0.22680497268825425
+    },
+    "25": {
+      "coefficient": 0.932431304504465,
+      "intercept": -0.37057384875869437
+    },
+    "30": {
+      "coefficient": 0.9604515580268306,
+      "intercept": -0.05318195533658881
+    },
+    "35": {
+      "coefficient": 1.023664670237128,
+      "intercept": 0.08345493431686372
+    }
+  },
+  "probability_reconciliation": "DECREASING_PAVA_QUANTILE_BOUNDS",
+  "quantile_reconciliation": "INCREASING_REARRANGEMENT",
+  "quantiles": {
+    "0.10": {
+      "global_offset": -0.14032943980029788,
+      "minimum_role_calibration_rows": 100,
+      "role_definition": "season_minutes_avg_before bands",
+      "role_offsets": {
+        "cold_unknown": -0.845009005081151,
+        "high_25_30": 0.1332889733846203,
+        "low_under_10": -0.11086905339650688,
+        "medium_10_20": -0.14032943980029788,
+        "role_20_25": -0.10570772504828652,
+        "star_30_plus": -1.0600719669444878
+      }
+    },
+    "0.25": {
+      "global_offset": -0.20775548259158505,
+      "minimum_role_calibration_rows": 100,
+      "role_definition": "season_minutes_avg_before bands",
+      "role_offsets": {
+        "cold_unknown": -0.022557292593315736,
+        "high_25_30": 0.017698122258504867,
+        "low_under_10": -0.24833632739954714,
+        "medium_10_20": -0.21533090746426353,
+        "role_20_25": -0.1347917171614439,
+        "star_30_plus": -1.1972273800396938
+      }
+    },
+    "0.50": {
+      "global_offset": -0.06168952114830617,
+      "minimum_role_calibration_rows": 100,
+      "role_definition": "season_minutes_avg_before bands",
+      "role_offsets": {
+        "cold_unknown": -0.34816048013434475,
+        "high_25_30": -0.08168947581152253,
+        "low_under_10": -0.3725141167987025,
+        "medium_10_20": -0.012905095313024084,
+        "role_20_25": 0.04236030286488379,
+        "star_30_plus": -1.591791474928172
+      }
+    },
+    "0.75": {
+      "global_offset": 0.06653386398513206,
+      "minimum_role_calibration_rows": 100,
+      "role_definition": "season_minutes_avg_before bands",
+      "role_offsets": {
+        "cold_unknown": 1.8592113948451807,
+        "high_25_30": -0.2830601355913771,
+        "low_under_10": -0.14388462189870133,
+        "medium_10_20": 0.3150047456378653,
+        "role_20_25": -0.252435034878161,
+        "star_30_plus": -0.6971312757757211
+      }
+    },
+    "0.90": {
+      "global_offset": 0.5574268374422697,
+      "minimum_role_calibration_rows": 100,
+      "role_definition": "season_minutes_avg_before bands",
+      "role_offsets": {
+        "cold_unknown": 2.9075570664915134,
+        "high_25_30": 0.589596500852835,
+        "low_under_10": -0.04550294941093913,
+        "medium_10_20": 0.6207892032909363,
+        "role_20_25": 0.644982989561246,
+        "star_30_plus": 0.3572337339319773
+      }
+    },
+    "0.95": {
+      "global_offset": 0.8704107562454482,
+      "minimum_role_calibration_rows": 100,
+      "role_definition": "season_minutes_avg_before bands",
+      "role_offsets": {
+        "cold_unknown": 2.8612651995287237,
+        "high_25_30": 1.3931478704554152,
+        "low_under_10": -1.3999888959528928,
+        "medium_10_20": 1.008792203170291,
+        "role_20_25": 0.990336324639614,
+        "star_30_plus": -0.24705601862686422
+      }
+    }
+  },
+  "version": "phase6b_chronological_calibration_v1"
+}

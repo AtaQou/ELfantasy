@@ -1,0 +1,9 @@
+{
+  "dataset_fingerprint": "b406af0b506938dafe88bb6f582148a4ee0ec7cf67e0b268276425709ac28977",
+  "e2025_price_rows": 7921,
+  "fantasy_rows": 25125,
+  "generated_at": "2026-08-12T11:24:10.512542+00:00",
+  "modelling_rows": 54642,
+  "target_rows": 60101,
+  "valid_target_rows": 54661
+}

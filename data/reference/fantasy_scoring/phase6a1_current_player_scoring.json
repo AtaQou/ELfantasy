@@ -1,0 +1,48 @@
+{
+  "evidence_version": "phase6a1_scoring_compatibility_v1",
+  "season_code": "E2026",
+  "verified_at": "2026-09-02T00:00:00+00:00",
+  "verification_status": "VERIFIED_CURRENT_SEASON",
+  "reason": "The current official rules retain the frozen player formula and the official E2026 Fantasy market is live.",
+  "current_market_evidence": {
+    "season_code": "E2026",
+    "fantasy_matchday": 1,
+    "competition_id": 49,
+    "player_entities": 325,
+    "coach_entities": 20,
+    "observed_at": "2026-09-02"
+  },
+  "official_sources": [
+    "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/players-scoring",
+    "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/"
+  ],
+  "player_scoring_rule_specification": {
+    "positive_one": [
+      "points",
+      "total_rebounds",
+      "assists",
+      "steals",
+      "blocks",
+      "fouls_drawn"
+    ],
+    "negative_one": [
+      "turnovers",
+      "blocks_received",
+      "fouls_committed",
+      "missed_two_point_attempts",
+      "missed_three_point_attempts",
+      "missed_free_throw_attempts"
+    ],
+    "team_win_bonus": "0.10 * abs(base_score)",
+    "includes_overtime_statistics": true,
+    "double_double_bonus": false,
+    "triple_double_bonus": false,
+    "excludes_game_management": [
+      "captain",
+      "bench",
+      "substitutions",
+      "transfers",
+      "credits"
+    ]
+  }
+}

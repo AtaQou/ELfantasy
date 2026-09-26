@@ -1,0 +1,115 @@
+{
+  "accepted_metrics": {
+    "mae": 5.808649555104744,
+    "pearson": 0.5134851605153571,
+    "rmse": 7.579663446775682,
+    "spearman": 0.5063550600370463
+  },
+  "component_differences": {
+    "direct": {
+      "bitwise_identical": false,
+      "maximum_absolute_difference": 1.0658141036401503e-14,
+      "mean_absolute_difference": 6.335294705812269e-16
+    },
+    "hybrid": {
+      "bitwise_identical": false,
+      "maximum_absolute_difference": 1.0658141036401503e-14,
+      "mean_absolute_difference": 1.2001888711055981e-15
+    },
+    "minutes": {
+      "bitwise_identical": false,
+      "maximum_absolute_difference": 1.4210854715202004e-14,
+      "mean_absolute_difference": 2.7878944744085184e-15
+    },
+    "production": {
+      "bitwise_identical": false,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "mean_absolute_difference": 4.0123467049156844e-17
+    }
+  },
+  "maximum_absolute_difference": 1.0658141036401503e-14,
+  "mean_absolute_difference": 1.2001888711055981e-15,
+  "passed": true,
+  "reproduced_metrics": {
+    "mae": 5.808649555104744,
+    "mean_actual": 8.95383722487611,
+    "mean_prediction": 7.843320448735705,
+    "mean_residual": 1.1105167761404064,
+    "pearson": 0.5134851605153571,
+    "rmse": 7.579663446775682,
+    "spearman": 0.5063550600370463
+  },
+  "rows": 22399,
+  "serialized_models": {
+    "outer_e2023": {
+      "direct": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2023/direct.json",
+        "model_sha256": "97d6523863f41d5a701dccf6a53e27e784d397a4054ab312f64a670a5625bfe8",
+        "model_type": "catboost",
+        "training_state_fingerprint": "631c3009a97dba9802d514a8a13b29fbb7c7345e14dfb07dff71a6d93cd3327b"
+      },
+      "minutes": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2023/minutes.json",
+        "model_sha256": "183d905083f46c28e6632400b4725bae7bbf48b184ca286a75f96e292e6afbff",
+        "model_type": "catboost",
+        "training_state_fingerprint": "c407c417b231f82d5e4259e0131c4aff620f7ce65cca53741ad0283a9fb67605"
+      },
+      "production": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2023/production.json",
+        "model_sha256": "8a1b12ec0da8a9f82078606faa5284cce0833fe4653ca6ec436ba7509497e466",
+        "model_type": "catboost",
+        "training_state_fingerprint": "fa7e079ef134ff7f217464d75403123a50461b64a35787c25b715eda2a1866af"
+      }
+    },
+    "outer_e2024": {
+      "direct": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2024/direct.json",
+        "model_sha256": "4ec69d1649209233c4f8770f42a8c8d12ac4bdf8565b0f99008c2a37da8b975d",
+        "model_type": "catboost",
+        "training_state_fingerprint": "1236b353ba4e0bf019e8a84832d5ca9c8ad18cdc8ae5d211d46b7203301ed6e9"
+      },
+      "minutes": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2024/minutes.json",
+        "model_sha256": "b2d55e1e762ecc7dbae3e082bf8d04703d081a89c542399153b2e5846d2f81eb",
+        "model_type": "catboost",
+        "training_state_fingerprint": "b00368202117fcc16c1a2785bac2b7d106efcb0c628cf8a89829a8bd2315c13f"
+      },
+      "production": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2024/production.json",
+        "model_sha256": "f2277bafc0c50e203977c6711398e78fc1d0bdba400b4ee464f968a4a029439f",
+        "model_type": "catboost",
+        "training_state_fingerprint": "8ab7f1e95a07b9346a20ce43a50742069925995b203a841000106d09eeaf751b"
+      }
+    },
+    "outer_e2025": {
+      "direct": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2025/direct.json",
+        "model_sha256": "aec3313ec0f846ab4afc77c45bedd2e0ef467710fc7d1c77e670385333dd7862",
+        "model_type": "catboost",
+        "training_state_fingerprint": "26165857c84b50f32ff4f7e083641fe3293de717fbc56714da7819a47f308a5f"
+      },
+      "minutes": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2025/minutes.json",
+        "model_sha256": "15fbb74649e04b3b3b632259739b16ec06dfec94a16b76b23176fe6a29d8eb0f",
+        "model_type": "catboost",
+        "training_state_fingerprint": "5d273736fe81c21ef6c671bfba5e025dd2a59b9550b42d01e1e6950b2d3c6caf"
+      },
+      "production": {
+        "model_format": "json",
+        "model_path": "validation_models/outer_e2025/production.json",
+        "model_sha256": "b74225a59659997279c2cf1f22e5b52614f829e3fe8aad2a7138bbd9746f1cbf",
+        "model_type": "catboost",
+        "training_state_fingerprint": "f743728da9a073d0f8facaea1b3ed18cd83fb4d9124174dd4daee688419ce9e1"
+      }
+    }
+  },
+  "tolerance": 1e-12
+}

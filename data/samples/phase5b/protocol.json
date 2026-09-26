@@ -1,0 +1,151 @@
+{
+  "adoption_rule": "ML must improve >=0.5% over best naive and win >=2/3 folds",
+  "baseline_role": {
+    "fixed_parameters": {
+      "depth": 6,
+      "iterations": 220,
+      "l2_leaf_reg": 8.0,
+      "learning_rate": 0.04,
+      "loss_function": "MAE",
+      "seed": 17
+    },
+    "season_audit": [
+      {
+        "outer_target_rows_seen": 0,
+        "season": "E2018",
+        "selected": "FALLBACK",
+        "selection_season": null,
+        "train_rows": 0,
+        "training_max_time": null
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 5.019474035349256,
+        "played_rotation_mae_diagnostic": NaN,
+        "rich_train_rows": 0,
+        "season": "E2019",
+        "selected": "CORE",
+        "selection_core_mae": null,
+        "selection_rotation_mae": null,
+        "selection_season": "E2018",
+        "train_rows": 5603,
+        "training_max_time": "2019-05-19T18:30:00+00:00"
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 4.754804439763961,
+        "played_rotation_mae_diagnostic": NaN,
+        "rich_train_rows": 0,
+        "season": "E2020",
+        "selected": "CORE",
+        "selection_core_mae": 5.019474035349256,
+        "selection_rotation_mae": NaN,
+        "selection_season": "E2019",
+        "train_rows": 11112,
+        "training_max_time": "2020-03-06T20:00:00+00:00"
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 4.850599786974643,
+        "played_rotation_mae_diagnostic": NaN,
+        "rich_train_rows": 0,
+        "season": "E2021",
+        "selected": "CORE",
+        "selection_core_mae": 4.754804439763961,
+        "selection_rotation_mae": NaN,
+        "selection_season": "E2020",
+        "train_rows": 18191,
+        "training_max_time": "2021-05-30T18:30:00+00:00"
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 4.697078580233777,
+        "played_rotation_mae_diagnostic": 4.7730079472885105,
+        "rich_train_rows": 6078,
+        "season": "E2022",
+        "selected": "CORE",
+        "selection_core_mae": 4.850599786974643,
+        "selection_rotation_mae": NaN,
+        "selection_season": "E2021",
+        "train_rows": 24589,
+        "training_max_time": "2022-05-21T17:00:00+00:00"
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 4.695469162710998,
+        "played_rotation_mae_diagnostic": 4.714419821298859,
+        "rich_train_rows": 13017,
+        "season": "E2023",
+        "selected": "CORE",
+        "selection_core_mae": 4.697078580233777,
+        "selection_rotation_mae": 4.7730079472885105,
+        "selection_season": "E2022",
+        "train_rows": 31649,
+        "training_max_time": "2023-05-21T17:00:00+00:00"
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 4.592112805123328,
+        "played_rotation_mae_diagnostic": 4.657151809706776,
+        "rich_train_rows": 20077,
+        "season": "E2024",
+        "selected": "CORE",
+        "selection_core_mae": 4.695469162710998,
+        "selection_rotation_mae": 4.714419821298859,
+        "selection_season": "E2023",
+        "train_rows": 38795,
+        "training_max_time": "2024-05-26T18:00:00+00:00"
+      },
+      {
+        "outer_target_rows_seen": 0,
+        "played_core_mae_diagnostic": 4.448333853884062,
+        "played_rotation_mae_diagnostic": 4.503297858452622,
+        "rich_train_rows": 27082,
+        "season": "E2025",
+        "selected": "CORE",
+        "selection_core_mae": 4.592112805123328,
+        "selection_rotation_mae": 4.657151809706776,
+        "selection_season": "E2024",
+        "train_rows": 45901,
+        "training_max_time": "2025-05-25T17:00:00+00:00"
+      }
+    ],
+    "strategy": "fixed Phase4B-style CatBoost conditional minutes; longer Core versus E2021+ Core+Rotation selected only from the immediately prior season; weighted lagged-role fallback for the first season/missing score"
+  },
+  "conditional_interpretation": "CONDITIONAL_ON_KNOWN_ABSENCE_SET",
+  "protocol_version": "phase5b_known_absence_redistribution_v1",
+  "random_seed": 17,
+  "reconciliation": "bounded_additive_simplex_200_v1",
+  "redistribution_candidates": [
+    {
+      "experiment_id": "p5b__ridge__core",
+      "include_rotation": false,
+      "model_type": "ridge",
+      "remove_quality": false
+    },
+    {
+      "experiment_id": "p5b__catboost__core",
+      "include_rotation": false,
+      "model_type": "catboost",
+      "remove_quality": false
+    },
+    {
+      "experiment_id": "p5b__xgboost__core",
+      "include_rotation": false,
+      "model_type": "xgboost",
+      "remove_quality": false
+    },
+    {
+      "experiment_id": "p5b__catboost__core_rotation_recent",
+      "include_rotation": true,
+      "model_type": "catboost",
+      "remove_quality": false
+    },
+    {
+      "experiment_id": "p5b__catboost__context_only_ablation",
+      "include_rotation": false,
+      "model_type": "catboost",
+      "remove_quality": true
+    }
+  ]
+}

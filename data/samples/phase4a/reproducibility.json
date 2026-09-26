@@ -1,0 +1,8 @@
+{
+  "check": "fixed-seed winner refit with frozen fold selections",
+  "experiment_id": "p4a__catboost__core_rotation__verified_only__player__s17",
+  "first_prediction_fingerprint": "734f9dfad1931a86dd56e3c8191ef86d7783a1b84bf15a49cbe4478bde8e0642",
+  "repeat_prediction_fingerprint": "734f9dfad1931a86dd56e3c8191ef86d7783a1b84bf15a49cbe4478bde8e0642",
+  "equivalent": true,
+  "protocol_version": "phase4a_nested_walk_forward_v1"
+}

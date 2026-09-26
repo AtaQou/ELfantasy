@@ -1,0 +1,2771 @@
+{
+  "live_boxscore": {
+    "$": [
+      "object"
+    ],
+    "Attendance": [
+      "string"
+    ],
+    "ByQuarter": [
+      "array"
+    ],
+    "ByQuarter[]": [
+      "object"
+    ],
+    "ByQuarter[].Quarter1": [
+      "integer"
+    ],
+    "ByQuarter[].Quarter2": [
+      "integer"
+    ],
+    "ByQuarter[].Quarter3": [
+      "integer"
+    ],
+    "ByQuarter[].Quarter4": [
+      "integer"
+    ],
+    "ByQuarter[].Team": [
+      "string"
+    ],
+    "EndOfQuarter": [
+      "array"
+    ],
+    "EndOfQuarter[]": [
+      "object"
+    ],
+    "EndOfQuarter[].Quarter1": [
+      "integer"
+    ],
+    "EndOfQuarter[].Quarter2": [
+      "integer"
+    ],
+    "EndOfQuarter[].Quarter3": [
+      "integer"
+    ],
+    "EndOfQuarter[].Quarter4": [
+      "integer"
+    ],
+    "EndOfQuarter[].Team": [
+      "string"
+    ],
+    "Live": [
+      "boolean"
+    ],
+    "Referees": [
+      "string"
+    ],
+    "Stats": [
+      "array"
+    ],
+    "Stats[]": [
+      "object"
+    ],
+    "Stats[].Coach": [
+      "string"
+    ],
+    "Stats[].PlayersStats": [
+      "array"
+    ],
+    "Stats[].PlayersStats[]": [
+      "object"
+    ],
+    "Stats[].PlayersStats[].Assistances": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].BlocksAgainst": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].BlocksFavour": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].DefensiveRebounds": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Dorsal": [
+      "string"
+    ],
+    "Stats[].PlayersStats[].FieldGoalsAttempted2": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FieldGoalsAttempted3": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FieldGoalsMade2": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FieldGoalsMade3": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FoulsCommited": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FoulsReceived": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FreeThrowsAttempted": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].FreeThrowsMade": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].IsPlaying": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].IsStarter": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Minutes": [
+      "string"
+    ],
+    "Stats[].PlayersStats[].OffensiveRebounds": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Player": [
+      "string"
+    ],
+    "Stats[].PlayersStats[].Player_ID": [
+      "string"
+    ],
+    "Stats[].PlayersStats[].Plusminus": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Points": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Steals": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Team": [
+      "string"
+    ],
+    "Stats[].PlayersStats[].TotalRebounds": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Turnovers": [
+      "integer"
+    ],
+    "Stats[].PlayersStats[].Valuation": [
+      "integer"
+    ],
+    "Stats[].Team": [
+      "string"
+    ],
+    "Stats[].tmr": [
+      "object"
+    ],
+    "Stats[].tmr.Assistances": [
+      "integer"
+    ],
+    "Stats[].tmr.BlocksAgainst": [
+      "integer"
+    ],
+    "Stats[].tmr.BlocksFavour": [
+      "integer"
+    ],
+    "Stats[].tmr.DefensiveRebounds": [
+      "integer"
+    ],
+    "Stats[].tmr.Dorsal": [
+      "string"
+    ],
+    "Stats[].tmr.FieldGoalsAttempted2": [
+      "integer"
+    ],
+    "Stats[].tmr.FieldGoalsAttempted3": [
+      "integer"
+    ],
+    "Stats[].tmr.FieldGoalsMade2": [
+      "integer"
+    ],
+    "Stats[].tmr.FieldGoalsMade3": [
+      "integer"
+    ],
+    "Stats[].tmr.FoulsCommited": [
+      "integer"
+    ],
+    "Stats[].tmr.FoulsReceived": [
+      "integer"
+    ],
+    "Stats[].tmr.FreeThrowsAttempted": [
+      "integer"
+    ],
+    "Stats[].tmr.FreeThrowsMade": [
+      "integer"
+    ],
+    "Stats[].tmr.IsPlaying": [
+      "integer"
+    ],
+    "Stats[].tmr.IsStarter": [
+      "integer"
+    ],
+    "Stats[].tmr.Minutes": [
+      "null"
+    ],
+    "Stats[].tmr.OffensiveRebounds": [
+      "integer"
+    ],
+    "Stats[].tmr.Player": [
+      "string"
+    ],
+    "Stats[].tmr.Player_ID": [
+      "string"
+    ],
+    "Stats[].tmr.Plusminus": [
+      "null"
+    ],
+    "Stats[].tmr.Points": [
+      "integer"
+    ],
+    "Stats[].tmr.Steals": [
+      "integer"
+    ],
+    "Stats[].tmr.Team": [
+      "string"
+    ],
+    "Stats[].tmr.TotalRebounds": [
+      "integer"
+    ],
+    "Stats[].tmr.Turnovers": [
+      "integer"
+    ],
+    "Stats[].tmr.Valuation": [
+      "integer"
+    ],
+    "Stats[].totr": [
+      "object"
+    ],
+    "Stats[].totr.Assistances": [
+      "integer"
+    ],
+    "Stats[].totr.BlocksAgainst": [
+      "integer"
+    ],
+    "Stats[].totr.BlocksFavour": [
+      "integer"
+    ],
+    "Stats[].totr.DefensiveRebounds": [
+      "integer"
+    ],
+    "Stats[].totr.FieldGoalsAttempted2": [
+      "integer"
+    ],
+    "Stats[].totr.FieldGoalsAttempted3": [
+      "integer"
+    ],
+    "Stats[].totr.FieldGoalsMade2": [
+      "integer"
+    ],
+    "Stats[].totr.FieldGoalsMade3": [
+      "integer"
+    ],
+    "Stats[].totr.FoulsCommited": [
+      "integer"
+    ],
+    "Stats[].totr.FoulsReceived": [
+      "integer"
+    ],
+    "Stats[].totr.FreeThrowsAttempted": [
+      "integer"
+    ],
+    "Stats[].totr.FreeThrowsMade": [
+      "integer"
+    ],
+    "Stats[].totr.Minutes": [
+      "string"
+    ],
+    "Stats[].totr.OffensiveRebounds": [
+      "integer"
+    ],
+    "Stats[].totr.Points": [
+      "integer"
+    ],
+    "Stats[].totr.Steals": [
+      "integer"
+    ],
+    "Stats[].totr.TotalRebounds": [
+      "integer"
+    ],
+    "Stats[].totr.Turnovers": [
+      "integer"
+    ],
+    "Stats[].totr.Valuation": [
+      "integer"
+    ]
+  },
+  "live_header": {
+    "$": [
+      "object"
+    ],
+    "Capacity": [
+      "string"
+    ],
+    "CoachA": [
+      "string"
+    ],
+    "CoachB": [
+      "string"
+    ],
+    "CodeTeamA": [
+      "string"
+    ],
+    "CodeTeamB": [
+      "string"
+    ],
+    "Competition": [
+      "string"
+    ],
+    "CompetitionReducedName": [
+      "string"
+    ],
+    "Date": [
+      "string"
+    ],
+    "FoultsA": [
+      "string"
+    ],
+    "FoultsB": [
+      "string"
+    ],
+    "GameTime": [
+      "string"
+    ],
+    "Hour": [
+      "string"
+    ],
+    "Live": [
+      "boolean"
+    ],
+    "Phase": [
+      "string"
+    ],
+    "PhaseReducedName": [
+      "string"
+    ],
+    "Quarter": [
+      "string"
+    ],
+    "Referee1": [
+      "string"
+    ],
+    "Referee2": [
+      "string"
+    ],
+    "Referee3": [
+      "string"
+    ],
+    "RemainingPartialTime": [
+      "string"
+    ],
+    "Round": [
+      "string"
+    ],
+    "ScoreA": [
+      "string"
+    ],
+    "ScoreB": [
+      "string"
+    ],
+    "ScoreExtraTimeA": [
+      "integer"
+    ],
+    "ScoreExtraTimeB": [
+      "integer"
+    ],
+    "ScoreQuarter1A": [
+      "integer"
+    ],
+    "ScoreQuarter1B": [
+      "integer"
+    ],
+    "ScoreQuarter2A": [
+      "integer"
+    ],
+    "ScoreQuarter2B": [
+      "integer"
+    ],
+    "ScoreQuarter3A": [
+      "integer"
+    ],
+    "ScoreQuarter3B": [
+      "integer"
+    ],
+    "ScoreQuarter4A": [
+      "integer"
+    ],
+    "ScoreQuarter4B": [
+      "integer"
+    ],
+    "Stadium": [
+      "string"
+    ],
+    "TVCodeA": [
+      "string"
+    ],
+    "TVCodeB": [
+      "string"
+    ],
+    "TeamA": [
+      "string"
+    ],
+    "TeamB": [
+      "string"
+    ],
+    "TimeoutsA": [
+      "string"
+    ],
+    "TimeoutsB": [
+      "string"
+    ],
+    "imA": [
+      "string"
+    ],
+    "imB": [
+      "string"
+    ],
+    "pcom": [
+      "string"
+    ],
+    "wid": [
+      "string"
+    ]
+  },
+  "live_play_by_play": {
+    "$": [
+      "object"
+    ],
+    "ActualQuarter": [
+      "integer"
+    ],
+    "CodeTeamA": [
+      "string"
+    ],
+    "CodeTeamB": [
+      "string"
+    ],
+    "ExtraTime": [
+      "array"
+    ],
+    "ExtraTime[]": [
+      "empty"
+    ],
+    "FirstQuarter": [
+      "array"
+    ],
+    "FirstQuarter[]": [
+      "object"
+    ],
+    "FirstQuarter[].CODETEAM": [
+      "string"
+    ],
+    "FirstQuarter[].COMMENT": [
+      "string"
+    ],
+    "FirstQuarter[].DORSAL": [
+      "null",
+      "string"
+    ],
+    "FirstQuarter[].MARKERTIME": [
+      "string"
+    ],
+    "FirstQuarter[].MINUTE": [
+      "integer"
+    ],
+    "FirstQuarter[].NUMBEROFPLAY": [
+      "integer"
+    ],
+    "FirstQuarter[].PLAYER": [
+      "null",
+      "string"
+    ],
+    "FirstQuarter[].PLAYER_ID": [
+      "string"
+    ],
+    "FirstQuarter[].PLAYINFO": [
+      "string"
+    ],
+    "FirstQuarter[].PLAYTYPE": [
+      "string"
+    ],
+    "FirstQuarter[].POINTS_A": [
+      "integer",
+      "null"
+    ],
+    "FirstQuarter[].POINTS_B": [
+      "integer",
+      "null"
+    ],
+    "FirstQuarter[].TEAM": [
+      "null",
+      "string"
+    ],
+    "FirstQuarter[].TYPE": [
+      "integer"
+    ],
+    "ForthQuarter": [
+      "array"
+    ],
+    "ForthQuarter[]": [
+      "object"
+    ],
+    "ForthQuarter[].CODETEAM": [
+      "string"
+    ],
+    "ForthQuarter[].COMMENT": [
+      "string"
+    ],
+    "ForthQuarter[].DORSAL": [
+      "null",
+      "string"
+    ],
+    "ForthQuarter[].MARKERTIME": [
+      "string"
+    ],
+    "ForthQuarter[].MINUTE": [
+      "integer"
+    ],
+    "ForthQuarter[].NUMBEROFPLAY": [
+      "integer"
+    ],
+    "ForthQuarter[].PLAYER": [
+      "null",
+      "string"
+    ],
+    "ForthQuarter[].PLAYER_ID": [
+      "string"
+    ],
+    "ForthQuarter[].PLAYINFO": [
+      "string"
+    ],
+    "ForthQuarter[].PLAYTYPE": [
+      "string"
+    ],
+    "ForthQuarter[].POINTS_A": [
+      "integer",
+      "null"
+    ],
+    "ForthQuarter[].POINTS_B": [
+      "integer",
+      "null"
+    ],
+    "ForthQuarter[].TEAM": [
+      "null",
+      "string"
+    ],
+    "ForthQuarter[].TYPE": [
+      "integer"
+    ],
+    "Live": [
+      "boolean"
+    ],
+    "SecondQuarter": [
+      "array"
+    ],
+    "SecondQuarter[]": [
+      "object"
+    ],
+    "SecondQuarter[].CODETEAM": [
+      "string"
+    ],
+    "SecondQuarter[].COMMENT": [
+      "string"
+    ],
+    "SecondQuarter[].DORSAL": [
+      "null",
+      "string"
+    ],
+    "SecondQuarter[].MARKERTIME": [
+      "string"
+    ],
+    "SecondQuarter[].MINUTE": [
+      "integer"
+    ],
+    "SecondQuarter[].NUMBEROFPLAY": [
+      "integer"
+    ],
+    "SecondQuarter[].PLAYER": [
+      "null",
+      "string"
+    ],
+    "SecondQuarter[].PLAYER_ID": [
+      "string"
+    ],
+    "SecondQuarter[].PLAYINFO": [
+      "string"
+    ],
+    "SecondQuarter[].PLAYTYPE": [
+      "string"
+    ],
+    "SecondQuarter[].POINTS_A": [
+      "integer",
+      "null"
+    ],
+    "SecondQuarter[].POINTS_B": [
+      "integer",
+      "null"
+    ],
+    "SecondQuarter[].TEAM": [
+      "null",
+      "string"
+    ],
+    "SecondQuarter[].TYPE": [
+      "integer"
+    ],
+    "TeamA": [
+      "string"
+    ],
+    "TeamB": [
+      "string"
+    ],
+    "ThirdQuarter": [
+      "array"
+    ],
+    "ThirdQuarter[]": [
+      "object"
+    ],
+    "ThirdQuarter[].CODETEAM": [
+      "string"
+    ],
+    "ThirdQuarter[].COMMENT": [
+      "string"
+    ],
+    "ThirdQuarter[].DORSAL": [
+      "null",
+      "string"
+    ],
+    "ThirdQuarter[].MARKERTIME": [
+      "string"
+    ],
+    "ThirdQuarter[].MINUTE": [
+      "integer"
+    ],
+    "ThirdQuarter[].NUMBEROFPLAY": [
+      "integer"
+    ],
+    "ThirdQuarter[].PLAYER": [
+      "null",
+      "string"
+    ],
+    "ThirdQuarter[].PLAYER_ID": [
+      "string"
+    ],
+    "ThirdQuarter[].PLAYINFO": [
+      "string"
+    ],
+    "ThirdQuarter[].PLAYTYPE": [
+      "string"
+    ],
+    "ThirdQuarter[].POINTS_A": [
+      "integer",
+      "null"
+    ],
+    "ThirdQuarter[].POINTS_B": [
+      "integer",
+      "null"
+    ],
+    "ThirdQuarter[].TEAM": [
+      "null",
+      "string"
+    ],
+    "ThirdQuarter[].TYPE": [
+      "integer"
+    ]
+  },
+  "live_shots": {
+    "$": [
+      "object"
+    ],
+    "Rows": [
+      "array"
+    ],
+    "Rows[]": [
+      "object"
+    ],
+    "Rows[].ACTION": [
+      "string"
+    ],
+    "Rows[].CONSOLE": [
+      "string"
+    ],
+    "Rows[].COORD_X": [
+      "integer"
+    ],
+    "Rows[].COORD_Y": [
+      "integer"
+    ],
+    "Rows[].FASTBREAK": [
+      "string"
+    ],
+    "Rows[].ID_ACTION": [
+      "string"
+    ],
+    "Rows[].ID_PLAYER": [
+      "string"
+    ],
+    "Rows[].MINUTE": [
+      "integer"
+    ],
+    "Rows[].NUM_ANOT": [
+      "integer"
+    ],
+    "Rows[].PLAYER": [
+      "string"
+    ],
+    "Rows[].POINTS": [
+      "integer"
+    ],
+    "Rows[].POINTS_A": [
+      "integer"
+    ],
+    "Rows[].POINTS_B": [
+      "integer"
+    ],
+    "Rows[].POINTS_OFF_TURNOVER": [
+      "string"
+    ],
+    "Rows[].SECOND_CHANCE": [
+      "string"
+    ],
+    "Rows[].TEAM": [
+      "string"
+    ],
+    "Rows[].UTC": [
+      "string"
+    ],
+    "Rows[].ZONE": [
+      "string"
+    ]
+  },
+  "v2_round_games": {
+    "$": [
+      "object"
+    ],
+    "data": [
+      "array"
+    ],
+    "data[]": [
+      "object"
+    ],
+    "data[].audience": [
+      "integer"
+    ],
+    "data[].audienceConfirmed": [
+      "boolean"
+    ],
+    "data[].confirmedDate": [
+      "boolean"
+    ],
+    "data[].confirmedHour": [
+      "boolean"
+    ],
+    "data[].date": [
+      "string"
+    ],
+    "data[].gameCode": [
+      "integer"
+    ],
+    "data[].gameStatus": [
+      "string"
+    ],
+    "data[].group": [
+      "object"
+    ],
+    "data[].group.id": [
+      "string"
+    ],
+    "data[].group.name": [
+      "string"
+    ],
+    "data[].group.order": [
+      "integer"
+    ],
+    "data[].group.rawName": [
+      "string"
+    ],
+    "data[].id": [
+      "string"
+    ],
+    "data[].identifier": [
+      "string"
+    ],
+    "data[].isNeutralVenue": [
+      "boolean"
+    ],
+    "data[].local": [
+      "object"
+    ],
+    "data[].local.club": [
+      "object"
+    ],
+    "data[].local.club.abbreviatedName": [
+      "string"
+    ],
+    "data[].local.club.code": [
+      "string"
+    ],
+    "data[].local.club.editorialName": [
+      "string"
+    ],
+    "data[].local.club.images": [
+      "object"
+    ],
+    "data[].local.club.images.crest": [
+      "string"
+    ],
+    "data[].local.club.isVirtual": [
+      "boolean"
+    ],
+    "data[].local.club.name": [
+      "string"
+    ],
+    "data[].local.club.tvCode": [
+      "string"
+    ],
+    "data[].local.partials": [
+      "object"
+    ],
+    "data[].local.partials.extraPeriods": [
+      "object"
+    ],
+    "data[].local.partials.partials1": [
+      "integer"
+    ],
+    "data[].local.partials.partials2": [
+      "integer"
+    ],
+    "data[].local.partials.partials3": [
+      "integer"
+    ],
+    "data[].local.partials.partials4": [
+      "integer"
+    ],
+    "data[].local.score": [
+      "integer"
+    ],
+    "data[].local.standingsScore": [
+      "integer"
+    ],
+    "data[].localDate": [
+      "string"
+    ],
+    "data[].localTimeZone": [
+      "integer"
+    ],
+    "data[].operationsCode": [
+      "null"
+    ],
+    "data[].phaseType": [
+      "object"
+    ],
+    "data[].phaseType.alias": [
+      "string"
+    ],
+    "data[].phaseType.code": [
+      "string"
+    ],
+    "data[].phaseType.isGroupPhase": [
+      "boolean"
+    ],
+    "data[].phaseType.name": [
+      "string"
+    ],
+    "data[].played": [
+      "boolean"
+    ],
+    "data[].referee1": [
+      "object"
+    ],
+    "data[].referee1.active": [
+      "boolean"
+    ],
+    "data[].referee1.alias": [
+      "string"
+    ],
+    "data[].referee1.code": [
+      "string"
+    ],
+    "data[].referee1.country": [
+      "object"
+    ],
+    "data[].referee1.country.code": [
+      "string"
+    ],
+    "data[].referee1.country.name": [
+      "string"
+    ],
+    "data[].referee1.images": [
+      "object"
+    ],
+    "data[].referee1.images.verticalSmall": [
+      "string"
+    ],
+    "data[].referee1.name": [
+      "string"
+    ],
+    "data[].referee2": [
+      "object"
+    ],
+    "data[].referee2.active": [
+      "boolean"
+    ],
+    "data[].referee2.alias": [
+      "string"
+    ],
+    "data[].referee2.code": [
+      "string"
+    ],
+    "data[].referee2.country": [
+      "object"
+    ],
+    "data[].referee2.country.code": [
+      "string"
+    ],
+    "data[].referee2.country.name": [
+      "string"
+    ],
+    "data[].referee2.images": [
+      "object"
+    ],
+    "data[].referee2.images.verticalSmall": [
+      "string"
+    ],
+    "data[].referee2.name": [
+      "string"
+    ],
+    "data[].referee3": [
+      "object"
+    ],
+    "data[].referee3.active": [
+      "boolean"
+    ],
+    "data[].referee3.alias": [
+      "string"
+    ],
+    "data[].referee3.code": [
+      "string"
+    ],
+    "data[].referee3.country": [
+      "object"
+    ],
+    "data[].referee3.country.code": [
+      "string"
+    ],
+    "data[].referee3.country.name": [
+      "string"
+    ],
+    "data[].referee3.images": [
+      "object"
+    ],
+    "data[].referee3.images.verticalSmall": [
+      "null",
+      "string"
+    ],
+    "data[].referee3.name": [
+      "string"
+    ],
+    "data[].referee4": [
+      "null"
+    ],
+    "data[].road": [
+      "object"
+    ],
+    "data[].road.club": [
+      "object"
+    ],
+    "data[].road.club.abbreviatedName": [
+      "string"
+    ],
+    "data[].road.club.code": [
+      "string"
+    ],
+    "data[].road.club.editorialName": [
+      "string"
+    ],
+    "data[].road.club.images": [
+      "object"
+    ],
+    "data[].road.club.images.crest": [
+      "string"
+    ],
+    "data[].road.club.isVirtual": [
+      "boolean"
+    ],
+    "data[].road.club.name": [
+      "string"
+    ],
+    "data[].road.club.tvCode": [
+      "string"
+    ],
+    "data[].road.partials": [
+      "object"
+    ],
+    "data[].road.partials.extraPeriods": [
+      "object"
+    ],
+    "data[].road.partials.partials1": [
+      "integer"
+    ],
+    "data[].road.partials.partials2": [
+      "integer"
+    ],
+    "data[].road.partials.partials3": [
+      "integer"
+    ],
+    "data[].road.partials.partials4": [
+      "integer"
+    ],
+    "data[].road.score": [
+      "integer"
+    ],
+    "data[].road.standingsScore": [
+      "integer"
+    ],
+    "data[].round": [
+      "integer"
+    ],
+    "data[].roundAlias": [
+      "string"
+    ],
+    "data[].roundName": [
+      "string"
+    ],
+    "data[].season": [
+      "object"
+    ],
+    "data[].season.alias": [
+      "string"
+    ],
+    "data[].season.code": [
+      "string"
+    ],
+    "data[].season.competitionCode": [
+      "string"
+    ],
+    "data[].season.name": [
+      "string"
+    ],
+    "data[].season.startDate": [
+      "string"
+    ],
+    "data[].season.year": [
+      "integer"
+    ],
+    "data[].socialFeed": [
+      "string"
+    ],
+    "data[].utcDate": [
+      "string"
+    ],
+    "data[].venue": [
+      "object"
+    ],
+    "data[].venue.active": [
+      "boolean"
+    ],
+    "data[].venue.address": [
+      "string"
+    ],
+    "data[].venue.capacity": [
+      "integer"
+    ],
+    "data[].venue.code": [
+      "string"
+    ],
+    "data[].venue.images": [
+      "object"
+    ],
+    "data[].venue.images.medium": [
+      "null"
+    ],
+    "data[].venue.name": [
+      "string"
+    ],
+    "data[].venue.notes": [
+      "string"
+    ],
+    "data[].winner": [
+      "object"
+    ],
+    "data[].winner.abbreviatedName": [
+      "string"
+    ],
+    "data[].winner.code": [
+      "string"
+    ],
+    "data[].winner.editorialName": [
+      "string"
+    ],
+    "data[].winner.images": [
+      "object"
+    ],
+    "data[].winner.images.crest": [
+      "string"
+    ],
+    "data[].winner.isVirtual": [
+      "boolean"
+    ],
+    "data[].winner.name": [
+      "string"
+    ],
+    "data[].winner.tvCode": [
+      "string"
+    ],
+    "total": [
+      "integer"
+    ]
+  },
+  "v2_season_players": {
+    "$": [
+      "object"
+    ],
+    "data": [
+      "array"
+    ],
+    "data[]": [
+      "object"
+    ],
+    "data[].active": [
+      "boolean"
+    ],
+    "data[].club": [
+      "object"
+    ],
+    "data[].club.abbreviatedName": [
+      "string"
+    ],
+    "data[].club.code": [
+      "string"
+    ],
+    "data[].club.editorialName": [
+      "string"
+    ],
+    "data[].club.images": [
+      "object"
+    ],
+    "data[].club.images.crest": [
+      "string"
+    ],
+    "data[].club.isVirtual": [
+      "boolean"
+    ],
+    "data[].club.name": [
+      "string"
+    ],
+    "data[].club.tvCode": [
+      "string"
+    ],
+    "data[].dorsal": [
+      "string"
+    ],
+    "data[].dorsalRaw": [
+      "string"
+    ],
+    "data[].endDate": [
+      "string"
+    ],
+    "data[].externalId": [
+      "integer"
+    ],
+    "data[].images": [
+      "object"
+    ],
+    "data[].images.action": [
+      "string"
+    ],
+    "data[].images.headshot": [
+      "string"
+    ],
+    "data[].lastTeam": [
+      "string"
+    ],
+    "data[].order": [
+      "integer"
+    ],
+    "data[].person": [
+      "object"
+    ],
+    "data[].person.abbreviatedName": [
+      "null",
+      "string"
+    ],
+    "data[].person.alias": [
+      "string"
+    ],
+    "data[].person.aliasRaw": [
+      "string"
+    ],
+    "data[].person.birthCountry": [
+      "object"
+    ],
+    "data[].person.birthCountry.code": [
+      "string"
+    ],
+    "data[].person.birthCountry.name": [
+      "string"
+    ],
+    "data[].person.birthDate": [
+      "string"
+    ],
+    "data[].person.code": [
+      "string"
+    ],
+    "data[].person.country": [
+      "object"
+    ],
+    "data[].person.country.code": [
+      "string"
+    ],
+    "data[].person.country.name": [
+      "string"
+    ],
+    "data[].person.facebookAccount": [
+      "string"
+    ],
+    "data[].person.height": [
+      "integer"
+    ],
+    "data[].person.images": [
+      "object"
+    ],
+    "data[].person.images.action": [
+      "string"
+    ],
+    "data[].person.images.headshot": [
+      "string"
+    ],
+    "data[].person.instagramAccount": [
+      "string"
+    ],
+    "data[].person.isReferee": [
+      "boolean"
+    ],
+    "data[].person.jerseyName": [
+      "string"
+    ],
+    "data[].person.name": [
+      "string"
+    ],
+    "data[].person.passportName": [
+      "string"
+    ],
+    "data[].person.passportSurname": [
+      "string"
+    ],
+    "data[].person.twitterAccount": [
+      "string"
+    ],
+    "data[].person.weight": [
+      "integer"
+    ],
+    "data[].position": [
+      "integer"
+    ],
+    "data[].positionName": [
+      "string"
+    ],
+    "data[].season": [
+      "object"
+    ],
+    "data[].season.alias": [
+      "string"
+    ],
+    "data[].season.code": [
+      "string"
+    ],
+    "data[].season.competitionCode": [
+      "string"
+    ],
+    "data[].season.name": [
+      "string"
+    ],
+    "data[].season.startDate": [
+      "string"
+    ],
+    "data[].season.year": [
+      "integer"
+    ],
+    "data[].startDate": [
+      "string"
+    ],
+    "data[].type": [
+      "string"
+    ],
+    "data[].typeName": [
+      "string"
+    ],
+    "total": [
+      "integer"
+    ]
+  },
+  "v3_game_report": {
+    "$": [
+      "object"
+    ],
+    "confirmedDate": [
+      "boolean"
+    ],
+    "confirmedHour": [
+      "boolean"
+    ],
+    "date": [
+      "string"
+    ],
+    "gameCode": [
+      "integer"
+    ],
+    "group": [
+      "object"
+    ],
+    "group.id": [
+      "string"
+    ],
+    "group.name": [
+      "string"
+    ],
+    "group.order": [
+      "integer"
+    ],
+    "group.rawName": [
+      "string"
+    ],
+    "local": [
+      "object"
+    ],
+    "local.club": [
+      "object"
+    ],
+    "local.club.abbreviatedName": [
+      "string"
+    ],
+    "local.club.code": [
+      "string"
+    ],
+    "local.club.editorialName": [
+      "string"
+    ],
+    "local.club.images": [
+      "object"
+    ],
+    "local.club.images.crest": [
+      "string"
+    ],
+    "local.club.isVirtual": [
+      "boolean"
+    ],
+    "local.club.name": [
+      "string"
+    ],
+    "local.club.tvCode": [
+      "string"
+    ],
+    "local.score": [
+      "integer"
+    ],
+    "local.standingsScore": [
+      "integer"
+    ],
+    "localDate": [
+      "string"
+    ],
+    "localLast5Form": [
+      "array"
+    ],
+    "localLast5Form[]": [
+      "string"
+    ],
+    "localTimeZone": [
+      "integer"
+    ],
+    "phaseType": [
+      "object"
+    ],
+    "phaseType.alias": [
+      "string"
+    ],
+    "phaseType.code": [
+      "string"
+    ],
+    "phaseType.isGroupPhase": [
+      "boolean"
+    ],
+    "phaseType.name": [
+      "string"
+    ],
+    "played": [
+      "boolean"
+    ],
+    "road": [
+      "object"
+    ],
+    "road.club": [
+      "object"
+    ],
+    "road.club.abbreviatedName": [
+      "string"
+    ],
+    "road.club.code": [
+      "string"
+    ],
+    "road.club.editorialName": [
+      "string"
+    ],
+    "road.club.images": [
+      "object"
+    ],
+    "road.club.images.crest": [
+      "string"
+    ],
+    "road.club.isVirtual": [
+      "boolean"
+    ],
+    "road.club.name": [
+      "string"
+    ],
+    "road.club.tvCode": [
+      "string"
+    ],
+    "road.score": [
+      "integer"
+    ],
+    "road.standingsScore": [
+      "integer"
+    ],
+    "roadLast5Form": [
+      "array"
+    ],
+    "roadLast5Form[]": [
+      "string"
+    ],
+    "round": [
+      "integer"
+    ],
+    "roundAlias": [
+      "string"
+    ],
+    "roundName": [
+      "string"
+    ],
+    "season": [
+      "object"
+    ],
+    "season.alias": [
+      "string"
+    ],
+    "season.code": [
+      "string"
+    ],
+    "season.competitionCode": [
+      "string"
+    ],
+    "season.name": [
+      "string"
+    ],
+    "season.startDate": [
+      "string"
+    ],
+    "season.year": [
+      "integer"
+    ],
+    "utcDate": [
+      "string"
+    ]
+  },
+  "v3_game_stats": {
+    "$": [
+      "object"
+    ],
+    "local": [
+      "object"
+    ],
+    "local.coach": [
+      "object"
+    ],
+    "local.coach.code": [
+      "string"
+    ],
+    "local.coach.name": [
+      "string"
+    ],
+    "local.players": [
+      "array"
+    ],
+    "local.players[]": [
+      "object"
+    ],
+    "local.players[].player": [
+      "object"
+    ],
+    "local.players[].player.active": [
+      "boolean"
+    ],
+    "local.players[].player.club": [
+      "object"
+    ],
+    "local.players[].player.club.abbreviatedName": [
+      "string"
+    ],
+    "local.players[].player.club.code": [
+      "string"
+    ],
+    "local.players[].player.club.editorialName": [
+      "string"
+    ],
+    "local.players[].player.club.images": [
+      "object"
+    ],
+    "local.players[].player.club.images.crest": [
+      "string"
+    ],
+    "local.players[].player.club.isVirtual": [
+      "boolean"
+    ],
+    "local.players[].player.club.name": [
+      "string"
+    ],
+    "local.players[].player.club.tvCode": [
+      "string"
+    ],
+    "local.players[].player.dorsal": [
+      "string"
+    ],
+    "local.players[].player.dorsalRaw": [
+      "string"
+    ],
+    "local.players[].player.endDate": [
+      "string"
+    ],
+    "local.players[].player.externalId": [
+      "integer"
+    ],
+    "local.players[].player.images": [
+      "object"
+    ],
+    "local.players[].player.images.action": [
+      "string"
+    ],
+    "local.players[].player.images.headshot": [
+      "string"
+    ],
+    "local.players[].player.lastTeam": [
+      "string"
+    ],
+    "local.players[].player.order": [
+      "integer"
+    ],
+    "local.players[].player.person": [
+      "object"
+    ],
+    "local.players[].player.person.abbreviatedName": [
+      "null",
+      "string"
+    ],
+    "local.players[].player.person.alias": [
+      "string"
+    ],
+    "local.players[].player.person.aliasRaw": [
+      "string"
+    ],
+    "local.players[].player.person.birthCountry": [
+      "object"
+    ],
+    "local.players[].player.person.birthCountry.code": [
+      "string"
+    ],
+    "local.players[].player.person.birthCountry.name": [
+      "string"
+    ],
+    "local.players[].player.person.birthDate": [
+      "string"
+    ],
+    "local.players[].player.person.code": [
+      "string"
+    ],
+    "local.players[].player.person.country": [
+      "object"
+    ],
+    "local.players[].player.person.country.code": [
+      "string"
+    ],
+    "local.players[].player.person.country.name": [
+      "string"
+    ],
+    "local.players[].player.person.facebookAccount": [
+      "string"
+    ],
+    "local.players[].player.person.height": [
+      "integer"
+    ],
+    "local.players[].player.person.images": [
+      "object"
+    ],
+    "local.players[].player.person.images.headshot": [
+      "string"
+    ],
+    "local.players[].player.person.instagramAccount": [
+      "string"
+    ],
+    "local.players[].player.person.isReferee": [
+      "boolean"
+    ],
+    "local.players[].player.person.jerseyName": [
+      "string"
+    ],
+    "local.players[].player.person.name": [
+      "string"
+    ],
+    "local.players[].player.person.passportName": [
+      "string"
+    ],
+    "local.players[].player.person.passportSurname": [
+      "string"
+    ],
+    "local.players[].player.person.twitterAccount": [
+      "string"
+    ],
+    "local.players[].player.person.weight": [
+      "integer"
+    ],
+    "local.players[].player.position": [
+      "integer"
+    ],
+    "local.players[].player.positionName": [
+      "string"
+    ],
+    "local.players[].player.season": [
+      "object"
+    ],
+    "local.players[].player.season.alias": [
+      "string"
+    ],
+    "local.players[].player.season.code": [
+      "string"
+    ],
+    "local.players[].player.season.competitionCode": [
+      "string"
+    ],
+    "local.players[].player.season.name": [
+      "string"
+    ],
+    "local.players[].player.season.startDate": [
+      "string"
+    ],
+    "local.players[].player.season.year": [
+      "integer"
+    ],
+    "local.players[].player.startDate": [
+      "string"
+    ],
+    "local.players[].player.type": [
+      "string"
+    ],
+    "local.players[].player.typeName": [
+      "string"
+    ],
+    "local.players[].stats": [
+      "object"
+    ],
+    "local.players[].stats.accuracyAttempted": [
+      "number"
+    ],
+    "local.players[].stats.accuracyMade": [
+      "number"
+    ],
+    "local.players[].stats.assistances": [
+      "number"
+    ],
+    "local.players[].stats.blocksAgainst": [
+      "number"
+    ],
+    "local.players[].stats.blocksFavour": [
+      "number"
+    ],
+    "local.players[].stats.defensiveRebounds": [
+      "number"
+    ],
+    "local.players[].stats.dorsal": [
+      "integer"
+    ],
+    "local.players[].stats.fieldGoalsAttempted2": [
+      "number"
+    ],
+    "local.players[].stats.fieldGoalsAttempted3": [
+      "number"
+    ],
+    "local.players[].stats.fieldGoalsAttemptedTotal": [
+      "number"
+    ],
+    "local.players[].stats.fieldGoalsMade2": [
+      "number"
+    ],
+    "local.players[].stats.fieldGoalsMade3": [
+      "number"
+    ],
+    "local.players[].stats.fieldGoalsMadeTotal": [
+      "number"
+    ],
+    "local.players[].stats.foulsCommited": [
+      "number"
+    ],
+    "local.players[].stats.foulsReceived": [
+      "number"
+    ],
+    "local.players[].stats.freeThrowsAttempted": [
+      "number"
+    ],
+    "local.players[].stats.freeThrowsMade": [
+      "number"
+    ],
+    "local.players[].stats.offensiveRebounds": [
+      "number"
+    ],
+    "local.players[].stats.plusMinus": [
+      "number"
+    ],
+    "local.players[].stats.points": [
+      "number"
+    ],
+    "local.players[].stats.startFive": [
+      "boolean"
+    ],
+    "local.players[].stats.startFive2": [
+      "boolean"
+    ],
+    "local.players[].stats.steals": [
+      "number"
+    ],
+    "local.players[].stats.timePlayed": [
+      "number"
+    ],
+    "local.players[].stats.totalRebounds": [
+      "number"
+    ],
+    "local.players[].stats.turnovers": [
+      "number"
+    ],
+    "local.players[].stats.valuation": [
+      "number"
+    ],
+    "local.team": [
+      "object"
+    ],
+    "local.team.accuracyAttempted": [
+      "number"
+    ],
+    "local.team.accuracyMade": [
+      "number"
+    ],
+    "local.team.assistances": [
+      "number"
+    ],
+    "local.team.blocksAgainst": [
+      "number"
+    ],
+    "local.team.blocksFavour": [
+      "number"
+    ],
+    "local.team.defensiveRebounds": [
+      "number"
+    ],
+    "local.team.fieldGoalsAttempted2": [
+      "number"
+    ],
+    "local.team.fieldGoalsAttempted3": [
+      "number"
+    ],
+    "local.team.fieldGoalsAttemptedTotal": [
+      "number"
+    ],
+    "local.team.fieldGoalsMade2": [
+      "number"
+    ],
+    "local.team.fieldGoalsMade3": [
+      "number"
+    ],
+    "local.team.fieldGoalsMadeTotal": [
+      "number"
+    ],
+    "local.team.foulsCommited": [
+      "number"
+    ],
+    "local.team.foulsReceived": [
+      "number"
+    ],
+    "local.team.freeThrowsAttempted": [
+      "number"
+    ],
+    "local.team.freeThrowsMade": [
+      "number"
+    ],
+    "local.team.offensiveRebounds": [
+      "number"
+    ],
+    "local.team.plusMinus": [
+      "number"
+    ],
+    "local.team.points": [
+      "number"
+    ],
+    "local.team.steals": [
+      "number"
+    ],
+    "local.team.timePlayed": [
+      "number"
+    ],
+    "local.team.totalRebounds": [
+      "number"
+    ],
+    "local.team.turnovers": [
+      "number"
+    ],
+    "local.team.valuation": [
+      "number"
+    ],
+    "local.total": [
+      "object"
+    ],
+    "local.total.accuracyAttempted": [
+      "number"
+    ],
+    "local.total.accuracyMade": [
+      "number"
+    ],
+    "local.total.assistances": [
+      "number"
+    ],
+    "local.total.blocksAgainst": [
+      "number"
+    ],
+    "local.total.blocksFavour": [
+      "number"
+    ],
+    "local.total.defensiveRebounds": [
+      "number"
+    ],
+    "local.total.fieldGoalsAttempted2": [
+      "number"
+    ],
+    "local.total.fieldGoalsAttempted3": [
+      "number"
+    ],
+    "local.total.fieldGoalsAttemptedTotal": [
+      "number"
+    ],
+    "local.total.fieldGoalsMade2": [
+      "number"
+    ],
+    "local.total.fieldGoalsMade3": [
+      "number"
+    ],
+    "local.total.fieldGoalsMadeTotal": [
+      "number"
+    ],
+    "local.total.foulsCommited": [
+      "number"
+    ],
+    "local.total.foulsReceived": [
+      "number"
+    ],
+    "local.total.freeThrowsAttempted": [
+      "number"
+    ],
+    "local.total.freeThrowsMade": [
+      "number"
+    ],
+    "local.total.offensiveRebounds": [
+      "number"
+    ],
+    "local.total.plusMinus": [
+      "number"
+    ],
+    "local.total.points": [
+      "number"
+    ],
+    "local.total.steals": [
+      "number"
+    ],
+    "local.total.timePlayed": [
+      "number"
+    ],
+    "local.total.totalRebounds": [
+      "number"
+    ],
+    "local.total.turnovers": [
+      "number"
+    ],
+    "local.total.valuation": [
+      "number"
+    ],
+    "road": [
+      "object"
+    ],
+    "road.coach": [
+      "object"
+    ],
+    "road.coach.code": [
+      "string"
+    ],
+    "road.coach.name": [
+      "string"
+    ],
+    "road.players": [
+      "array"
+    ],
+    "road.players[]": [
+      "object"
+    ],
+    "road.players[].player": [
+      "object"
+    ],
+    "road.players[].player.active": [
+      "boolean"
+    ],
+    "road.players[].player.club": [
+      "object"
+    ],
+    "road.players[].player.club.abbreviatedName": [
+      "string"
+    ],
+    "road.players[].player.club.code": [
+      "string"
+    ],
+    "road.players[].player.club.editorialName": [
+      "string"
+    ],
+    "road.players[].player.club.images": [
+      "object"
+    ],
+    "road.players[].player.club.images.crest": [
+      "string"
+    ],
+    "road.players[].player.club.isVirtual": [
+      "boolean"
+    ],
+    "road.players[].player.club.name": [
+      "string"
+    ],
+    "road.players[].player.club.tvCode": [
+      "string"
+    ],
+    "road.players[].player.dorsal": [
+      "string"
+    ],
+    "road.players[].player.dorsalRaw": [
+      "string"
+    ],
+    "road.players[].player.endDate": [
+      "string"
+    ],
+    "road.players[].player.externalId": [
+      "integer"
+    ],
+    "road.players[].player.images": [
+      "object"
+    ],
+    "road.players[].player.images.action": [
+      "string"
+    ],
+    "road.players[].player.images.headshot": [
+      "string"
+    ],
+    "road.players[].player.lastTeam": [
+      "string"
+    ],
+    "road.players[].player.order": [
+      "integer"
+    ],
+    "road.players[].player.person": [
+      "object"
+    ],
+    "road.players[].player.person.abbreviatedName": [
+      "null",
+      "string"
+    ],
+    "road.players[].player.person.alias": [
+      "string"
+    ],
+    "road.players[].player.person.aliasRaw": [
+      "string"
+    ],
+    "road.players[].player.person.birthCountry": [
+      "object"
+    ],
+    "road.players[].player.person.birthCountry.code": [
+      "string"
+    ],
+    "road.players[].player.person.birthCountry.name": [
+      "string"
+    ],
+    "road.players[].player.person.birthDate": [
+      "string"
+    ],
+    "road.players[].player.person.code": [
+      "string"
+    ],
+    "road.players[].player.person.country": [
+      "object"
+    ],
+    "road.players[].player.person.country.code": [
+      "string"
+    ],
+    "road.players[].player.person.country.name": [
+      "string"
+    ],
+    "road.players[].player.person.facebookAccount": [
+      "string"
+    ],
+    "road.players[].player.person.height": [
+      "integer"
+    ],
+    "road.players[].player.person.images": [
+      "object"
+    ],
+    "road.players[].player.person.instagramAccount": [
+      "string"
+    ],
+    "road.players[].player.person.isReferee": [
+      "boolean"
+    ],
+    "road.players[].player.person.jerseyName": [
+      "string"
+    ],
+    "road.players[].player.person.name": [
+      "string"
+    ],
+    "road.players[].player.person.passportName": [
+      "string"
+    ],
+    "road.players[].player.person.passportSurname": [
+      "string"
+    ],
+    "road.players[].player.person.twitterAccount": [
+      "string"
+    ],
+    "road.players[].player.person.weight": [
+      "integer"
+    ],
+    "road.players[].player.position": [
+      "integer"
+    ],
+    "road.players[].player.positionName": [
+      "string"
+    ],
+    "road.players[].player.season": [
+      "object"
+    ],
+    "road.players[].player.season.alias": [
+      "string"
+    ],
+    "road.players[].player.season.code": [
+      "string"
+    ],
+    "road.players[].player.season.competitionCode": [
+      "string"
+    ],
+    "road.players[].player.season.name": [
+      "string"
+    ],
+    "road.players[].player.season.startDate": [
+      "string"
+    ],
+    "road.players[].player.season.year": [
+      "integer"
+    ],
+    "road.players[].player.startDate": [
+      "string"
+    ],
+    "road.players[].player.type": [
+      "string"
+    ],
+    "road.players[].player.typeName": [
+      "string"
+    ],
+    "road.players[].stats": [
+      "object"
+    ],
+    "road.players[].stats.accuracyAttempted": [
+      "number"
+    ],
+    "road.players[].stats.accuracyMade": [
+      "number"
+    ],
+    "road.players[].stats.assistances": [
+      "number"
+    ],
+    "road.players[].stats.blocksAgainst": [
+      "number"
+    ],
+    "road.players[].stats.blocksFavour": [
+      "number"
+    ],
+    "road.players[].stats.defensiveRebounds": [
+      "number"
+    ],
+    "road.players[].stats.dorsal": [
+      "integer"
+    ],
+    "road.players[].stats.fieldGoalsAttempted2": [
+      "number"
+    ],
+    "road.players[].stats.fieldGoalsAttempted3": [
+      "number"
+    ],
+    "road.players[].stats.fieldGoalsAttemptedTotal": [
+      "number"
+    ],
+    "road.players[].stats.fieldGoalsMade2": [
+      "number"
+    ],
+    "road.players[].stats.fieldGoalsMade3": [
+      "number"
+    ],
+    "road.players[].stats.fieldGoalsMadeTotal": [
+      "number"
+    ],
+    "road.players[].stats.foulsCommited": [
+      "number"
+    ],
+    "road.players[].stats.foulsReceived": [
+      "number"
+    ],
+    "road.players[].stats.freeThrowsAttempted": [
+      "number"
+    ],
+    "road.players[].stats.freeThrowsMade": [
+      "number"
+    ],
+    "road.players[].stats.offensiveRebounds": [
+      "number"
+    ],
+    "road.players[].stats.plusMinus": [
+      "number"
+    ],
+    "road.players[].stats.points": [
+      "number"
+    ],
+    "road.players[].stats.startFive": [
+      "boolean"
+    ],
+    "road.players[].stats.startFive2": [
+      "boolean"
+    ],
+    "road.players[].stats.steals": [
+      "number"
+    ],
+    "road.players[].stats.timePlayed": [
+      "number"
+    ],
+    "road.players[].stats.totalRebounds": [
+      "number"
+    ],
+    "road.players[].stats.turnovers": [
+      "number"
+    ],
+    "road.players[].stats.valuation": [
+      "number"
+    ],
+    "road.team": [
+      "object"
+    ],
+    "road.team.accuracyAttempted": [
+      "number"
+    ],
+    "road.team.accuracyMade": [
+      "number"
+    ],
+    "road.team.assistances": [
+      "number"
+    ],
+    "road.team.blocksAgainst": [
+      "number"
+    ],
+    "road.team.blocksFavour": [
+      "number"
+    ],
+    "road.team.defensiveRebounds": [
+      "number"
+    ],
+    "road.team.fieldGoalsAttempted2": [
+      "number"
+    ],
+    "road.team.fieldGoalsAttempted3": [
+      "number"
+    ],
+    "road.team.fieldGoalsAttemptedTotal": [
+      "number"
+    ],
+    "road.team.fieldGoalsMade2": [
+      "number"
+    ],
+    "road.team.fieldGoalsMade3": [
+      "number"
+    ],
+    "road.team.fieldGoalsMadeTotal": [
+      "number"
+    ],
+    "road.team.foulsCommited": [
+      "number"
+    ],
+    "road.team.foulsReceived": [
+      "number"
+    ],
+    "road.team.freeThrowsAttempted": [
+      "number"
+    ],
+    "road.team.freeThrowsMade": [
+      "number"
+    ],
+    "road.team.offensiveRebounds": [
+      "number"
+    ],
+    "road.team.plusMinus": [
+      "number"
+    ],
+    "road.team.points": [
+      "number"
+    ],
+    "road.team.steals": [
+      "number"
+    ],
+    "road.team.timePlayed": [
+      "number"
+    ],
+    "road.team.totalRebounds": [
+      "number"
+    ],
+    "road.team.turnovers": [
+      "number"
+    ],
+    "road.team.valuation": [
+      "number"
+    ],
+    "road.total": [
+      "object"
+    ],
+    "road.total.accuracyAttempted": [
+      "number"
+    ],
+    "road.total.accuracyMade": [
+      "number"
+    ],
+    "road.total.assistances": [
+      "number"
+    ],
+    "road.total.blocksAgainst": [
+      "number"
+    ],
+    "road.total.blocksFavour": [
+      "number"
+    ],
+    "road.total.defensiveRebounds": [
+      "number"
+    ],
+    "road.total.fieldGoalsAttempted2": [
+      "number"
+    ],
+    "road.total.fieldGoalsAttempted3": [
+      "number"
+    ],
+    "road.total.fieldGoalsAttemptedTotal": [
+      "number"
+    ],
+    "road.total.fieldGoalsMade2": [
+      "number"
+    ],
+    "road.total.fieldGoalsMade3": [
+      "number"
+    ],
+    "road.total.fieldGoalsMadeTotal": [
+      "number"
+    ],
+    "road.total.foulsCommited": [
+      "number"
+    ],
+    "road.total.foulsReceived": [
+      "number"
+    ],
+    "road.total.freeThrowsAttempted": [
+      "number"
+    ],
+    "road.total.freeThrowsMade": [
+      "number"
+    ],
+    "road.total.offensiveRebounds": [
+      "number"
+    ],
+    "road.total.plusMinus": [
+      "number"
+    ],
+    "road.total.points": [
+      "number"
+    ],
+    "road.total.steals": [
+      "number"
+    ],
+    "road.total.timePlayed": [
+      "number"
+    ],
+    "road.total.totalRebounds": [
+      "number"
+    ],
+    "road.total.turnovers": [
+      "number"
+    ],
+    "road.total.valuation": [
+      "number"
+    ]
+  },
+  "v3_game_team_comparison": {
+    "$": [
+      "object"
+    ],
+    "localTeam": [
+      "object"
+    ],
+    "localTeam.defenseStats": [
+      "object"
+    ],
+    "localTeam.defenseStats.assists": [
+      "object"
+    ],
+    "localTeam.defenseStats.assists.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.assists.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.blocks": [
+      "object"
+    ],
+    "localTeam.defenseStats.blocks.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.blocks.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.defensiveRebounds": [
+      "object"
+    ],
+    "localTeam.defenseStats.defensiveRebounds.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.defensiveRebounds.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.fieldGoals2Percent": [
+      "object"
+    ],
+    "localTeam.defenseStats.fieldGoals2Percent.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.fieldGoals2Percent.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.fieldGoals3Percent": [
+      "object"
+    ],
+    "localTeam.defenseStats.fieldGoals3Percent.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.fieldGoals3Percent.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.freeThrowsPercent": [
+      "object"
+    ],
+    "localTeam.defenseStats.freeThrowsPercent.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.freeThrowsPercent.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.offensiveRebounds": [
+      "object"
+    ],
+    "localTeam.defenseStats.offensiveRebounds.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.offensiveRebounds.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.score": [
+      "object"
+    ],
+    "localTeam.defenseStats.score.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.score.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.steals": [
+      "object"
+    ],
+    "localTeam.defenseStats.steals.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.steals.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.totalRebounds": [
+      "object"
+    ],
+    "localTeam.defenseStats.totalRebounds.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.totalRebounds.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.turnovers": [
+      "object"
+    ],
+    "localTeam.defenseStats.turnovers.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.turnovers.value": [
+      "number"
+    ],
+    "localTeam.defenseStats.valuation": [
+      "object"
+    ],
+    "localTeam.defenseStats.valuation.rank": [
+      "integer"
+    ],
+    "localTeam.defenseStats.valuation.value": [
+      "number"
+    ],
+    "localTeam.offenseStats": [
+      "object"
+    ],
+    "localTeam.offenseStats.assists": [
+      "object"
+    ],
+    "localTeam.offenseStats.assists.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.assists.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.blocks": [
+      "object"
+    ],
+    "localTeam.offenseStats.blocks.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.blocks.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.defensiveRebounds": [
+      "object"
+    ],
+    "localTeam.offenseStats.defensiveRebounds.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.defensiveRebounds.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.fieldGoals2Percent": [
+      "object"
+    ],
+    "localTeam.offenseStats.fieldGoals2Percent.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.fieldGoals2Percent.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.fieldGoals3Percent": [
+      "object"
+    ],
+    "localTeam.offenseStats.fieldGoals3Percent.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.fieldGoals3Percent.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.freeThrowsPercent": [
+      "object"
+    ],
+    "localTeam.offenseStats.freeThrowsPercent.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.freeThrowsPercent.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.offensiveRebounds": [
+      "object"
+    ],
+    "localTeam.offenseStats.offensiveRebounds.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.offensiveRebounds.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.score": [
+      "object"
+    ],
+    "localTeam.offenseStats.score.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.score.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.steals": [
+      "object"
+    ],
+    "localTeam.offenseStats.steals.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.steals.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.totalRebounds": [
+      "object"
+    ],
+    "localTeam.offenseStats.totalRebounds.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.totalRebounds.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.turnovers": [
+      "object"
+    ],
+    "localTeam.offenseStats.turnovers.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.turnovers.value": [
+      "number"
+    ],
+    "localTeam.offenseStats.valuation": [
+      "object"
+    ],
+    "localTeam.offenseStats.valuation.rank": [
+      "integer"
+    ],
+    "localTeam.offenseStats.valuation.value": [
+      "number"
+    ],
+    "roadTeam": [
+      "object"
+    ],
+    "roadTeam.defenseStats": [
+      "object"
+    ],
+    "roadTeam.defenseStats.assists": [
+      "object"
+    ],
+    "roadTeam.defenseStats.assists.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.assists.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.blocks": [
+      "object"
+    ],
+    "roadTeam.defenseStats.blocks.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.blocks.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.defensiveRebounds": [
+      "object"
+    ],
+    "roadTeam.defenseStats.defensiveRebounds.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.defensiveRebounds.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.fieldGoals2Percent": [
+      "object"
+    ],
+    "roadTeam.defenseStats.fieldGoals2Percent.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.fieldGoals2Percent.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.fieldGoals3Percent": [
+      "object"
+    ],
+    "roadTeam.defenseStats.fieldGoals3Percent.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.fieldGoals3Percent.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.freeThrowsPercent": [
+      "object"
+    ],
+    "roadTeam.defenseStats.freeThrowsPercent.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.freeThrowsPercent.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.offensiveRebounds": [
+      "object"
+    ],
+    "roadTeam.defenseStats.offensiveRebounds.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.offensiveRebounds.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.score": [
+      "object"
+    ],
+    "roadTeam.defenseStats.score.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.score.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.steals": [
+      "object"
+    ],
+    "roadTeam.defenseStats.steals.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.steals.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.totalRebounds": [
+      "object"
+    ],
+    "roadTeam.defenseStats.totalRebounds.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.totalRebounds.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.turnovers": [
+      "object"
+    ],
+    "roadTeam.defenseStats.turnovers.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.turnovers.value": [
+      "number"
+    ],
+    "roadTeam.defenseStats.valuation": [
+      "object"
+    ],
+    "roadTeam.defenseStats.valuation.rank": [
+      "integer"
+    ],
+    "roadTeam.defenseStats.valuation.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats": [
+      "object"
+    ],
+    "roadTeam.offenseStats.assists": [
+      "object"
+    ],
+    "roadTeam.offenseStats.assists.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.assists.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.blocks": [
+      "object"
+    ],
+    "roadTeam.offenseStats.blocks.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.blocks.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.defensiveRebounds": [
+      "object"
+    ],
+    "roadTeam.offenseStats.defensiveRebounds.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.defensiveRebounds.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.fieldGoals2Percent": [
+      "object"
+    ],
+    "roadTeam.offenseStats.fieldGoals2Percent.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.fieldGoals2Percent.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.fieldGoals3Percent": [
+      "object"
+    ],
+    "roadTeam.offenseStats.fieldGoals3Percent.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.fieldGoals3Percent.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.freeThrowsPercent": [
+      "object"
+    ],
+    "roadTeam.offenseStats.freeThrowsPercent.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.freeThrowsPercent.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.offensiveRebounds": [
+      "object"
+    ],
+    "roadTeam.offenseStats.offensiveRebounds.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.offensiveRebounds.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.score": [
+      "object"
+    ],
+    "roadTeam.offenseStats.score.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.score.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.steals": [
+      "object"
+    ],
+    "roadTeam.offenseStats.steals.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.steals.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.totalRebounds": [
+      "object"
+    ],
+    "roadTeam.offenseStats.totalRebounds.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.totalRebounds.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.turnovers": [
+      "object"
+    ],
+    "roadTeam.offenseStats.turnovers.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.turnovers.value": [
+      "number"
+    ],
+    "roadTeam.offenseStats.valuation": [
+      "object"
+    ],
+    "roadTeam.offenseStats.valuation.rank": [
+      "integer"
+    ],
+    "roadTeam.offenseStats.valuation.value": [
+      "number"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+season_code,round,game_id,game_code,team_id,team_name,opponent_id,home_away,coach,minutes_raw,team_rebounds_offensive,team_rebounds_defensive,team_rebounds_total,points,two_pointers_made,two_pointers_attempted,three_pointers_made,three_pointers_attempted,free_throws_made,free_throws_attempted,offensive_rebounds,defensive_rebounds,total_rebounds,assists,steals,turnovers,blocks,blocks_received,fouls_committed,fouls_drawn,pir,plus_minus
+E2025,1,36b71746-aa99-4b5f-bac4-986444b0b917,1,IST,ANADOLU EFES ISTANBUL,TEL,home,"KOKOSKOV, IGOR",200:00,1,3,4,85,23,37,9,29,12,15,14,26,40,15,6,14,1,3,21,20,92,
+E2025,1,36b71746-aa99-4b5f-bac4-986444b0b917,1,TEL,MACCABI RAPYD TEL AVIV,IST,away,"KATTASH, ODED",200:00,1,2,3,78,21,38,7,27,15,17,12,20,32,20,8,12,3,1,20,21,90,
+E2025,2,613d4c74-9a82-4ca6-a9fe-9935d87faf2c,11,MUN,FC BAYERN MUNICH,RED,home,"HERBERT, GORDON",200:00,2,0,2,97,24,34,14,32,7,11,11,16,27,20,9,9,1,1,27,18,103,
+E2025,2,613d4c74-9a82-4ca6-a9fe-9935d87faf2c,11,RED,CRVENA ZVEZDA MERIDIANBET BELGRADE,MUN,away,"SFAIROPOULOS, IOANNIS",200:00,1,1,2,88,17,29,10,25,24,30,11,18,29,14,2,15,1,1,19,26,92,
+E2025,1,7e2477cd-e396-47da-aee6-f8ba486db00b,2,BAS,BASKONIA VITORIA-GASTEIZ,OLY,home,"GALBIATI, PAOLO",200:00,3,1,4,96,19,31,15,41,13,16,15,19,34,24,7,14,3,0,23,16,102,
+E2025,1,7e2477cd-e396-47da-aee6-f8ba486db00b,2,OLY,OLYMPIACOS PIRAEUS,BAS,away,"BARTZOKAS, GEORGIOS",200:00,3,0,3,102,25,46,7,26,31,32,20,23,43,19,10,10,0,3,16,23,127,

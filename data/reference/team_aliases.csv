@@ -1,0 +1,4 @@
+source,alias_type,alias_value,season_code,official_team_code,match_method,manually_reviewed,notes
+fantasy,PROVIDER_ID,143,E2025,BAS,MANUAL_PHASE_1_5,true,Fantaking team 143 is Baskonia.
+fantasy,CODE,KBA,E2025,BAS,MANUAL_PHASE_1_5,true,Fantasy abbreviation differs from official BAS.
+fantasy,NAME,Baskonia Vitoria-Gasteiz,E2025,BAS,MANUAL_PHASE_1_5,true,Fantasy omits the current sponsor prefix Kosner.

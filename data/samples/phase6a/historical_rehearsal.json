@@ -1,0 +1,40 @@
+{
+  "availability_condition": "CONDITIONAL_ON_KNOWN_ABSENCE_SET",
+  "cutoff_violations": {
+    "opponent_history": 0,
+    "player_history": 0,
+    "rotation_history": 0,
+    "team_history": 0
+  },
+  "games": 16,
+  "generated_at": "2026-08-19T13:43:46.639316+00:00",
+  "historical_availability_knowledge_claimed": false,
+  "matchdays": [
+    1,
+    2
+  ],
+  "maximum_decomposed_only_adjustment_identity_error": 3.1363800445660672e-15,
+  "maximum_direct_component_difference": 7.105427357601002e-15,
+  "maximum_team_minute_reconciliation_error": 5.684341886080802e-14,
+  "metrics": {
+    "adjusted_mae": 6.3890692333665156,
+    "adjusted_rmse": 8.439441603836359,
+    "unadjusted_mae": 6.390427459274006,
+    "unadjusted_rmse": 8.44094889913037
+  },
+  "mode": "HISTORICAL_REHEARSAL",
+  "numerically_identical_repeat": true,
+  "phase4b_bundle_fingerprint": "e3917ad718ff21d2c93609621f6f7f37197c1a363ad145e1ad84c04cd482f554",
+  "phase4b_bundle_identifier": "phase4b_conditional_performance_frozen_v1",
+  "phase5b_redistribution_unchanged": true,
+  "point_in_time_cutoff": "each target row's retained pre-game feature_cutoff_time",
+  "prediction_fingerprint": "146c3bca97c6365b11be101aad62551ea1f541511e69250d08f225bb82db7e7b",
+  "repeat_prediction_fingerprint": "146c3bca97c6365b11be101aad62551ea1f541511e69250d08f225bb82db7e7b",
+  "rows": 189,
+  "season": "E2025",
+  "serialized_phase4b_bundle_used": true,
+  "successful": true,
+  "target_game_information_used_as_features": false,
+  "target_outcomes_revealed_only_for_post_prediction_evaluation": true,
+  "teams": 21
+}

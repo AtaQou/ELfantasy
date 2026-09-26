@@ -1,0 +1,5305 @@
+{
+  "baseline_metrics": [
+    {
+      "baseline": "season_average",
+      "history_window_seasons": 8,
+      "mae": 6.00839977644563,
+      "pearson": 0.4711882620978122,
+      "rmse": 7.760083882460808,
+      "rows": 29232,
+      "spearman": 0.46720891166638323
+    },
+    {
+      "baseline": "last_3",
+      "history_window_seasons": 8,
+      "mae": 6.46318532202153,
+      "pearson": 0.41666441772207125,
+      "rmse": 8.36497541636095,
+      "rows": 29232,
+      "spearman": 0.41354503225400635
+    },
+    {
+      "baseline": "last_5",
+      "history_window_seasons": 8,
+      "mae": 6.186475209815727,
+      "pearson": 0.447031328009216,
+      "rmse": 7.999384232888604,
+      "rows": 29232,
+      "spearman": 0.4426284868417015
+    },
+    {
+      "baseline": "ewma",
+      "history_window_seasons": 8,
+      "mae": 6.1862133130005,
+      "pearson": 0.4486250713230218,
+      "rmse": 7.999120682573332,
+      "rows": 29232,
+      "spearman": 0.4456409287230855
+    },
+    {
+      "baseline": "fp_per_min_x_minutes",
+      "history_window_seasons": 8,
+      "mae": 6.170750531951189,
+      "pearson": 0.44990657820975,
+      "rmse": 7.979874957918725,
+      "rows": 29232,
+      "spearman": 0.44560464131985117
+    },
+    {
+      "baseline": "season_recent_blend",
+      "history_window_seasons": 8,
+      "mae": 5.995291989129302,
+      "pearson": 0.47593837598074373,
+      "rmse": 7.73335264930418,
+      "rows": 29232,
+      "spearman": 0.47035070457558353
+    }
+  ],
+  "evaluation_semantics": "E2022_E2025_OFFICIAL_TARGET_CONDITIONAL_ON_PLAYING_ALL_MAJOR_RICH_AVAILABLE",
+  "family_missingness": [
+    {
+      "family": "rotation",
+      "feature_count": 26,
+      "full_missing_rate": 0.32765300290281074,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.02945139152035704,
+      "primary_rows": 29232
+    },
+    {
+      "family": "onoff",
+      "feature_count": 18,
+      "full_missing_rate": 0.32502368955097627,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.021967934683451925,
+      "primary_rows": 29232
+    },
+    {
+      "family": "lineup",
+      "feature_count": 8,
+      "full_missing_rate": 0.27774880128838625,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.024583504378763,
+      "primary_rows": 29232
+    },
+    {
+      "family": "teammate",
+      "feature_count": 4,
+      "full_missing_rate": 0.34643680685187217,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.0,
+      "primary_rows": 29232
+    },
+    {
+      "family": "player_shot",
+      "feature_count": 33,
+      "full_missing_rate": 0.3288285290591209,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.03563446451377486,
+      "primary_rows": 29232
+    },
+    {
+      "family": "opponent_shot",
+      "feature_count": 24,
+      "full_missing_rate": 0.3188893159108378,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.012802750410509031,
+      "primary_rows": 29232
+    },
+    {
+      "family": "interaction",
+      "feature_count": 3,
+      "full_missing_rate": 0.36473774752022253,
+      "full_rows": 54642,
+      "primary_missing_rate": 0.027880405035577448,
+      "primary_rows": 29232
+    }
+  ],
+  "feature_correlations": [
+    {
+      "blend_residual_pearson": -0.01259832260840892,
+      "blend_residual_spearman": -0.014091956863743971,
+      "family": "rotation",
+      "feature": "rot_games_before",
+      "rows": 29232,
+      "target_pearson": 0.1293921033082799,
+      "target_spearman": 0.14354964620901872
+    },
+    {
+      "blend_residual_pearson": 0.008024914575133296,
+      "blend_residual_spearman": 0.002520344480478835,
+      "family": "rotation",
+      "feature": "rot_last3_games_n",
+      "rows": 29232,
+      "target_pearson": 0.02632973215527549,
+      "target_spearman": 0.031934145477002386
+    },
+    {
+      "blend_residual_pearson": 0.001193274942675757,
+      "blend_residual_spearman": -0.008170262766915544,
+      "family": "rotation",
+      "feature": "rot_last5_games_n",
+      "rows": 29232,
+      "target_pearson": 0.04390210922955951,
+      "target_spearman": 0.052565786440837654
+    },
+    {
+      "blend_residual_pearson": -0.0068873501390426225,
+      "blend_residual_spearman": -0.010696354810092124,
+      "family": "rotation",
+      "feature": "rot_last1_stint_count",
+      "rows": 29232,
+      "target_pearson": 0.1431357436663348,
+      "target_spearman": 0.16248817281228534
+    },
+    {
+      "blend_residual_pearson": -0.023728879698485698,
+      "blend_residual_spearman": -0.026809086820030498,
+      "family": "rotation",
+      "feature": "rot_last3_stint_count_avg",
+      "rows": 29232,
+      "target_pearson": 0.1677960563514207,
+      "target_spearman": 0.1904511426066587
+    },
+    {
+      "blend_residual_pearson": -0.027445894274655873,
+      "blend_residual_spearman": -0.03153101889887052,
+      "family": "rotation",
+      "feature": "rot_last5_stint_count_avg",
+      "rows": 29232,
+      "target_pearson": 0.17322478532344168,
+      "target_spearman": 0.19815175125788298
+    },
+    {
+      "blend_residual_pearson": -0.047630508713432336,
+      "blend_residual_spearman": -0.0536796648790397,
+      "family": "rotation",
+      "feature": "rot_last3_avg_stint_minutes",
+      "rows": 29232,
+      "target_pearson": 0.28339056389016926,
+      "target_spearman": 0.29381706558757775
+    },
+    {
+      "blend_residual_pearson": -0.05075266968016837,
+      "blend_residual_spearman": -0.05892353580008888,
+      "family": "rotation",
+      "feature": "rot_last5_avg_stint_minutes",
+      "rows": 29232,
+      "target_pearson": 0.3014667182801102,
+      "target_spearman": 0.3085709978065942
+    },
+    {
+      "blend_residual_pearson": -0.05261048284771305,
+      "blend_residual_spearman": -0.060095246708636675,
+      "family": "rotation",
+      "feature": "rot_last3_longest_stint_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.3176832054210251,
+      "target_spearman": 0.32536662189721244
+    },
+    {
+      "blend_residual_pearson": -0.0565759837572232,
+      "blend_residual_spearman": -0.06495276605640805,
+      "family": "rotation",
+      "feature": "rot_last5_longest_stint_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.33484967122542286,
+      "target_spearman": 0.34057188048715853
+    },
+    {
+      "blend_residual_pearson": -0.02741030618047697,
+      "blend_residual_spearman": -0.025288560808471926,
+      "family": "rotation",
+      "feature": "rot_last3_first_sub_out_minutes_avg",
+      "rows": 18425,
+      "target_pearson": 0.16885759443739054,
+      "target_spearman": 0.1859970768326662
+    },
+    {
+      "blend_residual_pearson": -0.02801429191090445,
+      "blend_residual_spearman": -0.030879625654486834,
+      "family": "rotation",
+      "feature": "rot_last5_first_sub_out_minutes_avg",
+      "rows": 20744,
+      "target_pearson": 0.17994711984199907,
+      "target_spearman": 0.1931530943409212
+    },
+    {
+      "blend_residual_pearson": 0.02966956863229553,
+      "blend_residual_spearman": 0.03233705478724616,
+      "family": "rotation",
+      "feature": "rot_last3_first_entry_minutes_avg",
+      "rows": 29232,
+      "target_pearson": -0.28912143546296454,
+      "target_spearman": -0.30892770132522884
+    },
+    {
+      "blend_residual_pearson": 0.03294015899574763,
+      "blend_residual_spearman": 0.03736983287861482,
+      "family": "rotation",
+      "feature": "rot_last5_first_entry_minutes_avg",
+      "rows": 29232,
+      "target_pearson": -0.30238310559420967,
+      "target_spearman": -0.3214806673118135
+    },
+    {
+      "blend_residual_pearson": -0.040843382718828355,
+      "blend_residual_spearman": -0.050205848401210146,
+      "family": "rotation",
+      "feature": "rot_last5_first_stint_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.24605083065148625,
+      "target_spearman": 0.26062626770861663
+    },
+    {
+      "blend_residual_pearson": -0.06696300671634899,
+      "blend_residual_spearman": -0.07147270967421476,
+      "family": "rotation",
+      "feature": "rot_last5_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.4169629416862128,
+      "target_spearman": 0.4230403391164802
+    },
+    {
+      "blend_residual_pearson": -0.06688898101000137,
+      "blend_residual_spearman": -0.07152830588559553,
+      "family": "rotation",
+      "feature": "rot_last5_minutes_share",
+      "rows": 29232,
+      "target_pearson": 0.41714650182855084,
+      "target_spearman": 0.4232054395836773
+    },
+    {
+      "blend_residual_pearson": -0.05880595406371232,
+      "blend_residual_spearman": -0.06437726914513657,
+      "family": "rotation",
+      "feature": "rot_season_minutes_share_before",
+      "rows": 28471,
+      "target_pearson": 0.42389692406674473,
+      "target_spearman": 0.42799989555708196
+    },
+    {
+      "blend_residual_pearson": -0.03952391528338444,
+      "blend_residual_spearman": -0.04411637360069938,
+      "family": "rotation",
+      "feature": "rot_last5_closing_lineup_rate",
+      "rows": 29232,
+      "target_pearson": 0.2530973748283232,
+      "target_spearman": 0.2466935687590337
+    },
+    {
+      "blend_residual_pearson": -0.03854499390013202,
+      "blend_residual_spearman": -0.042221273831299956,
+      "family": "rotation",
+      "feature": "rot_season_closing_lineup_rate_before",
+      "rows": 28471,
+      "target_pearson": 0.2806263762607126,
+      "target_spearman": 0.2838103688342974
+    },
+    {
+      "blend_residual_pearson": -0.02743479558729157,
+      "blend_residual_spearman": -0.029553165412576594,
+      "family": "rotation",
+      "feature": "rot_last5_starter_rate",
+      "rows": 29232,
+      "target_pearson": 0.26888371628776203,
+      "target_spearman": 0.2671067034861302
+    },
+    {
+      "blend_residual_pearson": 0.012552696650847696,
+      "blend_residual_spearman": 0.00713775521195344,
+      "family": "rotation",
+      "feature": "rot_last5_minutes_std",
+      "rows": 29009,
+      "target_pearson": -0.08257599217741268,
+      "target_spearman": -0.09187777381628855
+    },
+    {
+      "blend_residual_pearson": 0.008247890167441803,
+      "blend_residual_spearman": 0.00517587061293163,
+      "family": "rotation",
+      "feature": "rot_last5_stint_count_std",
+      "rows": 29009,
+      "target_pearson": -0.07564517764577602,
+      "target_spearman": -0.08909291601366266
+    },
+    {
+      "blend_residual_pearson": -0.006389000659751525,
+      "blend_residual_spearman": -0.007840287444550698,
+      "family": "rotation",
+      "feature": "rot_minutes_trend",
+      "rows": 28334,
+      "target_pearson": 0.04310089215843876,
+      "target_spearman": 0.043672503637909504
+    },
+    {
+      "blend_residual_pearson": -0.059043884424670484,
+      "blend_residual_spearman": -0.06384520920371235,
+      "family": "rotation",
+      "feature": "rot_minutes_ewma",
+      "rows": 29232,
+      "target_pearson": 0.4234249420530452,
+      "target_spearman": 0.42967481607143704
+    },
+    {
+      "blend_residual_pearson": -0.013630071823832421,
+      "blend_residual_spearman": -0.007985708574879583,
+      "family": "rotation",
+      "feature": "rot_role_stability",
+      "rows": 29009,
+      "target_pearson": 0.10263974717857689,
+      "target_spearman": 0.10918330760898987
+    },
+    {
+      "blend_residual_pearson": -0.01259832260840892,
+      "blend_residual_spearman": -0.014091956863743971,
+      "family": "onoff",
+      "feature": "onoff_games_before",
+      "rows": 29232,
+      "target_pearson": 0.1293921033082799,
+      "target_spearman": 0.14354964620901872
+    },
+    {
+      "blend_residual_pearson": 0.001193274942675757,
+      "blend_residual_spearman": -0.008170262766915544,
+      "family": "onoff",
+      "feature": "onoff_last5_games_n",
+      "rows": 29232,
+      "target_pearson": 0.04390210922955951,
+      "target_spearman": 0.052565786440837654
+    },
+    {
+      "blend_residual_pearson": -0.037976895084281884,
+      "blend_residual_spearman": -0.04414642869200602,
+      "family": "onoff",
+      "feature": "onoff_season_on_possessions_n",
+      "rows": 28471,
+      "target_pearson": 0.23709191330030982,
+      "target_spearman": 0.23638276637042985
+    },
+    {
+      "blend_residual_pearson": 0.00313935216794746,
+      "blend_residual_spearman": -0.001376051221231505,
+      "family": "onoff",
+      "feature": "onoff_season_off_possessions_n",
+      "rows": 28471,
+      "target_pearson": -0.08939578673121466,
+      "target_spearman": -0.07509250290330922
+    },
+    {
+      "blend_residual_pearson": -0.08735247395066496,
+      "blend_residual_spearman": -0.08585764223095123,
+      "family": "onoff",
+      "feature": "onoff_season_on_ortg",
+      "rows": 28204,
+      "target_pearson": 0.1310734527758092,
+      "target_spearman": 0.13584343782719852
+    },
+    {
+      "blend_residual_pearson": 0.021716589801643104,
+      "blend_residual_spearman": 0.021861237061137826,
+      "family": "onoff",
+      "feature": "onoff_season_on_drtg",
+      "rows": 28204,
+      "target_pearson": -0.04574591348615269,
+      "target_spearman": -0.05147771097515053
+    },
+    {
+      "blend_residual_pearson": -0.07591602050802182,
+      "blend_residual_spearman": -0.0772296331175173,
+      "family": "onoff",
+      "feature": "onoff_season_on_net_rating",
+      "rows": 28204,
+      "target_pearson": 0.12334035722076607,
+      "target_spearman": 0.13011090531923697
+    },
+    {
+      "blend_residual_pearson": 0.018749956174816465,
+      "blend_residual_spearman": 0.013825695296315724,
+      "family": "onoff",
+      "feature": "onoff_season_off_ortg",
+      "rows": 28378,
+      "target_pearson": -0.044252678025301556,
+      "target_spearman": -0.04369880742069637
+    },
+    {
+      "blend_residual_pearson": -0.005231379587489648,
+      "blend_residual_spearman": -0.008613929175709596,
+      "family": "onoff",
+      "feature": "onoff_season_off_drtg",
+      "rows": 28378,
+      "target_pearson": 0.04799683042676792,
+      "target_spearman": 0.048530330981898184
+    },
+    {
+      "blend_residual_pearson": 0.016963944628237995,
+      "blend_residual_spearman": 0.016883862747542288,
+      "family": "onoff",
+      "feature": "onoff_season_off_net_rating",
+      "rows": 28378,
+      "target_pearson": -0.06536469664901949,
+      "target_spearman": -0.06283796852947672
+    },
+    {
+      "blend_residual_pearson": -0.07819322843160845,
+      "blend_residual_spearman": -0.07752433819152803,
+      "family": "onoff",
+      "feature": "onoff_season_ortg_diff",
+      "rows": 28111,
+      "target_pearson": 0.12829700923963336,
+      "target_spearman": 0.13329413617647243
+    },
+    {
+      "blend_residual_pearson": 0.01825113720775479,
+      "blend_residual_spearman": 0.021432925259804423,
+      "family": "onoff",
+      "feature": "onoff_season_drtg_diff",
+      "rows": 28111,
+      "target_pearson": -0.06287359535706855,
+      "target_spearman": -0.06443764816855585
+    },
+    {
+      "blend_residual_pearson": -0.06388709222755781,
+      "blend_residual_spearman": -0.06676870245624378,
+      "family": "onoff",
+      "feature": "onoff_season_net_rating_diff",
+      "rows": 28111,
+      "target_pearson": 0.127906074211434,
+      "target_spearman": 0.13616221201653175
+    },
+    {
+      "blend_residual_pearson": 0.0008981322595837659,
+      "blend_residual_spearman": 0.0018505821324646336,
+      "family": "onoff",
+      "feature": "onoff_season_on_court_pace",
+      "rows": 28204,
+      "target_pearson": 0.012723223822822713,
+      "target_spearman": 0.021458552776087048
+    },
+    {
+      "blend_residual_pearson": -0.06169160145600967,
+      "blend_residual_spearman": -0.06826841565979658,
+      "family": "onoff",
+      "feature": "onoff_last5_on_possessions_n",
+      "rows": 29232,
+      "target_pearson": 0.41030144716363415,
+      "target_spearman": 0.41729846372835616
+    },
+    {
+      "blend_residual_pearson": -0.08072726967503227,
+      "blend_residual_spearman": -0.08331710698832237,
+      "family": "onoff",
+      "feature": "onoff_last5_on_court_net_rating",
+      "rows": 29232,
+      "target_pearson": 0.12015501785331684,
+      "target_spearman": 0.11567442265899651
+    },
+    {
+      "blend_residual_pearson": -0.044355472392853285,
+      "blend_residual_spearman": -0.05177427876846504,
+      "family": "onoff",
+      "feature": "onoff_last10_on_possessions_n",
+      "rows": 29232,
+      "target_pearson": 0.39429792010352016,
+      "target_spearman": 0.4058987970355266
+    },
+    {
+      "blend_residual_pearson": -0.07003715765186318,
+      "blend_residual_spearman": -0.0717854231808266,
+      "family": "onoff",
+      "feature": "onoff_last10_on_court_net_rating",
+      "rows": 29232,
+      "target_pearson": 0.1341047442542269,
+      "target_spearman": 0.128887702205272
+    },
+    {
+      "blend_residual_pearson": -0.01259832260840892,
+      "blend_residual_spearman": -0.014091956863743971,
+      "family": "lineup",
+      "feature": "lineup_games_before",
+      "rows": 29232,
+      "target_pearson": 0.1293921033082799,
+      "target_spearman": 0.14354964620901872
+    },
+    {
+      "blend_residual_pearson": 0.001193274942675757,
+      "blend_residual_spearman": -0.008170262766915544,
+      "family": "lineup",
+      "feature": "lineup_last5_games_n",
+      "rows": 29232,
+      "target_pearson": 0.04390210922955951,
+      "target_spearman": 0.052565786440837654
+    },
+    {
+      "blend_residual_pearson": 0.0068566087992969725,
+      "blend_residual_spearman": 0.010872466308134229,
+      "family": "lineup",
+      "feature": "lineup_last5_unique_lineups_avg",
+      "rows": 29232,
+      "target_pearson": -0.05754677240761842,
+      "target_spearman": -0.05587784379887122
+    },
+    {
+      "blend_residual_pearson": -0.01018895047900576,
+      "blend_residual_spearman": -0.009890491625035856,
+      "family": "lineup",
+      "feature": "lineup_last5_top_lineup_share_avg",
+      "rows": 29232,
+      "target_pearson": 0.03591906219750592,
+      "target_spearman": 0.033913188179454
+    },
+    {
+      "blend_residual_pearson": -0.009612105904181566,
+      "blend_residual_spearman": -0.010357410392801983,
+      "family": "lineup",
+      "feature": "lineup_last5_top3_lineup_share_avg",
+      "rows": 29232,
+      "target_pearson": 0.04576226551063831,
+      "target_spearman": 0.04645616631494295
+    },
+    {
+      "blend_residual_pearson": 0.008953637370637991,
+      "blend_residual_spearman": 0.010849322664255989,
+      "family": "lineup",
+      "feature": "lineup_last5_entropy_avg",
+      "rows": 29232,
+      "target_pearson": -0.05224757779043196,
+      "target_spearman": -0.05166814287719808
+    },
+    {
+      "blend_residual_pearson": 0.03301567256892007,
+      "blend_residual_spearman": 0.0320258995834357,
+      "family": "lineup",
+      "feature": "lineup_last5_player_top_lineup_share_avg",
+      "rows": 23513,
+      "target_pearson": -0.14813145973172787,
+      "target_spearman": -0.12661923749078585
+    },
+    {
+      "blend_residual_pearson": -0.0021733419844157447,
+      "blend_residual_spearman": -0.004693197819609686,
+      "family": "lineup",
+      "feature": "lineup_last5_continuity_avg",
+      "rows": 29202,
+      "target_pearson": 0.031046378995797763,
+      "target_spearman": 0.028159142384496204
+    },
+    {
+      "blend_residual_pearson": -0.06648079937026245,
+      "blend_residual_spearman": -0.07077166932082926,
+      "family": "teammate",
+      "feature": "teammate_last5_top_shared_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.40932117217795005,
+      "target_spearman": 0.41642560527829864
+    },
+    {
+      "blend_residual_pearson": -0.06453465771474119,
+      "blend_residual_spearman": -0.06884923322759846,
+      "family": "teammate",
+      "feature": "teammate_last5_top3_shared_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.40975659087202687,
+      "target_spearman": 0.41671294925125446
+    },
+    {
+      "blend_residual_pearson": 0.02388702963443451,
+      "blend_residual_spearman": 0.03010804648880969,
+      "family": "teammate",
+      "feature": "teammate_last5_minutes_concentration_avg",
+      "rows": 29232,
+      "target_pearson": -0.14935530223129376,
+      "target_spearman": -0.15689643906358208
+    },
+    {
+      "blend_residual_pearson": -0.06527730482005219,
+      "blend_residual_spearman": -0.06886444315789464,
+      "family": "teammate",
+      "feature": "teammate_last5_stable_count_avg",
+      "rows": 29232,
+      "target_pearson": 0.4006160284617962,
+      "target_spearman": 0.40939332454097443
+    },
+    {
+      "blend_residual_pearson": -0.014140027929427432,
+      "blend_residual_spearman": -0.016921330982782853,
+      "family": "player_shot",
+      "feature": "shot_games_before",
+      "rows": 29232,
+      "target_pearson": 0.15006971111902656,
+      "target_spearman": 0.16797393894646453
+    },
+    {
+      "blend_residual_pearson": -0.0010204166401011554,
+      "blend_residual_spearman": -0.00859628946105415,
+      "family": "player_shot",
+      "feature": "shot_last5_games_n",
+      "rows": 29232,
+      "target_pearson": 0.06872318856178503,
+      "target_spearman": 0.0821376103971929
+    },
+    {
+      "blend_residual_pearson": -0.003769302275115413,
+      "blend_residual_spearman": -0.010857549499679753,
+      "family": "player_shot",
+      "feature": "shot_last10_games_n",
+      "rows": 29232,
+      "target_pearson": 0.10194038614308798,
+      "target_spearman": 0.12040925857284215
+    },
+    {
+      "blend_residual_pearson": -0.018960021984158842,
+      "blend_residual_spearman": -0.02565392520059401,
+      "family": "player_shot",
+      "feature": "shot_attempts_before",
+      "rows": 29232,
+      "target_pearson": 0.25247912002292844,
+      "target_spearman": 0.26682520190780706
+    },
+    {
+      "blend_residual_pearson": -0.05738655830272176,
+      "blend_residual_spearman": -0.06484547108054738,
+      "family": "player_shot",
+      "feature": "shot_last5_attempts_n",
+      "rows": 29232,
+      "target_pearson": 0.39131939956179507,
+      "target_spearman": 0.3946124098121504
+    },
+    {
+      "blend_residual_pearson": -0.04006445074376092,
+      "blend_residual_spearman": -0.04895497560093685,
+      "family": "player_shot",
+      "feature": "shot_last10_attempts_n",
+      "rows": 29232,
+      "target_pearson": 0.39048122046203476,
+      "target_spearman": 0.39126522667309993
+    },
+    {
+      "blend_residual_pearson": -0.03752930763725415,
+      "blend_residual_spearman": -0.049640033976132765,
+      "family": "player_shot",
+      "feature": "shot_season_rim_attempts",
+      "rows": 28417,
+      "target_pearson": 0.24252794009152281,
+      "target_spearman": 0.2640292815343312
+    },
+    {
+      "blend_residual_pearson": -0.03087245547889014,
+      "blend_residual_spearman": -0.03955876662607304,
+      "family": "player_shot",
+      "feature": "shot_season_paint_attempts",
+      "rows": 28417,
+      "target_pearson": 0.29769386573197254,
+      "target_spearman": 0.3034441764183664
+    },
+    {
+      "blend_residual_pearson": -0.02113977217413138,
+      "blend_residual_spearman": -0.024950790984171026,
+      "family": "player_shot",
+      "feature": "shot_season_midrange_attempts",
+      "rows": 28417,
+      "target_pearson": 0.22019911055787608,
+      "target_spearman": 0.2390242877120264
+    },
+    {
+      "blend_residual_pearson": -0.02748252484217346,
+      "blend_residual_spearman": -0.029210285976351936,
+      "family": "player_shot",
+      "feature": "shot_season_corner3_attempts",
+      "rows": 28417,
+      "target_pearson": 0.04999779896493147,
+      "target_spearman": 0.049411895124539466
+    },
+    {
+      "blend_residual_pearson": -0.027090925595437364,
+      "blend_residual_spearman": -0.03084415356592786,
+      "family": "player_shot",
+      "feature": "shot_season_above_break3_attempts",
+      "rows": 28417,
+      "target_pearson": 0.18021735985720147,
+      "target_spearman": 0.15679000683024713
+    },
+    {
+      "blend_residual_pearson": -0.015985754997405784,
+      "blend_residual_spearman": -0.02458481646477842,
+      "family": "player_shot",
+      "feature": "shot_season_rim_attempt_rate",
+      "rows": 28417,
+      "target_pearson": 0.041073913820418174,
+      "target_spearman": 0.07023856096091521
+    },
+    {
+      "blend_residual_pearson": 0.011019049278950376,
+      "blend_residual_spearman": 0.0061107646997565854,
+      "family": "player_shot",
+      "feature": "shot_season_paint_attempt_rate",
+      "rows": 28417,
+      "target_pearson": 0.09768133744548173,
+      "target_spearman": 0.12373782189171223
+    },
+    {
+      "blend_residual_pearson": 0.009692181275959498,
+      "blend_residual_spearman": 0.010008175415731279,
+      "family": "player_shot",
+      "feature": "shot_season_midrange_attempt_rate",
+      "rows": 28417,
+      "target_pearson": 0.049479236110766774,
+      "target_spearman": 0.07903688856232405
+    },
+    {
+      "blend_residual_pearson": -0.007196536572110273,
+      "blend_residual_spearman": -0.012846446203798085,
+      "family": "player_shot",
+      "feature": "shot_season_corner3_attempt_rate",
+      "rows": 28417,
+      "target_pearson": -0.1547709662874418,
+      "target_spearman": -0.1143486223186577
+    },
+    {
+      "blend_residual_pearson": 0.0020881067590466863,
+      "blend_residual_spearman": 0.0022477250883989057,
+      "family": "player_shot",
+      "feature": "shot_season_above_break3_attempt_rate",
+      "rows": 28417,
+      "target_pearson": -0.07352050966071312,
+      "target_spearman": -0.0755408349624997
+    },
+    {
+      "blend_residual_pearson": -0.015564506258295398,
+      "blend_residual_spearman": -0.024018745192810984,
+      "family": "player_shot",
+      "feature": "shot_last5_rim_attempt_rate",
+      "rows": 29232,
+      "target_pearson": 0.04103548235069955,
+      "target_spearman": 0.064782402088802
+    },
+    {
+      "blend_residual_pearson": 0.009163051758385667,
+      "blend_residual_spearman": 0.006879576915487757,
+      "family": "player_shot",
+      "feature": "shot_last5_paint_attempt_rate",
+      "rows": 29232,
+      "target_pearson": 0.09618272192660351,
+      "target_spearman": 0.11576708372269004
+    },
+    {
+      "blend_residual_pearson": 0.009643929601256672,
+      "blend_residual_spearman": 0.009545367394879784,
+      "family": "player_shot",
+      "feature": "shot_last5_midrange_attempt_rate",
+      "rows": 29232,
+      "target_pearson": 0.056902372185349756,
+      "target_spearman": 0.07634428839082992
+    },
+    {
+      "blend_residual_pearson": -0.0037306982461853596,
+      "blend_residual_spearman": -0.007252579428865656,
+      "family": "player_shot",
+      "feature": "shot_last5_corner3_attempt_rate",
+      "rows": 29232,
+      "target_pearson": -0.15184221149073518,
+      "target_spearman": -0.10879662398317447
+    },
+    {
+      "blend_residual_pearson": 0.002186657141731871,
+      "blend_residual_spearman": 0.004170672331304015,
+      "family": "player_shot",
+      "feature": "shot_last5_above_break3_attempt_rate",
+      "rows": 29232,
+      "target_pearson": -0.07560394032864294,
+      "target_spearman": -0.07709015901549543
+    },
+    {
+      "blend_residual_pearson": 0.004627558709999565,
+      "blend_residual_spearman": 0.007736467877281442,
+      "family": "player_shot",
+      "feature": "shot_avg_distance_m",
+      "rows": 28417,
+      "target_pearson": -0.08866234044134502,
+      "target_spearman": -0.1067595027916148
+    },
+    {
+      "blend_residual_pearson": -0.048290387181280724,
+      "blend_residual_spearman": -0.04630276486772255,
+      "family": "player_shot",
+      "feature": "shot_rim_fg_pct",
+      "rows": 26542,
+      "target_pearson": 0.05046684796668177,
+      "target_spearman": 0.01651483672036135
+    },
+    {
+      "blend_residual_pearson": -0.06561703525686947,
+      "blend_residual_spearman": -0.07676522592430637,
+      "family": "player_shot",
+      "feature": "shot_paint_fg_pct",
+      "rows": 27796,
+      "target_pearson": 0.07595780190923632,
+      "target_spearman": 0.0811736440672151
+    },
+    {
+      "blend_residual_pearson": -0.03873663991807417,
+      "blend_residual_spearman": -0.04198750052764361,
+      "family": "player_shot",
+      "feature": "shot_midrange_fg_pct",
+      "rows": 25177,
+      "target_pearson": 0.041994571631697133,
+      "target_spearman": 0.0617009152336553
+    },
+    {
+      "blend_residual_pearson": -0.03893410300382206,
+      "blend_residual_spearman": -0.04237792814812268,
+      "family": "player_shot",
+      "feature": "shot_corner3_fg_pct",
+      "rows": 20082,
+      "target_pearson": 0.03194191228069253,
+      "target_spearman": 0.0383425673901193
+    },
+    {
+      "blend_residual_pearson": -0.0834875219985593,
+      "blend_residual_spearman": -0.09630389274996402,
+      "family": "player_shot",
+      "feature": "shot_above_break3_fg_pct",
+      "rows": 25228,
+      "target_pearson": 0.037746162261587946,
+      "target_spearman": 0.06143147606515698
+    },
+    {
+      "blend_residual_pearson": -0.00010832883781306083,
+      "blend_residual_spearman": 0.0019480097371807374,
+      "family": "player_shot",
+      "feature": "shot_3pa_share",
+      "rows": 28417,
+      "target_pearson": -0.11072915914246942,
+      "target_spearman": -0.12355957077252308
+    },
+    {
+      "blend_residual_pearson": 0.00010832883781306001,
+      "blend_residual_spearman": -0.0019480097371807374,
+      "family": "player_shot",
+      "feature": "shot_2pa_share",
+      "rows": 28417,
+      "target_pearson": 0.11072915914246942,
+      "target_spearman": 0.12355957077252308
+    },
+    {
+      "blend_residual_pearson": -0.135064608417775,
+      "blend_residual_spearman": -0.14416977347982743,
+      "family": "player_shot",
+      "feature": "shot_points_per_shot",
+      "rows": 28417,
+      "target_pearson": 0.08802066602150749,
+      "target_spearman": 0.09816010646753848
+    },
+    {
+      "blend_residual_pearson": 0.015439147018042668,
+      "blend_residual_spearman": 0.009537358344130067,
+      "family": "player_shot",
+      "feature": "shot_zone_concentration",
+      "rows": 28417,
+      "target_pearson": -0.08602333244252944,
+      "target_spearman": -0.058908523891423745
+    },
+    {
+      "blend_residual_pearson": -0.0024598344471216237,
+      "blend_residual_spearman": -0.005911846739380883,
+      "family": "player_shot",
+      "feature": "shot_profile_entropy",
+      "rows": 29232,
+      "target_pearson": 0.07627875062454588,
+      "target_spearman": 0.05710099337512204
+    },
+    {
+      "blend_residual_pearson": 0.018030150508572526,
+      "blend_residual_spearman": 0.009265815883096997,
+      "family": "player_shot",
+      "feature": "shot_recent_vs_season_mix_change",
+      "rows": 28417,
+      "target_pearson": -0.08944680638624022,
+      "target_spearman": -0.06907310450865828
+    },
+    {
+      "blend_residual_pearson": -0.016978720207965686,
+      "blend_residual_spearman": -0.016920211935416943,
+      "family": "opponent_shot",
+      "feature": "opp_shot_games_before",
+      "rows": 29232,
+      "target_pearson": 0.006795026542922623,
+      "target_spearman": 0.0042977082222869336
+    },
+    {
+      "blend_residual_pearson": -0.005615027808617712,
+      "blend_residual_spearman": -0.0012166198732118715,
+      "family": "opponent_shot",
+      "feature": "opp_shot_last5_games_n",
+      "rows": 29232,
+      "target_pearson": -0.005314257933111746,
+      "target_spearman": 0.0003866423088000646
+    },
+    {
+      "blend_residual_pearson": -0.01622120604514258,
+      "blend_residual_spearman": -0.016076522730652753,
+      "family": "opponent_shot",
+      "feature": "opp_shot_attempts_before",
+      "rows": 29232,
+      "target_pearson": 0.007466447977793515,
+      "target_spearman": 0.004787072204720239
+    },
+    {
+      "blend_residual_pearson": -0.012764775233785242,
+      "blend_residual_spearman": -0.013753344396701754,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_rim_attempts_allowed",
+      "rows": 28685,
+      "target_pearson": 0.00967342451728517,
+      "target_spearman": 0.010168359535207299
+    },
+    {
+      "blend_residual_pearson": -0.01889584013864802,
+      "blend_residual_spearman": -0.021130959859437224,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_paint_attempts_allowed",
+      "rows": 28685,
+      "target_pearson": 0.005920477888765095,
+      "target_spearman": 0.0038663612614092194
+    },
+    {
+      "blend_residual_pearson": -0.021973052013690153,
+      "blend_residual_spearman": -0.0226864192590591,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_midrange_attempts_allowed",
+      "rows": 28685,
+      "target_pearson": 0.001665401433325329,
+      "target_spearman": 0.0010196121140586168
+    },
+    {
+      "blend_residual_pearson": -0.014626493809085695,
+      "blend_residual_spearman": -0.014174003512723935,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_corner3_attempts_allowed",
+      "rows": 28685,
+      "target_pearson": 0.006853158654972227,
+      "target_spearman": 0.00859259430028157
+    },
+    {
+      "blend_residual_pearson": -0.014301002730363225,
+      "blend_residual_spearman": -0.016968960757151746,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_above_break3_attempts_allowed",
+      "rows": 28685,
+      "target_pearson": 0.009847120802438466,
+      "target_spearman": 0.008139676573730043
+    },
+    {
+      "blend_residual_pearson": 0.01101693185093805,
+      "blend_residual_spearman": 0.009218206553916919,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_rim_attempt_rate_allowed",
+      "rows": 28685,
+      "target_pearson": 0.00890087326324301,
+      "target_spearman": 0.010417992143410373
+    },
+    {
+      "blend_residual_pearson": -0.011097982684454603,
+      "blend_residual_spearman": -0.012164058532894664,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_paint_attempt_rate_allowed",
+      "rows": 28685,
+      "target_pearson": -0.009081076913491255,
+      "target_spearman": -0.012572485960239741
+    },
+    {
+      "blend_residual_pearson": -0.01906850794049393,
+      "blend_residual_spearman": -0.01446421192015281,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_midrange_attempt_rate_allowed",
+      "rows": 28685,
+      "target_pearson": -0.019709842645418262,
+      "target_spearman": -0.01828293979787649
+    },
+    {
+      "blend_residual_pearson": -6.917732741640916e-05,
+      "blend_residual_spearman": 0.001349231612790631,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_corner3_attempt_rate_allowed",
+      "rows": 28685,
+      "target_pearson": 0.0005782369617470384,
+      "target_spearman": 0.004478696253288272
+    },
+    {
+      "blend_residual_pearson": 0.012345863841392387,
+      "blend_residual_spearman": 0.011040534948834875,
+      "family": "opponent_shot",
+      "feature": "opp_shot_season_above_break3_attempt_rate_allowed",
+      "rows": 28685,
+      "target_pearson": 0.012295057057823251,
+      "target_spearman": 0.011554434713021661
+    },
+    {
+      "blend_residual_pearson": 0.004729545055398252,
+      "blend_residual_spearman": 0.010732280895746375,
+      "family": "opponent_shot",
+      "feature": "opp_shot_rim_fg_allowed",
+      "rows": 28685,
+      "target_pearson": 0.004649556453166904,
+      "target_spearman": 0.008527799922497466
+    },
+    {
+      "blend_residual_pearson": 0.015743129232779828,
+      "blend_residual_spearman": 0.0199473179380592,
+      "family": "opponent_shot",
+      "feature": "opp_shot_paint_fg_allowed",
+      "rows": 28685,
+      "target_pearson": 0.02010231153179484,
+      "target_spearman": 0.020738999090586366
+    },
+    {
+      "blend_residual_pearson": 0.007668058288051164,
+      "blend_residual_spearman": 0.0035120093887519455,
+      "family": "opponent_shot",
+      "feature": "opp_shot_midrange_fg_allowed",
+      "rows": 28685,
+      "target_pearson": 0.010101951978020069,
+      "target_spearman": 0.0038178803707990963
+    },
+    {
+      "blend_residual_pearson": 0.004249823714772538,
+      "blend_residual_spearman": 0.005899417771936597,
+      "family": "opponent_shot",
+      "feature": "opp_shot_corner3_fg_allowed",
+      "rows": 28455,
+      "target_pearson": 0.004571274151696017,
+      "target_spearman": 0.006612965006845904
+    },
+    {
+      "blend_residual_pearson": 0.006616679364259853,
+      "blend_residual_spearman": 0.013416065732030956,
+      "family": "opponent_shot",
+      "feature": "opp_shot_above_break3_fg_allowed",
+      "rows": 28685,
+      "target_pearson": 0.003581754698233201,
+      "target_spearman": 0.006559794538968341
+    },
+    {
+      "blend_residual_pearson": -0.0006209509872417834,
+      "blend_residual_spearman": 0.002987474295027661,
+      "family": "opponent_shot",
+      "feature": "opp_shot_avg_distance_allowed_m",
+      "rows": 28685,
+      "target_pearson": 0.0017792651777949731,
+      "target_spearman": 0.0043953894286977045
+    },
+    {
+      "blend_residual_pearson": 0.00799420665982197,
+      "blend_residual_spearman": 0.003532201903705001,
+      "family": "opponent_shot",
+      "feature": "opp_shot_last5_rim_attempt_rate_allowed",
+      "rows": 29232,
+      "target_pearson": 0.007969274985444998,
+      "target_spearman": 0.007579208252723893
+    },
+    {
+      "blend_residual_pearson": -0.008499304194223877,
+      "blend_residual_spearman": -0.0066608076815078895,
+      "family": "opponent_shot",
+      "feature": "opp_shot_last5_paint_attempt_rate_allowed",
+      "rows": 29232,
+      "target_pearson": -0.011062102735677082,
+      "target_spearman": -0.01249327535723725
+    },
+    {
+      "blend_residual_pearson": -0.011642976749100859,
+      "blend_residual_spearman": -0.010358290378682073,
+      "family": "opponent_shot",
+      "feature": "opp_shot_last5_midrange_attempt_rate_allowed",
+      "rows": 29232,
+      "target_pearson": -0.013659072003966176,
+      "target_spearman": -0.01316037640111553
+    },
+    {
+      "blend_residual_pearson": -0.0046384835156959596,
+      "blend_residual_spearman": -0.0031566808706547283,
+      "family": "opponent_shot",
+      "feature": "opp_shot_last5_corner3_attempt_rate_allowed",
+      "rows": 29232,
+      "target_pearson": -0.0005505471592991419,
+      "target_spearman": 0.0031910844515359166
+    },
+    {
+      "blend_residual_pearson": 0.010952892370683923,
+      "blend_residual_spearman": 0.009265293242562466,
+      "family": "opponent_shot",
+      "feature": "opp_shot_last5_above_break3_attempt_rate_allowed",
+      "rows": 29232,
+      "target_pearson": 0.013444614759136955,
+      "target_spearman": 0.010880061332246463
+    },
+    {
+      "blend_residual_pearson": -0.012748768221135931,
+      "blend_residual_spearman": -0.020848417105350087,
+      "family": "interaction",
+      "feature": "interaction_rim_style",
+      "rows": 28417,
+      "target_pearson": 0.038903529890851336,
+      "target_spearman": 0.07303452493963336
+    },
+    {
+      "blend_residual_pearson": 0.0022768796517222464,
+      "blend_residual_spearman": 0.00484112341612934,
+      "family": "interaction",
+      "feature": "interaction_3pa_style",
+      "rows": 28417,
+      "target_pearson": -0.10731980875081754,
+      "target_spearman": -0.11755080937871006
+    },
+    {
+      "blend_residual_pearson": -0.00495263245266353,
+      "blend_residual_spearman": -0.01026408203140676,
+      "family": "interaction",
+      "feature": "interaction_corner3_style",
+      "rows": 28417,
+      "target_pearson": -0.13741406517652185,
+      "target_spearman": -0.10022254954869665
+    }
+  ],
+  "feature_count": 116,
+  "feature_count_by_family": {
+    "interaction": 3,
+    "lineup": 8,
+    "onoff": 18,
+    "opponent_shot": 24,
+    "player_shot": 33,
+    "rotation": 26,
+    "teammate": 4
+  },
+  "generated_at": "2026-08-12T12:53:09.967837+00:00",
+  "interpretation": "Correlations are descriptive screening evidence, not proof of incremental predictive value. Controlled Phase 4 models are required.",
+  "primary_rows": 29232,
+  "ranking_metrics": [
+    {
+      "baseline": "season_average",
+      "history_window_seasons": 8,
+      "round_groups": 174,
+      "top10_actual_in_predicted_top20": 0.4477011494252874,
+      "top20_actual_in_predicted_top30": 0.5132183908045977
+    },
+    {
+      "baseline": "last_3",
+      "history_window_seasons": 8,
+      "round_groups": 174,
+      "top10_actual_in_predicted_top20": 0.39080459770114945,
+      "top20_actual_in_predicted_top30": 0.4666666666666667
+    },
+    {
+      "baseline": "last_5",
+      "history_window_seasons": 8,
+      "round_groups": 174,
+      "top10_actual_in_predicted_top20": 0.41954022988505746,
+      "top20_actual_in_predicted_top30": 0.4867816091954023
+    },
+    {
+      "baseline": "ewma",
+      "history_window_seasons": 8,
+      "round_groups": 174,
+      "top10_actual_in_predicted_top20": 0.4149425287356322,
+      "top20_actual_in_predicted_top30": 0.48563218390804597
+    },
+    {
+      "baseline": "fp_per_min_x_minutes",
+      "history_window_seasons": 8,
+      "round_groups": 174,
+      "top10_actual_in_predicted_top20": 0.42126436781609194,
+      "top20_actual_in_predicted_top30": 0.48591954022988504
+    },
+    {
+      "baseline": "season_recent_blend",
+      "history_window_seasons": 8,
+      "round_groups": 174,
+      "top10_actual_in_predicted_top20": 0.4436781609195402,
+      "top20_actual_in_predicted_top30": 0.5091954022988506
+    }
+  ],
+  "redundancy": {
+    "at_least_50_percent_missing": [],
+    "exact_duplicates": [
+      [
+        "rot_games_before",
+        "onoff_games_before"
+      ],
+      [
+        "rot_games_before",
+        "lineup_games_before"
+      ],
+      [
+        "rot_last5_games_n",
+        "onoff_last5_games_n"
+      ],
+      [
+        "rot_last5_games_n",
+        "lineup_last5_games_n"
+      ]
+    ],
+    "low_variance": [],
+    "near_perfect_correlations": [
+      {
+        "left": "rot_games_before",
+        "pearson": 1.0,
+        "right": "onoff_games_before"
+      },
+      {
+        "left": "rot_games_before",
+        "pearson": 1.0,
+        "right": "lineup_games_before"
+      },
+      {
+        "left": "rot_last5_games_n",
+        "pearson": 1.0,
+        "right": "onoff_last5_games_n"
+      },
+      {
+        "left": "rot_last5_games_n",
+        "pearson": 1.0,
+        "right": "lineup_last5_games_n"
+      },
+      {
+        "left": "onoff_games_before",
+        "pearson": 1.0,
+        "right": "lineup_games_before"
+      },
+      {
+        "left": "onoff_last5_games_n",
+        "pearson": 1.0,
+        "right": "lineup_last5_games_n"
+      },
+      {
+        "left": "shot_3pa_share",
+        "pearson": -0.9999999999999997,
+        "right": "shot_2pa_share"
+      },
+      {
+        "left": "rot_last5_minutes_avg",
+        "pearson": 0.9997435495337373,
+        "right": "rot_last5_minutes_share"
+      },
+      {
+        "left": "opp_shot_games_before",
+        "pearson": 0.9980498813647369,
+        "right": "opp_shot_attempts_before"
+      },
+      {
+        "left": "rot_games_before",
+        "pearson": 0.9947864484944108,
+        "right": "shot_games_before"
+      },
+      {
+        "left": "onoff_games_before",
+        "pearson": 0.9947864484944108,
+        "right": "shot_games_before"
+      },
+      {
+        "left": "lineup_games_before",
+        "pearson": 0.9947864484944108,
+        "right": "shot_games_before"
+      },
+      {
+        "left": "teammate_last5_top_shared_minutes_avg",
+        "pearson": 0.9929870856438151,
+        "right": "teammate_last5_top3_shared_minutes_avg"
+      },
+      {
+        "left": "shot_2pa_share",
+        "pearson": -0.984522580441616,
+        "right": "interaction_3pa_style"
+      },
+      {
+        "left": "shot_3pa_share",
+        "pearson": 0.9845225804416157,
+        "right": "interaction_3pa_style"
+      }
+    ]
+  },
+  "season_stability": [
+    {
+      "feature": "rot_games_before",
+      "mean": 31.256256402751355,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 16.508240326829096
+    },
+    {
+      "feature": "rot_last3_games_n",
+      "mean": 2.9642909410215132,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.23685802845878356
+    },
+    {
+      "feature": "rot_last5_games_n",
+      "mean": 4.869457046685204,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.5985388734471644
+    },
+    {
+      "feature": "rot_last1_stint_count",
+      "mean": 3.1153226986682276,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 1.2336237409234632
+    },
+    {
+      "feature": "rot_last3_stint_count_avg",
+      "mean": 3.126567149617055,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.9240935965922201
+    },
+    {
+      "feature": "rot_last5_stint_count_avg",
+      "mean": 3.1319844870481486,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.8407001721325136
+    },
+    {
+      "feature": "rot_last3_avg_stint_minutes",
+      "mean": 6.449745805447729,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.380875123168616
+    },
+    {
+      "feature": "rot_last5_avg_stint_minutes",
+      "mean": 6.447022667094872,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.1875329983608682
+    },
+    {
+      "feature": "rot_last3_longest_stint_minutes_avg",
+      "mean": 9.400194724945932,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 3.2592310413790067
+    },
+    {
+      "feature": "rot_last5_longest_stint_minutes_avg",
+      "mean": 9.402039408426427,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 3.0201168965630107
+    },
+    {
+      "feature": "rot_last3_first_sub_out_minutes_avg",
+      "mean": 7.156842045195161,
+      "missing_rate": 0.35884677301331774,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.2305636465910696
+    },
+    {
+      "feature": "rot_last5_first_sub_out_minutes_avg",
+      "mean": 7.083699410586939,
+      "missing_rate": 0.2771842528903849,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.0605302547974764
+    },
+    {
+      "feature": "rot_last3_first_entry_minutes_avg",
+      "mean": 4.689112883555295,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 4.975374909179974
+    },
+    {
+      "feature": "rot_last5_first_entry_minutes_avg",
+      "mean": 4.661498731645446,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 4.590013818334502
+    },
+    {
+      "feature": "rot_last5_first_stint_minutes_avg",
+      "mean": 7.103516431695855,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.1445376145958446
+    },
+    {
+      "feature": "rot_last5_minutes_avg",
+      "mean": 18.969151340715804,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 6.420811010019225
+    },
+    {
+      "feature": "rot_last5_minutes_share",
+      "mean": 0.4732012252513825,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.16001436683935105
+    },
+    {
+      "feature": "rot_season_minutes_share_before",
+      "mean": 0.4693009561914896,
+      "missing_rate": 0.02268403336748134,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.15618558839086694
+    },
+    {
+      "feature": "rot_last5_closing_lineup_rate",
+      "mean": 0.3511585931021026,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.25835111589980614
+    },
+    {
+      "feature": "rot_season_closing_lineup_rate_before",
+      "mean": 0.34960758129127617,
+      "missing_rate": 0.02268403336748134,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.2384136795570253
+    },
+    {
+      "feature": "rot_last5_starter_rate",
+      "mean": 0.474720718083809,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.39247938808027655
+    },
+    {
+      "feature": "rot_last5_minutes_std",
+      "mean": 5.0005685471146935,
+      "missing_rate": 0.010829796575442705,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.175232306515507
+    },
+    {
+      "feature": "rot_last5_stint_count_std",
+      "mean": 0.9256962629672011,
+      "missing_rate": 0.010829796575442705,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.45580628820261776
+    },
+    {
+      "feature": "rot_minutes_trend",
+      "mean": -0.07641493452592706,
+      "missing_rate": 0.04009951704961218,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 4.935604672565305
+    },
+    {
+      "feature": "rot_minutes_ewma",
+      "mean": 18.96576111969697,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 6.416478018219457
+    },
+    {
+      "feature": "rot_role_stability",
+      "mean": 0.5667423140049056,
+      "missing_rate": 0.010829796575442705,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.08817427268794552
+    },
+    {
+      "feature": "onoff_games_before",
+      "mean": 31.256256402751355,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 16.508240326829096
+    },
+    {
+      "feature": "onoff_last5_games_n",
+      "mean": 4.869457046685204,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.5985388734471644
+    },
+    {
+      "feature": "onoff_season_on_possessions_n",
+      "mean": 481.97706498951777,
+      "missing_rate": 0.02268403336748134,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 361.681894457277
+    },
+    {
+      "feature": "onoff_season_off_possessions_n",
+      "mean": 516.044204851752,
+      "missing_rate": 0.02268403336748134,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 337.9057849541137
+    },
+    {
+      "feature": "onoff_season_on_ortg",
+      "mean": 111.38931448599779,
+      "missing_rate": 0.03117225230499049,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 9.699647590282096
+    },
+    {
+      "feature": "onoff_season_on_drtg",
+      "mean": 111.4587778351511,
+      "missing_rate": 0.03117225230499049,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 9.089502488618514
+    },
+    {
+      "feature": "onoff_season_on_net_rating",
+      "mean": -0.0694633491533021,
+      "missing_rate": 0.03117225230499049,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 13.201580311839791
+    },
+    {
+      "feature": "onoff_season_off_ortg",
+      "mean": 111.21907165577556,
+      "missing_rate": 0.027513537245719304,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 9.134789612952966
+    },
+    {
+      "feature": "onoff_season_off_drtg",
+      "mean": 111.62290280191792,
+      "missing_rate": 0.027513537245719304,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 8.182949589869242
+    },
+    {
+      "feature": "onoff_season_off_net_rating",
+      "mean": -0.40383114614236376,
+      "missing_rate": 0.027513537245719304,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 12.246549661135093
+    },
+    {
+      "feature": "onoff_season_ortg_diff",
+      "mean": 0.18758330186202443,
+      "missing_rate": 0.03600175618322845,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 12.844289388978249
+    },
+    {
+      "feature": "onoff_season_drtg_diff",
+      "mean": -0.17173104236146108,
+      "missing_rate": 0.03600175618322845,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 12.819772318892854
+    },
+    {
+      "feature": "onoff_season_net_rating_diff",
+      "mean": 0.3593143442234857,
+      "missing_rate": 0.03600175618322845,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 18.965578410177006
+    },
+    {
+      "feature": "onoff_season_on_court_pace",
+      "mean": 70.9997732576735,
+      "missing_rate": 0.03117225230499049,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.3386038176218333
+    },
+    {
+      "feature": "onoff_last5_on_possessions_n",
+      "mean": 163.12029855114884,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 59.70644552823231
+    },
+    {
+      "feature": "onoff_last5_on_court_net_rating",
+      "mean": -0.9455332015185063,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 16.275162763434373
+    },
+    {
+      "feature": "onoff_last10_on_possessions_n",
+      "mean": 316.49628567247186,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 122.93359728826044
+    },
+    {
+      "feature": "onoff_last10_on_court_net_rating",
+      "mean": -0.40845128081451554,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 12.393693890126823
+    },
+    {
+      "feature": "lineup_games_before",
+      "mean": 31.256256402751355,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 16.508240326829096
+    },
+    {
+      "feature": "lineup_last5_games_n",
+      "mean": 4.869457046685204,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.5985388734471644
+    },
+    {
+      "feature": "lineup_last5_unique_lineups_avg",
+      "mean": 17.920603444070444,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 2.729560963961329
+    },
+    {
+      "feature": "lineup_last5_top_lineup_share_avg",
+      "mean": 0.22381463289537157,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.046866628868487026
+    },
+    {
+      "feature": "lineup_last5_top3_lineup_share_avg",
+      "mean": 0.46989566507760994,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.07109768647783223
+    },
+    {
+      "feature": "lineup_last5_entropy_avg",
+      "mean": 2.4574229613954377,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.19417265625801108
+    },
+    {
+      "feature": "lineup_last5_player_top_lineup_share_avg",
+      "mean": 0.40914220489672837,
+      "missing_rate": 0.19244841211766428,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.14266131584471337
+    },
+    {
+      "feature": "lineup_last5_continuity_avg",
+      "mean": 0.6283922892509417,
+      "missing_rate": 0.002926972047416947,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.1685353893476251
+    },
+    {
+      "feature": "teammate_last5_top_shared_minutes_avg",
+      "mean": 16.0872818186253,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 5.298106016867784
+    },
+    {
+      "feature": "teammate_last5_top3_shared_minutes_avg",
+      "mean": 42.77857200351237,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 13.988445453338825
+    },
+    {
+      "feature": "teammate_last5_minutes_concentration_avg",
+      "mean": 0.21623676996036573,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.01768459051518645
+    },
+    {
+      "feature": "teammate_last5_stable_count_avg",
+      "mean": 3.222171813259183,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 1.5575000732639568
+    },
+    {
+      "feature": "shot_games_before",
+      "mean": 32.539879994146055,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 17.791925214952116
+    },
+    {
+      "feature": "shot_last5_games_n",
+      "mean": 4.8631640567832575,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.6132154084514092
+    },
+    {
+      "feature": "shot_last10_games_n",
+      "mean": 9.358261378603835,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 1.8941151370487543
+    },
+    {
+      "feature": "shot_attempts_before",
+      "mean": 211.39572662081076,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 155.6537254722749
+    },
+    {
+      "feature": "shot_last5_attempts_n",
+      "mean": 29.105224645104638,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 14.470187309326848
+    },
+    {
+      "feature": "shot_last10_attempts_n",
+      "mean": 56.717108151617154,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 28.640748457364896
+    },
+    {
+      "feature": "shot_season_rim_attempts",
+      "mean": 15.9800629590766,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 17.308967389188577
+    },
+    {
+      "feature": "shot_season_paint_attempts",
+      "mean": 28.611002848148704,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 27.522419789384625
+    },
+    {
+      "feature": "shot_season_midrange_attempts",
+      "mean": 9.882476390346275,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 12.71362501778931
+    },
+    {
+      "feature": "shot_season_corner3_attempts",
+      "mean": 3.9445360515664816,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 4.952086446214015
+    },
+    {
+      "feature": "shot_season_above_break3_attempts",
+      "mean": 32.57457652525858,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 35.4497567636155
+    },
+    {
+      "feature": "shot_season_rim_attempt_rate",
+      "mean": 0.18800112375467143,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.15591470583636136
+    },
+    {
+      "feature": "shot_season_paint_attempt_rate",
+      "mean": 0.3105219725264216,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.147659419638109
+    },
+    {
+      "feature": "shot_season_midrange_attempt_rate",
+      "mean": 0.10265568440371037,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.08126662456835615
+    },
+    {
+      "feature": "shot_season_corner3_attempt_rate",
+      "mean": 0.04816356672742152,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0607831873839711
+    },
+    {
+      "feature": "shot_season_above_break3_attempt_rate",
+      "mean": 0.3506576525877751,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.21147398635292375
+    },
+    {
+      "feature": "shot_last5_rim_attempt_rate",
+      "mean": 0.18753121830952824,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.16321536237026504
+    },
+    {
+      "feature": "shot_last5_paint_attempt_rate",
+      "mean": 0.30627259708907206,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.15841240042626453
+    },
+    {
+      "feature": "shot_last5_midrange_attempt_rate",
+      "mean": 0.10308871260559137,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0883960323433364
+    },
+    {
+      "feature": "shot_last5_corner3_attempt_rate",
+      "mean": 0.050123306677069504,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.06872851816905946
+    },
+    {
+      "feature": "shot_last5_above_break3_attempt_rate",
+      "mean": 0.3529841653187388,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.21724299361321656
+    },
+    {
+      "feature": "shot_avg_distance_m",
+      "mean": 4.219899027513936,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 1.449544147214364
+    },
+    {
+      "feature": "shot_rim_fg_pct",
+      "mean": 0.7447494394608769,
+      "missing_rate": 0.08912629884384604,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.2128493597055744
+    },
+    {
+      "feature": "shot_paint_fg_pct",
+      "mean": 0.4490082615600601,
+      "missing_rate": 0.04609980974681692,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.1793590895431995
+    },
+    {
+      "feature": "shot_midrange_fg_pct",
+      "mean": 0.3668333551015661,
+      "missing_rate": 0.1289331186887165,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.24704538355028655
+    },
+    {
+      "feature": "shot_corner3_fg_pct",
+      "mean": 0.39352793929209356,
+      "missing_rate": 0.33747987706717403,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.291057454515012
+    },
+    {
+      "feature": "shot_above_break3_fg_pct",
+      "mean": 0.3382492613965146,
+      "missing_rate": 0.139031172252305,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.167861209218183
+    },
+    {
+      "feature": "shot_3pa_share",
+      "mean": 0.3988212193151966,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.2287026630587495
+    },
+    {
+      "feature": "shot_2pa_share",
+      "mean": 0.6011787806848035,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.2287026630587495
+    },
+    {
+      "feature": "shot_points_per_shot",
+      "mean": 1.074070071479118,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.25911495672415336
+    },
+    {
+      "feature": "shot_zone_concentration",
+      "mean": 0.36870467265160844,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.11536589400369972
+    },
+    {
+      "feature": "shot_profile_entropy",
+      "mean": 1.1491397189636088,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.317048922609792
+    },
+    {
+      "feature": "shot_recent_vs_season_mix_change",
+      "mean": 0.10689071712730733,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.08311344283454762
+    },
+    {
+      "feature": "opp_shot_games_before",
+      "mean": 47.62168886287136,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 17.066515870282473
+    },
+    {
+      "feature": "opp_shot_last5_games_n",
+      "mean": 4.955217327674521,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.3630102204088108
+    },
+    {
+      "feature": "opp_shot_attempts_before",
+      "mean": 2896.26357383287,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 1041.6583575369752
+    },
+    {
+      "feature": "opp_shot_season_rim_attempts_allowed",
+      "mean": 190.97949784578813,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 118.0946551443192
+    },
+    {
+      "feature": "opp_shot_season_paint_attempts_allowed",
+      "mean": 348.69781607487744,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 201.822465993696
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempts_allowed",
+      "mean": 122.76660228792156,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 71.19340622191845
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempts_allowed",
+      "mean": 49.961075620264445,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 34.53215613170404
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempts_allowed",
+      "mean": 413.0386272470658,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 239.0437443901902
+    },
+    {
+      "feature": "opp_shot_season_rim_attempt_rate_allowed",
+      "mean": 0.16989857083204207,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.04814514890235168
+    },
+    {
+      "feature": "opp_shot_season_paint_attempt_rate_allowed",
+      "mean": 0.3123051298309518,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0513273637246063
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempt_rate_allowed",
+      "mean": 0.11012329642635081,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.018762207932485495
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempt_rate_allowed",
+      "mean": 0.04404708634872847,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.017231739715089567
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempt_rate_allowed",
+      "mean": 0.3636259165619268,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.03598132321518712
+    },
+    {
+      "feature": "opp_shot_rim_fg_allowed",
+      "mean": 0.7652075572781278,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.05566253529749102
+    },
+    {
+      "feature": "opp_shot_paint_fg_allowed",
+      "mean": 0.45873973081509895,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.04883494224043775
+    },
+    {
+      "feature": "opp_shot_midrange_fg_allowed",
+      "mean": 0.3901571128994911,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0659997764380904
+    },
+    {
+      "feature": "opp_shot_corner3_fg_allowed",
+      "mean": 0.40465025769717444,
+      "missing_rate": 0.02385482218644812,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0840667246661088
+    },
+    {
+      "feature": "opp_shot_above_break3_fg_allowed",
+      "mean": 0.3547815902660336,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.024029924166381608
+    },
+    {
+      "feature": "opp_shot_avg_distance_allowed_m",
+      "mean": 4.327369566926207,
+      "missing_rate": 0.01492755744182643,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.23698782513529756
+    },
+    {
+      "feature": "opp_shot_last5_rim_attempt_rate_allowed",
+      "mean": 0.17128593572975528,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.05171889862173938
+    },
+    {
+      "feature": "opp_shot_last5_paint_attempt_rate_allowed",
+      "mean": 0.3066495516325816,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0584897784452021
+    },
+    {
+      "feature": "opp_shot_last5_midrange_attempt_rate_allowed",
+      "mean": 0.10974628475227514,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.026281499575722764
+    },
+    {
+      "feature": "opp_shot_last5_corner3_attempt_rate_allowed",
+      "mean": 0.04475971640626549,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.022361358525637733
+    },
+    {
+      "feature": "opp_shot_last5_above_break3_attempt_rate_allowed",
+      "mean": 0.3675585114791225,
+      "missing_rate": 0.0,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.04153083684433023
+    },
+    {
+      "feature": "interaction_rim_style",
+      "mean": 0.03184980326186921,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.029080041784387924
+    },
+    {
+      "feature": "interaction_3pa_style",
+      "mean": 0.16260531413444318,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.09414954068442478
+    },
+    {
+      "feature": "interaction_corner3_style",
+      "mean": 0.0021016921295156353,
+      "missing_rate": 0.023708473584077273,
+      "rows": 6833,
+      "season": "E2022",
+      "std": 0.0029367829134093444
+    },
+    {
+      "feature": "rot_games_before",
+      "mean": 49.3573883161512,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 26.24140772004672
+    },
+    {
+      "feature": "rot_last3_games_n",
+      "mean": 2.9790950744558993,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.180277715046926
+    },
+    {
+      "feature": "rot_last5_games_n",
+      "mean": 4.917096219931271,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.4718935004590381
+    },
+    {
+      "feature": "rot_last1_stint_count",
+      "mean": 3.0299255441008017,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 1.2219498063036132
+    },
+    {
+      "feature": "rot_last3_stint_count_avg",
+      "mean": 3.0297107674684995,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.9139010492816289
+    },
+    {
+      "feature": "rot_last5_stint_count_avg",
+      "mean": 3.0309469263077506,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.8252058390110251
+    },
+    {
+      "feature": "rot_last3_avg_stint_minutes",
+      "mean": 6.557116807082442,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.4731793427511137
+    },
+    {
+      "feature": "rot_last5_avg_stint_minutes",
+      "mean": 6.5547047536625325,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.2809360980114843
+    },
+    {
+      "feature": "rot_last3_longest_stint_minutes_avg",
+      "mean": 9.493899548173603,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 3.4774459036624226
+    },
+    {
+      "feature": "rot_last5_longest_stint_minutes_avg",
+      "mean": 9.494491774850452,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 3.2351067957136093
+    },
+    {
+      "feature": "rot_last3_first_sub_out_minutes_avg",
+      "mean": 7.439977103462157,
+      "missing_rate": 0.36769759450171824,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.250234172101342
+    },
+    {
+      "feature": "rot_last5_first_sub_out_minutes_avg",
+      "mean": 7.374159227189333,
+      "missing_rate": 0.28894616265750284,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.0454626930525506
+    },
+    {
+      "feature": "rot_last3_first_entry_minutes_avg",
+      "mean": 4.900525009545627,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 5.075877821044977
+    },
+    {
+      "feature": "rot_last5_first_entry_minutes_avg",
+      "mean": 4.9111162021127654,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 4.7413740655285315
+    },
+    {
+      "feature": "rot_last5_first_stint_minutes_avg",
+      "mean": 7.196693473972253,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.201274931600454
+    },
+    {
+      "feature": "rot_last5_minutes_avg",
+      "mean": 18.7981483470154,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 6.718271012827378
+    },
+    {
+      "feature": "rot_last5_minutes_share",
+      "mean": 0.4693263634325541,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.16755796303213244
+    },
+    {
+      "feature": "rot_season_minutes_share_before",
+      "mean": 0.4695349325451066,
+      "missing_rate": 0.0313573883161512,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.161513128176245
+    },
+    {
+      "feature": "rot_last5_closing_lineup_rate",
+      "mean": 0.34737256586483395,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.27121472385633116
+    },
+    {
+      "feature": "rot_season_closing_lineup_rate_before",
+      "mean": 0.3505890915530275,
+      "missing_rate": 0.0313573883161512,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.24814752231142695
+    },
+    {
+      "feature": "rot_last5_starter_rate",
+      "mean": 0.4697164948453609,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.3980999182687475
+    },
+    {
+      "feature": "rot_last5_minutes_std",
+      "mean": 4.93690679322256,
+      "missing_rate": 0.006013745704467354,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.140651118599272
+    },
+    {
+      "feature": "rot_last5_stint_count_std",
+      "mean": 0.9139405470138974,
+      "missing_rate": 0.006013745704467354,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.4294542762921484
+    },
+    {
+      "feature": "rot_minutes_trend",
+      "mean": 0.0015141868286152806,
+      "missing_rate": 0.025486827033218785,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 5.0581464146955835
+    },
+    {
+      "feature": "rot_minutes_ewma",
+      "mean": 18.797436383111357,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 6.703167077156223
+    },
+    {
+      "feature": "rot_role_stability",
+      "mean": 0.5696620738542452,
+      "missing_rate": 0.006013745704467354,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.08774790172021062
+    },
+    {
+      "feature": "onoff_games_before",
+      "mean": 49.3573883161512,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 26.24140772004672
+    },
+    {
+      "feature": "onoff_last5_games_n",
+      "mean": 4.917096219931271,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.4718935004590381
+    },
+    {
+      "feature": "onoff_season_on_possessions_n",
+      "mean": 490.0377058388766,
+      "missing_rate": 0.0313573883161512,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 381.2563043803275
+    },
+    {
+      "feature": "onoff_season_off_possessions_n",
+      "mean": 511.5379985218034,
+      "missing_rate": 0.0313573883161512,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 336.477943209044
+    },
+    {
+      "feature": "onoff_season_on_ortg",
+      "mean": 112.52134221919518,
+      "missing_rate": 0.041666666666666664,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 8.875695264922822
+    },
+    {
+      "feature": "onoff_season_on_drtg",
+      "mean": 112.83238393204884,
+      "missing_rate": 0.041666666666666664,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 10.092016402765443
+    },
+    {
+      "feature": "onoff_season_on_net_rating",
+      "mean": -0.31104171285368737,
+      "missing_rate": 0.041666666666666664,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 14.189385975708532
+    },
+    {
+      "feature": "onoff_season_off_ortg",
+      "mean": 112.61230022918068,
+      "missing_rate": 0.03479381443298969,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 8.346275003846465
+    },
+    {
+      "feature": "onoff_season_off_drtg",
+      "mean": 112.6729446566611,
+      "missing_rate": 0.03479381443298969,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 9.00717588227367
+    },
+    {
+      "feature": "onoff_season_off_net_rating",
+      "mean": -0.06064442748044343,
+      "missing_rate": 0.03479381443298969,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 12.916376011480683
+    },
+    {
+      "feature": "onoff_season_ortg_diff",
+      "mean": -0.07938340718206334,
+      "missing_rate": 0.045103092783505154,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 12.241604393371103
+    },
+    {
+      "feature": "onoff_season_drtg_diff",
+      "mean": 0.13721251357055053,
+      "missing_rate": 0.045103092783505154,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 13.746378104184446
+    },
+    {
+      "feature": "onoff_season_net_rating_diff",
+      "mean": -0.21659592075261377,
+      "missing_rate": 0.045103092783505154,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 19.614285886108064
+    },
+    {
+      "feature": "onoff_season_on_court_pace",
+      "mean": 71.1012484309101,
+      "missing_rate": 0.041666666666666664,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.496352737037428
+    },
+    {
+      "feature": "onoff_last5_on_possessions_n",
+      "mean": 165.00365979381445,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 62.451950120428044
+    },
+    {
+      "feature": "onoff_last5_on_court_net_rating",
+      "mean": -0.8640440964446979,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 16.264390411614468
+    },
+    {
+      "feature": "onoff_last10_on_possessions_n",
+      "mean": 323.3751145475372,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 125.71655024470193
+    },
+    {
+      "feature": "onoff_last10_on_court_net_rating",
+      "mean": -0.6067870110015523,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 12.70651518896281
+    },
+    {
+      "feature": "lineup_games_before",
+      "mean": 49.3573883161512,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 26.24140772004672
+    },
+    {
+      "feature": "lineup_last5_games_n",
+      "mean": 4.917096219931271,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.4718935004590381
+    },
+    {
+      "feature": "lineup_last5_unique_lineups_avg",
+      "mean": 17.357421725849562,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 2.5941547312734436
+    },
+    {
+      "feature": "lineup_last5_top_lineup_share_avg",
+      "mean": 0.23311102327807476,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.04288029827846459
+    },
+    {
+      "feature": "lineup_last5_top3_lineup_share_avg",
+      "mean": 0.48310865430507827,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.0615947791478669
+    },
+    {
+      "feature": "lineup_last5_entropy_avg",
+      "mean": 2.4211669891450884,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.17268991467241326
+    },
+    {
+      "feature": "lineup_last5_player_top_lineup_share_avg",
+      "mean": 0.42055402944590875,
+      "missing_rate": 0.20647193585337914,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.13927466036289873
+    },
+    {
+      "feature": "lineup_last5_continuity_avg",
+      "mean": 0.6540969835815197,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.15482296997708322
+    },
+    {
+      "feature": "teammate_last5_top_shared_minutes_avg",
+      "mean": 16.02945068887616,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 5.57814817981872
+    },
+    {
+      "feature": "teammate_last5_top3_shared_minutes_avg",
+      "mean": 42.60376256841033,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 14.805514380597298
+    },
+    {
+      "feature": "teammate_last5_minutes_concentration_avg",
+      "mean": 0.21748851878787429,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.01707511107989574
+    },
+    {
+      "feature": "teammate_last5_stable_count_avg",
+      "mean": 3.1729954180985103,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 1.6024690135647375
+    },
+    {
+      "feature": "shot_games_before",
+      "mean": 51.330326460481096,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 28.432017642385286
+    },
+    {
+      "feature": "shot_last5_games_n",
+      "mean": 4.901775486827034,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.5192303626998169
+    },
+    {
+      "feature": "shot_last10_games_n",
+      "mean": 9.538230240549828,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 1.6303803635076028
+    },
+    {
+      "feature": "shot_attempts_before",
+      "mean": 330.9412943871707,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 242.08203362194092
+    },
+    {
+      "feature": "shot_last5_attempts_n",
+      "mean": 29.62099083619702,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 14.616711488047486
+    },
+    {
+      "feature": "shot_last10_attempts_n",
+      "mean": 58.03350515463917,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 28.487466586419377
+    },
+    {
+      "feature": "shot_season_rim_attempts",
+      "mean": 16.574345317354638,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 17.782515959502465
+    },
+    {
+      "feature": "shot_season_paint_attempts",
+      "mean": 28.752330226364847,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 27.95845594932906
+    },
+    {
+      "feature": "shot_season_midrange_attempts",
+      "mean": 10.548453913300785,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 13.553233099720913
+    },
+    {
+      "feature": "shot_season_corner3_attempts",
+      "mean": 4.396064506583814,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 5.4648481906318445
+    },
+    {
+      "feature": "shot_season_above_break3_attempts",
+      "mean": 33.4761059328303,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 38.634861767786155
+    },
+    {
+      "feature": "shot_season_rim_attempt_rate",
+      "mean": 0.19357737859675378,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.15590115224170664
+    },
+    {
+      "feature": "shot_season_paint_attempt_rate",
+      "mean": 0.3037635027258943,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.14644852490182952
+    },
+    {
+      "feature": "shot_season_midrange_attempt_rate",
+      "mean": 0.1054436100997514,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.08429351079660333
+    },
+    {
+      "feature": "shot_season_corner3_attempt_rate",
+      "mean": 0.05354547478389098,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.0668676947533518
+    },
+    {
+      "feature": "shot_season_above_break3_attempt_rate",
+      "mean": 0.34367003379370953,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.20805537717761632
+    },
+    {
+      "feature": "shot_last5_rim_attempt_rate",
+      "mean": 0.189190019754112,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.16182939555800424
+    },
+    {
+      "feature": "shot_last5_paint_attempt_rate",
+      "mean": 0.30765630344995276,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.15517503129617588
+    },
+    {
+      "feature": "shot_last5_midrange_attempt_rate",
+      "mean": 0.10507601266996255,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.09092455877116577
+    },
+    {
+      "feature": "shot_last5_corner3_attempt_rate",
+      "mean": 0.054567493313481936,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.07337368113570011
+    },
+    {
+      "feature": "shot_last5_above_break3_attempt_rate",
+      "mean": 0.3435101708124908,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.21389097773108773
+    },
+    {
+      "feature": "shot_avg_distance_m",
+      "mean": 4.19248441102648,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 1.456969977219895
+    },
+    {
+      "feature": "shot_rim_fg_pct",
+      "mean": 0.7458928296389503,
+      "missing_rate": 0.09836769759450172,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.21271772016900248
+    },
+    {
+      "feature": "shot_paint_fg_pct",
+      "mean": 0.4538569302992417,
+      "missing_rate": 0.054982817869415807,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.17885221566682355
+    },
+    {
+      "feature": "shot_midrange_fg_pct",
+      "mean": 0.3470506128966236,
+      "missing_rate": 0.13559564719358533,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.24035749148870797
+    },
+    {
+      "feature": "shot_corner3_fg_pct",
+      "mean": 0.4423327409557767,
+      "missing_rate": 0.31557846506300113,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.29830321755019834
+    },
+    {
+      "feature": "shot_above_break3_fg_pct",
+      "mean": 0.3358747761415445,
+      "missing_rate": 0.13215922107674685,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.1605898302348665
+    },
+    {
+      "feature": "shot_3pa_share",
+      "mean": 0.3972155085776005,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.22735797291788953
+    },
+    {
+      "feature": "shot_2pa_share",
+      "mean": 0.6027844914223995,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.2273579729178895
+    },
+    {
+      "feature": "shot_points_per_shot",
+      "mean": 1.081981500683372,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.2587678492893612
+    },
+    {
+      "feature": "shot_zone_concentration",
+      "mean": 0.36244021001866444,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.11494945046650314
+    },
+    {
+      "feature": "shot_profile_entropy",
+      "mean": 1.1525869462212543,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.3355167150862392
+    },
+    {
+      "feature": "shot_recent_vs_season_mix_change",
+      "mean": 0.11023742954875924,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.08498108152533544
+    },
+    {
+      "feature": "opp_shot_games_before",
+      "mean": 84.2942439862543,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 18.09549639090192
+    },
+    {
+      "feature": "opp_shot_last5_games_n",
+      "mean": 5.0,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.0
+    },
+    {
+      "feature": "opp_shot_attempts_before",
+      "mean": 5153.975372279496,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 1130.0929468048914
+    },
+    {
+      "feature": "opp_shot_season_rim_attempts_allowed",
+      "mean": 205.11348660125932,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 121.14126614491582
+    },
+    {
+      "feature": "opp_shot_season_paint_attempts_allowed",
+      "mean": 353.1041148045102,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 216.25765424394584
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempts_allowed",
+      "mean": 130.55718260360229,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 78.06763410689997
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempts_allowed",
+      "mean": 55.11656172206765,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 34.23220788039124
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempts_allowed",
+      "mean": 414.0666276175135,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 234.38577655269535
+    },
+    {
+      "feature": "opp_shot_season_rim_attempt_rate_allowed",
+      "mean": 0.17956582819381592,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.03892425161309187
+    },
+    {
+      "feature": "opp_shot_season_paint_attempt_rate_allowed",
+      "mean": 0.29987165836325835,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.049483166553057595
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempt_rate_allowed",
+      "mean": 0.11225664883161926,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.020752720459034556
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempt_rate_allowed",
+      "mean": 0.04808481972120858,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.01640017277121114
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempt_rate_allowed",
+      "mean": 0.3602210448900979,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.035027017195654486
+    },
+    {
+      "feature": "opp_shot_rim_fg_allowed",
+      "mean": 0.7707454181397652,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.0484767758757231
+    },
+    {
+      "feature": "opp_shot_paint_fg_allowed",
+      "mean": 0.4650007336408152,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.04421855371011507
+    },
+    {
+      "feature": "opp_shot_midrange_fg_allowed",
+      "mean": 0.38363114549365723,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.07165656504294138
+    },
+    {
+      "feature": "opp_shot_corner3_fg_allowed",
+      "mean": 0.4493715112763598,
+      "missing_rate": 0.02820733104238259,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.11691640822942369
+    },
+    {
+      "feature": "opp_shot_above_break3_fg_allowed",
+      "mean": 0.3508350980530233,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.03533909331556029
+    },
+    {
+      "feature": "opp_shot_avg_distance_allowed_m",
+      "mean": 4.304212399349367,
+      "missing_rate": 0.022193585337915236,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.23901956857858814
+    },
+    {
+      "feature": "opp_shot_last5_rim_attempt_rate_allowed",
+      "mean": 0.17447899806317924,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.04745461152201198
+    },
+    {
+      "feature": "opp_shot_last5_paint_attempt_rate_allowed",
+      "mean": 0.3071213268989803,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.05492994837590517
+    },
+    {
+      "feature": "opp_shot_last5_midrange_attempt_rate_allowed",
+      "mean": 0.11345259696767751,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.027700804029564832
+    },
+    {
+      "feature": "opp_shot_last5_corner3_attempt_rate_allowed",
+      "mean": 0.047830354246773586,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.021182266717395315
+    },
+    {
+      "feature": "opp_shot_last5_above_break3_attempt_rate_allowed",
+      "mean": 0.35711672382338944,
+      "missing_rate": 0.0,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.043602019202790505
+    },
+    {
+      "feature": "interaction_rim_style",
+      "mean": 0.0346685270824552,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.02961549635014992
+    },
+    {
+      "feature": "interaction_3pa_style",
+      "mean": 0.16223947697052893,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.09475551835463134
+    },
+    {
+      "feature": "interaction_corner3_style",
+      "mean": 0.0025631657657304574,
+      "missing_rate": 0.03221649484536082,
+      "rows": 6984,
+      "season": "E2023",
+      "std": 0.0036297273972252216
+    },
+    {
+      "feature": "rot_games_before",
+      "mean": 62.73894767357588,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 38.16560039811936
+    },
+    {
+      "feature": "rot_last3_games_n",
+      "mean": 2.975068850558052,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.19700270815104004
+    },
+    {
+      "feature": "rot_last5_games_n",
+      "mean": 4.90418901290042,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.50935990415808
+    },
+    {
+      "feature": "rot_last1_stint_count",
+      "mean": 3.1578489636179157,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 1.2664174109106345
+    },
+    {
+      "feature": "rot_last3_stint_count_avg",
+      "mean": 3.154708411847128,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.973310692298908
+    },
+    {
+      "feature": "rot_last5_stint_count_avg",
+      "mean": 3.1496303812146693,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.8984071828933835
+    },
+    {
+      "feature": "rot_last3_avg_stint_minutes",
+      "mean": 6.364743037441346,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.3404247525846027
+    },
+    {
+      "feature": "rot_last5_avg_stint_minutes",
+      "mean": 6.379186878748382,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.192647823821534
+    },
+    {
+      "feature": "rot_last3_longest_stint_minutes_avg",
+      "mean": 9.22927759256575,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 3.392781329888163
+    },
+    {
+      "feature": "rot_last5_longest_stint_minutes_avg",
+      "mean": 9.234253635792626,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 3.1665398606445305
+    },
+    {
+      "feature": "rot_last3_first_sub_out_minutes_avg",
+      "mean": 6.897486682319674,
+      "missing_rate": 0.3620814610813161,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.173044232202717
+    },
+    {
+      "feature": "rot_last5_first_sub_out_minutes_avg",
+      "mean": 6.882454183311891,
+      "missing_rate": 0.286418321495869,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.0426407198258656
+    },
+    {
+      "feature": "rot_last3_first_entry_minutes_avg",
+      "mean": 4.565467217471131,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 4.87684145126423
+    },
+    {
+      "feature": "rot_last5_first_entry_minutes_avg",
+      "mean": 4.591733342996569,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 4.585798451983057
+    },
+    {
+      "feature": "rot_last5_first_stint_minutes_avg",
+      "mean": 6.818473973683786,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.1370267005176946
+    },
+    {
+      "feature": "rot_last5_minutes_avg",
+      "mean": 18.88108783881722,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 6.574224134085059
+    },
+    {
+      "feature": "rot_last5_minutes_share",
+      "mean": 0.47120437705325596,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.1639560905959517
+    },
+    {
+      "feature": "rot_season_minutes_share_before",
+      "mean": 0.46713221872869737,
+      "missing_rate": 0.02652558341788665,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.15620628341340442
+    },
+    {
+      "feature": "rot_last5_closing_lineup_rate",
+      "mean": 0.3539377687587574,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2728250847637821
+    },
+    {
+      "feature": "rot_season_closing_lineup_rate_before",
+      "mean": 0.35088743849177545,
+      "missing_rate": 0.02652558341788665,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2505601263450372
+    },
+    {
+      "feature": "rot_last5_starter_rate",
+      "mean": 0.47201285210416966,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.39651669499921327
+    },
+    {
+      "feature": "rot_last5_minutes_std",
+      "mean": 4.83997755220659,
+      "missing_rate": 0.007247427163357008,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.085415600927315
+    },
+    {
+      "feature": "rot_last5_stint_count_std",
+      "mean": 0.9042992829173014,
+      "missing_rate": 0.007247427163357008,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.44201568934873653
+    },
+    {
+      "feature": "rot_minutes_trend",
+      "mean": 0.002926268810246695,
+      "missing_rate": 0.029279605739962314,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 4.8499909322699954
+    },
+    {
+      "feature": "rot_minutes_ewma",
+      "mean": 18.88046761504574,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 6.546626916748721
+    },
+    {
+      "feature": "rot_role_stability",
+      "mean": 0.5741122674503392,
+      "missing_rate": 0.007247427163357008,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.09059163741444942
+    },
+    {
+      "feature": "onoff_games_before",
+      "mean": 62.73894767357588,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 38.16560039811936
+    },
+    {
+      "feature": "onoff_last5_games_n",
+      "mean": 4.90418901290042,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.50935990415808
+    },
+    {
+      "feature": "onoff_season_on_possessions_n",
+      "mean": 512.8020071471115,
+      "missing_rate": 0.02652558341788665,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 392.6290199956527
+    },
+    {
+      "feature": "onoff_season_off_possessions_n",
+      "mean": 540.1891125670041,
+      "missing_rate": 0.02652558341788665,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 355.4598716788654
+    },
+    {
+      "feature": "onoff_season_on_ortg",
+      "mean": 114.48924876285592,
+      "missing_rate": 0.0368169299898536,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 8.74428128510643
+    },
+    {
+      "feature": "onoff_season_on_drtg",
+      "mean": 114.80342712759307,
+      "missing_rate": 0.0368169299898536,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 8.957600301983495
+    },
+    {
+      "feature": "onoff_season_on_net_rating",
+      "mean": -0.31417836473714006,
+      "missing_rate": 0.0368169299898536,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 12.288032228877395
+    },
+    {
+      "feature": "onoff_season_off_ortg",
+      "mean": 114.38283926916934,
+      "missing_rate": 0.029424554283229452,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 7.989285529135024
+    },
+    {
+      "feature": "onoff_season_off_drtg",
+      "mean": 114.48406209401685,
+      "missing_rate": 0.029424554283229452,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 7.890406825802655
+    },
+    {
+      "feature": "onoff_season_off_net_rating",
+      "mean": -0.10122282484750375,
+      "missing_rate": 0.029424554283229452,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 10.978744969752084
+    },
+    {
+      "feature": "onoff_season_ortg_diff",
+      "mean": 0.13956188697935631,
+      "missing_rate": 0.039715900855196405,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 11.801328952705811
+    },
+    {
+      "feature": "onoff_season_drtg_diff",
+      "mean": 0.276945295510457,
+      "missing_rate": 0.039715900855196405,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 12.951061262445242
+    },
+    {
+      "feature": "onoff_season_net_rating_diff",
+      "mean": -0.13738340853110076,
+      "missing_rate": 0.039715900855196405,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 17.45150648906663
+    },
+    {
+      "feature": "onoff_season_on_court_pace",
+      "mean": 72.17163648352164,
+      "missing_rate": 0.0368169299898536,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.425063272026768
+    },
+    {
+      "feature": "onoff_last5_on_possessions_n",
+      "mean": 167.97906943035224,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 62.486486605473274
+    },
+    {
+      "feature": "onoff_last5_on_court_net_rating",
+      "mean": -1.121654319136181,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 15.671395675791828
+    },
+    {
+      "feature": "onoff_last10_on_possessions_n",
+      "mean": 327.71928685316715,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 125.65745402758714
+    },
+    {
+      "feature": "onoff_last10_on_court_net_rating",
+      "mean": -0.5808049226947322,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 12.21339031778742
+    },
+    {
+      "feature": "lineup_games_before",
+      "mean": 62.73894767357588,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 38.16560039811936
+    },
+    {
+      "feature": "lineup_last5_games_n",
+      "mean": 4.90418901290042,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.50935990415808
+    },
+    {
+      "feature": "lineup_last5_unique_lineups_avg",
+      "mean": 17.543762381021406,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 2.9749697414650793
+    },
+    {
+      "feature": "lineup_last5_top_lineup_share_avg",
+      "mean": 0.2267570903995748,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.04823424532212596
+    },
+    {
+      "feature": "lineup_last5_top3_lineup_share_avg",
+      "mean": 0.47566508699596827,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.07220779093904635
+    },
+    {
+      "feature": "lineup_last5_entropy_avg",
+      "mean": 2.4416129725133064,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.20405169479924948
+    },
+    {
+      "feature": "lineup_last5_player_top_lineup_share_avg",
+      "mean": 0.4119867812637357,
+      "missing_rate": 0.20220321785766054,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.14335594664324106
+    },
+    {
+      "feature": "lineup_last5_continuity_avg",
+      "mean": 0.6505453226976069,
+      "missing_rate": 0.0005797941730685607,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.15771245671575443
+    },
+    {
+      "feature": "teammate_last5_top_shared_minutes_avg",
+      "mean": 16.055734687796942,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 5.484173700841373
+    },
+    {
+      "feature": "teammate_last5_top3_shared_minutes_avg",
+      "mean": 42.59239845549275,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 14.463431869274203
+    },
+    {
+      "feature": "teammate_last5_minutes_concentration_avg",
+      "mean": 0.2169124271633062,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.01786245010316573
+    },
+    {
+      "feature": "teammate_last5_stable_count_avg",
+      "mean": 3.218229695124897,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 1.6060532140790138
+    },
+    {
+      "feature": "shot_games_before",
+      "mean": 64.66850268154805,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 40.901126220072065
+    },
+    {
+      "feature": "shot_last5_games_n",
+      "mean": 4.887085084794898,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.5568622591647907
+    },
+    {
+      "feature": "shot_last10_games_n",
+      "mean": 9.462385853022177,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 1.7455983300414002
+    },
+    {
+      "feature": "shot_attempts_before",
+      "mean": 425.9644876068995,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 339.12171671876854
+    },
+    {
+      "feature": "shot_last5_attempts_n",
+      "mean": 29.93303377301058,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 15.636718564624914
+    },
+    {
+      "feature": "shot_last10_attempts_n",
+      "mean": 58.40382664154225,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 30.4349806252941
+    },
+    {
+      "feature": "shot_season_rim_attempts",
+      "mean": 14.122516061556851,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 15.693566707019643
+    },
+    {
+      "feature": "shot_season_paint_attempts",
+      "mean": 29.79859554758703,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 29.935411910511014
+    },
+    {
+      "feature": "shot_season_midrange_attempts",
+      "mean": 10.641266995368294,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 14.119344881714747
+    },
+    {
+      "feature": "shot_season_corner3_attempts",
+      "mean": 4.080531898998954,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 4.989342995881305
+    },
+    {
+      "feature": "shot_season_above_break3_attempts",
+      "mean": 35.12744658598536,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 39.99616368345379
+    },
+    {
+      "feature": "shot_season_rim_attempt_rate",
+      "mean": 0.17009169522857182,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.14653241330246206
+    },
+    {
+      "feature": "shot_season_paint_attempt_rate",
+      "mean": 0.322631797510154,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.15705807669632002
+    },
+    {
+      "feature": "shot_season_midrange_attempt_rate",
+      "mean": 0.10512375829267909,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.08709868810065692
+    },
+    {
+      "feature": "shot_season_corner3_attempt_rate",
+      "mean": 0.048862439819954515,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.05950934664248137
+    },
+    {
+      "feature": "shot_season_above_break3_attempt_rate",
+      "mean": 0.35329030914864057,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.20893896697859626
+    },
+    {
+      "feature": "shot_last5_rim_attempt_rate",
+      "mean": 0.17100572167800537,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.1533090260032028
+    },
+    {
+      "feature": "shot_last5_paint_attempt_rate",
+      "mean": 0.322386554919154,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.16351756347136925
+    },
+    {
+      "feature": "shot_last5_midrange_attempt_rate",
+      "mean": 0.10202843316628518,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.08659641384394637
+    },
+    {
+      "feature": "shot_last5_corner3_attempt_rate",
+      "mean": 0.050973817310251586,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.0661406443543729
+    },
+    {
+      "feature": "shot_last5_above_break3_attempt_rate",
+      "mean": 0.35360547292630384,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.21306182245512967
+    },
+    {
+      "feature": "shot_avg_distance_m",
+      "mean": 4.276131166834797,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 1.4334013125062597
+    },
+    {
+      "feature": "shot_rim_fg_pct",
+      "mean": 0.75687682691237,
+      "missing_rate": 0.09247717060443543,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2100548324482483
+    },
+    {
+      "feature": "shot_paint_fg_pct",
+      "mean": 0.4789940472662563,
+      "missing_rate": 0.050152195970430496,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.17589459822452513
+    },
+    {
+      "feature": "shot_midrange_fg_pct",
+      "mean": 0.37990942624314317,
+      "missing_rate": 0.13523699086824179,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.25646520821081953
+    },
+    {
+      "feature": "shot_corner3_fg_pct",
+      "mean": 0.4272561533026641,
+      "missing_rate": 0.31845194955790695,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.3019204564112105
+    },
+    {
+      "feature": "shot_above_break3_fg_pct",
+      "mean": 0.3301892248361154,
+      "missing_rate": 0.13915060153645456,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.16126117604015625
+    },
+    {
+      "feature": "shot_3pa_share",
+      "mean": 0.4021527489685951,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2288280055001479
+    },
+    {
+      "feature": "shot_2pa_share",
+      "mean": 0.5978472510314049,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2288280055001479
+    },
+    {
+      "feature": "shot_points_per_shot",
+      "mean": 1.096744825540731,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2567857353358574
+    },
+    {
+      "feature": "shot_zone_concentration",
+      "mean": 0.3721819912615177,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.1197105839412523
+    },
+    {
+      "feature": "shot_profile_entropy",
+      "mean": 1.137825420328435,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.3297635332257491
+    },
+    {
+      "feature": "shot_recent_vs_season_mix_change",
+      "mean": 0.10953674569642646,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.08759659280453508
+    },
+    {
+      "feature": "opp_shot_games_before",
+      "mean": 117.28902739527467,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 29.590355013013056
+    },
+    {
+      "feature": "opp_shot_last5_games_n",
+      "mean": 4.985215248586751,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.20871556115357054
+    },
+    {
+      "feature": "opp_shot_attempts_before",
+      "mean": 7224.867951877083,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 1839.37236909565
+    },
+    {
+      "feature": "opp_shot_season_rim_attempts_allowed",
+      "mean": 178.89881656804735,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 106.58798056908209
+    },
+    {
+      "feature": "opp_shot_season_paint_attempts_allowed",
+      "mean": 373.9940828402367,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 220.21546892499657
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempts_allowed",
+      "mean": 133.30665680473373,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 77.24056921999333
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempts_allowed",
+      "mean": 50.217603550295856,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 33.27042200214547
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempts_allowed",
+      "mean": 426.8213017751479,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 245.9758359483215
+    },
+    {
+      "feature": "opp_shot_season_rim_attempt_rate_allowed",
+      "mean": 0.15562908210546217,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.04031442294419436
+    },
+    {
+      "feature": "opp_shot_season_paint_attempt_rate_allowed",
+      "mean": 0.3221580284014495,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.04202522651875403
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempt_rate_allowed",
+      "mean": 0.1155114779224202,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.01784041137538546
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempt_rate_allowed",
+      "mean": 0.04246750326435088,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.014861816640946861
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempt_rate_allowed",
+      "mean": 0.36423390830631724,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.030781704000666776
+    },
+    {
+      "feature": "opp_shot_rim_fg_allowed",
+      "mean": 0.7919067380227655,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.06224881346783226
+    },
+    {
+      "feature": "opp_shot_paint_fg_allowed",
+      "mean": 0.4948283677940613,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.041429464019856296
+    },
+    {
+      "feature": "opp_shot_midrange_fg_allowed",
+      "mean": 0.39578695314601364,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.05598161092293962
+    },
+    {
+      "feature": "opp_shot_corner3_fg_allowed",
+      "mean": 0.4327713541880737,
+      "missing_rate": 0.030004348456298013,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.10250185961154706
+    },
+    {
+      "feature": "opp_shot_above_break3_fg_allowed",
+      "mean": 0.34992596148950933,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.03887167575237667
+    },
+    {
+      "feature": "opp_shot_avg_distance_allowed_m",
+      "mean": 4.3691654710849255,
+      "missing_rate": 0.020147847514132483,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.2029700051903561
+    },
+    {
+      "feature": "opp_shot_last5_rim_attempt_rate_allowed",
+      "mean": 0.1545369942580893,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.04667913547397964
+    },
+    {
+      "feature": "opp_shot_last5_paint_attempt_rate_allowed",
+      "mean": 0.31947331753422037,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.04985906504169196
+    },
+    {
+      "feature": "opp_shot_last5_midrange_attempt_rate_allowed",
+      "mean": 0.11244451986893554,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.02462000501713374
+    },
+    {
+      "feature": "opp_shot_last5_corner3_attempt_rate_allowed",
+      "mean": 0.04383604168802062,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.01994888398912696
+    },
+    {
+      "feature": "opp_shot_last5_above_break3_attempt_rate_allowed",
+      "mean": 0.3697091266507342,
+      "missing_rate": 0.0,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.03844016165424705
+    },
+    {
+      "feature": "interaction_rim_style",
+      "mean": 0.026533800544858353,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.02494693242902035
+    },
+    {
+      "feature": "interaction_3pa_style",
+      "mean": 0.16355589218098962,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.09371269889978905
+    },
+    {
+      "feature": "interaction_corner3_style",
+      "mean": 0.0020765336117262454,
+      "missing_rate": 0.029859399913030875,
+      "rows": 6899,
+      "season": "E2024",
+      "std": 0.002785004670184862
+    },
+    {
+      "feature": "rot_games_before",
+      "mean": 69.5918271488962,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 48.129329087358414
+    },
+    {
+      "feature": "rot_last3_games_n",
+      "mean": 2.9753405354626583,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.19350022871834713
+    },
+    {
+      "feature": "rot_last5_games_n",
+      "mean": 4.906528886801315,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.504075812170168
+    },
+    {
+      "feature": "rot_last1_stint_count",
+      "mean": 3.370479098168154,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 1.4220038479771113
+    },
+    {
+      "feature": "rot_last3_stint_count_avg",
+      "mean": 3.3749804289963987,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 1.164465739700866
+    },
+    {
+      "feature": "rot_last5_stint_count_avg",
+      "mean": 3.380436824800376,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 1.093915519721074
+    },
+    {
+      "feature": "rot_last3_avg_stint_minutes",
+      "mean": 5.971453232964114,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.20649387719174
+    },
+    {
+      "feature": "rot_last5_avg_stint_minutes",
+      "mean": 5.957197382619023,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.061429731276421
+    },
+    {
+      "feature": "rot_last3_longest_stint_minutes_avg",
+      "mean": 8.667195083763897,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 3.188352122605852
+    },
+    {
+      "feature": "rot_last5_longest_stint_minutes_avg",
+      "mean": 8.660010894525339,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.9948099693754346
+    },
+    {
+      "feature": "rot_last3_first_sub_out_minutes_avg",
+      "mean": 6.283708521990519,
+      "missing_rate": 0.38621418506341004,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.0784961713255954
+    },
+    {
+      "feature": "rot_last5_first_sub_out_minutes_avg",
+      "mean": 6.241448660881977,
+      "missing_rate": 0.3053076561766087,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.0005033121866913
+    },
+    {
+      "feature": "rot_last3_first_entry_minutes_avg",
+      "mean": 4.205232307812745,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 4.667324921232367
+    },
+    {
+      "feature": "rot_last5_first_entry_minutes_avg",
+      "mean": 4.204819555346798,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 4.364949349413468
+    },
+    {
+      "feature": "rot_last5_first_stint_minutes_avg",
+      "mean": 6.281944444444444,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.0542371363482363
+    },
+    {
+      "feature": "rot_last5_minutes_avg",
+      "mean": 18.653399646417203,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 6.192777060761395
+    },
+    {
+      "feature": "rot_last5_minutes_share",
+      "mean": 0.4662837342246573,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.15479857024101135
+    },
+    {
+      "feature": "rot_season_minutes_share_before",
+      "mean": 0.46279542605048674,
+      "missing_rate": 0.023954908407703146,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.1482488247133627
+    },
+    {
+      "feature": "rot_last5_closing_lineup_rate",
+      "mean": 0.35827070612180995,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.2724881355825728
+    },
+    {
+      "feature": "rot_season_closing_lineup_rate_before",
+      "mean": 0.3519709615022032,
+      "missing_rate": 0.023954908407703146,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.23720038287394224
+    },
+    {
+      "feature": "rot_last5_starter_rate",
+      "mean": 0.4707609206200094,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.40516322855221526
+    },
+    {
+      "feature": "rot_last5_minutes_std",
+      "mean": 4.646075858002553,
+      "missing_rate": 0.006693283231564115,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.1433959373875346
+    },
+    {
+      "feature": "rot_last5_stint_count_std",
+      "mean": 0.9154393351069401,
+      "missing_rate": 0.006693283231564115,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.4581368773210247
+    },
+    {
+      "feature": "rot_minutes_trend",
+      "mean": 0.006807436062755235,
+      "missing_rate": 0.028651949271958667,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 4.705241739132815
+    },
+    {
+      "feature": "rot_minutes_ewma",
+      "mean": 18.66999674931901,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 6.187060010716156
+    },
+    {
+      "feature": "rot_role_stability",
+      "mean": 0.580382812063874,
+      "missing_rate": 0.006693283231564115,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.09447911050118045
+    },
+    {
+      "feature": "onoff_games_before",
+      "mean": 69.5918271488962,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 48.129329087358414
+    },
+    {
+      "feature": "onoff_last5_games_n",
+      "mean": 4.906528886801315,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.504075812170168
+    },
+    {
+      "feature": "onoff_season_on_possessions_n",
+      "mean": 561.8064051973051,
+      "missing_rate": 0.023954908407703146,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 420.08338166628573
+    },
+    {
+      "feature": "onoff_season_off_possessions_n",
+      "mean": 606.8851636188643,
+      "missing_rate": 0.023954908407703146,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 398.5313830332217
+    },
+    {
+      "feature": "onoff_season_on_ortg",
+      "mean": 115.15665417197243,
+      "missing_rate": 0.031705025833724754,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 8.515673446214407
+    },
+    {
+      "feature": "onoff_season_on_drtg",
+      "mean": 115.608352954293,
+      "missing_rate": 0.031705025833724754,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 8.92575789176487
+    },
+    {
+      "feature": "onoff_season_on_net_rating",
+      "mean": -0.45169878232053556,
+      "missing_rate": 0.031705025833724754,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 12.825512588634902
+    },
+    {
+      "feature": "onoff_season_off_ortg",
+      "mean": 115.36328496932923,
+      "missing_rate": 0.025833724753405354,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 7.445274166088205
+    },
+    {
+      "feature": "onoff_season_off_drtg",
+      "mean": 115.57755429197124,
+      "missing_rate": 0.025833724753405354,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 7.988557032592595
+    },
+    {
+      "feature": "onoff_season_off_net_rating",
+      "mean": -0.21426932264200696,
+      "missing_rate": 0.025833724753405354,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 11.240645941411163
+    },
+    {
+      "feature": "onoff_season_ortg_diff",
+      "mean": -0.211305171822993,
+      "missing_rate": 0.03358384217942696,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 11.565590687305614
+    },
+    {
+      "feature": "onoff_season_drtg_diff",
+      "mean": 0.017708544874305416,
+      "missing_rate": 0.03358384217942696,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 12.451762950506339
+    },
+    {
+      "feature": "onoff_season_net_rating_diff",
+      "mean": -0.2290137166972983,
+      "missing_rate": 0.03358384217942696,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 18.021403707213743
+    },
+    {
+      "feature": "onoff_season_on_court_pace",
+      "mean": 73.86128907790786,
+      "missing_rate": 0.031705025833724754,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 2.6827312769293092
+    },
+    {
+      "feature": "onoff_last5_on_possessions_n",
+      "mean": 168.7304884922499,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 59.9296216271193
+    },
+    {
+      "feature": "onoff_last5_on_court_net_rating",
+      "mean": -0.966478252752555,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 15.947391046468674
+    },
+    {
+      "feature": "onoff_last10_on_possessions_n",
+      "mean": 330.1676045091593,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 121.83779049310188
+    },
+    {
+      "feature": "onoff_last10_on_court_net_rating",
+      "mean": -0.7838989283752285,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 12.765817301345976
+    },
+    {
+      "feature": "lineup_games_before",
+      "mean": 69.5918271488962,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 48.129329087358414
+    },
+    {
+      "feature": "lineup_last5_games_n",
+      "mean": 4.906528886801315,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.504075812170168
+    },
+    {
+      "feature": "lineup_last5_unique_lineups_avg",
+      "mean": 18.591474870831377,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 3.51679286522549
+    },
+    {
+      "feature": "lineup_last5_top_lineup_share_avg",
+      "mean": 0.21976468613546613,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.055778672179824414
+    },
+    {
+      "feature": "lineup_last5_top3_lineup_share_avg",
+      "mean": 0.46121033908938297,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.0837053567174789
+    },
+    {
+      "feature": "lineup_last5_entropy_avg",
+      "mean": 2.4964769255031585,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.23774386951910753
+    },
+    {
+      "feature": "lineup_last5_player_top_lineup_share_avg",
+      "mean": 0.4040042716014037,
+      "missing_rate": 0.18400657585720995,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.144757206279924
+    },
+    {
+      "feature": "lineup_last5_continuity_avg",
+      "mean": 0.6259682726204465,
+      "missing_rate": 0.0007045561296383278,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.16332139847101462
+    },
+    {
+      "feature": "teammate_last5_top_shared_minutes_avg",
+      "mean": 15.672205489014141,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 5.101206256156187
+    },
+    {
+      "feature": "teammate_last5_top3_shared_minutes_avg",
+      "mean": 41.623486606909864,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 13.527962464421426
+    },
+    {
+      "feature": "teammate_last5_minutes_concentration_avg",
+      "mean": 0.2141928641526387,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.01826314674745737
+    },
+    {
+      "feature": "teammate_last5_stable_count_avg",
+      "mean": 3.1723266009080944,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 1.568805774771092
+    },
+    {
+      "feature": "shot_games_before",
+      "mean": 71.4246124941287,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 51.10560445738735
+    },
+    {
+      "feature": "shot_last5_games_n",
+      "mean": 4.886683889149835,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.5659811816202713
+    },
+    {
+      "feature": "shot_last10_games_n",
+      "mean": 9.473579145138563,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 1.737468522090733
+    },
+    {
+      "feature": "shot_attempts_before",
+      "mean": 484.9705260685768,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 430.9218658241153
+    },
+    {
+      "feature": "shot_last5_attempts_n",
+      "mean": 30.27348520432128,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 15.843020484031573
+    },
+    {
+      "feature": "shot_last10_attempts_n",
+      "mean": 59.21982151244716,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 31.085506105845706
+    },
+    {
+      "feature": "shot_season_rim_attempts",
+      "mean": 17.994212683867858,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 20.11668518457964
+    },
+    {
+      "feature": "shot_season_paint_attempts",
+      "mean": 32.18555582348686,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 30.31850584455452
+    },
+    {
+      "feature": "shot_season_midrange_attempts",
+      "mean": 10.448637569327225,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 14.33246191556145
+    },
+    {
+      "feature": "shot_season_corner3_attempts",
+      "mean": 4.566915842777912,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 5.626678901420972
+    },
+    {
+      "feature": "shot_season_above_break3_attempts",
+      "mean": 37.94803472389679,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 42.31492726226645
+    },
+    {
+      "feature": "shot_season_rim_attempt_rate",
+      "mean": 0.1887311313570212,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.15441631341916048
+    },
+    {
+      "feature": "shot_season_paint_attempt_rate",
+      "mean": 0.3218806607354353,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.15367973588620865
+    },
+    {
+      "feature": "shot_season_midrange_attempt_rate",
+      "mean": 0.09100586364629709,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.08067475778298454
+    },
+    {
+      "feature": "shot_season_corner3_attempt_rate",
+      "mean": 0.05076618847039081,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.06737614971595766
+    },
+    {
+      "feature": "shot_season_above_break3_attempt_rate",
+      "mean": 0.3476161557908556,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.20663966563872516
+    },
+    {
+      "feature": "shot_last5_rim_attempt_rate",
+      "mean": 0.18960187833359757,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.1639596263162004
+    },
+    {
+      "feature": "shot_last5_paint_attempt_rate",
+      "mean": 0.31533750083207207,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.15945081431245486
+    },
+    {
+      "feature": "shot_last5_midrange_attempt_rate",
+      "mean": 0.0910132297238274,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.08278439501745129
+    },
+    {
+      "feature": "shot_last5_corner3_attempt_rate",
+      "mean": 0.05189116790819192,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.07267830577184366
+    },
+    {
+      "feature": "shot_last5_above_break3_attempt_rate",
+      "mean": 0.35215622320231105,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.21261614331866166
+    },
+    {
+      "feature": "shot_avg_distance_m",
+      "mean": 4.212820054590691,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 1.469238871300662
+    },
+    {
+      "feature": "shot_rim_fg_pct",
+      "mean": 0.7488989967145888,
+      "missing_rate": 0.08877407233442931,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.19485869148814075
+    },
+    {
+      "feature": "shot_paint_fg_pct",
+      "mean": 0.4792888450458208,
+      "missing_rate": 0.045913574448097697,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.17197938169801688
+    },
+    {
+      "feature": "shot_midrange_fg_pct",
+      "mean": 0.3725825217086045,
+      "missing_rate": 0.15194927195866603,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.251015404585055
+    },
+    {
+      "feature": "shot_corner3_fg_pct",
+      "mean": 0.4171883981087393,
+      "missing_rate": 0.28687177078440584,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.2914798251919732
+    },
+    {
+      "feature": "shot_above_break3_fg_pct",
+      "mean": 0.3374235255283745,
+      "missing_rate": 0.13750587130108033,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.15347103351005556
+    },
+    {
+      "feature": "shot_3pa_share",
+      "mean": 0.3983823442612464,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.2272500621593454
+    },
+    {
+      "feature": "shot_2pa_share",
+      "mean": 0.6016176557387536,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.22725006215934537
+    },
+    {
+      "feature": "shot_points_per_shot",
+      "mean": 1.0972539777176054,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.24808391628863014
+    },
+    {
+      "feature": "shot_zone_concentration",
+      "mean": 0.3721204343868243,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.12382502856184749
+    },
+    {
+      "feature": "shot_profile_entropy",
+      "mean": 1.1401488973174072,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.32930583704881167
+    },
+    {
+      "feature": "shot_recent_vs_season_mix_change",
+      "mean": 0.1087036984438365,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.08287990886844158
+    },
+    {
+      "feature": "opp_shot_games_before",
+      "mean": 138.80612963832786,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 51.00433808825142
+    },
+    {
+      "feature": "opp_shot_last5_games_n",
+      "mean": 4.975223109441052,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.2689166356148327
+    },
+    {
+      "feature": "opp_shot_attempts_before",
+      "mean": 8602.865782057304,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 3157.6067528784693
+    },
+    {
+      "feature": "opp_shot_season_rim_attempts_allowed",
+      "mean": 223.73604303646144,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 137.71354670069957
+    },
+    {
+      "feature": "opp_shot_season_paint_attempts_allowed",
+      "mean": 406.12050209205023,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 235.58336491305053
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempts_allowed",
+      "mean": 132.60956365809923,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 78.88653387337511
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempts_allowed",
+      "mean": 57.64136282127914,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 40.24490736927031
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempts_allowed",
+      "mean": 482.37788404064554,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 275.46191207824785
+    },
+    {
+      "feature": "opp_shot_season_rim_attempt_rate_allowed",
+      "mean": 0.1709053793895812,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.038727950241910516
+    },
+    {
+      "feature": "opp_shot_season_paint_attempt_rate_allowed",
+      "mean": 0.31306098529540244,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.0405295390254801
+    },
+    {
+      "feature": "opp_shot_season_midrange_attempt_rate_allowed",
+      "mean": 0.10218203291662743,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.02031929931719032
+    },
+    {
+      "feature": "opp_shot_season_corner3_attempt_rate_allowed",
+      "mean": 0.04342022800043624,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.01696159151141252
+    },
+    {
+      "feature": "opp_shot_season_above_break3_attempt_rate_allowed",
+      "mean": 0.37043137439795276,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.037178596837516696
+    },
+    {
+      "feature": "opp_shot_rim_fg_allowed",
+      "mean": 0.7711405326807653,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.053962180530235805
+    },
+    {
+      "feature": "opp_shot_paint_fg_allowed",
+      "mean": 0.48497235810581507,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.04216025292095721
+    },
+    {
+      "feature": "opp_shot_midrange_fg_allowed",
+      "mean": 0.4012944122559131,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.06218957462214095
+    },
+    {
+      "feature": "opp_shot_corner3_fg_allowed",
+      "mean": 0.42492464699375837,
+      "missing_rate": 0.024659464537341476,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.10989850943730915
+    },
+    {
+      "feature": "opp_shot_above_break3_fg_allowed",
+      "mean": 0.34993689674745454,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.03269511258489613
+    },
+    {
+      "feature": "opp_shot_avg_distance_allowed_m",
+      "mean": 4.369212237794726,
+      "missing_rate": 0.017731329262564585,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.23346186610577307
+    },
+    {
+      "feature": "opp_shot_last5_rim_attempt_rate_allowed",
+      "mean": 0.17134575758817905,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.04968757345317529
+    },
+    {
+      "feature": "opp_shot_last5_paint_attempt_rate_allowed",
+      "mean": 0.3129098599077737,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.050887299973896384
+    },
+    {
+      "feature": "opp_shot_last5_midrange_attempt_rate_allowed",
+      "mean": 0.10263465540748114,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.02452878320606249
+    },
+    {
+      "feature": "opp_shot_last5_corner3_attempt_rate_allowed",
+      "mean": 0.04520186481454322,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.020801519088535895
+    },
+    {
+      "feature": "opp_shot_last5_above_break3_attempt_rate_allowed",
+      "mean": 0.36790786228202293,
+      "missing_rate": 0.0,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.04365071615101905
+    },
+    {
+      "feature": "interaction_rim_style",
+      "mean": 0.03212562845757331,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.02755790950481057
+    },
+    {
+      "feature": "interaction_3pa_style",
+      "mean": 0.16496079430768112,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.09562170486168542
+    },
+    {
+      "feature": "interaction_corner3_style",
+      "mean": 0.00218929452316166,
+      "missing_rate": 0.026068576796618132,
+      "rows": 8516,
+      "season": "E2025",
+      "std": 0.0031986679728965395
+    }
+  ],
+  "top_residual_correlations": [
+    {
+      "blend_residual_pearson": -0.135064608417775,
+      "blend_residual_spearman": -0.14416977347982743,
+      "family": "player_shot",
+      "feature": "shot_points_per_shot",
+      "rows": 28417,
+      "target_pearson": 0.08802066602150749,
+      "target_spearman": 0.09816010646753848
+    },
+    {
+      "blend_residual_pearson": -0.0834875219985593,
+      "blend_residual_spearman": -0.09630389274996402,
+      "family": "player_shot",
+      "feature": "shot_above_break3_fg_pct",
+      "rows": 25228,
+      "target_pearson": 0.037746162261587946,
+      "target_spearman": 0.06143147606515698
+    },
+    {
+      "blend_residual_pearson": -0.08735247395066496,
+      "blend_residual_spearman": -0.08585764223095123,
+      "family": "onoff",
+      "feature": "onoff_season_on_ortg",
+      "rows": 28204,
+      "target_pearson": 0.1310734527758092,
+      "target_spearman": 0.13584343782719852
+    },
+    {
+      "blend_residual_pearson": -0.08072726967503227,
+      "blend_residual_spearman": -0.08331710698832237,
+      "family": "onoff",
+      "feature": "onoff_last5_on_court_net_rating",
+      "rows": 29232,
+      "target_pearson": 0.12015501785331684,
+      "target_spearman": 0.11567442265899651
+    },
+    {
+      "blend_residual_pearson": -0.07819322843160845,
+      "blend_residual_spearman": -0.07752433819152803,
+      "family": "onoff",
+      "feature": "onoff_season_ortg_diff",
+      "rows": 28111,
+      "target_pearson": 0.12829700923963336,
+      "target_spearman": 0.13329413617647243
+    },
+    {
+      "blend_residual_pearson": -0.07591602050802182,
+      "blend_residual_spearman": -0.0772296331175173,
+      "family": "onoff",
+      "feature": "onoff_season_on_net_rating",
+      "rows": 28204,
+      "target_pearson": 0.12334035722076607,
+      "target_spearman": 0.13011090531923697
+    },
+    {
+      "blend_residual_pearson": -0.06561703525686947,
+      "blend_residual_spearman": -0.07676522592430637,
+      "family": "player_shot",
+      "feature": "shot_paint_fg_pct",
+      "rows": 27796,
+      "target_pearson": 0.07595780190923632,
+      "target_spearman": 0.0811736440672151
+    },
+    {
+      "blend_residual_pearson": -0.07003715765186318,
+      "blend_residual_spearman": -0.0717854231808266,
+      "family": "onoff",
+      "feature": "onoff_last10_on_court_net_rating",
+      "rows": 29232,
+      "target_pearson": 0.1341047442542269,
+      "target_spearman": 0.128887702205272
+    },
+    {
+      "blend_residual_pearson": -0.06688898101000137,
+      "blend_residual_spearman": -0.07152830588559553,
+      "family": "rotation",
+      "feature": "rot_last5_minutes_share",
+      "rows": 29232,
+      "target_pearson": 0.41714650182855084,
+      "target_spearman": 0.4232054395836773
+    },
+    {
+      "blend_residual_pearson": -0.06696300671634899,
+      "blend_residual_spearman": -0.07147270967421476,
+      "family": "rotation",
+      "feature": "rot_last5_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.4169629416862128,
+      "target_spearman": 0.4230403391164802
+    },
+    {
+      "blend_residual_pearson": -0.06648079937026245,
+      "blend_residual_spearman": -0.07077166932082926,
+      "family": "teammate",
+      "feature": "teammate_last5_top_shared_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.40932117217795005,
+      "target_spearman": 0.41642560527829864
+    },
+    {
+      "blend_residual_pearson": -0.06527730482005219,
+      "blend_residual_spearman": -0.06886444315789464,
+      "family": "teammate",
+      "feature": "teammate_last5_stable_count_avg",
+      "rows": 29232,
+      "target_pearson": 0.4006160284617962,
+      "target_spearman": 0.40939332454097443
+    },
+    {
+      "blend_residual_pearson": -0.06453465771474119,
+      "blend_residual_spearman": -0.06884923322759846,
+      "family": "teammate",
+      "feature": "teammate_last5_top3_shared_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.40975659087202687,
+      "target_spearman": 0.41671294925125446
+    },
+    {
+      "blend_residual_pearson": -0.06169160145600967,
+      "blend_residual_spearman": -0.06826841565979658,
+      "family": "onoff",
+      "feature": "onoff_last5_on_possessions_n",
+      "rows": 29232,
+      "target_pearson": 0.41030144716363415,
+      "target_spearman": 0.41729846372835616
+    },
+    {
+      "blend_residual_pearson": -0.06388709222755781,
+      "blend_residual_spearman": -0.06676870245624378,
+      "family": "onoff",
+      "feature": "onoff_season_net_rating_diff",
+      "rows": 28111,
+      "target_pearson": 0.127906074211434,
+      "target_spearman": 0.13616221201653175
+    },
+    {
+      "blend_residual_pearson": -0.0565759837572232,
+      "blend_residual_spearman": -0.06495276605640805,
+      "family": "rotation",
+      "feature": "rot_last5_longest_stint_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.33484967122542286,
+      "target_spearman": 0.34057188048715853
+    },
+    {
+      "blend_residual_pearson": -0.05738655830272176,
+      "blend_residual_spearman": -0.06484547108054738,
+      "family": "player_shot",
+      "feature": "shot_last5_attempts_n",
+      "rows": 29232,
+      "target_pearson": 0.39131939956179507,
+      "target_spearman": 0.3946124098121504
+    },
+    {
+      "blend_residual_pearson": -0.05880595406371232,
+      "blend_residual_spearman": -0.06437726914513657,
+      "family": "rotation",
+      "feature": "rot_season_minutes_share_before",
+      "rows": 28471,
+      "target_pearson": 0.42389692406674473,
+      "target_spearman": 0.42799989555708196
+    },
+    {
+      "blend_residual_pearson": -0.059043884424670484,
+      "blend_residual_spearman": -0.06384520920371235,
+      "family": "rotation",
+      "feature": "rot_minutes_ewma",
+      "rows": 29232,
+      "target_pearson": 0.4234249420530452,
+      "target_spearman": 0.42967481607143704
+    },
+    {
+      "blend_residual_pearson": -0.05261048284771305,
+      "blend_residual_spearman": -0.060095246708636675,
+      "family": "rotation",
+      "feature": "rot_last3_longest_stint_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.3176832054210251,
+      "target_spearman": 0.32536662189721244
+    },
+    {
+      "blend_residual_pearson": -0.05075266968016837,
+      "blend_residual_spearman": -0.05892353580008888,
+      "family": "rotation",
+      "feature": "rot_last5_avg_stint_minutes",
+      "rows": 29232,
+      "target_pearson": 0.3014667182801102,
+      "target_spearman": 0.3085709978065942
+    },
+    {
+      "blend_residual_pearson": -0.047630508713432336,
+      "blend_residual_spearman": -0.0536796648790397,
+      "family": "rotation",
+      "feature": "rot_last3_avg_stint_minutes",
+      "rows": 29232,
+      "target_pearson": 0.28339056389016926,
+      "target_spearman": 0.29381706558757775
+    },
+    {
+      "blend_residual_pearson": -0.044355472392853285,
+      "blend_residual_spearman": -0.05177427876846504,
+      "family": "onoff",
+      "feature": "onoff_last10_on_possessions_n",
+      "rows": 29232,
+      "target_pearson": 0.39429792010352016,
+      "target_spearman": 0.4058987970355266
+    },
+    {
+      "blend_residual_pearson": -0.040843382718828355,
+      "blend_residual_spearman": -0.050205848401210146,
+      "family": "rotation",
+      "feature": "rot_last5_first_stint_minutes_avg",
+      "rows": 29232,
+      "target_pearson": 0.24605083065148625,
+      "target_spearman": 0.26062626770861663
+    },
+    {
+      "blend_residual_pearson": -0.03752930763725415,
+      "blend_residual_spearman": -0.049640033976132765,
+      "family": "player_shot",
+      "feature": "shot_season_rim_attempts",
+      "rows": 28417,
+      "target_pearson": 0.24252794009152281,
+      "target_spearman": 0.2640292815343312
+    },
+    {
+      "blend_residual_pearson": -0.04006445074376092,
+      "blend_residual_spearman": -0.04895497560093685,
+      "family": "player_shot",
+      "feature": "shot_last10_attempts_n",
+      "rows": 29232,
+      "target_pearson": 0.39048122046203476,
+      "target_spearman": 0.39126522667309993
+    },
+    {
+      "blend_residual_pearson": -0.048290387181280724,
+      "blend_residual_spearman": -0.04630276486772255,
+      "family": "player_shot",
+      "feature": "shot_rim_fg_pct",
+      "rows": 26542,
+      "target_pearson": 0.05046684796668177,
+      "target_spearman": 0.01651483672036135
+    },
+    {
+      "blend_residual_pearson": -0.037976895084281884,
+      "blend_residual_spearman": -0.04414642869200602,
+      "family": "onoff",
+      "feature": "onoff_season_on_possessions_n",
+      "rows": 28471,
+      "target_pearson": 0.23709191330030982,
+      "target_spearman": 0.23638276637042985
+    },
+    {
+      "blend_residual_pearson": -0.03952391528338444,
+      "blend_residual_spearman": -0.04411637360069938,
+      "family": "rotation",
+      "feature": "rot_last5_closing_lineup_rate",
+      "rows": 29232,
+      "target_pearson": 0.2530973748283232,
+      "target_spearman": 0.2466935687590337
+    },
+    {
+      "blend_residual_pearson": -0.03893410300382206,
+      "blend_residual_spearman": -0.04237792814812268,
+      "family": "player_shot",
+      "feature": "shot_corner3_fg_pct",
+      "rows": 20082,
+      "target_pearson": 0.03194191228069253,
+      "target_spearman": 0.0383425673901193
+    }
+  ]
+}

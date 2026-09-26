@@ -1,0 +1,35 @@
+{
+  "maximum_absolute_error": 0.0,
+  "mismatches": {},
+  "passed": true,
+  "representative_rows": [
+    {
+      "max_absolute_error": 0.0,
+      "mismatches": {},
+      "passed": true,
+      "player_game_id": "0bac9ea5-4d55-59d4-ad50-7437af8cf2b2",
+      "rows": 1,
+      "season": "E2023",
+      "tolerance": 1e-09
+    },
+    {
+      "max_absolute_error": 0.0,
+      "mismatches": {},
+      "passed": true,
+      "player_game_id": "10c1bb96-eb86-56c7-84b1-ce82678a744e",
+      "rows": 1,
+      "season": "E2024",
+      "tolerance": 1e-09
+    },
+    {
+      "max_absolute_error": 0.0,
+      "mismatches": {},
+      "passed": true,
+      "player_game_id": "010254ff-6aa7-50b7-a16b-e21dbc8997ba",
+      "rows": 1,
+      "season": "E2025",
+      "tolerance": 1e-09
+    }
+  ],
+  "tolerance": 1e-09
+}

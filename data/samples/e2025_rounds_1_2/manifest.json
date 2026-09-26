@@ -1,0 +1,258 @@
+{
+  "description": "Small EuroLeague data-discovery sample; not a full-season download.",
+  "competition": "E",
+  "season": 2025,
+  "season_code": "E2025",
+  "rounds": [
+    1,
+    2
+  ],
+  "requested_max_games": 3,
+  "responses": [
+    {
+      "endpoint": "v2_round_games",
+      "url": "https://api-live.euroleague.net/v2/competitions/E/seasons/E2025/games?roundNumber=1",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:28.448861+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/round_1_games.json",
+      "bytes": 24968,
+      "sha256": "1f276790040a79662b04fc44c52e8fccbce8e803fba635363714cbe53a506235"
+    },
+    {
+      "endpoint": "v2_round_games",
+      "url": "https://api-live.euroleague.net/v2/competitions/E/seasons/E2025/games?roundNumber=2",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:28.612016+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/round_2_games.json",
+      "bytes": 25085,
+      "sha256": "86662e388ae8e9c74d22cbe40cc55f9d520472e1789c28e61cac3d72bb5199dc"
+    },
+    {
+      "endpoint": "v2_season_players",
+      "url": "https://api-live.euroleague.net/v2/competitions/E/players?seasonCode=E2025&Limit=1000&Offset=0",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:29.038824+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/season_players.json",
+      "bytes": 429333,
+      "sha256": "5e37b332fc2702c1e32739431a0378a1e9a51af5c3e85cd3ecd6916accbf9893"
+    },
+    {
+      "endpoint": "live_boxscore",
+      "url": "https://live.euroleague.net/api/Boxscore?gamecode=1&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:29.273579+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_1_boxscore.json",
+      "bytes": 13676,
+      "sha256": "3e37c0f0383b7d83289bd273aea38965ccdc9d31f36f05d9a2632d4f9d928532"
+    },
+    {
+      "endpoint": "live_play_by_play",
+      "url": "https://live.euroleague.net/api/PlaybyPlay?gamecode=1&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:29.534010+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_1_play_by_play.json",
+      "bytes": 148808,
+      "sha256": "141ae1c8d458f117d53dd320ac9b8c500218be4fb8733a44f6b2ae255abb9b00"
+    },
+    {
+      "endpoint": "live_shots",
+      "url": "https://live.euroleague.net/api/Points?gamecode=1&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:30.135800+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_1_shots.json",
+      "bytes": 51575,
+      "sha256": "822a05d7a7d790c7a047ffed9f120b4926cc09ccf8b0ee68c624b2aee0356e11"
+    },
+    {
+      "endpoint": "live_header",
+      "url": "https://live.euroleague.net/api/Header?gamecode=1&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:30.226989+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_1_header.json",
+      "bytes": 914,
+      "sha256": "12ae3717dab16ce09c6e7f4906ae8222a9106d3c570caa09930b753ea1541618"
+    },
+    {
+      "endpoint": "v3_game_report",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/1/report",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:30.332632+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_1_v3_report.json",
+      "bytes": 1222,
+      "sha256": "aa000b90921f740c1b2e355503073588b9a35b98b5b6bea3cd8ebcc7495d1523"
+    },
+    {
+      "endpoint": "v3_game_stats",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/1/stats",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:30.843751+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_1_v3_stats.json",
+      "bytes": 46978,
+      "sha256": "178ee48030408de77900abb33776cdcd46f1270c981928b467078579aa8e0fdc"
+    },
+    {
+      "endpoint": "live_boxscore",
+      "url": "https://live.euroleague.net/api/Boxscore?gamecode=11&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:31.148169+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_boxscore.json",
+      "bytes": 13730,
+      "sha256": "3305337bf7a79faa30c445c7a1a099a579f85eecf002a7906ad8fdea8324e52e"
+    },
+    {
+      "endpoint": "live_play_by_play",
+      "url": "https://live.euroleague.net/api/PlaybyPlay?gamecode=11&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:31.226591+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_play_by_play.json",
+      "bytes": 137260,
+      "sha256": "ef6788c64d3835713ba6e31f6407ed179097aa0a828308ca2694fbdd0cf0bd3d"
+    },
+    {
+      "endpoint": "live_shots",
+      "url": "https://live.euroleague.net/api/Points?gamecode=11&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:31.346967+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_shots.json",
+      "bytes": 49231,
+      "sha256": "e6cd19803534b1d5b1dab8b863159d14b222de71708c7ffc3aa9a6c92fa2b6f5"
+    },
+    {
+      "endpoint": "live_header",
+      "url": "https://live.euroleague.net/api/Header?gamecode=11&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:31.528792+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_header.json",
+      "bytes": 944,
+      "sha256": "43d02d08e846e3a5b7d3cb788d626e623179218ad7e455c85c2301a08809a717"
+    },
+    {
+      "endpoint": "v3_game_report",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/11/report",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:31.638774+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_v3_report.json",
+      "bytes": 1224,
+      "sha256": "104e51b819423f5c78a7128dcbb1832c06a47f70448e88fe8b3031c528f68442"
+    },
+    {
+      "endpoint": "v3_game_stats",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/11/stats",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.061546+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_v3_stats.json",
+      "bytes": 46633,
+      "sha256": "2c6aa97224baa9b84690e2f68a3ccca21495aadd60b573c37e87e8a61ca54124"
+    },
+    {
+      "endpoint": "v3_game_team_comparison",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/11/teamsComparison",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.283196+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_11_v3_teams_comparison.json",
+      "bytes": 2607,
+      "sha256": "6df836e5a7056324d74b761491b3ca3adc52e63dd40b2fafb9226330b2e52b5e"
+    },
+    {
+      "endpoint": "live_boxscore",
+      "url": "https://live.euroleague.net/api/Boxscore?gamecode=2&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.395237+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_2_boxscore.json",
+      "bytes": 13728,
+      "sha256": "f460ac8f53a2b62c68299c7d2548700a46ecde157c0a513ede8ae3e298bc468a"
+    },
+    {
+      "endpoint": "live_play_by_play",
+      "url": "https://live.euroleague.net/api/PlaybyPlay?gamecode=2&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.503663+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_2_play_by_play.json",
+      "bytes": 164577,
+      "sha256": "956f88471eb6a3e0257e70a0074d66055e5775b11431925dae2a60161d7a8247"
+    },
+    {
+      "endpoint": "live_shots",
+      "url": "https://live.euroleague.net/api/Points?gamecode=2&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.598471+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_2_shots.json",
+      "bytes": 61430,
+      "sha256": "2ce3d6d7a3f0808685963f797cc6516b12a1ae3f331b3a0341df2dbe9c6950f5"
+    },
+    {
+      "endpoint": "live_header",
+      "url": "https://live.euroleague.net/api/Header?gamecode=2&seasoncode=E2025",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.669211+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_2_header.json",
+      "bytes": 933,
+      "sha256": "2bd5ce45c11e1b7fc5ffd19c52f781d7a29480c8e7f7eb4df9dc2d93dc249ff6"
+    },
+    {
+      "endpoint": "v3_game_report",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/2/report",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:32.772146+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_2_v3_report.json",
+      "bytes": 1210,
+      "sha256": "52ee4b6f828e6625da268d7f3da5400eb1fbae32096c233a1685abb59fccf0a9"
+    },
+    {
+      "endpoint": "v3_game_stats",
+      "url": "https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/2/stats",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "fetched_at_utc": "2026-08-10T17:40:33.181847+00:00",
+      "relative_path": "e2025_rounds_1_2/raw/game_2_v3_stats.json",
+      "bytes": 46903,
+      "sha256": "03d353ce746d724161dc058385d78405b939a476f1d4548d8740231b943dbd50"
+    }
+  ],
+  "errors": [
+    {
+      "endpoint": "v3_teams_comparison",
+      "game_code": 1,
+      "error": "v3_game_team_comparison request failed for https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/1/teamsComparison: 404 Client Error: Not Found for url: https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/1/teamsComparison"
+    },
+    {
+      "endpoint": "v3_teams_comparison",
+      "game_code": 2,
+      "error": "v3_game_team_comparison request failed for https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/2/teamsComparison: 404 Client Error: Not Found for url: https://api-live.euroleague.net/v3/competitions/E/seasons/E2025/games/2/teamsComparison"
+    }
+  ],
+  "selected_game_codes": [
+    1,
+    11,
+    2
+  ],
+  "normalized_row_counts": {
+    "games": 20,
+    "player_boxscores": 72,
+    "team_boxscores": 6,
+    "play_by_play_events": 1645,
+    "shots": 497,
+    "roster_memberships": 335
+  }
+}

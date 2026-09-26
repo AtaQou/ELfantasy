@@ -1,0 +1,467 @@
+{
+  "errors": [],
+  "http_errors": [
+    {
+      "url": "http://127.0.0.1:63988/api/strategy/current",
+      "status": 500
+    },
+    {
+      "url": "http://127.0.0.1:63988/api/strategy/current",
+      "status": 500
+    },
+    {
+      "url": "http://127.0.0.1:63988/api/strategy/current",
+      "status": 500
+    },
+    {
+      "url": "http://127.0.0.1:63988/api/strategy/current",
+      "status": 500
+    },
+    {
+      "url": "http://127.0.0.1:63988/api/history?section=overview",
+      "status": 500
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "tab": "team",
+      "document": 1440,
+      "viewport": 1440,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "tab": "builder",
+      "document": 1440,
+      "viewport": 1440,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "tab": "players",
+      "document": 1440,
+      "viewport": 1440,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "tab": "recommendations",
+      "document": 1440,
+      "viewport": 1440,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "tab": "strategy",
+      "document": 1440,
+      "viewport": 1440,
+      "offenders": []
+    },
+    {
+      "width": 1100,
+      "tab": "team",
+      "document": 1100,
+      "viewport": 1100,
+      "offenders": []
+    },
+    {
+      "width": 1100,
+      "tab": "builder",
+      "document": 1100,
+      "viewport": 1100,
+      "offenders": []
+    },
+    {
+      "width": 1100,
+      "tab": "players",
+      "document": 1100,
+      "viewport": 1100,
+      "offenders": [
+        {
+          "tag": "TABLE",
+          "id": "players-table",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "THEAD",
+          "id": "",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "sort-button",
+          "right": 1116
+        },
+        {
+          "tag": "TBODY",
+          "id": "",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "constraint-normal",
+          "right": 1116
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "cls": "constraint-select ",
+          "right": 1108
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "constraint-normal",
+          "right": 1116
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "cls": "",
+          "right": 1116
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "cls": "constraint-select ",
+          "right": 1108
+        }
+      ]
+    },
+    {
+      "width": 1100,
+      "tab": "recommendations",
+      "document": 1102,
+      "viewport": 1100,
+      "offenders": []
+    },
+    {
+      "width": 1100,
+      "tab": "strategy",
+      "document": 1100,
+      "viewport": 1100,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "tab": "team",
+      "document": 768,
+      "viewport": 768,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "tab": "builder",
+      "document": 768,
+      "viewport": 768,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "tab": "players",
+      "document": 768,
+      "viewport": 768,
+      "offenders": [
+        {
+          "tag": "TABLE",
+          "id": "players-table",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "THEAD",
+          "id": "",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "sort-button",
+          "right": 890
+        },
+        {
+          "tag": "TBODY",
+          "id": "",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "constraint-normal",
+          "right": 890
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "cls": "constraint-select ",
+          "right": 882
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "constraint-normal",
+          "right": 890
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "cls": "",
+          "right": 890
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "cls": "constraint-select ",
+          "right": 882
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "tab": "recommendations",
+      "document": 828,
+      "viewport": 768,
+      "offenders": [
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "recommendation-player-metrics",
+          "right": 815
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "cls": "",
+          "right": 815
+        },
+        {
+          "tag": "B",
+          "id": "",
+          "cls": "",
+          "right": 809
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "recommendation-player-metrics",
+          "right": 815
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "cls": "",
+          "right": 815
+        },
+        {
+          "tag": "B",
+          "id": "",
+          "cls": "",
+          "right": 809
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "recommendation-player-metrics",
+          "right": 815
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "cls": "",
+          "right": 815
+        },
+        {
+          "tag": "B",
+          "id": "",
+          "cls": "",
+          "right": 809
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "recommendation-player-metrics",
+          "right": 815
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "cls": "",
+          "right": 815
+        },
+        {
+          "tag": "B",
+          "id": "",
+          "cls": "",
+          "right": 809
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "tab": "strategy",
+      "document": 768,
+      "viewport": 768,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "tab": "team",
+      "document": 390,
+      "viewport": 390,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "tab": "builder",
+      "document": 390,
+      "viewport": 390,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "tab": "players",
+      "document": 390,
+      "viewport": 390,
+      "offenders": [
+        {
+          "tag": "TABLE",
+          "id": "players-table",
+          "cls": "",
+          "right": 880
+        },
+        {
+          "tag": "THEAD",
+          "id": "",
+          "cls": "",
+          "right": 880
+        },
+        {
+          "tag": "TR",
+          "id": "",
+          "cls": "",
+          "right": 880
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "cls": "",
+          "right": 485
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "sort-button",
+          "right": 485
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "cls": "numeric",
+          "right": 526
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "sort-button",
+          "right": 526
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "cls": "numeric",
+          "right": 567
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "sort-button",
+          "right": 567
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "cls": "numeric",
+          "right": 613
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "sort-button",
+          "right": 613
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "cls": "",
+          "right": 605
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "tab": "recommendations",
+      "document": 390,
+      "viewport": 390,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "tab": "strategy",
+      "document": 390,
+      "viewport": 390,
+      "offenders": []
+    }
+  ],
+  "interactions": {
+    "null_helpers": {
+      "role": "BENCH / LIMITED",
+      "rate": 0,
+      "match_changed_roster": true
+    },
+    "history_text": "The Control Center could not complete this request. Technical details were logged with request 3c0de5c8c1a1."
+  }
+}

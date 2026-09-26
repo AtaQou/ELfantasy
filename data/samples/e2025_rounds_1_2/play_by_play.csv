@@ -1,0 +1,1646 @@
+season_code,game_code,quarter,event_type,event_number,team_id,player_id,play_type,player_name,team_name,jersey_number,elapsed_minute,game_clock,home_score,away_score,comment,play_info,source_sequence,source_period
+E2025,1,1,0,2,,,BP,,,,1,,,,,Begin Period,1,FirstQuarter
+E2025,1,1,0,3,IST,,JB,,Anadolu Efes Istanbul,,1,09:59,,,,,2,FirstQuarter
+E2025,1,1,0,4,IST,P014102,2FGM,"JONES, KAI",Anadolu Efes Istanbul,88,1,09:39,2,,,Two Pointer (1/1 -  2 pt),3,FirstQuarter
+E2025,1,1,0,5,IST,P007200,AS,"LARKIN, SHANE",Anadolu Efes Istanbul,0,1,09:36,,,,Assist (1),4,FirstQuarter
+E2025,1,1,0,6,TEL,P011193,TO,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,1,09:22,,,,Turnover (1),5,FirstQuarter
+E2025,1,1,0,7,IST,P010391,ST,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,1,09:19,,,,Steal (1),6,FirstQuarter
+E2025,1,1,0,8,IST,P007200,3FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,1,09:11,,,,Missed Three Pointer (0/1 -  0 pt),7,FirstQuarter
+E2025,1,1,0,9,IST,P009549,O,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,1,09:08,,,,Off Rebound (1),8,FirstQuarter
+E2025,1,1,0,11,IST,P012710,2FGM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,2,08:57,4,,,Two Pointer (1/1 -  2 pt),9,FirstQuarter
+E2025,1,1,0,12,TEL,P011219,2FGM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,2,08:42,4,2,,Two Pointer (1/1 -  2 pt),10,FirstQuarter
+E2025,1,1,0,13,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,2,08:42,,,,Assist (1),11,FirstQuarter
+E2025,1,1,0,14,IST,P010391,CM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,2,08:42,,,,Foul (1),12,FirstQuarter
+E2025,1,1,0,15,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,2,08:42,,,,Foul Drawn (1),13,FirstQuarter
+E2025,1,1,0,16,TEL,P011219,FTM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,2,08:42,4,3,,Free Throw In (1/1 -  3 pt),14,FirstQuarter
+E2025,1,1,0,17,IST,P010391,3FGM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,2,08:19,7,3,,Three Pointer (1/1 -  3 pt),15,FirstQuarter
+E2025,1,1,0,18,IST,P014102,CM,"JONES, KAI",Anadolu Efes Istanbul,88,2,08:11,,,,Foul (1),16,FirstQuarter
+E2025,1,1,0,19,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,2,08:11,,,,Foul Drawn (2),17,FirstQuarter
+E2025,1,1,0,20,TEL,P014127,2FGM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,2,08:05,7,5,,Two Pointer (1/1 -  2 pt),18,FirstQuarter
+E2025,1,1,0,22,IST,P009549,2FGM,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,3,07:48,9,5,,Two Pointer (1/1 -  2 pt),19,FirstQuarter
+E2025,1,1,0,23,TEL,P013699,2FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,3,07:37,,,,Missed Two Pointer (0/1 -  0 pt),20,FirstQuarter
+E2025,1,1,0,24,TEL,P006835,O,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,3,07:35,,,,Off Rebound (1),21,FirstQuarter
+E2025,1,1,0,25,TEL,P006835,2FGM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,3,07:33,9,7,,Two Pointer (1/1 -  2 pt),22,FirstQuarter
+E2025,1,1,0,26,IST,P010391,3FGA,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,3,07:13,,,,Missed Three Pointer (1/2 -  3 pt),23,FirstQuarter
+E2025,1,1,0,27,TEL,P013699,D,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,3,07:11,,,,Def Rebound (1),24,FirstQuarter
+E2025,1,1,0,28,IST,P009549,CM,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,3,07:10,,,,Foul (1),25,FirstQuarter
+E2025,1,1,0,29,TEL,P013699,RV,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,3,07:10,,,,Foul Drawn (1),26,FirstQuarter
+E2025,1,1,0,30,TEL,P006835,2FGA,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,3,07:01,,,,Missed Two Pointer (1/2 -  2 pt),27,FirstQuarter
+E2025,1,1,0,32,IST,P010391,D,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,4,06:59,,,,Def Rebound (1),28,FirstQuarter
+E2025,1,1,0,33,IST,P014102,2FGM,"JONES, KAI",Anadolu Efes Istanbul,88,4,06:46,11,7,,Two Pointer (2/2 -  4 pt),29,FirstQuarter
+E2025,1,1,0,34,IST,P012710,AS,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,4,06:44,,,,Assist (1),30,FirstQuarter
+E2025,1,1,0,35,TEL,P006835,2FGM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,4,06:27,11,9,,Two Pointer (2/3 -  4 pt),31,FirstQuarter
+E2025,1,1,0,36,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,4,06:25,,,,Assist (2),32,FirstQuarter
+E2025,1,1,0,37,IST,P009549,3FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,4,06:07,,,,Missed Three Pointer (0/1 -  2 pt),33,FirstQuarter
+E2025,1,1,0,38,IST,P012710,O,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,4,06:04,,,,Off Rebound (1),34,FirstQuarter
+E2025,1,1,0,39,TEL,P013699,CM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,4,06:01,,,,Foul (1),35,FirstQuarter
+E2025,1,1,0,40,IST,P007200,RV,"LARKIN, SHANE",Anadolu Efes Istanbul,0,4,06:01,,,,Foul Drawn (1),36,FirstQuarter
+E2025,1,1,0,41,IST,P009549,2FGM,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,4,06:01,13,9,,Two Pointer (2/2 -  4 pt),37,FirstQuarter
+E2025,1,1,0,42,TEL,P014127,CM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,4,06:01,,,,Foul (1),38,FirstQuarter
+E2025,1,1,0,43,IST,P009549,RV,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,4,06:01,,,,Foul Drawn (1),39,FirstQuarter
+E2025,1,1,0,45,IST,P009549,FTM,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,5,05:53,14,9,,Free Throw In (1/1 -  5 pt),40,FirstQuarter
+E2025,1,1,0,46,TEL,P011193,3FGA,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,5,05:53,,,,Missed Three Pointer (0/1 -  0 pt),41,FirstQuarter
+E2025,1,1,0,47,IST,P014102,D,"JONES, KAI",Anadolu Efes Istanbul,88,5,05:53,,,,Def Rebound (1),42,FirstQuarter
+E2025,1,1,0,48,IST,P012710,3FGA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,5,05:53,,,,Missed Three Pointer (0/1 -  2 pt),43,FirstQuarter
+E2025,1,1,0,49,IST,P007200,O,"LARKIN, SHANE",Anadolu Efes Istanbul,0,5,05:53,,,,Off Rebound (1),44,FirstQuarter
+E2025,1,1,0,50,IST,P012710,2FGM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,5,05:53,16,9,,Two Pointer (2/2 -  4 pt),45,FirstQuarter
+E2025,1,1,0,51,TEL,P014127,2FGM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,5,05:53,16,11,,Two Pointer (2/2 -  4 pt),46,FirstQuarter
+E2025,1,1,0,53,IST,P010391,TO,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,6,04:29,,,,Turnover (1),47,FirstQuarter
+E2025,1,1,0,54,TEL,P013699,ST,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,6,04:27,,,,Steal (1),48,FirstQuarter
+E2025,1,1,0,55,IST,P007200,CM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,6,04:17,,,,Foul (1),49,FirstQuarter
+E2025,1,1,0,56,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,6,04:17,,,,Foul Drawn (3),50,FirstQuarter
+E2025,1,1,0,57,,,TOUT_TV,,,,6,04:17,,,,TV Time Out (1),51,FirstQuarter
+E2025,1,1,0,58,TEL,P011219,FTM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,6,04:17,16,12,,Free Throw In (2/2 -  4 pt),52,FirstQuarter
+E2025,1,1,0,59,TEL,P011219,FTM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,6,04:17,16,13,,Free Throw In (3/3 -  5 pt),53,FirstQuarter
+E2025,1,1,0,60,IST,P007200,OF,"LARKIN, SHANE",Anadolu Efes Istanbul,0,6,04:04,,,,Offensive Foul (2),54,FirstQuarter
+E2025,1,1,0,61,IST,P007200,TO,"LARKIN, SHANE",Anadolu Efes Istanbul,0,6,04:04,,,,Turnover (1),55,FirstQuarter
+E2025,1,1,0,62,TEL,P014127,RV,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,6,04:04,,,,Foul Drawn (1),56,FirstQuarter
+E2025,1,1,0,64,TEL,P014127,2FGA,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,7,03:50,,,,Missed Two Pointer (2/3 -  4 pt),57,FirstQuarter
+E2025,1,1,0,65,TEL,,O,,Maccabi Rapyd Tel Aviv,,7,03:50,,,,Off Rebound (1),58,FirstQuarter
+E2025,1,1,0,66,TEL,P011219,3FGA,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,7,03:42,,,,Missed Three Pointer (0/1 -  5 pt),59,FirstQuarter
+E2025,1,1,0,67,TEL,P006835,O,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,7,03:40,,,,Off Rebound (2),60,FirstQuarter
+E2025,1,1,0,68,TEL,P011193,2FGA,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,7,03:29,,,,Missed Two Pointer (0/1 -  0 pt),61,FirstQuarter
+E2025,1,1,0,69,TEL,P011219,O,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,7,03:26,,,,Off Rebound (1),62,FirstQuarter
+E2025,1,1,0,70,TEL,P011219,2FGM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,7,03:18,16,15,,Two Pointer (2/2 -  7 pt),63,FirstQuarter
+E2025,1,1,0,71,TEL,P013699,AS,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,7,03:18,,,,Assist (1),64,FirstQuarter
+E2025,1,1,0,72,IST,P007200,OUT,"LARKIN, SHANE",Anadolu Efes Istanbul,0,7,03:18,,,,Out,65,FirstQuarter
+E2025,1,1,0,73,IST,P009754,IN,"LOYD, JORDAN",Anadolu Efes Istanbul,3,7,03:18,,,,In,66,FirstQuarter
+E2025,1,1,0,74,IST,P005844,IN,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,7,03:18,,,,In,67,FirstQuarter
+E2025,1,1,0,75,IST,P014102,OUT,"JONES, KAI",Anadolu Efes Istanbul,88,7,03:18,,,,Out,68,FirstQuarter
+E2025,1,1,0,77,IST,P005844,2FGM,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,8,02:52,18,15,,Two Pointer (1/1 -  2 pt),69,FirstQuarter
+E2025,1,1,0,78,IST,P010391,AS,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,8,02:50,,,,Assist (1),70,FirstQuarter
+E2025,1,1,0,79,IST,P012710,CM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,8,02:51,,,,Foul (1),71,FirstQuarter
+E2025,1,1,0,80,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,8,02:51,,,,Foul Drawn (4),72,FirstQuarter
+E2025,1,1,0,81,TEL,P013699,OUT,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,8,02:51,,,,Out,73,FirstQuarter
+E2025,1,1,0,82,TEL,P013403,IN,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,8,02:51,,,,In,74,FirstQuarter
+E2025,1,1,0,83,TEL,P014123,IN,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,8,02:51,,,,In,75,FirstQuarter
+E2025,1,1,0,84,TEL,P011193,OUT,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,8,02:51,,,,Out,76,FirstQuarter
+E2025,1,1,0,85,TEL,P011219,FTM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,8,02:51,18,16,,Free Throw In (4/4 -  8 pt),77,FirstQuarter
+E2025,1,1,0,86,TEL,P011219,FTM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,8,02:51,18,17,,Free Throw In (5/5 -  9 pt),78,FirstQuarter
+E2025,1,1,0,87,TEL,P013289,IN,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,8,02:51,,,,In,79,FirstQuarter
+E2025,1,1,0,88,TEL,P011219,OUT,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,8,02:51,,,,Out,80,FirstQuarter
+E2025,1,1,0,89,TEL,P014127,OUT,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,8,02:51,,,,Out,81,FirstQuarter
+E2025,1,1,0,90,TEL,P013381,IN,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,8,02:51,,,,In,82,FirstQuarter
+E2025,1,1,0,91,IST,P005844,3FGA,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,8,02:32,,,,Missed Three Pointer (0/1 -  2 pt),83,FirstQuarter
+E2025,1,1,0,92,TEL,,D,,Maccabi Rapyd Tel Aviv,,8,02:32,,,,Def Rebound (1),84,FirstQuarter
+E2025,1,1,0,93,TEL,P013289,OF,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,8,02:19,,,,Offensive Foul (1),85,FirstQuarter
+E2025,1,1,0,94,TEL,P013289,TO,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,8,02:19,,,,Turnover (1),86,FirstQuarter
+E2025,1,1,0,95,IST,P009754,RV,"LOYD, JORDAN",Anadolu Efes Istanbul,3,8,02:19,,,,Foul Drawn (1),87,FirstQuarter
+E2025,1,1,0,97,IST,P009549,2FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,9,01:59,,,,Missed Two Pointer (2/3 -  5 pt),88,FirstQuarter
+E2025,1,1,0,98,IST,P005844,O,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,9,01:59,,,,Off Rebound (1),89,FirstQuarter
+E2025,1,1,0,99,TEL,P013381,CM,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,9,01:59,,,,Foul (1),90,FirstQuarter
+E2025,1,1,0,100,IST,P005844,RV,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,9,01:59,,,,Foul Drawn (1),91,FirstQuarter
+E2025,1,1,0,101,IST,P012710,2FGM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,9,01:59,20,17,,Two Pointer (3/3 -  6 pt),92,FirstQuarter
+E2025,1,1,0,102,TEL,P013403,3FGA,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,9,01:59,,,,Missed Three Pointer (0/1 -  0 pt),93,FirstQuarter
+E2025,1,1,0,103,IST,,D,,Anadolu Efes Istanbul,,9,01:59,,,,Def Rebound (2),94,FirstQuarter
+E2025,1,1,0,104,TEL,P006835,OUT,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,9,01:59,,,,Out,95,FirstQuarter
+E2025,1,1,0,105,TEL,P014012,IN,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,9,01:59,,,,In,96,FirstQuarter
+E2025,1,1,0,106,TEL,P014012,CM,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,9,01:30,,,,Foul (1),97,FirstQuarter
+E2025,1,1,0,107,IST,P012710,RV,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,9,01:30,,,,Foul Drawn (1),98,FirstQuarter
+E2025,1,1,0,108,IST,P011201,IN,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,9,01:30,,,,In,99,FirstQuarter
+E2025,1,1,0,109,IST,P010391,OUT,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,9,01:30,,,,Out,100,FirstQuarter
+E2025,1,1,0,110,IST,P012710,FTA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,9,01:30,,,,Missed Free Throw (0/1 -  6 pt),101,FirstQuarter
+E2025,1,1,0,111,IST,P012710,FTM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,9,01:30,21,17,,Free Throw In (1/2 -  7 pt),102,FirstQuarter
+E2025,1,1,0,112,TEL,P013289,3FGA,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,9,01:12,,,,Missed Three Pointer (0/1 -  0 pt),103,FirstQuarter
+E2025,1,1,0,113,TEL,P013403,O,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,9,01:10,,,,Off Rebound (1),104,FirstQuarter
+E2025,1,1,0,114,TEL,P013403,3FGA,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,9,01:08,,,,Missed Three Pointer (0/2 -  0 pt),105,FirstQuarter
+E2025,1,1,0,115,TEL,P013381,O,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,9,01:04,,,,Off Rebound (1),106,FirstQuarter
+E2025,1,1,0,117,TEL,P014123,3FGA,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,10,00:55,,,,Missed Three Pointer (0/1 -  0 pt),107,FirstQuarter
+E2025,1,1,0,118,IST,P011201,D,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,10,00:51,,,,Def Rebound (1),108,FirstQuarter
+E2025,1,1,0,119,IST,P012710,3FGA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,10,00:29,,,,Missed Three Pointer (0/2 -  7 pt),109,FirstQuarter
+E2025,1,1,0,120,IST,P005844,O,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,10,00:27,,,,Off Rebound (2),110,FirstQuarter
+E2025,1,1,0,121,IST,P011201,OF,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,10,00:16,,,,Offensive Foul (1),111,FirstQuarter
+E2025,1,1,0,122,IST,P011201,TO,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,10,00:16,,,,Turnover (1),112,FirstQuarter
+E2025,1,1,0,123,TEL,P013289,RV,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,10,00:16,,,,Foul Drawn (1),113,FirstQuarter
+E2025,1,1,0,124,IST,P005844,OUT,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,10,00:16,,,,Out,114,FirstQuarter
+E2025,1,1,0,125,IST,P014102,IN,"JONES, KAI",Anadolu Efes Istanbul,88,10,00:16,,,,In,115,FirstQuarter
+E2025,1,1,0,126,TEL,P013381,OUT,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,10,00:16,,,,Out,116,FirstQuarter
+E2025,1,1,0,127,TEL,P007990,IN,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,10,00:16,,,,In,117,FirstQuarter
+E2025,1,1,0,128,TEL,P014123,2FGM,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,10,00:00,21,19,,Two Pointer (1/1 -  2 pt),118,FirstQuarter
+E2025,1,1,0,130,,,EP,,,,11,,,,,End Period,119,FirstQuarter
+E2025,1,2,0,137,,,BP,,,,11,,,,,Begin Period,120,SecondQuarter
+E2025,1,2,0,131,IST,P005844,IN,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,11,10:00,,,,In,121,SecondQuarter
+E2025,1,2,0,132,IST,P009549,OUT,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,11,10:00,,,,Out,122,SecondQuarter
+E2025,1,2,0,133,IST,P014025,IN,"SWIDER, COLE",Anadolu Efes Istanbul,21,11,10:00,,,,In,123,SecondQuarter
+E2025,1,2,0,134,IST,P012710,OUT,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,11,10:00,,,,Out,124,SecondQuarter
+E2025,1,2,0,135,IST,P006372,IN,"YILMAZ, ERKAN",Anadolu Efes Istanbul,33,11,10:00,,,,In,125,SecondQuarter
+E2025,1,2,0,136,IST,P014102,OUT,"JONES, KAI",Anadolu Efes Istanbul,88,11,10:00,,,,Out,126,SecondQuarter
+E2025,1,2,0,138,TEL,P014012,2FGM,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,11,09:59,21,21,,Two Pointer (1/1 -  2 pt),127,SecondQuarter
+E2025,1,2,0,139,TEL,P014123,AS,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,11,09:59,,,,Assist (1),128,SecondQuarter
+E2025,1,2,0,140,IST,P014025,CM,"SWIDER, COLE",Anadolu Efes Istanbul,21,11,09:59,,,,Foul (1),129,SecondQuarter
+E2025,1,2,0,141,TEL,P014012,RV,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,11,09:59,,,,Foul Drawn (1),130,SecondQuarter
+E2025,1,2,0,142,TEL,P014012,FTM,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,11,09:51,21,22,,Free Throw In (1/1 -  3 pt),131,SecondQuarter
+E2025,1,2,0,143,IST,P006372,TO,"YILMAZ, ERKAN",Anadolu Efes Istanbul,33,11,09:51,,,,Turnover (1),132,SecondQuarter
+E2025,1,2,0,144,TEL,P007990,ST,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,11,09:51,,,,Steal (1),133,SecondQuarter
+E2025,1,2,0,145,TEL,P007990,2FGM,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,11,09:27,21,24,,Two Pointer (1/1 -  2 pt),134,SecondQuarter
+E2025,1,2,0,146,TEL,P014012,AS,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,11,09:25,,,,Assist (1),135,SecondQuarter
+E2025,1,2,0,147,IST,P011201,3FGA,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,11,09:12,,,,Missed Three Pointer (0/1 -  0 pt),136,SecondQuarter
+E2025,1,2,0,148,IST,P009754,O,"LOYD, JORDAN",Anadolu Efes Istanbul,3,11,09:09,,,,Off Rebound (1),137,SecondQuarter
+E2025,1,2,0,149,IST,P009754,3FGA,"LOYD, JORDAN",Anadolu Efes Istanbul,3,11,09:07,,,,Missed Three Pointer (0/1 -  0 pt),138,SecondQuarter
+E2025,1,2,0,150,TEL,P007990,D,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,11,09:05,,,,Def Rebound (1),139,SecondQuarter
+E2025,1,2,0,151,IST,P006372,CM,"YILMAZ, ERKAN",Anadolu Efes Istanbul,33,11,09:05,,,,Foul (1),140,SecondQuarter
+E2025,1,2,0,152,TEL,P007990,RV,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,11,09:05,,,,Foul Drawn (1),141,SecondQuarter
+E2025,1,2,0,153,TEL,P013289,2FGA,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,11,09:05,,,,Missed Two Pointer (0/1 -  0 pt),142,SecondQuarter
+E2025,1,2,0,154,TEL,P007990,O,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,11,09:05,,,,Off Rebound (1),143,SecondQuarter
+E2025,1,2,0,155,TEL,P013289,2FGM,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,11,09:05,21,26,,Two Pointer (1/2 -  2 pt),144,SecondQuarter
+E2025,1,2,0,156,TEL,P007990,AS,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,11,09:05,,,,Assist (1),145,SecondQuarter
+E2025,1,2,0,157,,,TOUT_TV,,,,11,09:05,,,,TV Time Out (2),146,SecondQuarter
+E2025,1,2,0,159,IST,,TOUT,,Anadolu Efes Istanbul,,12,08:48,,,,Time Out (1),147,SecondQuarter
+E2025,1,2,0,160,IST,P007200,IN,"LARKIN, SHANE",Anadolu Efes Istanbul,0,12,08:48,,,,In,148,SecondQuarter
+E2025,1,2,0,161,IST,P006372,OUT,"YILMAZ, ERKAN",Anadolu Efes Istanbul,33,12,08:48,,,,Out,149,SecondQuarter
+E2025,1,2,0,162,IST,P011201,TO,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,12,08:22,,,,Turnover (2),150,SecondQuarter
+E2025,1,2,0,163,TEL,P013403,ST,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,12,08:20,,,,Steal (1),151,SecondQuarter
+E2025,1,2,0,164,TEL,P013403,3FGA,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,12,08:14,,,,Missed Three Pointer (0/3 -  0 pt),152,SecondQuarter
+E2025,1,2,0,165,IST,P005844,D,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,12,08:13,,,,Def Rebound (1),153,SecondQuarter
+E2025,1,2,0,166,TEL,P014012,CM,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,12,08:13,,,,Foul (2),154,SecondQuarter
+E2025,1,2,0,167,IST,P005844,RV,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,12,08:13,,,,Foul Drawn (2),155,SecondQuarter
+E2025,1,2,0,168,IST,P009754,OUT,"LOYD, JORDAN",Anadolu Efes Istanbul,3,12,08:13,,,,Out,156,SecondQuarter
+E2025,1,2,0,169,IST,P009549,IN,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,12,08:13,,,,In,157,SecondQuarter
+E2025,1,2,0,170,IST,P007109,IN,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,12,08:13,,,,In,158,SecondQuarter
+E2025,1,2,0,171,IST,P014025,OUT,"SWIDER, COLE",Anadolu Efes Istanbul,21,12,08:13,,,,Out,159,SecondQuarter
+E2025,1,2,0,173,IST,P007200,3FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,13,07:55,,,,Missed Three Pointer (0/2 -  0 pt),160,SecondQuarter
+E2025,1,2,0,174,IST,P011201,O,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,13,07:51,,,,Off Rebound (1),161,SecondQuarter
+E2025,1,2,0,175,IST,P011201,2FGA,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,13,07:50,,,,Missed Two Pointer (0/1 -  0 pt),162,SecondQuarter
+E2025,1,2,0,176,IST,P005844,O,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,13,07:47,,,,Off Rebound (3),163,SecondQuarter
+E2025,1,2,0,177,IST,P005844,2FGA,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,13,07:48,,,,Missed Two Pointer (1/2 -  2 pt),164,SecondQuarter
+E2025,1,2,0,178,IST,P005844,O,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,13,07:48,,,,Off Rebound (4),165,SecondQuarter
+E2025,1,2,0,179,TEL,P006835,IN,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,13,07:48,,,,In,166,SecondQuarter
+E2025,1,2,0,180,TEL,P013403,OUT,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,13,07:48,,,,Out,167,SecondQuarter
+E2025,1,2,0,181,TEL,P014127,IN,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,13,07:48,,,,In,168,SecondQuarter
+E2025,1,2,0,182,TEL,P014012,OUT,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,13,07:48,,,,Out,169,SecondQuarter
+E2025,1,2,0,183,IST,P007200,2FGM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,13,07:41,23,26,,Two Pointer (1/1 -  2 pt),170,SecondQuarter
+E2025,1,2,0,184,TEL,P014127,2FGA,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,13,07:21,,,,Missed Two Pointer (2/4 -  4 pt),171,SecondQuarter
+E2025,1,2,0,185,IST,P011201,D,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,13,07:15,,,,Def Rebound (2),172,SecondQuarter
+E2025,1,2,0,186,IST,P011201,TO,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,13,07:14,,,,Turnover (3),173,SecondQuarter
+E2025,1,2,0,187,IST,P011201,OUT,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,13,07:14,,,,Out,174,SecondQuarter
+E2025,1,2,0,188,IST,P010391,IN,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,13,07:14,,,,In,175,SecondQuarter
+E2025,1,2,0,189,TEL,P013289,OUT,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,13,07:14,,,,Out,176,SecondQuarter
+E2025,1,2,0,190,TEL,P011219,IN,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,13,07:14,,,,In,177,SecondQuarter
+E2025,1,2,0,191,TEL,P007990,3FGA,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,13,07:00,,,,Missed Three Pointer (0/1 -  2 pt),178,SecondQuarter
+E2025,1,2,0,193,IST,P005844,D,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,14,06:58,,,,Def Rebound (2),179,SecondQuarter
+E2025,1,2,0,194,TEL,P007990,CM,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,14,06:47,,,,Foul (1),180,SecondQuarter
+E2025,1,2,0,195,IST,P007109,RV,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,14,06:47,,,,Foul Drawn (1),181,SecondQuarter
+E2025,1,2,0,196,TEL,P013699,IN,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,14,06:47,,,,In,182,SecondQuarter
+E2025,1,2,0,197,TEL,P007990,OUT,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,14,06:47,,,,Out,183,SecondQuarter
+E2025,1,2,0,198,IST,P007109,3FGA,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,14,06:38,,,,Missed Three Pointer (0/1 -  0 pt),184,SecondQuarter
+E2025,1,2,0,199,TEL,P006835,D,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,14,06:35,,,,Def Rebound (1),185,SecondQuarter
+E2025,1,2,0,200,IST,P009549,CM,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,14,06:24,,,,Foul (2),186,SecondQuarter
+E2025,1,2,0,201,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,14,06:24,,,,Foul Drawn (5),187,SecondQuarter
+E2025,1,2,0,202,IST,P005844,OUT,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,14,06:24,,,,Out,188,SecondQuarter
+E2025,1,2,0,203,IST,P014102,IN,"JONES, KAI",Anadolu Efes Istanbul,88,14,06:24,,,,In,189,SecondQuarter
+E2025,1,2,0,204,TEL,P013699,2FGM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,14,06:15,23,28,,Two Pointer (1/2 -  2 pt),190,SecondQuarter
+E2025,1,2,0,205,IST,P014102,CM,"JONES, KAI",Anadolu Efes Istanbul,88,14,06:15,,,,Foul (2),191,SecondQuarter
+E2025,1,2,0,206,TEL,P013699,RV,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,14,06:15,,,,Foul Drawn (2),192,SecondQuarter
+E2025,1,2,0,207,TEL,P013699,FTM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,14,06:15,23,29,,Free Throw In (1/1 -  3 pt),193,SecondQuarter
+E2025,1,2,0,209,IST,P007200,2FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,15,05:55,,,,Missed Two Pointer (1/2 -  2 pt),194,SecondQuarter
+E2025,1,2,0,210,TEL,P014127,D,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,15,05:52,,,,Def Rebound (1),195,SecondQuarter
+E2025,1,2,0,211,TEL,P013699,2FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,15,05:46,,,,Missed Two Pointer (1/3 -  3 pt),196,SecondQuarter
+E2025,1,2,0,212,TEL,P013699,2FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,15,05:40,,,,Missed Two Pointer (1/4 -  3 pt),197,SecondQuarter
+E2025,1,2,0,213,TEL,P013699,AG,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,15,05:40,,,,Shot Rejected (1),198,SecondQuarter
+E2025,1,2,0,214,IST,P014102,FV,"JONES, KAI",Anadolu Efes Istanbul,88,15,05:34,,,,Block (1),199,SecondQuarter
+E2025,1,2,0,215,IST,P007109,D,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,15,05:32,,,,Def Rebound (1),200,SecondQuarter
+E2025,1,2,0,216,IST,P007109,2FGA,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,15,05:30,,,,Missed Two Pointer (0/1 -  0 pt),201,SecondQuarter
+E2025,1,2,0,217,IST,P009549,O,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,15,05:26,,,,Off Rebound (2),202,SecondQuarter
+E2025,1,2,0,218,IST,P009549,2FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,15,05:25,,,,Missed Two Pointer (2/4 -  5 pt),203,SecondQuarter
+E2025,1,2,0,219,TEL,P014127,D,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,15,05:23,,,,Def Rebound (2),204,SecondQuarter
+E2025,1,2,0,221,TEL,P013699,2FGM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,15,05:02,23,31,,Two Pointer (2/5 -  5 pt),205,SecondQuarter
+E2025,1,2,0,222,TEL,P014127,AS,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,15,05:02,,,,Assist (1),206,SecondQuarter
+E2025,1,2,0,224,TEL,P014127,CMU,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,16,04:52,,,,Unsportsmanlike Foul  (2),207,SecondQuarter
+E2025,1,2,0,225,IST,P014102,RV,"JONES, KAI",Anadolu Efes Istanbul,88,16,04:52,,,,Foul Drawn (1),208,SecondQuarter
+E2025,1,2,0,226,IST,P009754,IN,"LOYD, JORDAN",Anadolu Efes Istanbul,3,16,04:52,,,,In,209,SecondQuarter
+E2025,1,2,0,227,IST,P009549,OUT,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,16,04:52,,,,Out,210,SecondQuarter
+E2025,1,2,0,228,IST,P007109,OUT,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,16,04:52,,,,Out,211,SecondQuarter
+E2025,1,2,0,229,IST,P012710,IN,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,16,04:52,,,,In,212,SecondQuarter
+E2025,1,2,0,230,TEL,P014123,OUT,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,16,04:52,,,,Out,213,SecondQuarter
+E2025,1,2,0,231,TEL,P011193,IN,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,16,04:52,,,,In,214,SecondQuarter
+E2025,1,2,0,232,IST,P014102,FTM,"JONES, KAI",Anadolu Efes Istanbul,88,16,04:52,24,31,,Free Throw In (1/1 -  5 pt),215,SecondQuarter
+E2025,1,2,0,233,IST,P007109,AS,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,16,04:52,,,,Assist (1),216,SecondQuarter
+E2025,1,2,0,234,IST,P014102,FTM,"JONES, KAI",Anadolu Efes Istanbul,88,16,04:52,25,31,,Free Throw In (2/2 -  6 pt),217,SecondQuarter
+E2025,1,2,0,235,IST,P007200,2FGM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,16,04:37,27,31,,Two Pointer (2/3 -  4 pt),218,SecondQuarter
+E2025,1,2,0,236,TEL,P006835,3FGM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,16,04:21,27,34,,Three Pointer (1/1 -  7 pt),219,SecondQuarter
+E2025,1,2,0,237,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,16,04:20,,,,Assist (3),220,SecondQuarter
+E2025,1,2,0,239,IST,P012710,2FGA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,17,03:54,,,,Missed Two Pointer (3/4 -  7 pt),221,SecondQuarter
+E2025,1,2,0,240,TEL,P011193,D,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,17,03:52,,,,Def Rebound (1),222,SecondQuarter
+E2025,1,2,0,241,TEL,P013699,3FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,17,03:42,,,,Missed Three Pointer (0/1 -  5 pt),223,SecondQuarter
+E2025,1,2,0,242,IST,P014102,D,"JONES, KAI",Anadolu Efes Istanbul,88,17,03:42,,,,Def Rebound (2),224,SecondQuarter
+E2025,1,2,0,243,TEL,P014127,CM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,17,03:42,,,,Foul (3),225,SecondQuarter
+E2025,1,2,0,244,IST,P009754,RV,"LOYD, JORDAN",Anadolu Efes Istanbul,3,17,03:42,,,,Foul Drawn (2),226,SecondQuarter
+E2025,1,2,0,245,IST,P012710,2FGA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,17,03:15,,,,Missed Two Pointer (3/5 -  7 pt),227,SecondQuarter
+E2025,1,2,0,246,TEL,P011219,D,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,17,03:13,,,,Def Rebound (1),228,SecondQuarter
+E2025,1,2,0,247,TEL,P011193,TO,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,17,03:10,,,,Turnover (2),229,SecondQuarter
+E2025,1,2,0,248,TEL,P007673,IN,"TRIFUNOVIC, UROS",Maccabi Rapyd Tel Aviv,6,17,03:10,,,,In,230,SecondQuarter
+E2025,1,2,0,249,TEL,P014127,OUT,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,17,03:10,,,,Out,231,SecondQuarter
+E2025,1,2,0,251,IST,P007200,2FGM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,18,02:56,29,34,,Two Pointer (3/4 -  6 pt),232,SecondQuarter
+E2025,1,2,0,252,TEL,P013699,CM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,18,02:56,,,,Foul (2),233,SecondQuarter
+E2025,1,2,0,253,IST,P007200,RV,"LARKIN, SHANE",Anadolu Efes Istanbul,0,18,02:56,,,,Foul Drawn (2),234,SecondQuarter
+E2025,1,2,0,254,IST,P010391,OUT,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,18,02:56,,,,Out,235,SecondQuarter
+E2025,1,2,0,255,IST,P009549,IN,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,18,02:56,,,,In,236,SecondQuarter
+E2025,1,2,0,256,TEL,P013699,OUT,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,18,02:56,,,,Out,237,SecondQuarter
+E2025,1,2,0,257,TEL,P014123,IN,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,18,02:56,,,,In,238,SecondQuarter
+E2025,1,2,0,258,IST,P007200,FTM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,18,02:56,30,34,,Free Throw In (1/1 -  7 pt),239,SecondQuarter
+E2025,1,2,0,259,TEL,P011193,3FGA,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,18,02:43,,,,Missed Three Pointer (0/2 -  0 pt),240,SecondQuarter
+E2025,1,2,0,260,TEL,P006835,O,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,18,02:40,,,,Off Rebound (3),241,SecondQuarter
+E2025,1,2,0,261,TEL,P014123,2FGM,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,18,02:33,30,36,,Two Pointer (2/2 -  4 pt),242,SecondQuarter
+E2025,1,2,0,262,TEL,P014123,CM,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,18,02:13,,,,Foul (1),243,SecondQuarter
+E2025,1,2,0,263,IST,P012710,RV,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,18,02:13,,,,Foul Drawn (2),244,SecondQuarter
+E2025,1,2,0,264,IST,P012710,FTM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,18,02:13,31,36,,Free Throw In (2/3 -  8 pt),245,SecondQuarter
+E2025,1,2,0,265,IST,P012710,FTM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,18,02:13,32,36,,Free Throw In (3/4 -  9 pt),246,SecondQuarter
+E2025,1,2,0,267,TEL,P006835,3FGM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,19,01:58,32,39,,Three Pointer (2/2 -  10 pt),247,SecondQuarter
+E2025,1,2,0,268,TEL,P014123,AS,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,19,01:56,,,,Assist (2),248,SecondQuarter
+E2025,1,2,0,269,IST,P007200,2FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,19,01:50,,,,Missed Two Pointer (3/5 -  7 pt),249,SecondQuarter
+E2025,1,2,0,270,IST,,O,,Anadolu Efes Istanbul,,19,01:50,,,,Off Rebound (2),250,SecondQuarter
+E2025,1,2,0,271,IST,P014102,TO,"JONES, KAI",Anadolu Efes Istanbul,88,19,01:48,,,,Turnover (1),251,SecondQuarter
+E2025,1,2,0,272,TEL,P007673,3FGA,"TRIFUNOVIC, UROS",Maccabi Rapyd Tel Aviv,6,19,01:39,,,,Missed Three Pointer (0/1 -  0 pt),252,SecondQuarter
+E2025,1,2,0,273,IST,P014102,D,"JONES, KAI",Anadolu Efes Istanbul,88,19,01:37,,,,Def Rebound (3),253,SecondQuarter
+E2025,1,2,0,274,IST,P009754,2FGM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,19,01:29,34,39,,Two Pointer (1/1 -  2 pt),254,SecondQuarter
+E2025,1,2,0,275,TEL,,TOUT,,Maccabi Rapyd Tel Aviv,,19,01:30,,,,Time Out (1),255,SecondQuarter
+E2025,1,2,0,276,IST,P007109,IN,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,19,01:30,,,,In,256,SecondQuarter
+E2025,1,2,0,277,IST,P014102,OUT,"JONES, KAI",Anadolu Efes Istanbul,88,19,01:30,,,,Out,257,SecondQuarter
+E2025,1,2,0,278,TEL,P014123,TO,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,19,01:27,,,,Turnover (1),258,SecondQuarter
+E2025,1,2,0,279,IST,P009754,3FGA,"LOYD, JORDAN",Anadolu Efes Istanbul,3,19,01:28,,,,Missed Three Pointer (0/2 -  2 pt),259,SecondQuarter
+E2025,1,2,0,280,IST,P007109,O,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,19,01:28,,,,Off Rebound (1),260,SecondQuarter
+E2025,1,2,0,281,IST,P007109,2FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,19,01:28,36,39,,Two Pointer (1/2 -  2 pt),261,SecondQuarter
+E2025,1,2,0,282,TEL,P014123,3FGM,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,19,01:28,36,42,,Three Pointer (1/2 -  7 pt),262,SecondQuarter
+E2025,1,2,0,283,TEL,P006835,AS,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,19,01:28,,,,Assist (1),263,SecondQuarter
+E2025,1,2,0,285,IST,P009754,2FGM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,20,00:44,38,42,,Two Pointer (2/2 -  4 pt),264,SecondQuarter
+E2025,1,2,0,286,TEL,P007673,2FGM,"TRIFUNOVIC, UROS",Maccabi Rapyd Tel Aviv,6,20,00:19,38,44,,Two Pointer (1/1 -  2 pt),265,SecondQuarter
+E2025,1,2,0,287,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,20,00:16,,,,Assist (4),266,SecondQuarter
+E2025,1,2,0,288,IST,P007200,2FGM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,20,00:00,40,44,,Two Pointer (4/6 -  9 pt),267,SecondQuarter
+E2025,1,2,0,290,,,EP,,,,21,,,,,End Period,268,SecondQuarter
+E2025,1,3,0,299,,,BP,,,,21,,,,,Begin Period,269,ThirdQuarter
+E2025,1,3,0,291,IST,P009754,OUT,"LOYD, JORDAN",Anadolu Efes Istanbul,3,21,10:00,,,,Out,270,ThirdQuarter
+E2025,1,3,0,292,IST,P010391,IN,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,21,10:00,,,,In,271,ThirdQuarter
+E2025,1,3,0,293,IST,P007109,OUT,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,21,10:00,,,,Out,272,ThirdQuarter
+E2025,1,3,0,294,IST,P014102,IN,"JONES, KAI",Anadolu Efes Istanbul,88,21,10:00,,,,In,273,ThirdQuarter
+E2025,1,3,0,295,TEL,P013699,IN,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,21,10:00,,,,In,274,ThirdQuarter
+E2025,1,3,0,296,TEL,P007673,OUT,"TRIFUNOVIC, UROS",Maccabi Rapyd Tel Aviv,6,21,10:00,,,,Out,275,ThirdQuarter
+E2025,1,3,0,297,TEL,P013381,IN,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,21,10:00,,,,In,276,ThirdQuarter
+E2025,1,3,0,298,TEL,P014123,OUT,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,21,10:00,,,,Out,277,ThirdQuarter
+E2025,1,3,0,300,TEL,P013699,TO,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,21,09:45,,,,Turnover (1),278,ThirdQuarter
+E2025,1,3,0,301,IST,P010391,ST,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,21,09:43,,,,Steal (2),279,ThirdQuarter
+E2025,1,3,0,302,IST,P012710,TO,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,21,09:41,,,,Turnover (1),280,ThirdQuarter
+E2025,1,3,0,303,TEL,P013699,ST,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,21,09:40,,,,Steal (2),281,ThirdQuarter
+E2025,1,3,0,304,IST,P010391,CM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,21,09:37,,,,Foul (2),282,ThirdQuarter
+E2025,1,3,0,305,TEL,P006835,RV,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,21,09:37,,,,Foul Drawn (1),283,ThirdQuarter
+E2025,1,3,0,306,TEL,P006835,FTM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,21,09:37,40,45,,Free Throw In (1/1 -  11 pt),284,ThirdQuarter
+E2025,1,3,0,307,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,21,09:37,,,,Assist (5),285,ThirdQuarter
+E2025,1,3,0,308,TEL,P006835,FTA,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,21,09:37,,,,Missed Free Throw (1/2 -  11 pt),286,ThirdQuarter
+E2025,1,3,0,309,TEL,P013699,O,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,21,09:37,,,,Off Rebound (1),287,ThirdQuarter
+E2025,1,3,0,310,IST,P014102,CM,"JONES, KAI",Anadolu Efes Istanbul,88,21,09:37,,,,Foul (3),288,ThirdQuarter
+E2025,1,3,0,311,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,21,09:37,,,,Foul Drawn (6),289,ThirdQuarter
+E2025,1,3,0,312,TEL,P011219,2FGA,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,21,09:37,,,,Missed Two Pointer (2/3 -  9 pt),290,ThirdQuarter
+E2025,1,3,0,313,IST,P014102,D,"JONES, KAI",Anadolu Efes Istanbul,88,21,09:37,,,,Def Rebound (4),291,ThirdQuarter
+E2025,1,3,0,315,IST,P010391,3FGM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,22,08:58,43,45,,Three Pointer (2/3 -  6 pt),292,ThirdQuarter
+E2025,1,3,0,316,IST,P012710,AS,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,22,08:56,,,,Assist (2),293,ThirdQuarter
+E2025,1,3,0,317,TEL,P013699,2FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,22,08:43,,,,Missed Two Pointer (2/6 -  5 pt),294,ThirdQuarter
+E2025,1,3,0,318,IST,P010391,D,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,22,08:41,,,,Def Rebound (2),295,ThirdQuarter
+E2025,1,3,0,319,IST,P007200,2FGM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,22,08:39,45,45,,Two Pointer (5/7 -  11 pt),296,ThirdQuarter
+E2025,1,3,0,320,IST,P010391,AS,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,22,08:39,,,,Assist (2),297,ThirdQuarter
+E2025,1,3,0,321,TEL,P011219,2FGM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,22,08:19,45,47,,Two Pointer (3/4 -  11 pt),298,ThirdQuarter
+E2025,1,3,0,322,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,22,08:17,,,,Assist (6),299,ThirdQuarter
+E2025,1,3,0,324,IST,P009549,3FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,23,07:57,,,,Missed Three Pointer (0/2 -  5 pt),300,ThirdQuarter
+E2025,1,3,0,325,TEL,,D,,Maccabi Rapyd Tel Aviv,,23,07:57,,,,Def Rebound (3),301,ThirdQuarter
+E2025,1,3,0,326,TEL,P011193,3FGM,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,23,07:48,45,50,,Three Pointer (1/3 -  3 pt),302,ThirdQuarter
+E2025,1,3,0,327,TEL,P006835,AS,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,23,07:46,,,,Assist (2),303,ThirdQuarter
+E2025,1,3,0,328,IST,P007200,TO,"LARKIN, SHANE",Anadolu Efes Istanbul,0,23,07:26,,,,Turnover (2),304,ThirdQuarter
+E2025,1,3,0,329,TEL,P013699,ST,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,23,07:24,,,,Steal (3),305,ThirdQuarter
+E2025,1,3,0,330,TEL,P013699,2FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,23,07:22,,,,Missed Two Pointer (2/7 -  5 pt),306,ThirdQuarter
+E2025,1,3,0,331,IST,P007200,D,"LARKIN, SHANE",Anadolu Efes Istanbul,0,23,07:20,,,,Def Rebound (1),307,ThirdQuarter
+E2025,1,3,0,332,TEL,P011219,CM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,23,07:19,,,,Foul (1),308,ThirdQuarter
+E2025,1,3,0,333,IST,P010391,RV,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,23,07:19,,,,Foul Drawn (1),309,ThirdQuarter
+E2025,1,3,0,334,IST,P009549,2FGM,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,23,07:05,47,50,,Two Pointer (3/5 -  7 pt),310,ThirdQuarter
+E2025,1,3,0,335,IST,P010391,AS,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,23,07:03,,,,Assist (3),311,ThirdQuarter
+E2025,1,3,0,337,TEL,P006835,3FGA,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,24,06:49,,,,Missed Three Pointer (2/3 -  11 pt),312,ThirdQuarter
+E2025,1,3,0,338,TEL,P013381,O,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,24,06:47,,,,Off Rebound (2),313,ThirdQuarter
+E2025,1,3,0,339,TEL,P013699,2FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,24,06:44,,,,Missed Two Pointer (2/8 -  5 pt),314,ThirdQuarter
+E2025,1,3,0,340,TEL,P013699,O,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,24,06:42,,,,Off Rebound (2),315,ThirdQuarter
+E2025,1,3,0,341,TEL,P011193,2FGA,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,24,06:28,,,,Missed Two Pointer (0/2 -  3 pt),316,ThirdQuarter
+E2025,1,3,0,342,IST,P014102,D,"JONES, KAI",Anadolu Efes Istanbul,88,24,06:26,,,,Def Rebound (5),317,ThirdQuarter
+E2025,1,3,0,343,IST,P009549,2FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,24,06:10,,,,Missed Two Pointer (3/6 -  7 pt),318,ThirdQuarter
+E2025,1,3,0,344,TEL,P006835,D,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,24,06:08,,,,Def Rebound (2),319,ThirdQuarter
+E2025,1,3,0,345,IST,P010391,CM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,24,06:06,,,,Foul (3),320,ThirdQuarter
+E2025,1,3,0,346,TEL,P011193,RV,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,24,06:06,,,,Foul Drawn (1),321,ThirdQuarter
+E2025,1,3,0,347,IST,P007109,IN,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,24,06:06,,,,In,322,ThirdQuarter
+E2025,1,3,0,348,IST,P014102,OUT,"JONES, KAI",Anadolu Efes Istanbul,88,24,06:06,,,,Out,323,ThirdQuarter
+E2025,1,3,0,350,TEL,P013381,3FGA,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,25,05:52,,,,Missed Three Pointer (0/1 -  0 pt),324,ThirdQuarter
+E2025,1,3,0,351,IST,P010391,D,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,25,05:50,,,,Def Rebound (3),325,ThirdQuarter
+E2025,1,3,0,352,IST,P012710,2FGM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,25,05:34,49,50,,Two Pointer (4/6 -  11 pt),326,ThirdQuarter
+E2025,1,3,0,353,TEL,P013699,CM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,25,05:34,,,,Foul (3),327,ThirdQuarter
+E2025,1,3,0,354,IST,P012710,RV,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,25,05:34,,,,Foul Drawn (3),328,ThirdQuarter
+E2025,1,3,0,355,IST,P009754,IN,"LOYD, JORDAN",Anadolu Efes Istanbul,3,25,05:34,,,,In,329,ThirdQuarter
+E2025,1,3,0,356,IST,P010391,OUT,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,25,05:34,,,,Out,330,ThirdQuarter
+E2025,1,3,0,357,TEL,P013699,OUT,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,25,05:34,,,,Out,331,ThirdQuarter
+E2025,1,3,0,358,TEL,P013403,IN,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,25,05:34,,,,In,332,ThirdQuarter
+E2025,1,3,0,359,TEL,P014127,IN,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,25,05:34,,,,In,333,ThirdQuarter
+E2025,1,3,0,360,TEL,P013381,OUT,"RAYMAN, WILLIAM",Maccabi Rapyd Tel Aviv,11,25,05:34,,,,Out,334,ThirdQuarter
+E2025,1,3,0,361,IST,P012710,FTM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,25,05:34,50,50,,Free Throw In (4/5 -  12 pt),335,ThirdQuarter
+E2025,1,3,0,362,TEL,P006835,2FGM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,25,05:16,50,52,,Two Pointer (3/4 -  13 pt),336,ThirdQuarter
+E2025,1,3,0,363,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,25,05:15,,,,Assist (7),337,ThirdQuarter
+E2025,1,3,0,364,IST,P012710,TO,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,25,05:03,,,,Turnover (2),338,ThirdQuarter
+E2025,1,3,0,366,TEL,P011219,3FGA,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,26,04:49,,,,Missed Three Pointer (0/2 -  11 pt),339,ThirdQuarter
+E2025,1,3,0,367,IST,P007200,D,"LARKIN, SHANE",Anadolu Efes Istanbul,0,26,04:47,,,,Def Rebound (2),340,ThirdQuarter
+E2025,1,3,0,368,TEL,P011219,CM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,26,04:41,,,,Foul (2),341,ThirdQuarter
+E2025,1,3,0,369,IST,P007200,RV,"LARKIN, SHANE",Anadolu Efes Istanbul,0,26,04:41,,,,Foul Drawn (3),342,ThirdQuarter
+E2025,1,3,0,370,TEL,,CCH,,Maccabi Rapyd Tel Aviv,,26,04:41,,,,Coach Challenge (1),343,ThirdQuarter
+E2025,1,3,0,371,,,TOUT_TV,,,,26,04:41,,,,TV Time Out (3),344,ThirdQuarter
+E2025,1,3,0,372,TEL,P014123,IN,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,26,04:41,,,,In,345,ThirdQuarter
+E2025,1,3,0,373,TEL,P011193,OUT,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,26,04:41,,,,Out,346,ThirdQuarter
+E2025,1,3,0,374,IST,P007200,FTM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,26,04:41,51,52,,Free Throw In (2/2 -  12 pt),347,ThirdQuarter
+E2025,1,3,0,375,IST,P007200,FTM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,26,04:41,52,52,,Free Throw In (3/3 -  13 pt),348,ThirdQuarter
+E2025,1,3,0,376,TEL,P006835,TO,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,26,04:26,,,,Turnover (1),349,ThirdQuarter
+E2025,1,3,0,377,IST,P007109,ST,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,26,04:25,,,,Steal (1),350,ThirdQuarter
+E2025,1,3,0,378,IST,P007109,2FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,26,04:21,54,52,,Two Pointer (2/3 -  4 pt),351,ThirdQuarter
+E2025,1,3,0,379,IST,P009754,AS,"LOYD, JORDAN",Anadolu Efes Istanbul,3,26,04:17,,,,Assist (1),352,ThirdQuarter
+E2025,1,3,0,380,TEL,P013289,IN,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,26,04:10,,,,In,353,ThirdQuarter
+E2025,1,3,0,381,TEL,P011219,OUT,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,26,04:10,,,,Out,354,ThirdQuarter
+E2025,1,3,0,383,TEL,P014127,2FGM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,27,03:57,54,54,,Two Pointer (3/5 -  6 pt),355,ThirdQuarter
+E2025,1,3,0,384,IST,P007109,CM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,27,03:57,,,,Foul (1),356,ThirdQuarter
+E2025,1,3,0,385,TEL,P014127,RV,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,27,03:57,,,,Foul Drawn (2),357,ThirdQuarter
+E2025,1,3,0,386,TEL,P014127,FTA,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,27,03:57,,,,Missed Free Throw (0/1 -  6 pt),358,ThirdQuarter
+E2025,1,3,0,387,TEL,P014127,O,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,27,03:57,,,,Off Rebound (1),359,ThirdQuarter
+E2025,1,3,0,388,TEL,P014127,2FGA,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,27,03:57,,,,Missed Two Pointer (3/6 -  6 pt),360,ThirdQuarter
+E2025,1,3,0,389,IST,,D,,Anadolu Efes Istanbul,,27,03:57,,,,Def Rebound (4),361,ThirdQuarter
+E2025,1,3,0,390,IST,P009754,TO,"LOYD, JORDAN",Anadolu Efes Istanbul,3,27,03:29,,,,Turnover (1),362,ThirdQuarter
+E2025,1,3,0,391,TEL,P013403,ST,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,27,03:27,,,,Steal (2),363,ThirdQuarter
+E2025,1,3,0,392,TEL,P014127,TO,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,27,03:26,,,,Turnover (1),364,ThirdQuarter
+E2025,1,3,0,393,IST,P007109,2FGA,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,27,03:11,,,,Missed Two Pointer (2/4 -  4 pt),365,ThirdQuarter
+E2025,1,3,0,394,TEL,P006835,D,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,27,03:09,,,,Def Rebound (3),366,ThirdQuarter
+E2025,1,3,0,396,TEL,P013403,3FGM,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,28,02:59,54,57,,Three Pointer (1/4 -  3 pt),367,ThirdQuarter
+E2025,1,3,0,397,TEL,P014123,AS,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,28,02:57,,,,Assist (3),368,ThirdQuarter
+E2025,1,3,0,398,IST,P007200,3FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,28,02:47,,,,Missed Three Pointer (0/3 -  13 pt),369,ThirdQuarter
+E2025,1,3,0,400,IST,P007200,AG,"LARKIN, SHANE",Anadolu Efes Istanbul,0,28,02:39,,,,Shot Rejected (1),370,ThirdQuarter
+E2025,1,3,0,440,TEL,P014123,FV,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,28,02:39,,,,Block (1),371,ThirdQuarter
+E2025,1,3,0,401,TEL,P014127,D,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,28,02:39,,,,Def Rebound (3),372,ThirdQuarter
+E2025,1,3,0,402,TEL,P013289,OF,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,28,02:39,,,,Offensive Foul (2),373,ThirdQuarter
+E2025,1,3,0,403,TEL,P013289,TO,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,28,02:39,,,,Turnover (2),374,ThirdQuarter
+E2025,1,3,0,404,IST,P009549,RV,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,28,02:39,,,,Foul Drawn (2),375,ThirdQuarter
+E2025,1,3,0,405,IST,P005844,IN,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,28,02:39,,,,In,376,ThirdQuarter
+E2025,1,3,0,406,IST,P007109,OUT,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,28,02:39,,,,Out,377,ThirdQuarter
+E2025,1,3,0,407,TEL,P006835,OUT,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,28,02:39,,,,Out,378,ThirdQuarter
+E2025,1,3,0,408,TEL,P014012,IN,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,28,02:39,,,,In,379,ThirdQuarter
+E2025,1,3,0,409,IST,P007200,3FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,28,02:30,,,,Missed Three Pointer (0/4 -  13 pt),380,ThirdQuarter
+E2025,1,3,0,410,TEL,P014012,D,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,28,02:28,,,,Def Rebound (1),381,ThirdQuarter
+E2025,1,3,0,411,IST,P009754,CM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,28,02:09,,,,Foul (1),382,ThirdQuarter
+E2025,1,3,0,412,TEL,P013289,RV,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,28,02:09,,,,Foul Drawn (2),383,ThirdQuarter
+E2025,1,3,0,413,TEL,P013289,FTM,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,28,02:09,54,58,,Free Throw In (1/1 -  3 pt),384,ThirdQuarter
+E2025,1,3,0,414,TEL,P014123,AS,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,28,02:09,,,,Assist (4),385,ThirdQuarter
+E2025,1,3,0,415,IST,P007200,OUT,"LARKIN, SHANE",Anadolu Efes Istanbul,0,28,02:09,,,,Out,386,ThirdQuarter
+E2025,1,3,0,416,IST,P011201,IN,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,28,02:09,,,,In,387,ThirdQuarter
+E2025,1,3,0,417,TEL,P013289,FTM,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,28,02:09,54,59,,Free Throw In (2/2 -  4 pt),388,ThirdQuarter
+E2025,1,3,0,419,IST,P009754,3FGM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,29,01:48,57,59,,Three Pointer (1/3 -  7 pt),389,ThirdQuarter
+E2025,1,3,0,420,IST,P009549,AS,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,29,01:47,,,,Assist (1),390,ThirdQuarter
+E2025,1,3,0,421,TEL,P013403,3FGA,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,29,01:37,,,,Missed Three Pointer (1/5 -  3 pt),391,ThirdQuarter
+E2025,1,3,0,422,IST,P005844,D,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,29,01:35,,,,Def Rebound (3),392,ThirdQuarter
+E2025,1,3,0,423,IST,P009754,3FGA,"LOYD, JORDAN",Anadolu Efes Istanbul,3,29,01:24,,,,Missed Three Pointer (1/4 -  7 pt),393,ThirdQuarter
+E2025,1,3,0,424,TEL,P014127,D,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,29,01:21,,,,Def Rebound (4),394,ThirdQuarter
+E2025,1,3,0,425,TEL,P014123,3FGA,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,29,01:17,,,,Missed Three Pointer (1/3 -  7 pt),395,ThirdQuarter
+E2025,1,3,0,426,IST,P009754,D,"LOYD, JORDAN",Anadolu Efes Istanbul,3,29,01:14,,,,Def Rebound (1),396,ThirdQuarter
+E2025,1,3,0,428,IST,P012710,TO,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,30,00:56,,,,Turnover (3),397,ThirdQuarter
+E2025,1,3,0,429,TEL,P013403,ST,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,30,00:53,,,,Steal (3),398,ThirdQuarter
+E2025,1,3,0,430,TEL,P014123,TO,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,30,00:41,,,,Turnover (2),399,ThirdQuarter
+E2025,1,3,0,431,IST,P012710,ST,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,30,00:40,,,,Steal (1),400,ThirdQuarter
+E2025,1,3,0,432,IST,P009754,3FGM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,30,00:28,60,59,,Three Pointer (2/5 -  10 pt),401,ThirdQuarter
+E2025,1,3,0,433,TEL,P014123,TO,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,30,00:03,,,,Turnover (3),402,ThirdQuarter
+E2025,1,3,0,434,IST,P011201,ST,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,30,00:01,,,,Steal (1),403,ThirdQuarter
+E2025,1,3,0,435,IST,P009549,2FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,30,00:00,,,,Missed Two Pointer (3/7 -  7 pt),404,ThirdQuarter
+E2025,1,3,0,436,IST,P009549,AG,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,30,00:00,,,,Shot Rejected (1),405,ThirdQuarter
+E2025,1,3,0,437,TEL,P013289,FV,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,30,00:00,,,,Block (1),406,ThirdQuarter
+E2025,1,3,0,439,,,EP,,,,31,,,,,End Period,407,ThirdQuarter
+E2025,1,4,0,447,,,BP,,,,31,,,,,Begin Period,408,ForthQuarter
+E2025,1,4,0,441,IST,P007200,IN,"LARKIN, SHANE",Anadolu Efes Istanbul,0,31,10:00,,,,In,409,ForthQuarter
+E2025,1,4,0,442,IST,P009754,OUT,"LOYD, JORDAN",Anadolu Efes Istanbul,3,31,10:00,,,,Out,410,ForthQuarter
+E2025,1,4,0,443,IST,P010391,IN,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,31,10:00,,,,In,411,ForthQuarter
+E2025,1,4,0,444,IST,P009549,OUT,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,31,10:00,,,,Out,412,ForthQuarter
+E2025,1,4,0,445,IST,P007109,IN,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,31,10:00,,,,In,413,ForthQuarter
+E2025,1,4,0,446,IST,P012710,OUT,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,31,10:00,,,,Out,414,ForthQuarter
+E2025,1,4,0,448,IST,P007109,3FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,31,09:40,63,59,,Three Pointer (1/2 -  7 pt),415,ForthQuarter
+E2025,1,4,0,449,IST,P007200,AS,"LARKIN, SHANE",Anadolu Efes Istanbul,0,31,09:38,,,,Assist (2),416,ForthQuarter
+E2025,1,4,0,450,TEL,P014127,3FGM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,31,09:22,63,62,,Three Pointer (1/1 -  9 pt),417,ForthQuarter
+E2025,1,4,0,451,TEL,P014123,AS,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,31,09:20,,,,Assist (5),418,ForthQuarter
+E2025,1,4,0,452,IST,P011201,3FGA,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,31,09:02,,,,Missed Three Pointer (0/2 -  0 pt),419,ForthQuarter
+E2025,1,4,0,453,IST,P011201,AG,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,31,09:02,,,,Shot Rejected (1),420,ForthQuarter
+E2025,1,4,0,454,TEL,P014012,FV,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,31,09:00,,,,Block (1),421,ForthQuarter
+E2025,1,4,0,456,IST,P011201,O,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,32,08:56,,,,Off Rebound (2),422,ForthQuarter
+E2025,1,4,0,457,IST,P011201,TO,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,32,08:54,,,,Turnover (4),423,ForthQuarter
+E2025,1,4,0,458,TEL,P014012,ST,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,32,08:53,,,,Steal (1),424,ForthQuarter
+E2025,1,4,0,459,TEL,P014127,3FGA,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,32,08:50,,,,Missed Three Pointer (1/2 -  9 pt),425,ForthQuarter
+E2025,1,4,0,460,IST,P010391,D,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,32,08:48,,,,Def Rebound (4),426,ForthQuarter
+E2025,1,4,0,461,TEL,P014123,CM,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,32,08:44,,,,Foul (2),427,ForthQuarter
+E2025,1,4,0,462,IST,P010391,RV,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,32,08:44,,,,Foul Drawn (2),428,ForthQuarter
+E2025,1,4,0,463,IST,P011201,OUT,"HAZER, SEHMUS",Anadolu Efes Istanbul,2,32,08:44,,,,Out,429,ForthQuarter
+E2025,1,4,0,464,IST,P009754,IN,"LOYD, JORDAN",Anadolu Efes Istanbul,3,32,08:44,,,,In,430,ForthQuarter
+E2025,1,4,0,465,IST,P009754,3FGM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,32,08:33,66,62,,Three Pointer (3/6 -  13 pt),431,ForthQuarter
+E2025,1,4,0,466,IST,CO_A,B,,Anadolu Efes Istanbul,,32,08:24,,,,Bench Foul (1),432,ForthQuarter
+E2025,1,4,0,467,TEL,P006835,IN,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,32,08:24,,,,In,433,ForthQuarter
+E2025,1,4,0,468,TEL,P013289,OUT,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,32,08:24,,,,Out,434,ForthQuarter
+E2025,1,4,0,469,TEL,P011219,IN,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,32,08:24,,,,In,435,ForthQuarter
+E2025,1,4,0,470,TEL,P014127,OUT,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,32,08:24,,,,Out,436,ForthQuarter
+E2025,1,4,0,471,TEL,P014012,OUT,"LEAF, TJ",Maccabi Rapyd Tel Aviv,22,32,08:24,,,,Out,437,ForthQuarter
+E2025,1,4,0,472,TEL,P011193,IN,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,32,08:24,,,,In,438,ForthQuarter
+E2025,1,4,0,473,TEL,P014123,FTM,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,32,08:24,66,63,,Free Throw In (1/1 -  8 pt),439,ForthQuarter
+E2025,1,4,0,474,TEL,P011219,2FGM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,32,08:11,66,65,,Two Pointer (4/5 -  13 pt),440,ForthQuarter
+E2025,1,4,0,476,IST,P007109,2FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,33,07:53,68,65,,Two Pointer (3/5 -  9 pt),441,ForthQuarter
+E2025,1,4,0,477,IST,P005844,AS,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,33,07:54,,,,Assist (1),442,ForthQuarter
+E2025,1,4,0,478,TEL,CO_B,B,,Maccabi Rapyd Tel Aviv,,33,07:54,,,,Bench Foul (1),443,ForthQuarter
+E2025,1,4,0,479,IST,P007200,FTM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,33,07:54,69,65,,Free Throw In (4/4 -  14 pt),444,ForthQuarter
+E2025,1,4,0,480,TEL,P013699,IN,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,33,07:54,,,,In,445,ForthQuarter
+E2025,1,4,0,481,TEL,P014123,OUT,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,33,07:54,,,,Out,446,ForthQuarter
+E2025,1,4,0,482,TEL,P011219,2FGM,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,33,07:32,69,67,,Two Pointer (5/6 -  15 pt),447,ForthQuarter
+E2025,1,4,0,483,IST,P010391,3FGM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,33,07:03,72,67,,Three Pointer (3/4 -  9 pt),448,ForthQuarter
+E2025,1,4,0,485,IST,P005844,CM,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,34,06:49,,,,Foul (1),449,ForthQuarter
+E2025,1,4,0,486,TEL,P011219,RV,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,34,06:49,,,,Foul Drawn (7),450,ForthQuarter
+E2025,1,4,0,487,IST,P007109,OUT,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,34,06:49,,,,Out,451,ForthQuarter
+E2025,1,4,0,488,IST,P012710,IN,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,34,06:49,,,,In,452,ForthQuarter
+E2025,1,4,0,489,TEL,P013699,3FGA,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,34,06:38,,,,Missed Three Pointer (0/2 -  5 pt),453,ForthQuarter
+E2025,1,4,0,490,IST,P012710,D,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,34,06:35,,,,Def Rebound (1),454,ForthQuarter
+E2025,1,4,0,491,IST,P010391,2FGM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,34,06:28,74,67,,Two Pointer (1/1 -  11 pt),455,ForthQuarter
+E2025,1,4,0,492,TEL,P013699,CM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,34,06:28,,,,Foul (4),456,ForthQuarter
+E2025,1,4,0,493,IST,P010391,RV,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,34,06:28,,,,Foul Drawn (3),457,ForthQuarter
+E2025,1,4,0,494,TEL,P013289,IN,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,34,06:28,,,,In,458,ForthQuarter
+E2025,1,4,0,495,TEL,P013403,OUT,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,34,06:28,,,,Out,459,ForthQuarter
+E2025,1,4,0,496,TEL,P011219,OUT,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,34,06:28,,,,Out,460,ForthQuarter
+E2025,1,4,0,497,TEL,P014127,IN,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,34,06:28,,,,In,461,ForthQuarter
+E2025,1,4,0,498,IST,P010391,FTM,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,34,06:28,75,67,,Free Throw In (1/1 -  12 pt),462,ForthQuarter
+E2025,1,4,0,499,TEL,P013699,2FGM,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,34,06:13,75,69,,Two Pointer (3/9 -  7 pt),463,ForthQuarter
+E2025,1,4,0,502,TEL,P013699,CMU,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,35,05:57,,,,Unsportsmanlike Foul  (5),464,ForthQuarter
+E2025,1,4,0,503,IST,P005844,RV,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,35,05:57,,,,Foul Drawn (3),465,ForthQuarter
+E2025,1,4,0,504,IST,P005844,CMU,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,35,05:57,,,,Unsportsmanlike Foul  (2),466,ForthQuarter
+E2025,1,4,0,505,TEL,P013699,RV,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,35,05:57,,,,Foul Drawn (3),467,ForthQuarter
+E2025,1,4,0,506,IST,,TOUT,,Anadolu Efes Istanbul,,35,05:57,,,,Time Out (1),468,ForthQuarter
+E2025,1,4,0,507,,,TOUT_TV,,,,35,05:57,,,,TV Time Out (4),469,ForthQuarter
+E2025,1,4,0,508,IST,P005844,OUT,"PAPAGIANNIS, GEORGIOS",Anadolu Efes Istanbul,9,35,05:57,,,,Out,470,ForthQuarter
+E2025,1,4,0,509,IST,P014102,IN,"JONES, KAI",Anadolu Efes Istanbul,88,35,05:57,,,,In,471,ForthQuarter
+E2025,1,4,0,510,TEL,P013699,OUT,"CLARK III, JIMMY",Maccabi Rapyd Tel Aviv,2,35,05:57,,,,Out,472,ForthQuarter
+E2025,1,4,0,511,TEL,P007990,IN,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,35,05:57,,,,In,473,ForthQuarter
+E2025,1,4,0,512,IST,P009754,3FGA,"LOYD, JORDAN",Anadolu Efes Istanbul,3,35,05:47,,,,Missed Three Pointer (3/7 -  13 pt),474,ForthQuarter
+E2025,1,4,0,513,IST,P012710,O,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,35,05:45,,,,Off Rebound (2),475,ForthQuarter
+E2025,1,4,0,514,IST,P012710,2FGA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,35,05:43,,,,Missed Two Pointer (4/7 -  12 pt),476,ForthQuarter
+E2025,1,4,0,515,TEL,P006835,D,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,35,05:41,,,,Def Rebound (4),477,ForthQuarter
+E2025,1,4,0,516,TEL,P011193,3FGM,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,35,05:36,75,72,,Three Pointer (2/4 -  6 pt),478,ForthQuarter
+E2025,1,4,0,517,IST,P012710,3FGA,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,35,05:15,,,,Missed Three Pointer (0/3 -  12 pt),479,ForthQuarter
+E2025,1,4,0,518,TEL,P014127,D,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,35,05:12,,,,Def Rebound (5),480,ForthQuarter
+E2025,1,4,0,519,TEL,P013289,2FGM,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,35,05:00,75,74,,Two Pointer (2/3 -  6 pt),481,ForthQuarter
+E2025,1,4,0,521,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,36,04:59,,,,Assist (8),482,ForthQuarter
+E2025,1,4,0,522,IST,P007200,2FGA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,36,04:38,,,,Missed Two Pointer (5/8 -  14 pt),483,ForthQuarter
+E2025,1,4,0,523,TEL,P011193,D,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,36,04:37,,,,Def Rebound (2),484,ForthQuarter
+E2025,1,4,0,524,IST,P012710,CM,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,36,04:33,,,,Foul (2),485,ForthQuarter
+E2025,1,4,0,525,TEL,P006835,RV,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,36,04:33,,,,Foul Drawn (2),486,ForthQuarter
+E2025,1,4,0,526,IST,P010391,OUT,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,36,04:33,,,,Out,487,ForthQuarter
+E2025,1,4,0,527,IST,P009549,IN,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,36,04:33,,,,In,488,ForthQuarter
+E2025,1,4,0,528,IST,P007109,IN,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,36,04:33,,,,In,489,ForthQuarter
+E2025,1,4,0,529,IST,P014102,OUT,"JONES, KAI",Anadolu Efes Istanbul,88,36,04:33,,,,Out,490,ForthQuarter
+E2025,1,4,0,530,TEL,P006835,FTM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,36,04:33,75,75,,Free Throw In (2/3 -  14 pt),491,ForthQuarter
+E2025,1,4,0,531,TEL,P011193,AS,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,36,04:33,,,,Assist (9),492,ForthQuarter
+E2025,1,4,0,532,TEL,P006835,FTM,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,36,04:33,75,76,,Free Throw In (3/4 -  15 pt),493,ForthQuarter
+E2025,1,4,0,533,IST,P007109,3FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,36,04:09,78,76,,Three Pointer (2/3 -  12 pt),494,ForthQuarter
+E2025,1,4,0,534,IST,P009549,AS,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,36,04:07,,,,Assist (2),495,ForthQuarter
+E2025,1,4,0,536,TEL,P006835,2FGA,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,37,03:52,,,,Missed Two Pointer (3/5 -  15 pt),496,ForthQuarter
+E2025,1,4,0,537,IST,P009549,D,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,37,03:50,,,,Def Rebound (1),497,ForthQuarter
+E2025,1,4,0,538,TEL,P011193,CM,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,37,03:48,,,,Foul (1),498,ForthQuarter
+E2025,1,4,0,539,IST,P009754,RV,"LOYD, JORDAN",Anadolu Efes Istanbul,3,37,03:48,,,,Foul Drawn (3),499,ForthQuarter
+E2025,1,4,0,540,TEL,P013289,OUT,"SANTOS, MARCIO",Maccabi Rapyd Tel Aviv,3,37,03:48,,,,Out,500,ForthQuarter
+E2025,1,4,0,541,TEL,P011219,IN,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,37,03:48,,,,In,501,ForthQuarter
+E2025,1,4,0,542,IST,P007109,2FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,37,03:38,80,76,,Two Pointer (4/6 -  14 pt),502,ForthQuarter
+E2025,1,4,0,543,IST,P007200,AS,"LARKIN, SHANE",Anadolu Efes Istanbul,0,37,03:38,,,,Assist (3),503,ForthQuarter
+E2025,1,4,0,544,TEL,,TOUT,,Maccabi Rapyd Tel Aviv,,37,03:38,,,,Time Out (1),504,ForthQuarter
+E2025,1,4,0,545,TEL,P011219,2FGA,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,37,03:18,,,,Missed Two Pointer (5/7 -  15 pt),505,ForthQuarter
+E2025,1,4,0,546,IST,P007109,D,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,37,03:16,,,,Def Rebound (2),506,ForthQuarter
+E2025,1,4,0,547,IST,P009754,TO,"LOYD, JORDAN",Anadolu Efes Istanbul,3,37,03:03,,,,Turnover (2),507,ForthQuarter
+E2025,1,4,0,548,TEL,P013403,IN,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,37,03:03,,,,In,508,ForthQuarter
+E2025,1,4,0,549,TEL,P011219,OUT,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,37,03:03,,,,Out,509,ForthQuarter
+E2025,1,4,0,551,IST,P007109,CM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,38,02:51,,,,Foul (2),510,ForthQuarter
+E2025,1,4,0,552,TEL,P013403,RV,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,38,02:51,,,,Foul Drawn (1),511,ForthQuarter
+E2025,1,4,0,553,TEL,P013403,3FGA,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,38,02:40,,,,Missed Three Pointer (1/6 -  3 pt),512,ForthQuarter
+E2025,1,4,0,554,IST,P007200,D,"LARKIN, SHANE",Anadolu Efes Istanbul,0,38,02:40,,,,Def Rebound (3),513,ForthQuarter
+E2025,1,4,0,555,TEL,P014127,CM,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,38,02:40,,,,Foul (4),514,ForthQuarter
+E2025,1,4,0,556,IST,P007200,RV,"LARKIN, SHANE",Anadolu Efes Istanbul,0,38,02:40,,,,Foul Drawn (4),515,ForthQuarter
+E2025,1,4,0,558,IST,,CCH,,Anadolu Efes Istanbul,,38,02:40,,,,Coach Challenge (2),516,ForthQuarter
+E2025,1,4,0,559,TEL,P013403,OUT,"WALKER IV, LONNIE",Maccabi Rapyd Tel Aviv,8,38,02:40,,,,Out,517,ForthQuarter
+E2025,1,4,0,560,TEL,P011219,IN,"SORKIN, ROMAN",Maccabi Rapyd Tel Aviv,9,38,02:40,,,,In,518,ForthQuarter
+E2025,1,4,0,561,IST,P007200,FTA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,38,02:40,,,,Missed Free Throw (4/5 -  14 pt),519,ForthQuarter
+E2025,1,4,0,562,IST,P007200,FTA,"LARKIN, SHANE",Anadolu Efes Istanbul,0,38,02:40,,,,Missed Free Throw (4/6 -  14 pt),520,ForthQuarter
+E2025,1,4,0,563,TEL,P006835,D,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,38,02:40,,,,Def Rebound (5),521,ForthQuarter
+E2025,1,4,0,564,TEL,P011193,TO,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,38,02:27,,,,Turnover (3),522,ForthQuarter
+E2025,1,4,0,565,IST,P012710,ST,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,38,02:25,,,,Steal (2),523,ForthQuarter
+E2025,1,4,0,566,IST,P007109,2FGM,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,38,02:23,82,76,,Two Pointer (5/7 -  16 pt),524,ForthQuarter
+E2025,1,4,0,567,IST,P007200,AS,"LARKIN, SHANE",Anadolu Efes Istanbul,0,38,02:23,,,,Assist (4),525,ForthQuarter
+E2025,1,4,0,568,TEL,,TOUT,,Maccabi Rapyd Tel Aviv,,38,02:23,,,,Time Out (2),526,ForthQuarter
+E2025,1,4,0,569,TEL,P011193,TO,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,38,02:06,,,,Turnover (4),527,ForthQuarter
+E2025,1,4,0,570,TEL,P014123,IN,"DOWTIN JR, JEFFREY",Maccabi Rapyd Tel Aviv,21,38,02:06,,,,In,528,ForthQuarter
+E2025,1,4,0,571,TEL,P011193,OUT,"BLATT, TAMIR",Maccabi Rapyd Tel Aviv,45,38,02:06,,,,Out,529,ForthQuarter
+E2025,1,4,0,573,IST,P009754,3FGM,"LOYD, JORDAN",Anadolu Efes Istanbul,3,39,01:44,85,76,,Three Pointer (4/8 -  16 pt),530,ForthQuarter
+E2025,1,4,0,574,IST,P007200,AS,"LARKIN, SHANE",Anadolu Efes Istanbul,0,39,01:45,,,,Assist (5),531,ForthQuarter
+E2025,1,4,0,575,IST,P007200,CM,"LARKIN, SHANE",Anadolu Efes Istanbul,0,39,01:45,,,,Foul (3),532,ForthQuarter
+E2025,1,4,0,576,TEL,P007990,RV,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,39,01:45,,,,Foul Drawn (2),533,ForthQuarter
+E2025,1,4,0,577,TEL,P007990,FTM,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,39,01:45,85,77,,Free Throw In (1/1 -  3 pt),534,ForthQuarter
+E2025,1,4,0,578,TEL,P007990,FTM,"DIBARTOLOMEO, JOHN",Maccabi Rapyd Tel Aviv,12,39,01:45,85,78,,Free Throw In (2/2 -  4 pt),535,ForthQuarter
+E2025,1,4,0,579,IST,P009549,3FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,39,01:00,,,,Missed Three Pointer (0/3 -  7 pt),536,ForthQuarter
+E2025,1,4,0,581,TEL,P006835,D,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,40,00:58,,,,Def Rebound (6),537,ForthQuarter
+E2025,1,4,0,582,TEL,P006835,2FGA,"HOARD, JAYLEN",Maccabi Rapyd Tel Aviv,1,40,00:50,,,,Missed Two Pointer (3/6 -  15 pt),538,ForthQuarter
+E2025,1,4,0,583,IST,P012710,D,"OSMANI, ERCAN",Anadolu Efes Istanbul,24,40,00:48,,,,Def Rebound (2),539,ForthQuarter
+E2025,1,4,0,584,IST,P009549,3FGA,"CORDINIER, ISAIA",Anadolu Efes Istanbul,10,40,00:25,,,,Missed Three Pointer (0/4 -  7 pt),540,ForthQuarter
+E2025,1,4,0,585,TEL,P014127,D,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,40,00:24,,,,Def Rebound (6),541,ForthQuarter
+E2025,1,4,0,586,TEL,P014127,3FGA,"BRISSETT, O'SHAE J",Maccabi Rapyd Tel Aviv,10,40,00:14,,,,Missed Three Pointer (1/3 -  9 pt),542,ForthQuarter
+E2025,1,4,0,587,IST,,D,,Anadolu Efes Istanbul,,40,00:12,,,,Def Rebound (5),543,ForthQuarter
+E2025,1,4,0,588,IST,P010391,IN,"WEILER-BABB, NICK",Anadolu Efes Istanbul,8,40,00:12,,,,In,544,ForthQuarter
+E2025,1,4,0,589,IST,P007109,OUT,"SMITS, ROLANDS",Anadolu Efes Istanbul,11,40,00:12,,,,Out,545,ForthQuarter
+E2025,1,4,0,592,,,EG,,,,41,,,,,End Game,546,ForthQuarter
+E2025,11,1,0,5,,,BP,,,,1,,,,,Begin Period,1,FirstQuarter
+E2025,11,1,0,74,RED,,JB,,Crvena Zvezda Meridianbet Belgrade,,1,09:59,,,,,2,FirstQuarter
+E2025,11,1,0,6,RED,P009048,2FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,1,09:36,,,,Missed Two Pointer (0/1 -  0 pt),3,FirstQuarter
+E2025,11,1,0,7,MUN,P004512,D,"KRATZER, LEON",FC Bayern Munich,8,1,09:34,,,,Def Rebound (1),4,FirstQuarter
+E2025,11,1,0,8,MUN,P013378,2FGA,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,1,09:22,,,,Missed Two Pointer (0/1 -  0 pt),5,FirstQuarter
+E2025,11,1,0,9,RED,P004866,D,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,1,09:20,,,,Def Rebound (1),6,FirstQuarter
+E2025,11,1,0,10,RED,P004866,TO,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,1,09:13,,,,Turnover (1),7,FirstQuarter
+E2025,11,1,0,12,MUN,P001288,2FGA,"LUCIC, VLADIMIR",FC Bayern Munich,11,2,08:54,,,,Missed Two Pointer (0/1 -  0 pt),8,FirstQuarter
+E2025,11,1,0,13,RED,P009048,D,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,2,08:50,,,,Def Rebound (1),9,FirstQuarter
+E2025,11,1,0,14,RED,P013363,2FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,2,08:35,,2,,Two Pointer (1/1 -  2 pt),10,FirstQuarter
+E2025,11,1,0,15,RED,P012201,AS,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,2,08:35,,,,Assist (1),11,FirstQuarter
+E2025,11,1,0,16,MUN,P004512,CM,"KRATZER, LEON",FC Bayern Munich,8,2,08:35,,,,Foul (1),12,FirstQuarter
+E2025,11,1,0,17,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,2,08:35,,,,Foul Drawn (1),13,FirstQuarter
+E2025,11,1,0,18,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,2,08:35,,3,,Free Throw In (1/1 -  3 pt),14,FirstQuarter
+E2025,11,1,0,19,MUN,P013378,3FGA,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,2,08:12,,,,Missed Three Pointer (0/1 -  0 pt),15,FirstQuarter
+E2025,11,1,0,20,RED,P012201,D,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,2,08:09,,,,Def Rebound (1),16,FirstQuarter
+E2025,11,1,0,22,RED,P013363,2FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,3,07:50,,5,,Two Pointer (2/2 -  5 pt),17,FirstQuarter
+E2025,11,1,0,23,RED,P004866,AS,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,3,07:50,,,,Assist (1),18,FirstQuarter
+E2025,11,1,0,24,MUN,P001288,CM,"LUCIC, VLADIMIR",FC Bayern Munich,11,3,07:50,,,,Foul (1),19,FirstQuarter
+E2025,11,1,0,25,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,3,07:50,,,,Foul Drawn (2),20,FirstQuarter
+E2025,11,1,0,26,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,3,07:50,,6,,Free Throw In (2/2 -  6 pt),21,FirstQuarter
+E2025,11,1,0,27,MUN,P001288,3FGM,"LUCIC, VLADIMIR",FC Bayern Munich,11,3,07:30,3,6,,Three Pointer (1/1 -  3 pt),22,FirstQuarter
+E2025,11,1,0,28,MUN,P004512,CM,"KRATZER, LEON",FC Bayern Munich,8,3,07:20,,,,Foul (2),23,FirstQuarter
+E2025,11,1,0,29,RED,P004866,RV,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,3,07:20,,,,Foul Drawn (1),24,FirstQuarter
+E2025,11,1,0,30,RED,P013363,3FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,3,07:11,3,9,,Three Pointer (1/1 -  9 pt),25,FirstQuarter
+E2025,11,1,0,32,MUN,P013378,2FGA,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,4,06:49,,,,Missed Two Pointer (0/2 -  0 pt),26,FirstQuarter
+E2025,11,1,0,33,MUN,P013378,AG,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,4,06:49,,,,Shot Rejected (1),27,FirstQuarter
+E2025,11,1,0,34,RED,P014029,FV,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,4,06:49,,,,Block (1),28,FirstQuarter
+E2025,11,1,0,35,MUN,,O,,FC Bayern Munich,,4,06:49,,,,Off Rebound (1),29,FirstQuarter
+E2025,11,1,0,36,MUN,P001288,2FGM,"LUCIC, VLADIMIR",FC Bayern Munich,11,4,06:45,5,9,,Two Pointer (1/2 -  5 pt),30,FirstQuarter
+E2025,11,1,0,37,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,4,06:43,,,,Assist (1),31,FirstQuarter
+E2025,11,1,0,38,RED,P014029,OF,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,4,06:36,,,,Offensive Foul (1),32,FirstQuarter
+E2025,11,1,0,39,RED,P014029,TO,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,4,06:36,,,,Turnover (1),33,FirstQuarter
+E2025,11,1,0,40,MUN,P004863,RV,"JOVIC, STEFAN",FC Bayern Munich,16,4,06:36,,,,Foul Drawn (1),34,FirstQuarter
+E2025,11,1,0,41,MUN,P004863,2FGM,"JOVIC, STEFAN",FC Bayern Munich,16,4,06:21,7,9,,Two Pointer (1/1 -  2 pt),35,FirstQuarter
+E2025,11,1,0,42,MUN,P001288,CM,"LUCIC, VLADIMIR",FC Bayern Munich,11,4,06:15,,,,Foul (2),36,FirstQuarter
+E2025,11,1,0,43,RED,P012201,RV,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,4,06:15,,,,Foul Drawn (1),37,FirstQuarter
+E2025,11,1,0,44,MUN,P004512,OUT,"KRATZER, LEON",FC Bayern Munich,8,4,06:15,,,,Out,38,FirstQuarter
+E2025,11,1,0,45,MUN,P013383,IN,"GABRIEL, WENYEN",FC Bayern Munich,32,4,06:15,,,,In,39,FirstQuarter
+E2025,11,1,0,46,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,4,06:15,7,10,,Free Throw In (1/1 -  1 pt),40,FirstQuarter
+E2025,11,1,0,47,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,4,06:15,7,11,,Free Throw In (2/2 -  2 pt),41,FirstQuarter
+E2025,11,1,0,48,MUN,P013290,IN,"JESSUP, JUSTINIAN",FC Bayern Munich,10,4,06:15,,,,In,42,FirstQuarter
+E2025,11,1,0,49,MUN,P001288,OUT,"LUCIC, VLADIMIR",FC Bayern Munich,11,4,06:15,,,,Out,43,FirstQuarter
+E2025,11,1,0,50,RED,P009048,CM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,4,06:12,,,,Foul (1),44,FirstQuarter
+E2025,11,1,0,51,MUN,P004863,RV,"JOVIC, STEFAN",FC Bayern Munich,16,4,06:12,,,,Foul Drawn (2),45,FirstQuarter
+E2025,11,1,0,53,MUN,P011836,3FGA,"MIKE, ISIAHA",FC Bayern Munich,22,5,05:54,,,,Missed Three Pointer (0/1 -  0 pt),46,FirstQuarter
+E2025,11,1,0,54,RED,P009048,D,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,5,05:52,,,,Def Rebound (2),47,FirstQuarter
+E2025,11,1,0,55,MUN,P004863,CM,"JOVIC, STEFAN",FC Bayern Munich,16,5,05:50,,,,Foul (1),48,FirstQuarter
+E2025,11,1,0,56,RED,P012201,RV,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,5,05:50,,,,Foul Drawn (2),49,FirstQuarter
+E2025,11,1,0,57,MUN,P013378,OUT,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,5,05:50,,,,Out,50,FirstQuarter
+E2025,11,1,0,58,MUN,P004508,IN,"OBST, ANDREAS",FC Bayern Munich,13,5,05:50,,,,In,51,FirstQuarter
+E2025,11,1,0,59,RED,P011305,IN,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,5,05:50,,,,In,52,FirstQuarter
+E2025,11,1,0,60,RED,P004866,OUT,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,5,05:50,,,,Out,53,FirstQuarter
+E2025,11,1,0,61,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,5,05:50,7,12,,Free Throw In (3/3 -  3 pt),54,FirstQuarter
+E2025,11,1,0,62,RED,P009048,AS,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,5,05:50,,,,Assist (1),55,FirstQuarter
+E2025,11,1,0,63,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,5,05:50,7,13,,Free Throw In (4/4 -  4 pt),56,FirstQuarter
+E2025,11,1,0,64,MUN,P004863,TO,"JOVIC, STEFAN",FC Bayern Munich,16,5,05:32,,,,Turnover (1),57,FirstQuarter
+E2025,11,1,0,65,RED,P013363,3FGA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,5,05:14,,,,Missed Three Pointer (1/2 -  9 pt),58,FirstQuarter
+E2025,11,1,0,66,RED,P014029,O,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,5,05:12,,,,Off Rebound (1),59,FirstQuarter
+E2025,11,1,0,67,RED,P009048,2FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,5,05:05,,,,Missed Two Pointer (0/2 -  0 pt),60,FirstQuarter
+E2025,11,1,0,68,RED,P014029,O,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,5,05:03,,,,Off Rebound (2),61,FirstQuarter
+E2025,11,1,0,69,RED,P014029,2FGM,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,5,05:02,7,15,,Two Pointer (1/1 -  2 pt),62,FirstQuarter
+E2025,11,1,0,71,MUN,P013383,2FGM,"GABRIEL, WENYEN",FC Bayern Munich,32,6,04:55,9,15,,Two Pointer (1/1 -  2 pt),63,FirstQuarter
+E2025,11,1,0,72,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,6,04:53,,,,Assist (2),64,FirstQuarter
+E2025,11,1,0,73,,,TOUT_TV,,,,6,04:41,,,,TV Time Out (1),65,FirstQuarter
+E2025,11,1,0,75,MUN,P001557,IN,"GIFFEY, NIELS",FC Bayern Munich,5,6,04:41,,,,In,66,FirstQuarter
+E2025,11,1,0,76,MUN,P004863,OUT,"JOVIC, STEFAN",FC Bayern Munich,16,6,04:41,,,,Out,67,FirstQuarter
+E2025,11,1,0,77,MUN,P011836,OUT,"MIKE, ISIAHA",FC Bayern Munich,22,6,04:41,,,,Out,68,FirstQuarter
+E2025,11,1,0,78,MUN,P012597,IN,"BALDWIN, KAMAR",FC Bayern Munich,44,6,04:41,,,,In,69,FirstQuarter
+E2025,11,1,0,79,RED,P012201,3FGM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,6,04:27,9,18,,Three Pointer (1/1 -  7 pt),70,FirstQuarter
+E2025,11,1,0,80,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,6,04:10,12,18,,Three Pointer (1/1 -  3 pt),71,FirstQuarter
+E2025,11,1,0,81,MUN,P012597,AS,"BALDWIN, KAMAR",FC Bayern Munich,44,6,04:07,,,,Assist (1),72,FirstQuarter
+E2025,11,1,0,82,RED,P012201,2FGA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,6,04:02,,,,Missed Two Pointer (0/1 -  7 pt),73,FirstQuarter
+E2025,11,1,0,83,RED,P012201,AG,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,6,04:02,,,,Shot Rejected (1),74,FirstQuarter
+E2025,11,1,0,84,MUN,P013383,FV,"GABRIEL, WENYEN",FC Bayern Munich,32,6,04:00,,,,Block (1),75,FirstQuarter
+E2025,11,1,0,86,RED,P014029,O,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,7,03:58,,,,Off Rebound (3),76,FirstQuarter
+E2025,11,1,0,87,RED,P013363,TO,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,7,03:59,,,,Turnover (1),77,FirstQuarter
+E2025,11,1,0,88,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,7,03:45,15,18,,Three Pointer (2/2 -  6 pt),78,FirstQuarter
+E2025,11,1,0,89,MUN,P013290,AS,"JESSUP, JUSTINIAN",FC Bayern Munich,10,7,03:42,,,,Assist (1),79,FirstQuarter
+E2025,11,1,0,90,RED,P009048,3FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,7,03:19,,,,Missed Three Pointer (0/1 -  0 pt),80,FirstQuarter
+E2025,11,1,0,91,MUN,P004508,D,"OBST, ANDREAS",FC Bayern Munich,13,7,03:17,,,,Def Rebound (1),81,FirstQuarter
+E2025,11,1,0,92,RED,P013363,CM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,7,03:14,,,,Foul (1),82,FirstQuarter
+E2025,11,1,0,93,MUN,P004508,RV,"OBST, ANDREAS",FC Bayern Munich,13,7,03:14,,,,Foul Drawn (1),83,FirstQuarter
+E2025,11,1,0,94,MUN,P001557,2FGM,"GIFFEY, NIELS",FC Bayern Munich,5,7,03:07,17,18,,Two Pointer (1/1 -  2 pt),84,FirstQuarter
+E2025,11,1,0,95,MUN,P013383,AS,"GABRIEL, WENYEN",FC Bayern Munich,32,7,03:05,,,,Assist (1),85,FirstQuarter
+E2025,11,1,0,97,MUN,P013383,CM,"GABRIEL, WENYEN",FC Bayern Munich,32,8,02:50,,,,Foul (1),86,FirstQuarter
+E2025,11,1,0,98,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,8,02:50,,,,Foul Drawn (3),87,FirstQuarter
+E2025,11,1,0,99,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,8,02:50,17,19,,Free Throw In (3/3 -  10 pt),88,FirstQuarter
+E2025,11,1,0,100,RED,P013363,FTA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,8,02:50,,,,Missed Free Throw (3/4 -  10 pt),89,FirstQuarter
+E2025,11,1,0,101,MUN,P013290,D,"JESSUP, JUSTINIAN",FC Bayern Munich,10,8,02:50,,,,Def Rebound (1),90,FirstQuarter
+E2025,11,1,0,102,MUN,P001557,3FGM,"GIFFEY, NIELS",FC Bayern Munich,5,8,02:38,20,19,,Three Pointer (1/1 -  5 pt),91,FirstQuarter
+E2025,11,1,0,103,MUN,P012597,AS,"BALDWIN, KAMAR",FC Bayern Munich,44,8,02:35,,,,Assist (2),92,FirstQuarter
+E2025,11,1,0,104,RED,P011305,3FGM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,8,02:11,20,22,,Three Pointer (1/1 -  3 pt),93,FirstQuarter
+E2025,11,1,0,105,RED,P013363,AS,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,8,02:09,,,,Assist (1),94,FirstQuarter
+E2025,11,1,0,107,MUN,P013290,3FGA,"JESSUP, JUSTINIAN",FC Bayern Munich,10,9,01:46,,,,Missed Three Pointer (0/1 -  0 pt),95,FirstQuarter
+E2025,11,1,0,108,RED,P011305,D,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,9,01:45,,,,Def Rebound (1),96,FirstQuarter
+E2025,11,1,0,109,RED,P009048,3FGM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,9,01:38,20,25,,Three Pointer (1/2 -  3 pt),97,FirstQuarter
+E2025,11,1,0,110,RED,P011305,AS,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,9,01:35,,,,Assist (1),98,FirstQuarter
+E2025,11,1,0,111,RED,P014029,CM,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,9,01:21,,,,Foul (2),99,FirstQuarter
+E2025,11,1,0,112,MUN,P013383,RV,"GABRIEL, WENYEN",FC Bayern Munich,32,9,01:21,,,,Foul Drawn (1),100,FirstQuarter
+E2025,11,1,0,113,RED,P007960,IN,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,9,01:21,,,,In,101,FirstQuarter
+E2025,11,1,0,114,RED,P004866,IN,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,9,01:21,,,,In,102,FirstQuarter
+E2025,11,1,0,115,RED,P014029,OUT,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,9,01:21,,,,Out,103,FirstQuarter
+E2025,11,1,0,116,RED,P013363,OUT,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,9,01:21,,,,Out,104,FirstQuarter
+E2025,11,1,0,117,RED,P012201,CM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,9,01:16,,,,Foul (1),105,FirstQuarter
+E2025,11,1,0,118,MUN,P004508,RV,"OBST, ANDREAS",FC Bayern Munich,13,9,01:16,,,,Foul Drawn (2),106,FirstQuarter
+E2025,11,1,0,119,MUN,P004508,FTM,"OBST, ANDREAS",FC Bayern Munich,13,9,01:16,21,25,,Free Throw In (1/1 -  7 pt),107,FirstQuarter
+E2025,11,1,0,120,MUN,P012597,AS,"BALDWIN, KAMAR",FC Bayern Munich,44,9,01:16,,,,Assist (3),108,FirstQuarter
+E2025,11,1,0,121,MUN,P004508,FTM,"OBST, ANDREAS",FC Bayern Munich,13,9,01:16,22,25,,Free Throw In (2/2 -  8 pt),109,FirstQuarter
+E2025,11,1,0,122,RED,P011982,IN,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,9,01:16,,,,In,110,FirstQuarter
+E2025,11,1,0,123,RED,P012201,OUT,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,9,01:16,,,,Out,111,FirstQuarter
+E2025,11,1,0,125,RED,P004866,TO,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,10,00:58,,,,Turnover (2),112,FirstQuarter
+E2025,11,1,0,126,MUN,P012597,ST,"BALDWIN, KAMAR",FC Bayern Munich,44,10,00:50,,,,Steal (1),113,FirstQuarter
+E2025,11,1,0,127,MUN,P001557,3FGA,"GIFFEY, NIELS",FC Bayern Munich,5,10,00:40,,,,Missed Three Pointer (1/2 -  5 pt),114,FirstQuarter
+E2025,11,1,0,128,MUN,P013290,O,"JESSUP, JUSTINIAN",FC Bayern Munich,10,10,00:38,,,,Off Rebound (1),115,FirstQuarter
+E2025,11,1,0,129,MUN,P013290,3FGA,"JESSUP, JUSTINIAN",FC Bayern Munich,10,10,00:36,,,,Missed Three Pointer (0/2 -  0 pt),116,FirstQuarter
+E2025,11,1,0,130,MUN,P001557,O,"GIFFEY, NIELS",FC Bayern Munich,5,10,00:34,,,,Off Rebound (1),117,FirstQuarter
+E2025,11,1,0,131,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,10,00:31,,,,Missed Three Pointer (2/3 -  8 pt),118,FirstQuarter
+E2025,11,1,0,132,MUN,P013383,O,"GABRIEL, WENYEN",FC Bayern Munich,32,10,00:29,,,,Off Rebound (1),119,FirstQuarter
+E2025,11,1,0,133,MUN,P012597,2FGM,"BALDWIN, KAMAR",FC Bayern Munich,44,10,00:24,24,25,,Two Pointer (1/1 -  2 pt),120,FirstQuarter
+E2025,11,1,0,134,RED,P009048,3FGM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,10,00:03,24,28,,Three Pointer (2/3 -  6 pt),121,FirstQuarter
+E2025,11,1,0,136,,,EP,,,,11,,,,,End Period,122,FirstQuarter
+E2025,11,2,0,137,,,BP,,,,11,,,,,Begin Period,123,SecondQuarter
+E2025,11,2,0,138,MUN,P012597,2FGA,"BALDWIN, KAMAR",FC Bayern Munich,44,11,09:39,,,,Missed Two Pointer (1/2 -  2 pt),124,SecondQuarter
+E2025,11,2,0,139,RED,,D,,Crvena Zvezda Meridianbet Belgrade,,11,09:37,,,,Def Rebound (1),125,SecondQuarter
+E2025,11,2,0,140,RED,P004866,3FGM,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,11,09:12,24,31,,Three Pointer (1/1 -  3 pt),126,SecondQuarter
+E2025,11,2,0,142,MUN,P001557,2FGM,"GIFFEY, NIELS",FC Bayern Munich,5,12,08:53,26,31,,Two Pointer (2/2 -  7 pt),127,SecondQuarter
+E2025,11,2,0,143,RED,P007960,3FGA,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,12,08:29,,,,Missed Three Pointer (0/1 -  0 pt),128,SecondQuarter
+E2025,11,2,0,144,RED,P004866,O,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,12,08:27,,,,Off Rebound (1),129,SecondQuarter
+E2025,11,2,0,145,RED,P011305,3FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,12,08:22,,,,Missed Three Pointer (1/2 -  3 pt),130,SecondQuarter
+E2025,11,2,0,146,RED,,O,,Crvena Zvezda Meridianbet Belgrade,,12,08:21,,,,Off Rebound (2),131,SecondQuarter
+E2025,11,2,0,147,MUN,P013290,CM,"JESSUP, JUSTINIAN",FC Bayern Munich,10,12,08:19,,,,Foul (1),132,SecondQuarter
+E2025,11,2,0,148,RED,P004866,RV,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,12,08:19,,,,Foul Drawn (2),133,SecondQuarter
+E2025,11,2,0,149,MUN,P013290,OUT,"JESSUP, JUSTINIAN",FC Bayern Munich,10,12,08:19,,,,Out,134,SecondQuarter
+E2025,11,2,0,150,MUN,P001288,IN,"LUCIC, VLADIMIR",FC Bayern Munich,11,12,08:19,,,,In,135,SecondQuarter
+E2025,11,2,0,151,MUN,P001557,CM,"GIFFEY, NIELS",FC Bayern Munich,5,12,08:13,,,,Foul (1),136,SecondQuarter
+E2025,11,2,0,152,RED,P009048,RV,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,12,08:13,,,,Foul Drawn (1),137,SecondQuarter
+E2025,11,2,0,153,RED,P009048,3FGM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,12,08:05,26,34,,Three Pointer (3/4 -  9 pt),138,SecondQuarter
+E2025,11,2,0,155,RED,P011305,CM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,13,07:54,,,,Foul (1),139,SecondQuarter
+E2025,11,2,0,156,MUN,P012597,RV,"BALDWIN, KAMAR",FC Bayern Munich,44,13,07:54,,,,Foul Drawn (1),140,SecondQuarter
+E2025,11,2,0,157,MUN,P011244,IN,"DA SILVA, OSCAR",FC Bayern Munich,1,13,07:54,,,,In,141,SecondQuarter
+E2025,11,2,0,158,MUN,P013383,OUT,"GABRIEL, WENYEN",FC Bayern Munich,32,13,07:54,,,,Out,142,SecondQuarter
+E2025,11,2,0,159,MUN,P011244,2FGM,"DA SILVA, OSCAR",FC Bayern Munich,1,13,07:54,28,34,,Two Pointer (1/1 -  2 pt),143,SecondQuarter
+E2025,11,2,0,160,MUN,P012597,AS,"BALDWIN, KAMAR",FC Bayern Munich,44,13,07:54,,,,Assist (4),144,SecondQuarter
+E2025,11,2,0,161,RED,P009048,2FGM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,13,07:54,28,36,,Two Pointer (1/3 -  11 pt),145,SecondQuarter
+E2025,11,2,0,162,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,13,07:25,31,36,,Three Pointer (3/4 -  11 pt),146,SecondQuarter
+E2025,11,2,0,163,RED,P011305,2FGM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,13,07:16,31,38,,Two Pointer (1/1 -  5 pt),147,SecondQuarter
+E2025,11,2,0,164,RED,P009048,AS,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,13,07:17,,,,Assist (2),148,SecondQuarter
+E2025,11,2,0,165,MUN,,TOUT,,FC Bayern Munich,,13,07:17,,,,Time Out (1),149,SecondQuarter
+E2025,11,2,0,166,MUN,P011244,2FGM,"DA SILVA, OSCAR",FC Bayern Munich,1,13,07:03,33,38,,Two Pointer (2/2 -  4 pt),150,SecondQuarter
+E2025,11,2,0,168,RED,P009048,3FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,14,06:40,,,,Missed Three Pointer (3/5 -  11 pt),151,SecondQuarter
+E2025,11,2,0,169,MUN,P011244,D,"DA SILVA, OSCAR",FC Bayern Munich,1,14,06:38,,,,Def Rebound (1),152,SecondQuarter
+E2025,11,2,0,170,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,14,06:29,,,,Missed Three Pointer (3/5 -  11 pt),153,SecondQuarter
+E2025,11,2,0,171,RED,P004866,D,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,14,06:27,,,,Def Rebound (2),154,SecondQuarter
+E2025,11,2,0,172,RED,P011305,3FGM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,14,06:11,33,41,,Three Pointer (2/3 -  8 pt),155,SecondQuarter
+E2025,11,2,0,174,MUN,P012597,3FGM,"BALDWIN, KAMAR",FC Bayern Munich,44,15,05:51,36,41,,Three Pointer (1/1 -  5 pt),156,SecondQuarter
+E2025,11,2,0,175,MUN,P011244,AS,"DA SILVA, OSCAR",FC Bayern Munich,1,15,05:50,,,,Assist (1),157,SecondQuarter
+E2025,11,2,0,176,RED,,TOUT,,Crvena Zvezda Meridianbet Belgrade,,15,05:47,,,,Time Out (1),158,SecondQuarter
+E2025,11,2,0,177,MUN,P013378,IN,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,15,05:47,,,,In,159,SecondQuarter
+E2025,11,2,0,178,MUN,P001557,OUT,"GIFFEY, NIELS",FC Bayern Munich,5,15,05:47,,,,Out,160,SecondQuarter
+E2025,11,2,0,179,MUN,P004508,OUT,"OBST, ANDREAS",FC Bayern Munich,13,15,05:47,,,,Out,161,SecondQuarter
+E2025,11,2,0,180,MUN,P004863,IN,"JOVIC, STEFAN",FC Bayern Munich,16,15,05:47,,,,In,162,SecondQuarter
+E2025,11,2,0,181,MUN,P011836,IN,"MIKE, ISIAHA",FC Bayern Munich,22,15,05:47,,,,In,163,SecondQuarter
+E2025,11,2,0,182,MUN,P012597,OUT,"BALDWIN, KAMAR",FC Bayern Munich,44,15,05:47,,,,Out,164,SecondQuarter
+E2025,11,2,0,183,RED,P009048,OUT,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,15,05:47,,,,Out,165,SecondQuarter
+E2025,11,2,0,184,RED,P013363,IN,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,15,05:47,,,,In,166,SecondQuarter
+E2025,11,2,0,185,RED,P013363,3FGA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,15,05:47,,,,Missed Three Pointer (1/3 -  10 pt),167,SecondQuarter
+E2025,11,2,0,186,RED,P011982,O,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,15,05:47,,,,Off Rebound (1),168,SecondQuarter
+E2025,11,2,0,187,MUN,P011836,CM,"MIKE, ISIAHA",FC Bayern Munich,22,15,05:47,,,,Foul (1),169,SecondQuarter
+E2025,11,2,0,188,RED,P011982,RV,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,15,05:47,,,,Foul Drawn (1),170,SecondQuarter
+E2025,11,2,0,189,RED,P011305,TO,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,15,05:21,,,,Turnover (1),171,SecondQuarter
+E2025,11,2,0,190,MUN,P011244,ST,"DA SILVA, OSCAR",FC Bayern Munich,1,15,05:21,,,,Steal (1),172,SecondQuarter
+E2025,11,2,0,191,RED,P007960,CM,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,15,05:21,,,,Foul (1),173,SecondQuarter
+E2025,11,2,0,192,MUN,P011836,RV,"MIKE, ISIAHA",FC Bayern Munich,22,15,05:21,,,,Foul Drawn (1),174,SecondQuarter
+E2025,11,2,0,193,MUN,P001288,2FGM,"LUCIC, VLADIMIR",FC Bayern Munich,11,15,05:13,38,41,,Two Pointer (2/3 -  7 pt),175,SecondQuarter
+E2025,11,2,0,194,RED,P011305,2FGM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,15,05:06,38,43,,Two Pointer (2/2 -  10 pt),176,SecondQuarter
+E2025,11,2,0,195,MUN,P013378,CM,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,15,05:06,,,,Foul (1),177,SecondQuarter
+E2025,11,2,0,196,RED,P011305,RV,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,15,05:06,,,,Foul Drawn (1),178,SecondQuarter
+E2025,11,2,0,197,RED,P011305,FTM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,15,05:06,38,44,,Free Throw In (1/1 -  11 pt),179,SecondQuarter
+E2025,11,2,0,198,RED,P011982,OUT,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,15,05:06,,,,Out,180,SecondQuarter
+E2025,11,2,0,199,RED,P012201,IN,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,15,05:06,,,,In,181,SecondQuarter
+E2025,11,2,0,201,MUN,P011836,2FGM,"MIKE, ISIAHA",FC Bayern Munich,22,16,04:51,40,44,,Two Pointer (1/1 -  2 pt),182,SecondQuarter
+E2025,11,2,0,202,RED,P011305,TO,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,16,04:36,,,,Turnover (2),183,SecondQuarter
+E2025,11,2,0,203,MUN,P011836,2FGA,"MIKE, ISIAHA",FC Bayern Munich,22,16,04:16,,,,Missed Two Pointer (1/2 -  2 pt),184,SecondQuarter
+E2025,11,2,0,204,RED,P013363,D,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,16,04:14,,,,Def Rebound (1),185,SecondQuarter
+E2025,11,2,0,205,MUN,P004863,CM,"JOVIC, STEFAN",FC Bayern Munich,16,16,04:14,,,,Foul (2),186,SecondQuarter
+E2025,11,2,0,206,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,16,04:14,,,,Foul Drawn (4),187,SecondQuarter
+E2025,11,2,0,207,RED,P013363,FTA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,16,04:14,,,,Missed Free Throw (3/5 -  10 pt),188,SecondQuarter
+E2025,11,2,0,208,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,16,04:14,40,45,,Free Throw In (4/6 -  11 pt),189,SecondQuarter
+E2025,11,2,0,210,RED,P013363,CM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,17,03:56,,,,Foul (2),190,SecondQuarter
+E2025,11,2,0,211,MUN,P001288,RV,"LUCIC, VLADIMIR",FC Bayern Munich,11,17,03:56,,,,Foul Drawn (1),191,SecondQuarter
+E2025,11,2,0,212,MUN,P001288,FTM,"LUCIC, VLADIMIR",FC Bayern Munich,11,17,03:56,41,45,,Free Throw In (1/1 -  8 pt),192,SecondQuarter
+E2025,11,2,0,213,MUN,P001288,FTA,"LUCIC, VLADIMIR",FC Bayern Munich,11,17,03:56,,,,Missed Free Throw (1/2 -  8 pt),193,SecondQuarter
+E2025,11,2,0,214,RED,P012201,D,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,17,03:56,,,,Def Rebound (2),194,SecondQuarter
+E2025,11,2,0,215,RED,P012201,2FGM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,17,03:35,41,47,,Two Pointer (1/2 -  9 pt),195,SecondQuarter
+E2025,11,2,0,216,MUN,P011244,2FGM,"DA SILVA, OSCAR",FC Bayern Munich,1,17,03:21,43,47,,Two Pointer (3/3 -  6 pt),196,SecondQuarter
+E2025,11,2,0,217,MUN,P011836,AS,"MIKE, ISIAHA",FC Bayern Munich,22,17,03:19,,,,Assist (1),197,SecondQuarter
+E2025,11,2,0,218,RED,P007960,2FGM,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,17,03:09,43,49,,Two Pointer (1/1 -  2 pt),198,SecondQuarter
+E2025,11,2,0,219,RED,P013363,AS,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,17,03:07,,,,Assist (2),199,SecondQuarter
+E2025,11,2,0,221,MUN,P001288,3FGA,"LUCIC, VLADIMIR",FC Bayern Munich,11,18,02:50,,,,Missed Three Pointer (1/2 -  8 pt),200,SecondQuarter
+E2025,11,2,0,222,RED,P013363,D,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,18,02:47,,,,Def Rebound (2),201,SecondQuarter
+E2025,11,2,0,223,MUN,P004863,CM,"JOVIC, STEFAN",FC Bayern Munich,16,18,02:40,,,,Foul (3),202,SecondQuarter
+E2025,11,2,0,224,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,18,02:40,,,,Foul Drawn (5),203,SecondQuarter
+E2025,11,2,0,225,MUN,,TOUT,,FC Bayern Munich,,18,02:40,,,,Time Out (2),204,SecondQuarter
+E2025,11,2,0,226,MUN,P004508,IN,"OBST, ANDREAS",FC Bayern Munich,13,18,02:40,,,,In,205,SecondQuarter
+E2025,11,2,0,227,MUN,P004863,OUT,"JOVIC, STEFAN",FC Bayern Munich,16,18,02:40,,,,Out,206,SecondQuarter
+E2025,11,2,0,232,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,18,02:40,43,50,,Free Throw In (5/7 -  12 pt),207,SecondQuarter
+E2025,11,2,0,233,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,18,02:40,43,51,,Free Throw In (6/8 -  13 pt),208,SecondQuarter
+E2025,11,2,0,234,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,18,02:16,,,,Missed Three Pointer (3/6 -  11 pt),209,SecondQuarter
+E2025,11,2,0,235,MUN,P011244,O,"DA SILVA, OSCAR",FC Bayern Munich,1,18,02:14,,,,Off Rebound (1),210,SecondQuarter
+E2025,11,2,0,236,MUN,P011244,2FGM,"DA SILVA, OSCAR",FC Bayern Munich,1,18,02:13,45,51,,Two Pointer (4/4 -  8 pt),211,SecondQuarter
+E2025,11,2,0,238,RED,P011305,3FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,19,01:57,,,,Missed Three Pointer (2/4 -  11 pt),212,SecondQuarter
+E2025,11,2,0,239,MUN,P013378,D,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,19,01:55,,,,Def Rebound (1),213,SecondQuarter
+E2025,11,2,0,240,MUN,P013378,2FGM,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,19,01:39,47,51,,Two Pointer (1/3 -  2 pt),214,SecondQuarter
+E2025,11,2,0,241,RED,,TOUT,,Crvena Zvezda Meridianbet Belgrade,,19,01:39,,,,Time Out (2),215,SecondQuarter
+E2025,11,2,0,242,MUN,P001557,IN,"GIFFEY, NIELS",FC Bayern Munich,5,19,01:39,,,,In,216,SecondQuarter
+E2025,11,2,0,243,MUN,P001288,OUT,"LUCIC, VLADIMIR",FC Bayern Munich,11,19,01:39,,,,Out,217,SecondQuarter
+E2025,11,2,0,244,RED,P011305,2FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,19,01:16,,,,Missed Two Pointer (2/3 -  11 pt),218,SecondQuarter
+E2025,11,2,0,245,RED,P012201,O,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,19,01:15,,,,Off Rebound (1),219,SecondQuarter
+E2025,11,2,0,246,RED,P012201,2FGM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,19,01:13,47,53,,Two Pointer (2/3 -  11 pt),220,SecondQuarter
+E2025,11,2,0,248,RED,P012201,CM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,20,00:57,,,,Foul (2),221,SecondQuarter
+E2025,11,2,0,249,MUN,P011836,RV,"MIKE, ISIAHA",FC Bayern Munich,22,20,00:57,,,,Foul Drawn (2),222,SecondQuarter
+E2025,11,2,0,250,RED,P011982,IN,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,20,00:57,,,,In,223,SecondQuarter
+E2025,11,2,0,251,RED,P012201,OUT,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,20,00:57,,,,Out,224,SecondQuarter
+E2025,11,2,0,252,RED,P007960,CM,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,20,00:49,,,,Foul (2),225,SecondQuarter
+E2025,11,2,0,253,MUN,P004508,RV,"OBST, ANDREAS",FC Bayern Munich,13,20,00:49,,,,Foul Drawn (3),226,SecondQuarter
+E2025,11,2,0,254,MUN,P004508,FTA,"OBST, ANDREAS",FC Bayern Munich,13,20,00:49,,,,Missed Free Throw (2/3 -  11 pt),227,SecondQuarter
+E2025,11,2,0,255,MUN,P004508,FTM,"OBST, ANDREAS",FC Bayern Munich,13,20,00:49,48,53,,Free Throw In (3/4 -  12 pt),228,SecondQuarter
+E2025,11,2,0,256,RED,P013363,2FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,20,00:30,48,55,,Two Pointer (3/3 -  15 pt),229,SecondQuarter
+E2025,11,2,0,257,MUN,P011836,2FGM,"MIKE, ISIAHA",FC Bayern Munich,22,20,00:07,50,55,,Two Pointer (2/3 -  4 pt),230,SecondQuarter
+E2025,11,2,0,258,RED,P011982,2FGA,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,20,00:00,,,,Missed Two Pointer (0/1 -  0 pt),231,SecondQuarter
+E2025,11,2,0,260,,,EP,,,,21,,,,,End Period,232,SecondQuarter
+E2025,11,3,0,273,,,BP,,,,21,,,,,Begin Period,233,ThirdQuarter
+E2025,11,3,0,261,MUN,P011244,OUT,"DA SILVA, OSCAR",FC Bayern Munich,1,21,10:00,,,,Out,234,ThirdQuarter
+E2025,11,3,0,262,MUN,P013378,OUT,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,21,10:00,,,,Out,235,ThirdQuarter
+E2025,11,3,0,263,MUN,P001557,OUT,"GIFFEY, NIELS",FC Bayern Munich,5,21,10:00,,,,Out,236,ThirdQuarter
+E2025,11,3,0,264,MUN,P001288,IN,"LUCIC, VLADIMIR",FC Bayern Munich,11,21,10:00,,,,In,237,ThirdQuarter
+E2025,11,3,0,265,MUN,P013386,IN,"MCCORMACK, DAVID",FC Bayern Munich,33,21,10:00,,,,In,238,ThirdQuarter
+E2025,11,3,0,266,MUN,P012597,IN,"BALDWIN, KAMAR",FC Bayern Munich,44,21,10:00,,,,In,239,ThirdQuarter
+E2025,11,3,0,267,RED,P009048,IN,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,21,10:00,,,,In,240,ThirdQuarter
+E2025,11,3,0,268,RED,P007960,OUT,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,21,10:00,,,,Out,241,ThirdQuarter
+E2025,11,3,0,269,RED,P011305,OUT,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,21,10:00,,,,Out,242,ThirdQuarter
+E2025,11,3,0,270,RED,P014029,IN,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,21,10:00,,,,In,243,ThirdQuarter
+E2025,11,3,0,271,RED,P011982,OUT,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,21,10:00,,,,Out,244,ThirdQuarter
+E2025,11,3,0,272,RED,P012201,IN,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,21,10:00,,,,In,245,ThirdQuarter
+E2025,11,3,0,274,MUN,P001288,2FGA,"LUCIC, VLADIMIR",FC Bayern Munich,11,21,09:45,,,,Missed Two Pointer (2/4 -  8 pt),246,ThirdQuarter
+E2025,11,3,0,275,RED,P009048,D,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,21,09:43,,,,Def Rebound (3),247,ThirdQuarter
+E2025,11,3,0,276,MUN,P011836,CM,"MIKE, ISIAHA",FC Bayern Munich,22,21,09:32,,,,Foul (2),248,ThirdQuarter
+E2025,11,3,0,277,RED,P012201,RV,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,21,09:32,,,,Foul Drawn (3),249,ThirdQuarter
+E2025,11,3,0,278,RED,P012201,FTA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,21,09:32,,,,Missed Free Throw (4/5 -  11 pt),250,ThirdQuarter
+E2025,11,3,0,279,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,21,09:32,50,56,,Free Throw In (5/6 -  12 pt),251,ThirdQuarter
+E2025,11,3,0,280,RED,P009048,AS,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,21,09:32,,,,Assist (3),252,ThirdQuarter
+E2025,11,3,0,281,MUN,P013386,2FGA,"MCCORMACK, DAVID",FC Bayern Munich,33,21,09:12,,,,Missed Two Pointer (0/1 -  0 pt),253,ThirdQuarter
+E2025,11,3,0,282,RED,P012201,D,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,21,09:10,,,,Def Rebound (3),254,ThirdQuarter
+E2025,11,3,0,283,MUN,P012597,CM,"BALDWIN, KAMAR",FC Bayern Munich,44,21,09:08,,,,Foul (1),255,ThirdQuarter
+E2025,11,3,0,284,RED,P009048,RV,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,21,09:08,,,,Foul Drawn (2),256,ThirdQuarter
+E2025,11,3,0,285,RED,P013363,2FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,21,09:02,50,58,,Two Pointer (4/4 -  17 pt),257,ThirdQuarter
+E2025,11,3,0,286,MUN,P013386,CM,"MCCORMACK, DAVID",FC Bayern Munich,33,21,09:02,,,,Foul (1),258,ThirdQuarter
+E2025,11,3,0,287,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,21,09:02,,,,Foul Drawn (6),259,ThirdQuarter
+E2025,11,3,0,288,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,21,09:02,50,59,,Free Throw In (7/9 -  18 pt),260,ThirdQuarter
+E2025,11,3,0,290,MUN,P012597,3FGA,"BALDWIN, KAMAR",FC Bayern Munich,44,22,08:35,,,,Missed Three Pointer (1/2 -  5 pt),261,ThirdQuarter
+E2025,11,3,0,291,MUN,P004508,O,"OBST, ANDREAS",FC Bayern Munich,13,22,08:26,,,,Off Rebound (1),262,ThirdQuarter
+E2025,11,3,0,292,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,22,08:20,53,59,,Three Pointer (4/7 -  15 pt),263,ThirdQuarter
+E2025,11,3,0,293,RED,P004866,TO,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,22,08:14,,,,Turnover (3),264,ThirdQuarter
+E2025,11,3,0,294,MUN,P012597,2FGM,"BALDWIN, KAMAR",FC Bayern Munich,44,22,08:02,55,59,,Two Pointer (2/3 -  7 pt),265,ThirdQuarter
+E2025,11,3,0,296,MUN,P012597,CM,"BALDWIN, KAMAR",FC Bayern Munich,44,23,07:56,,,,Foul (2),266,ThirdQuarter
+E2025,11,3,0,297,RED,P009048,RV,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,23,07:56,,,,Foul Drawn (3),267,ThirdQuarter
+E2025,11,3,0,298,MUN,P012597,CMT,"BALDWIN, KAMAR",FC Bayern Munich,44,23,07:56,,,,Technical Foul (3),268,ThirdQuarter
+E2025,11,3,0,299,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,23,07:56,55,60,,Free Throw In (8/10 -  19 pt),269,ThirdQuarter
+E2025,11,3,0,300,RED,P009048,TO,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,23,07:47,,,,Turnover (1),270,ThirdQuarter
+E2025,11,3,0,301,MUN,P011836,ST,"MIKE, ISIAHA",FC Bayern Munich,22,23,07:45,,,,Steal (1),271,ThirdQuarter
+E2025,11,3,0,302,MUN,P012597,2FGA,"BALDWIN, KAMAR",FC Bayern Munich,44,23,07:40,,,,Missed Two Pointer (2/4 -  7 pt),272,ThirdQuarter
+E2025,11,3,0,303,MUN,P004508,O,"OBST, ANDREAS",FC Bayern Munich,13,23,07:39,,,,Off Rebound (2),273,ThirdQuarter
+E2025,11,3,0,304,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,23,07:34,58,60,,Three Pointer (5/8 -  18 pt),274,ThirdQuarter
+E2025,11,3,0,305,RED,P009048,3FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,23,07:08,,,,Missed Three Pointer (3/6 -  11 pt),275,ThirdQuarter
+E2025,11,3,0,306,RED,P013363,O,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,23,07:06,,,,Off Rebound (1),276,ThirdQuarter
+E2025,11,3,0,307,RED,P013363,2FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,23,07:05,58,62,,Two Pointer (5/5 -  21 pt),277,ThirdQuarter
+E2025,11,3,0,309,MUN,P012597,2FGM,"BALDWIN, KAMAR",FC Bayern Munich,44,24,06:52,60,62,,Two Pointer (3/5 -  9 pt),278,ThirdQuarter
+E2025,11,3,0,310,MUN,P013386,CM,"MCCORMACK, DAVID",FC Bayern Munich,33,24,06:26,,,,Foul (2),279,ThirdQuarter
+E2025,11,3,0,311,RED,P012201,RV,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,24,06:26,,,,Foul Drawn (4),280,ThirdQuarter
+E2025,11,3,0,312,MUN,P004863,IN,"JOVIC, STEFAN",FC Bayern Munich,16,24,06:26,,,,In,281,ThirdQuarter
+E2025,11,3,0,313,MUN,P012597,OUT,"BALDWIN, KAMAR",FC Bayern Munich,44,24,06:26,,,,Out,282,ThirdQuarter
+E2025,11,3,0,314,RED,P007960,IN,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,24,06:26,,,,In,283,ThirdQuarter
+E2025,11,3,0,315,RED,P014029,OUT,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,24,06:26,,,,Out,284,ThirdQuarter
+E2025,11,3,0,316,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,24,06:26,60,63,,Free Throw In (6/7 -  13 pt),285,ThirdQuarter
+E2025,11,3,0,317,RED,P004866,AS,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,24,06:26,,,,Assist (2),286,ThirdQuarter
+E2025,11,3,0,318,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,24,06:26,60,64,,Free Throw In (7/8 -  14 pt),287,ThirdQuarter
+E2025,11,3,0,319,MUN,P013383,IN,"GABRIEL, WENYEN",FC Bayern Munich,32,24,06:26,,,,In,288,ThirdQuarter
+E2025,11,3,0,320,MUN,P013386,OUT,"MCCORMACK, DAVID",FC Bayern Munich,33,24,06:26,,,,Out,289,ThirdQuarter
+E2025,11,3,0,321,MUN,P011836,3FGM,"MIKE, ISIAHA",FC Bayern Munich,22,24,06:12,63,64,,Three Pointer (1/2 -  7 pt),290,ThirdQuarter
+E2025,11,3,0,322,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,24,06:10,,,,Assist (3),291,ThirdQuarter
+E2025,11,3,0,324,MUN,P004508,CM,"OBST, ANDREAS",FC Bayern Munich,13,25,05:55,,,,Foul (1),292,ThirdQuarter
+E2025,11,3,0,325,RED,P004866,RV,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,25,05:55,,,,Foul Drawn (3),293,ThirdQuarter
+E2025,11,3,0,326,MUN,P011244,IN,"DA SILVA, OSCAR",FC Bayern Munich,1,25,05:55,,,,In,294,ThirdQuarter
+E2025,11,3,0,327,MUN,P013383,OUT,"GABRIEL, WENYEN",FC Bayern Munich,32,25,05:55,,,,Out,295,ThirdQuarter
+E2025,11,3,0,328,RED,P004866,FTM,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,25,05:55,63,65,,Free Throw In (1/1 -  4 pt),296,ThirdQuarter
+E2025,11,3,0,329,RED,P004866,FTM,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,25,05:55,63,66,,Free Throw In (2/2 -  5 pt),297,ThirdQuarter
+E2025,11,3,0,330,MUN,P004863,TO,"JOVIC, STEFAN",FC Bayern Munich,16,25,05:41,,,,Turnover (2),298,ThirdQuarter
+E2025,11,3,0,331,RED,P007960,ST,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,25,05:40,,,,Steal (1),299,ThirdQuarter
+E2025,11,3,0,332,RED,P013363,2FGA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,25,05:31,,,,Missed Two Pointer (5/6 -  21 pt),300,ThirdQuarter
+E2025,11,3,0,333,RED,P012201,O,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,25,05:31,,,,Off Rebound (2),301,ThirdQuarter
+E2025,11,3,0,334,RED,P012201,2FGA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,25,05:31,,,,Missed Two Pointer (2/4 -  14 pt),302,ThirdQuarter
+E2025,11,3,0,335,MUN,P011836,D,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:31,,,,Def Rebound (1),303,ThirdQuarter
+E2025,11,3,0,336,RED,P013363,CM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,25,05:31,,,,Foul (3),304,ThirdQuarter
+E2025,11,3,0,337,MUN,P011836,RV,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:31,,,,Foul Drawn (3),305,ThirdQuarter
+E2025,11,3,0,338,RED,P011305,IN,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,25,05:31,,,,In,306,ThirdQuarter
+E2025,11,3,0,339,RED,P013363,OUT,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,25,05:31,,,,Out,307,ThirdQuarter
+E2025,11,3,0,340,MUN,P011836,2FGA,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:10,,,,Missed Two Pointer (2/4 -  7 pt),308,ThirdQuarter
+E2025,11,3,0,341,MUN,P011836,O,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:08,,,,Off Rebound (1),309,ThirdQuarter
+E2025,11,3,0,342,RED,P012201,CM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,25,05:08,,,,Foul (3),310,ThirdQuarter
+E2025,11,3,0,343,MUN,P011836,RV,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:08,,,,Foul Drawn (4),311,ThirdQuarter
+E2025,11,3,0,344,RED,P012201,CMT,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,25,05:08,,,,Technical Foul (4),312,ThirdQuarter
+E2025,11,3,0,345,MUN,P004508,FTM,"OBST, ANDREAS",FC Bayern Munich,13,25,05:08,64,66,,Free Throw In (4/5 -  19 pt),313,ThirdQuarter
+E2025,11,3,0,346,RED,P011982,IN,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,25,05:08,,,,In,314,ThirdQuarter
+E2025,11,3,0,347,RED,P012201,OUT,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,25,05:08,,,,Out,315,ThirdQuarter
+E2025,11,3,0,348,MUN,P011836,FTM,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:08,65,66,,Free Throw In (1/1 -  8 pt),316,ThirdQuarter
+E2025,11,3,0,349,MUN,P011836,FTA,"MIKE, ISIAHA",FC Bayern Munich,22,25,05:08,,,,Missed Free Throw (1/2 -  8 pt),317,ThirdQuarter
+E2025,11,3,0,350,MUN,P011244,O,"DA SILVA, OSCAR",FC Bayern Munich,1,25,05:08,,,,Off Rebound (2),318,ThirdQuarter
+E2025,11,3,0,352,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,26,04:50,,,,Missed Three Pointer (5/9 -  19 pt),319,ThirdQuarter
+E2025,11,3,0,353,RED,P009048,D,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,26,04:48,,,,Def Rebound (4),320,ThirdQuarter
+E2025,11,3,0,354,RED,P007960,TO,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,26,04:38,,,,Turnover (1),321,ThirdQuarter
+E2025,11,3,0,355,MUN,P004863,ST,"JOVIC, STEFAN",FC Bayern Munich,16,26,04:36,,,,Steal (1),322,ThirdQuarter
+E2025,11,3,0,356,RED,P004866,CM,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,26,04:35,,,,Foul (1),323,ThirdQuarter
+E2025,11,3,0,357,MUN,P004863,RV,"JOVIC, STEFAN",FC Bayern Munich,16,26,04:35,,,,Foul Drawn (3),324,ThirdQuarter
+E2025,11,3,0,358,,,TOUT_TV,,,,26,04:35,,,,TV Time Out (2),325,ThirdQuarter
+E2025,11,3,0,359,MUN,P001288,2FGM,"LUCIC, VLADIMIR",FC Bayern Munich,11,26,04:30,67,66,,Two Pointer (3/5 -  10 pt),326,ThirdQuarter
+E2025,11,3,0,360,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,26,04:28,,,,Assist (4),327,ThirdQuarter
+E2025,11,3,0,361,RED,P011305,OF,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,26,04:06,,,,Offensive Foul (2),328,ThirdQuarter
+E2025,11,3,0,362,RED,P011305,TO,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,26,04:06,,,,Turnover (3),329,ThirdQuarter
+E2025,11,3,0,363,MUN,P004508,RV,"OBST, ANDREAS",FC Bayern Munich,13,26,04:06,,,,Foul Drawn (4),330,ThirdQuarter
+E2025,11,3,0,365,MUN,P011244,2FGM,"DA SILVA, OSCAR",FC Bayern Munich,1,27,03:39,69,66,,Two Pointer (5/5 -  10 pt),331,ThirdQuarter
+E2025,11,3,0,415,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,27,03:39,,,,Assist (5),332,ThirdQuarter
+E2025,11,3,0,366,RED,P009048,2FGM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,27,03:20,69,68,,Two Pointer (2/4 -  13 pt),333,ThirdQuarter
+E2025,11,3,0,368,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,28,02:56,,,,Missed Three Pointer (5/10 -  19 pt),334,ThirdQuarter
+E2025,11,3,0,369,MUN,P011244,O,"DA SILVA, OSCAR",FC Bayern Munich,1,28,02:54,,,,Off Rebound (3),335,ThirdQuarter
+E2025,11,3,0,370,MUN,P011836,3FGM,"MIKE, ISIAHA",FC Bayern Munich,22,28,02:48,72,68,,Three Pointer (2/3 -  11 pt),336,ThirdQuarter
+E2025,11,3,0,371,RED,P011305,TO,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,28,02:29,,,,Turnover (4),337,ThirdQuarter
+E2025,11,3,0,372,MUN,P004508,ST,"OBST, ANDREAS",FC Bayern Munich,13,28,02:27,,,,Steal (1),338,ThirdQuarter
+E2025,11,3,0,373,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,28,02:21,75,68,,Three Pointer (6/11 -  22 pt),339,ThirdQuarter
+E2025,11,3,0,374,MUN,P011836,AS,"MIKE, ISIAHA",FC Bayern Munich,22,28,02:21,,,,Assist (2),340,ThirdQuarter
+E2025,11,3,0,375,RED,,TOUT,,Crvena Zvezda Meridianbet Belgrade,,28,02:21,,,,Time Out (1),341,ThirdQuarter
+E2025,11,3,0,376,MUN,P013378,IN,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,28,02:21,,,,In,342,ThirdQuarter
+E2025,11,3,0,377,MUN,P013290,IN,"JESSUP, JUSTINIAN",FC Bayern Munich,10,28,02:21,,,,In,343,ThirdQuarter
+E2025,11,3,0,378,MUN,P001288,OUT,"LUCIC, VLADIMIR",FC Bayern Munich,11,28,02:21,,,,Out,344,ThirdQuarter
+E2025,11,3,0,379,MUN,P004508,OUT,"OBST, ANDREAS",FC Bayern Munich,13,28,02:21,,,,Out,345,ThirdQuarter
+E2025,11,3,0,380,RED,P007960,OUT,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,28,02:21,,,,Out,346,ThirdQuarter
+E2025,11,3,0,381,RED,P004866,OUT,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,28,02:21,,,,Out,347,ThirdQuarter
+E2025,11,3,0,382,RED,P014029,IN,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,28,02:21,,,,In,348,ThirdQuarter
+E2025,11,3,0,383,RED,P013363,IN,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,28,02:21,,,,In,349,ThirdQuarter
+E2025,11,3,0,384,RED,P009048,TO,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,28,02:08,,,,Turnover (2),350,ThirdQuarter
+E2025,11,3,0,385,MUN,P011244,ST,"DA SILVA, OSCAR",FC Bayern Munich,1,28,02:06,,,,Steal (2),351,ThirdQuarter
+E2025,11,3,0,386,MUN,P011244,2FGM,"DA SILVA, OSCAR",FC Bayern Munich,1,28,02:03,77,68,,Two Pointer (6/6 -  12 pt),352,ThirdQuarter
+E2025,11,3,0,388,RED,P011305,TO,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,29,01:45,,,,Turnover (5),353,ThirdQuarter
+E2025,11,3,0,389,MUN,P013290,ST,"JESSUP, JUSTINIAN",FC Bayern Munich,10,29,01:44,,,,Steal (1),354,ThirdQuarter
+E2025,11,3,0,390,MUN,P013378,3FGA,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,29,01:24,,,,Missed Three Pointer (0/2 -  2 pt),355,ThirdQuarter
+E2025,11,3,0,391,RED,P013363,D,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,29,01:23,,,,Def Rebound (3),356,ThirdQuarter
+E2025,11,3,0,392,MUN,P013378,CM,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,29,01:16,,,,Foul (2),357,ThirdQuarter
+E2025,11,3,0,393,RED,P011982,RV,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,29,01:16,,,,Foul Drawn (2),358,ThirdQuarter
+E2025,11,3,0,394,RED,P011982,FTA,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,29,01:16,,,,Missed Free Throw (0/1 -  0 pt),359,ThirdQuarter
+E2025,11,3,0,395,RED,P011982,FTM,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,29,01:16,77,69,,Free Throw In (1/2 -  1 pt),360,ThirdQuarter
+E2025,11,3,0,396,RED,P009048,OUT,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,29,01:16,,,,Out,361,ThirdQuarter
+E2025,11,3,0,397,RED,P004866,IN,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,29,01:16,,,,In,362,ThirdQuarter
+E2025,11,3,0,398,MUN,P011244,TO,"DA SILVA, OSCAR",FC Bayern Munich,1,29,01:02,,,,Turnover (1),363,ThirdQuarter
+E2025,11,3,0,399,RED,P014029,ST,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,29,01:00,,,,Steal (1),364,ThirdQuarter
+E2025,11,3,0,401,RED,P011982,2FGM,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,30,00:57,77,71,,Two Pointer (1/2 -  3 pt),365,ThirdQuarter
+E2025,11,3,0,402,RED,P014029,AS,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,30,00:56,,,,Assist (1),366,ThirdQuarter
+E2025,11,3,0,403,MUN,,CCH,,FC Bayern Munich,,30,00:56,,,,Coach Challenge (1),367,ThirdQuarter
+E2025,11,3,0,404,MUN,,TOUT,,FC Bayern Munich,,30,00:56,,,,Time Out (1),368,ThirdQuarter
+E2025,11,3,0,405,MUN,P011244,OUT,"DA SILVA, OSCAR",FC Bayern Munich,1,30,00:56,,,,Out,369,ThirdQuarter
+E2025,11,3,0,406,MUN,P001557,IN,"GIFFEY, NIELS",FC Bayern Munich,5,30,00:56,,,,In,370,ThirdQuarter
+E2025,11,3,0,407,MUN,P011836,OUT,"MIKE, ISIAHA",FC Bayern Munich,22,30,00:56,,,,Out,371,ThirdQuarter
+E2025,11,3,0,408,MUN,P013386,IN,"MCCORMACK, DAVID",FC Bayern Munich,33,30,00:56,,,,In,372,ThirdQuarter
+E2025,11,3,0,409,MUN,P013290,TO,"JESSUP, JUSTINIAN",FC Bayern Munich,10,30,00:41,,,,Turnover (1),373,ThirdQuarter
+E2025,11,3,0,410,RED,P011305,3FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,30,00:22,,,,Missed Three Pointer (2/5 -  11 pt),374,ThirdQuarter
+E2025,11,3,0,411,MUN,P013386,D,"MCCORMACK, DAVID",FC Bayern Munich,33,30,00:19,,,,Def Rebound (1),375,ThirdQuarter
+E2025,11,3,0,412,MUN,P013386,2FGA,"MCCORMACK, DAVID",FC Bayern Munich,33,30,00:00,,,,Missed Two Pointer (0/2 -  0 pt),376,ThirdQuarter
+E2025,11,3,0,414,,,EP,,,,31,,,,,End Period,377,ThirdQuarter
+E2025,11,4,0,418,,,BP,,,,31,,,,,Begin Period,378,ForthQuarter
+E2025,11,4,0,416,RED,P009048,IN,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,31,10:00,,,,In,379,ForthQuarter
+E2025,11,4,0,417,RED,P011305,OUT,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,31,10:00,,,,Out,380,ForthQuarter
+E2025,11,4,0,419,RED,P009048,2FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,31,09:44,,,,Missed Two Pointer (2/5 -  13 pt),381,ForthQuarter
+E2025,11,4,0,420,MUN,P013386,D,"MCCORMACK, DAVID",FC Bayern Munich,33,31,09:43,,,,Def Rebound (2),382,ForthQuarter
+E2025,11,4,0,421,MUN,P013378,2FGM,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,31,09:38,79,71,,Two Pointer (2/4 -  4 pt),383,ForthQuarter
+E2025,11,4,0,422,RED,P013363,2FGA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,31,09:18,,,,Missed Two Pointer (5/7 -  21 pt),384,ForthQuarter
+E2025,11,4,0,423,MUN,P013290,D,"JESSUP, JUSTINIAN",FC Bayern Munich,10,31,09:15,,,,Def Rebound (2),385,ForthQuarter
+E2025,11,4,0,424,MUN,P013290,2FGM,"JESSUP, JUSTINIAN",FC Bayern Munich,10,31,09:12,81,71,,Two Pointer (1/1 -  2 pt),386,ForthQuarter
+E2025,11,4,0,425,RED,,TOUT,,Crvena Zvezda Meridianbet Belgrade,,31,09:12,,,,Time Out (1),387,ForthQuarter
+E2025,11,4,0,426,MUN,P013378,CM,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,31,09:02,,,,Foul (3),388,ForthQuarter
+E2025,11,4,0,427,RED,P009048,RV,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,31,09:02,,,,Foul Drawn (4),389,ForthQuarter
+E2025,11,4,0,429,RED,P013363,3FGA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,32,08:50,,,,Missed Three Pointer (1/4 -  21 pt),390,ForthQuarter
+E2025,11,4,0,430,MUN,P004863,D,"JOVIC, STEFAN",FC Bayern Munich,16,32,08:48,,,,Def Rebound (1),391,ForthQuarter
+E2025,11,4,0,431,RED,P014029,CM,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,32,08:31,,,,Foul (3),392,ForthQuarter
+E2025,11,4,0,432,MUN,P013386,RV,"MCCORMACK, DAVID",FC Bayern Munich,33,32,08:31,,,,Foul Drawn (1),393,ForthQuarter
+E2025,11,4,0,433,RED,P011982,OUT,"OJELEYE, SEMI",Crvena Zvezda Meridianbet Belgrade,37,32,08:31,,,,Out,394,ForthQuarter
+E2025,11,4,0,434,RED,P012201,IN,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,32,08:31,,,,In,395,ForthQuarter
+E2025,11,4,0,435,MUN,P013386,FTA,"MCCORMACK, DAVID",FC Bayern Munich,33,32,08:31,,,,Missed Free Throw (0/1 -  0 pt),396,ForthQuarter
+E2025,11,4,0,436,MUN,P013386,FTM,"MCCORMACK, DAVID",FC Bayern Munich,33,32,08:31,82,71,,Free Throw In (1/2 -  1 pt),397,ForthQuarter
+E2025,11,4,0,437,MUN,P013378,AS,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,32,08:31,,,,Assist (1),398,ForthQuarter
+E2025,11,4,0,438,RED,P011305,IN,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,32,08:31,,,,In,399,ForthQuarter
+E2025,11,4,0,439,RED,P013363,OUT,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,32,08:31,,,,Out,400,ForthQuarter
+E2025,11,4,0,440,MUN,P013386,CM,"MCCORMACK, DAVID",FC Bayern Munich,33,32,08:19,,,,Foul (3),401,ForthQuarter
+E2025,11,4,0,441,RED,P012201,RV,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,32,08:19,,,,Foul Drawn (5),402,ForthQuarter
+E2025,11,4,0,442,RED,P012201,FTA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,32,08:19,,,,Missed Free Throw (7/9 -  14 pt),403,ForthQuarter
+E2025,11,4,0,443,RED,P012201,FTM,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,32,08:19,82,72,,Free Throw In (8/10 -  15 pt),404,ForthQuarter
+E2025,11,4,0,444,RED,P014029,AS,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,32,08:19,,,,Assist (2),405,ForthQuarter
+E2025,11,4,0,445,RED,P004866,CM,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,32,08:12,,,,Foul (2),406,ForthQuarter
+E2025,11,4,0,446,MUN,P004863,RV,"JOVIC, STEFAN",FC Bayern Munich,16,32,08:12,,,,Foul Drawn (4),407,ForthQuarter
+E2025,11,4,0,447,MUN,P013386,OF,"MCCORMACK, DAVID",FC Bayern Munich,33,32,08:12,,,,Offensive Foul (4),408,ForthQuarter
+E2025,11,4,0,448,MUN,P013386,TO,"MCCORMACK, DAVID",FC Bayern Munich,33,32,08:12,,,,Turnover (1),409,ForthQuarter
+E2025,11,4,0,449,RED,P004866,RV,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,32,08:12,,,,Foul Drawn (4),410,ForthQuarter
+E2025,11,4,0,451,RED,P004866,TO,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,33,07:57,,,,Turnover (4),411,ForthQuarter
+E2025,11,4,0,452,MUN,P004863,ST,"JOVIC, STEFAN",FC Bayern Munich,16,33,07:56,,,,Steal (2),412,ForthQuarter
+E2025,11,4,0,453,MUN,P013290,2FGM,"JESSUP, JUSTINIAN",FC Bayern Munich,10,33,07:50,84,72,,Two Pointer (2/2 -  4 pt),413,ForthQuarter
+E2025,11,4,0,454,MUN,P013378,AS,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,33,07:48,,,,Assist (2),414,ForthQuarter
+E2025,11,4,0,455,RED,P009048,TO,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,33,07:38,,,,Turnover (3),415,ForthQuarter
+E2025,11,4,0,456,MUN,P013386,ST,"MCCORMACK, DAVID",FC Bayern Munich,33,33,07:36,,,,Steal (1),416,ForthQuarter
+E2025,11,4,0,457,RED,P004866,CM,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,33,07:37,,,,Foul (3),417,ForthQuarter
+E2025,11,4,0,458,MUN,P013378,RV,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,33,07:37,,,,Foul Drawn (1),418,ForthQuarter
+E2025,11,4,0,459,MUN,P004863,2FGM,"JOVIC, STEFAN",FC Bayern Munich,16,33,07:15,86,72,,Two Pointer (2/2 -  4 pt),419,ForthQuarter
+E2025,11,4,0,460,RED,,TOUT,,Crvena Zvezda Meridianbet Belgrade,,33,07:15,,,,Time Out (2),420,ForthQuarter
+E2025,11,4,0,461,RED,P004866,OUT,"KALINIC, NIKOLA",Crvena Zvezda Meridianbet Belgrade,12,33,07:15,,,,Out,421,ForthQuarter
+E2025,11,4,0,462,RED,P013363,IN,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,33,07:15,,,,In,422,ForthQuarter
+E2025,11,4,0,464,MUN,P004863,CM,"JOVIC, STEFAN",FC Bayern Munich,16,34,06:55,,,,Foul (4),423,ForthQuarter
+E2025,11,4,0,465,RED,P012201,RV,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,34,06:55,,,,Foul Drawn (6),424,ForthQuarter
+E2025,11,4,0,466,RED,P011305,2FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,34,06:44,,,,Missed Two Pointer (2/4 -  11 pt),425,ForthQuarter
+E2025,11,4,0,467,MUN,P013386,D,"MCCORMACK, DAVID",FC Bayern Munich,33,34,06:41,,,,Def Rebound (3),426,ForthQuarter
+E2025,11,4,0,468,MUN,P004863,OUT,"JOVIC, STEFAN",FC Bayern Munich,16,34,06:24,,,,Out,427,ForthQuarter
+E2025,11,4,0,469,MUN,P012597,IN,"BALDWIN, KAMAR",FC Bayern Munich,44,34,06:24,,,,In,428,ForthQuarter
+E2025,11,4,0,470,MUN,P013378,3FGA,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,34,06:16,,,,Missed Three Pointer (0/3 -  4 pt),429,ForthQuarter
+E2025,11,4,0,471,RED,P011305,D,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,34,06:14,,,,Def Rebound (2),430,ForthQuarter
+E2025,11,4,0,472,RED,P013363,3FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,34,06:13,86,75,,Three Pointer (2/5 -  24 pt),431,ForthQuarter
+E2025,11,4,0,473,RED,P009048,AS,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,34,06:13,,,,Assist (4),432,ForthQuarter
+E2025,11,4,0,475,MUN,P013378,TO,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,35,05:51,,,,Turnover (1),433,ForthQuarter
+E2025,11,4,0,476,MUN,P013378,OUT,"RATHAN-MAYES, XAVIER",FC Bayern Munich,4,35,05:51,,,,Out,434,ForthQuarter
+E2025,11,4,0,477,MUN,P013290,OUT,"JESSUP, JUSTINIAN",FC Bayern Munich,10,35,05:51,,,,Out,435,ForthQuarter
+E2025,11,4,0,478,MUN,P001288,IN,"LUCIC, VLADIMIR",FC Bayern Munich,11,35,05:51,,,,In,436,ForthQuarter
+E2025,11,4,0,479,MUN,P004508,IN,"OBST, ANDREAS",FC Bayern Munich,13,35,05:51,,,,In,437,ForthQuarter
+E2025,11,4,0,480,MUN,P001288,CM,"LUCIC, VLADIMIR",FC Bayern Munich,11,35,05:37,,,,Foul (3),438,ForthQuarter
+E2025,11,4,0,481,RED,P014029,RV,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,35,05:37,,,,Foul Drawn (1),439,ForthQuarter
+E2025,11,4,0,482,RED,P014029,FTA,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,35,05:37,,,,Missed Free Throw (0/1 -  2 pt),440,ForthQuarter
+E2025,11,4,0,483,RED,P014029,FTM,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,35,05:37,86,76,,Free Throw In (1/2 -  3 pt),441,ForthQuarter
+E2025,11,4,0,484,RED,P011305,AS,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,35,05:37,,,,Assist (2),442,ForthQuarter
+E2025,11,4,0,485,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,35,05:12,,,,Missed Three Pointer (6/12 -  22 pt),443,ForthQuarter
+E2025,11,4,0,486,RED,P012201,D,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,35,05:10,,,,Def Rebound (4),444,ForthQuarter
+E2025,11,4,0,487,RED,P011305,2FGM,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,35,05:07,86,78,,Two Pointer (3/5 -  13 pt),445,ForthQuarter
+E2025,11,4,0,488,RED,P012201,AS,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,35,05:06,,,,Assist (2),446,ForthQuarter
+E2025,11,4,0,490,MUN,P012597,3FGA,"BALDWIN, KAMAR",FC Bayern Munich,44,36,04:42,,,,Missed Three Pointer (1/3 -  9 pt),447,ForthQuarter
+E2025,11,4,0,491,MUN,,O,,FC Bayern Munich,,36,04:42,,,,Off Rebound (3),448,ForthQuarter
+E2025,11,4,0,492,RED,P009048,CM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,36,04:42,,,,Foul (2),449,ForthQuarter
+E2025,11,4,0,493,MUN,P013386,RV,"MCCORMACK, DAVID",FC Bayern Munich,33,36,04:42,,,,Foul Drawn (2),450,ForthQuarter
+E2025,11,4,0,494,MUN,P001557,OUT,"GIFFEY, NIELS",FC Bayern Munich,5,36,04:42,,,,Out,451,ForthQuarter
+E2025,11,4,0,495,MUN,P004863,IN,"JOVIC, STEFAN",FC Bayern Munich,16,36,04:42,,,,In,452,ForthQuarter
+E2025,11,4,0,496,MUN,P011836,IN,"MIKE, ISIAHA",FC Bayern Munich,22,36,04:42,,,,In,453,ForthQuarter
+E2025,11,4,0,497,MUN,P012597,OUT,"BALDWIN, KAMAR",FC Bayern Munich,44,36,04:42,,,,Out,454,ForthQuarter
+E2025,11,4,0,498,MUN,P013386,TO,"MCCORMACK, DAVID",FC Bayern Munich,33,36,04:32,,,,Turnover (2),455,ForthQuarter
+E2025,11,4,0,499,RED,P011305,2FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,36,04:10,,,,Missed Two Pointer (3/6 -  13 pt),456,ForthQuarter
+E2025,11,4,0,500,MUN,P011836,D,"MIKE, ISIAHA",FC Bayern Munich,22,36,04:09,,,,Def Rebound (2),457,ForthQuarter
+E2025,11,4,0,501,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,36,04:00,89,78,,Three Pointer (7/13 -  25 pt),458,ForthQuarter
+E2025,11,4,0,503,MUN,P011836,AS,"MIKE, ISIAHA",FC Bayern Munich,22,37,03:58,,,,Assist (3),459,ForthQuarter
+E2025,11,4,0,504,RED,P007960,IN,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,37,03:54,,,,In,460,ForthQuarter
+E2025,11,4,0,505,RED,P014029,OUT,"IZUNDU, EBUKA",Crvena Zvezda Meridianbet Belgrade,15,37,03:54,,,,Out,461,ForthQuarter
+E2025,11,4,0,506,RED,P009048,3FGM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,37,03:34,89,81,,Three Pointer (4/7 -  16 pt),462,ForthQuarter
+E2025,11,4,0,507,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,37,03:16,92,81,,Three Pointer (8/14 -  28 pt),463,ForthQuarter
+E2025,11,4,0,508,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,37,03:14,,,,Assist (6),464,ForthQuarter
+E2025,11,4,0,509,RED,P009048,3FGA,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,37,03:04,,,,Missed Three Pointer (4/8 -  16 pt),465,ForthQuarter
+E2025,11,4,0,510,MUN,P001288,D,"LUCIC, VLADIMIR",FC Bayern Munich,11,37,03:02,,,,Def Rebound (1),466,ForthQuarter
+E2025,11,4,0,512,MUN,P001288,TO,"LUCIC, VLADIMIR",FC Bayern Munich,11,38,02:46,,,,Turnover (1),467,ForthQuarter
+E2025,11,4,0,513,RED,P013363,3FGA,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,38,02:20,,,,Missed Three Pointer (2/6 -  24 pt),468,ForthQuarter
+E2025,11,4,0,514,RED,P007960,O,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,38,02:19,,,,Off Rebound (1),469,ForthQuarter
+E2025,11,4,0,515,RED,P007960,2FGM,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,38,02:18,92,83,,Two Pointer (2/2 -  4 pt),470,ForthQuarter
+E2025,11,4,0,516,MUN,P004508,3FGM,"OBST, ANDREAS",FC Bayern Munich,13,38,02:02,95,83,,Three Pointer (9/15 -  31 pt),471,ForthQuarter
+E2025,11,4,0,517,MUN,P004863,AS,"JOVIC, STEFAN",FC Bayern Munich,16,38,02:00,,,,Assist (7),472,ForthQuarter
+E2025,11,4,0,519,RED,P012201,3FGA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,39,01:50,,,,Missed Three Pointer (1/2 -  15 pt),473,ForthQuarter
+E2025,11,4,0,520,RED,P007960,O,"DAVIDOVAC, DEJAN",Crvena Zvezda Meridianbet Belgrade,7,39,01:49,,,,Off Rebound (2),474,ForthQuarter
+E2025,11,4,0,521,RED,P012201,3FGA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,39,01:44,,,,Missed Three Pointer (1/3 -  15 pt),475,ForthQuarter
+E2025,11,4,0,522,MUN,P011836,D,"MIKE, ISIAHA",FC Bayern Munich,22,39,01:41,,,,Def Rebound (3),476,ForthQuarter
+E2025,11,4,0,523,MUN,P011836,TO,"MIKE, ISIAHA",FC Bayern Munich,22,39,01:41,,,,Turnover (1),477,ForthQuarter
+E2025,11,4,0,524,RED,P013363,2FGM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,39,01:37,95,85,,Two Pointer (6/8 -  26 pt),478,ForthQuarter
+E2025,11,4,0,525,MUN,P001288,CM,"LUCIC, VLADIMIR",FC Bayern Munich,11,39,01:37,,,,Foul (4),479,ForthQuarter
+E2025,11,4,0,526,RED,P013363,RV,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,39,01:37,,,,Foul Drawn (7),480,ForthQuarter
+E2025,11,4,0,527,RED,P013363,FTM,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,39,01:42,95,86,,Free Throw In (9/11 -  27 pt),481,ForthQuarter
+E2025,11,4,0,528,MUN,P013386,2FGM,"MCCORMACK, DAVID",FC Bayern Munich,33,39,01:27,97,86,,Two Pointer (1/3 -  3 pt),482,ForthQuarter
+E2025,11,4,0,529,MUN,P011836,AS,"MIKE, ISIAHA",FC Bayern Munich,22,39,01:28,,,,Assist (4),483,ForthQuarter
+E2025,11,4,0,530,RED,P012201,2FGA,"MONEKE, CHIMA",Crvena Zvezda Meridianbet Belgrade,95,39,01:28,,,,Missed Two Pointer (2/5 -  15 pt),484,ForthQuarter
+E2025,11,4,0,531,MUN,P013386,D,"MCCORMACK, DAVID",FC Bayern Munich,33,39,01:28,,,,Def Rebound (4),485,ForthQuarter
+E2025,11,4,0,533,MUN,P004508,3FGA,"OBST, ANDREAS",FC Bayern Munich,13,40,00:59,,,,Missed Three Pointer (9/16 -  31 pt),486,ForthQuarter
+E2025,11,4,0,534,RED,P013363,D,"NWORA, JORDAN",Crvena Zvezda Meridianbet Belgrade,33,40,00:57,,,,Def Rebound (4),487,ForthQuarter
+E2025,11,4,0,535,MUN,P011836,CM,"MIKE, ISIAHA",FC Bayern Munich,22,40,00:52,,,,Foul (3),488,ForthQuarter
+E2025,11,4,0,536,RED,P009048,RV,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,40,00:52,,,,Foul Drawn (5),489,ForthQuarter
+E2025,11,4,0,537,RED,P009048,FTM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,40,00:52,97,87,,Free Throw In (1/1 -  17 pt),490,ForthQuarter
+E2025,11,4,0,538,RED,P009048,FTM,"MILLER-MCINTYRE, CODI",Crvena Zvezda Meridianbet Belgrade,0,40,00:52,97,88,,Free Throw In (2/2 -  18 pt),491,ForthQuarter
+E2025,11,4,0,539,MUN,P001288,3FGA,"LUCIC, VLADIMIR",FC Bayern Munich,11,40,00:28,,,,Missed Three Pointer (1/3 -  10 pt),492,ForthQuarter
+E2025,11,4,0,540,RED,P011305,D,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,40,00:26,,,,Def Rebound (3),493,ForthQuarter
+E2025,11,4,0,541,RED,P011305,3FGA,"CARTER, TYSON",Crvena Zvezda Meridianbet Belgrade,11,40,00:18,,,,Missed Three Pointer (2/6 -  13 pt),494,ForthQuarter
+E2025,11,4,0,542,MUN,P013386,D,"MCCORMACK, DAVID",FC Bayern Munich,33,40,00:16,,,,Def Rebound (5),495,ForthQuarter
+E2025,11,4,0,545,,,EG,,,,41,,,,,End Game,496,ForthQuarter
+E2025,2,1,0,41,,,BP,,,,1,,,,,Begin Period,1,FirstQuarter
+E2025,2,1,0,42,BAS,,JB,,Baskonia Vitoria-Gasteiz,,1,09:59,,,,,2,FirstQuarter
+E2025,2,1,0,43,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,1,09:33,,,,Missed Three Pointer (0/1 -  0 pt),3,FirstQuarter
+E2025,2,1,0,44,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,1,09:30,,,,Def Rebound (1),4,FirstQuarter
+E2025,2,1,0,45,OLY,P003469,2FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,1,09:11,,2,,Two Pointer (1/1 -  2 pt),5,FirstQuarter
+E2025,2,1,0,47,BAS,P014086,2FGA,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,2,08:50,,,,Missed Two Pointer (0/1 -  0 pt),6,FirstQuarter
+E2025,2,1,0,48,BAS,P014086,O,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,2,08:48,,,,Off Rebound (1),7,FirstQuarter
+E2025,2,1,0,49,BAS,P014086,2FGA,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,2,08:48,,,,Missed Two Pointer (0/2 -  0 pt),8,FirstQuarter
+E2025,2,1,0,50,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,2,08:46,,,,Def Rebound (1),9,FirstQuarter
+E2025,2,1,0,51,OLY,P003469,3FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,2,08:36,,,,Missed Three Pointer (0/1 -  2 pt),10,FirstQuarter
+E2025,2,1,0,52,OLY,P008855,O,"WALKUP, THOMAS",Olympiacos Piraeus,0,2,08:34,,,,Off Rebound (1),11,FirstQuarter
+E2025,2,1,0,53,OLY,P009849,3FGM,"DORSEY, TYLER",Olympiacos Piraeus,22,2,08:30,,5,,Three Pointer (1/1 -  3 pt),12,FirstQuarter
+E2025,2,1,0,54,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,2,08:28,,,,Assist (1),13,FirstQuarter
+E2025,2,1,0,55,BAS,P013367,2FGA,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,2,08:24,,,,Missed Two Pointer (0/1 -  0 pt),14,FirstQuarter
+E2025,2,1,0,56,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,2,08:23,,,,Def Rebound (2),15,FirstQuarter
+E2025,2,1,0,57,OLY,P003941,RV,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,2,08:23,,,,Foul Drawn (1),16,FirstQuarter
+E2025,2,1,0,58,BAS,P008072,CM,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,2,08:23,,,,Foul (1),17,FirstQuarter
+E2025,2,1,0,59,OLY,P009849,3FGM,"DORSEY, TYLER",Olympiacos Piraeus,22,2,08:06,,8,,Three Pointer (2/2 -  6 pt),18,FirstQuarter
+E2025,2,1,0,61,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,3,07:48,,,,Missed Three Pointer (0/2 -  0 pt),19,FirstQuarter
+E2025,2,1,0,62,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,3,07:46,,,,Def Rebound (3),20,FirstQuarter
+E2025,2,1,0,63,OLY,P009849,3FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,3,07:33,,,,Missed Three Pointer (2/3 -  6 pt),21,FirstQuarter
+E2025,2,1,0,64,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,3,07:31,,,,Off Rebound (1),22,FirstQuarter
+E2025,2,1,0,65,OLY,P003941,2FGM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,3,07:31,,10,,Two Pointer (1/1 -  2 pt),23,FirstQuarter
+E2025,2,1,0,66,BAS,,TOUT,,Baskonia Vitoria-Gasteiz,,3,07:31,,,,Time Out (1),24,FirstQuarter
+E2025,2,1,0,67,,,TOUT_TV,,,,3,07:31,,,,TV Time Out (1),25,FirstQuarter
+E2025,2,1,0,68,BAS,P014086,TO,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,3,07:19,,,,Turnover (1),26,FirstQuarter
+E2025,2,1,0,69,OLY,P008855,ST,"WALKUP, THOMAS",Olympiacos Piraeus,0,3,07:18,,,,Steal (1),27,FirstQuarter
+E2025,2,1,0,70,OLY,P008855,3FGA,"WALKUP, THOMAS",Olympiacos Piraeus,0,3,07:12,,,,Missed Three Pointer (0/1 -  0 pt),28,FirstQuarter
+E2025,2,1,0,71,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,3,07:10,,,,Off Rebound (2),29,FirstQuarter
+E2025,2,1,0,72,OLY,P003469,2FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,3,07:07,,,,Missed Two Pointer (1/2 -  2 pt),30,FirstQuarter
+E2025,2,1,0,73,OLY,,O,,Olympiacos Piraeus,,3,07:07,,,,Off Rebound (1),31,FirstQuarter
+E2025,2,1,0,74,BAS,P014119,IN,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,3,07:07,,,,In,32,FirstQuarter
+E2025,2,1,0,75,BAS,P014086,OUT,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,3,07:07,,,,Out,33,FirstQuarter
+E2025,2,1,0,76,BAS,P012080,IN,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,3,07:07,,,,In,34,FirstQuarter
+E2025,2,1,0,77,BAS,P013367,OUT,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,3,07:07,,,,Out,35,FirstQuarter
+E2025,2,1,0,78,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,3,07:07,,,,Out,36,FirstQuarter
+E2025,2,1,0,79,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,3,07:07,,,,In,37,FirstQuarter
+E2025,2,1,0,81,OLY,P003469,2FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,4,06:57,,12,,Two Pointer (2/3 -  4 pt),38,FirstQuarter
+E2025,2,1,0,82,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,4,06:54,,,,Assist (2),39,FirstQuarter
+E2025,2,1,0,83,BAS,P007579,TO,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,4,06:39,,,,Turnover (1),40,FirstQuarter
+E2025,2,1,0,84,OLY,P013380,ST,"FOURNIER, EVAN",Olympiacos Piraeus,94,4,06:38,,,,Steal (1),41,FirstQuarter
+E2025,2,1,0,85,OLY,P003941,RV,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,4,06:29,,,,Foul Drawn (2),42,FirstQuarter
+E2025,2,1,0,86,BAS,P011948,CM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,4,06:29,,,,Foul (1),43,FirstQuarter
+E2025,2,1,0,87,OLY,P013380,3FGA,"FOURNIER, EVAN",Olympiacos Piraeus,94,4,06:20,,,,Missed Three Pointer (0/1 -  0 pt),44,FirstQuarter
+E2025,2,1,0,88,BAS,P007230,D,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,4,06:18,,,,Def Rebound (1),45,FirstQuarter
+E2025,2,1,0,89,BAS,P007579,2FGA,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,4,06:08,,,,Missed Two Pointer (0/1 -  0 pt),46,FirstQuarter
+E2025,2,1,0,90,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,4,06:06,,,,Def Rebound (2),47,FirstQuarter
+E2025,2,1,0,91,OLY,P009849,3FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,4,06:01,,,,Missed Three Pointer (2/4 -  6 pt),48,FirstQuarter
+E2025,2,1,0,93,BAS,P014119,D,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,5,06:00,,,,Def Rebound (1),49,FirstQuarter
+E2025,2,1,0,94,BAS,P012080,3FGA,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,5,05:55,,,,Missed Three Pointer (0/1 -  0 pt),50,FirstQuarter
+E2025,2,1,0,95,BAS,,O,,Baskonia Vitoria-Gasteiz,,5,05:52,,,,Off Rebound (2),51,FirstQuarter
+E2025,2,1,0,96,BAS,P011948,OUT,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,5,05:52,,,,Out,52,FirstQuarter
+E2025,2,1,0,97,BAS,P007230,OUT,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,5,05:52,,,,Out,53,FirstQuarter
+E2025,2,1,0,98,BAS,P008173,IN,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,5,05:52,,,,In,54,FirstQuarter
+E2025,2,1,0,99,BAS,P014026,IN,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,5,05:52,,,,In,55,FirstQuarter
+E2025,2,1,0,100,BAS,P012080,3FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,5,05:45,3,12,,Three Pointer (1/2 -  3 pt),56,FirstQuarter
+E2025,2,1,0,101,BAS,P014119,AS,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,5,05:43,,,,Assist (1),57,FirstQuarter
+E2025,2,1,0,102,OLY,P003941,2FGA,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,5,05:17,,,,Missed Two Pointer (1/2 -  2 pt),58,FirstQuarter
+E2025,2,1,0,103,BAS,P014026,D,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,5,05:15,,,,Def Rebound (1),59,FirstQuarter
+E2025,2,1,0,105,BAS,P014119,3FGA,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,6,04:59,,,,Missed Three Pointer (0/1 -  0 pt),60,FirstQuarter
+E2025,2,1,0,106,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,6,04:57,,,,Def Rebound (4),61,FirstQuarter
+E2025,2,1,0,107,OLY,P003469,2FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,6,04:49,3,14,,Two Pointer (3/4 -  6 pt),62,FirstQuarter
+E2025,2,1,0,108,OLY,P003469,RV,"VEZENKOV, SASHA",Olympiacos Piraeus,14,6,04:49,,,,Foul Drawn (1),63,FirstQuarter
+E2025,2,1,0,109,BAS,P014119,CM,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,6,04:49,,,,Foul (1),64,FirstQuarter
+E2025,2,1,0,110,OLY,P003469,FTM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,6,04:49,3,15,,Free Throw In (1/1 -  7 pt),65,FirstQuarter
+E2025,2,1,0,111,BAS,P014119,TO,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,6,04:37,,,,Turnover (1),66,FirstQuarter
+E2025,2,1,0,112,OLY,P009849,ST,"DORSEY, TYLER",Olympiacos Piraeus,22,6,04:36,,,,Steal (1),67,FirstQuarter
+E2025,2,1,0,113,OLY,P009849,RV,"DORSEY, TYLER",Olympiacos Piraeus,22,6,04:36,,,,Foul Drawn (1),68,FirstQuarter
+E2025,2,1,0,114,BAS,P014119,CM,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,6,04:36,,,,Foul (2),69,FirstQuarter
+E2025,2,1,0,115,OLY,P008855,OUT,"WALKUP, THOMAS",Olympiacos Piraeus,0,6,04:36,,,,Out,70,FirstQuarter
+E2025,2,1,0,116,OLY,P013389,IN,"LEE, SABEN",Olympiacos Piraeus,9,6,04:36,,,,In,71,FirstQuarter
+E2025,2,1,0,117,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,6,04:36,3,16,,Free Throw In (1/1 -  7 pt),72,FirstQuarter
+E2025,2,1,0,118,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,6,04:36,3,17,,Free Throw In (2/2 -  8 pt),73,FirstQuarter
+E2025,2,1,0,119,BAS,P012080,TO,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,6,04:21,,,,Turnover (1),74,FirstQuarter
+E2025,2,1,0,120,OLY,P003941,ST,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,6,04:20,,,,Steal (1),75,FirstQuarter
+E2025,2,1,0,121,OLY,P009849,2FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,6,04:08,,,,Missed Two Pointer (0/1 -  8 pt),76,FirstQuarter
+E2025,2,1,0,122,OLY,P003469,O,"VEZENKOV, SASHA",Olympiacos Piraeus,14,6,04:06,,,,Off Rebound (1),77,FirstQuarter
+E2025,2,1,0,123,OLY,P003469,2FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,6,04:05,,,,Missed Two Pointer (3/5 -  7 pt),78,FirstQuarter
+E2025,2,1,0,124,BAS,P007579,D,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,6,04:03,,,,Def Rebound (1),79,FirstQuarter
+E2025,2,1,0,126,BAS,P014119,RV,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,7,03:59,,,,Foul Drawn (1),80,FirstQuarter
+E2025,2,1,0,127,OLY,P013380,CM,"FOURNIER, EVAN",Olympiacos Piraeus,94,7,03:59,,,,Foul (1),81,FirstQuarter
+E2025,2,1,0,128,BAS,P014119,FTA,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,7,03:59,,,,Missed Free Throw (0/1 -  0 pt),82,FirstQuarter
+E2025,2,1,0,129,BAS,P014119,FTM,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,7,03:59,4,17,,Free Throw In (1/2 -  1 pt),83,FirstQuarter
+E2025,2,1,0,130,OLY,P013380,RV,"FOURNIER, EVAN",Olympiacos Piraeus,94,7,03:43,,,,Foul Drawn (1),84,FirstQuarter
+E2025,2,1,0,131,BAS,P012080,CM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,7,03:43,,,,Foul (1),85,FirstQuarter
+E2025,2,1,0,132,BAS,P014119,OUT,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,7,03:43,,,,Out,86,FirstQuarter
+E2025,2,1,0,133,BAS,P013367,IN,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,7,03:43,,,,In,87,FirstQuarter
+E2025,2,1,0,134,OLY,P013380,FTM,"FOURNIER, EVAN",Olympiacos Piraeus,94,7,03:43,4,18,,Free Throw In (1/1 -  1 pt),88,FirstQuarter
+E2025,2,1,0,135,OLY,P013380,FTM,"FOURNIER, EVAN",Olympiacos Piraeus,94,7,03:43,4,19,,Free Throw In (2/2 -  2 pt),89,FirstQuarter
+E2025,2,1,0,136,BAS,P014026,2FGM,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,7,03:30,6,19,,Two Pointer (1/1 -  2 pt),90,FirstQuarter
+E2025,2,1,0,137,OLY,P003469,3FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,7,03:17,,,,Missed Three Pointer (0/2 -  7 pt),91,FirstQuarter
+E2025,2,1,0,138,BAS,P012080,D,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,7,03:15,,,,Def Rebound (1),92,FirstQuarter
+E2025,2,1,0,139,BAS,P014026,3FGM,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,7,03:06,9,19,,Three Pointer (1/1 -  5 pt),93,FirstQuarter
+E2025,2,1,0,140,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,7,03:04,,,,Assist (1),94,FirstQuarter
+E2025,2,1,0,142,OLY,P003469,2FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,8,02:39,,,,Missed Two Pointer (3/6 -  7 pt),95,FirstQuarter
+E2025,2,1,0,143,OLY,P003469,O,"VEZENKOV, SASHA",Olympiacos Piraeus,14,8,02:37,,,,Off Rebound (2),96,FirstQuarter
+E2025,2,1,0,144,OLY,P003469,TO,"VEZENKOV, SASHA",Olympiacos Piraeus,14,8,02:35,,,,Turnover (1),97,FirstQuarter
+E2025,2,1,0,145,BAS,P008173,ST,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,8,02:34,,,,Steal (1),98,FirstQuarter
+E2025,2,1,0,146,BAS,P014026,3FGM,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,8,02:31,12,19,,Three Pointer (2/2 -  8 pt),99,FirstQuarter
+E2025,2,1,0,147,BAS,P008173,AS,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,8,02:29,,,,Assist (1),100,FirstQuarter
+E2025,2,1,0,148,OLY,P009849,2FGM,"DORSEY, TYLER",Olympiacos Piraeus,22,8,02:12,12,21,,Two Pointer (1/2 -  10 pt),101,FirstQuarter
+E2025,2,1,0,150,BAS,P007579,3FGA,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,9,01:57,,,,Missed Three Pointer (0/1 -  0 pt),102,FirstQuarter
+E2025,2,1,0,151,OLY,P013380,D,"FOURNIER, EVAN",Olympiacos Piraeus,94,9,01:55,,,,Def Rebound (1),103,FirstQuarter
+E2025,2,1,0,152,OLY,P003941,2FGA,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,9,01:46,,,,Missed Two Pointer (1/3 -  2 pt),104,FirstQuarter
+E2025,2,1,0,153,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,9,01:45,,,,Off Rebound (3),105,FirstQuarter
+E2025,2,1,0,154,OLY,P003941,2FGM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,9,01:42,12,23,,Two Pointer (2/4 -  4 pt),106,FirstQuarter
+E2025,2,1,0,155,BAS,P007579,TO,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,9,01:29,,,,Turnover (2),107,FirstQuarter
+E2025,2,1,0,156,BAS,P011948,IN,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,9,01:29,,,,In,108,FirstQuarter
+E2025,2,1,0,157,BAS,P014086,IN,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,9,01:29,,,,In,109,FirstQuarter
+E2025,2,1,0,158,BAS,P007230,IN,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,9,01:29,,,,In,110,FirstQuarter
+E2025,2,1,0,159,BAS,P012080,OUT,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,9,01:29,,,,Out,111,FirstQuarter
+E2025,2,1,0,160,BAS,P008173,OUT,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,9,01:29,,,,Out,112,FirstQuarter
+E2025,2,1,0,161,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,9,01:29,,,,In,113,FirstQuarter
+E2025,2,1,0,162,BAS,P014026,OUT,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,9,01:29,,,,Out,114,FirstQuarter
+E2025,2,1,0,163,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,9,01:29,,,,Out,115,FirstQuarter
+E2025,2,1,0,164,OLY,P003469,OUT,"VEZENKOV, SASHA",Olympiacos Piraeus,14,9,01:29,,,,Out,116,FirstQuarter
+E2025,2,1,0,165,OLY,P008829,IN,"PETERS, ALEC",Olympiacos Piraeus,25,9,01:29,,,,In,117,FirstQuarter
+E2025,2,1,0,166,OLY,P003941,OUT,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,9,01:29,,,,Out,118,FirstQuarter
+E2025,2,1,0,167,OLY,P011196,IN,"HALL, DONTA",Olympiacos Piraeus,45,9,01:29,,,,In,119,FirstQuarter
+E2025,2,1,0,168,BAS,P013367,CM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,9,01:18,,,,Foul (1),120,FirstQuarter
+E2025,2,1,0,169,OLY,P009849,RV,"DORSEY, TYLER",Olympiacos Piraeus,22,9,01:18,,,,Foul Drawn (2),121,FirstQuarter
+E2025,2,1,0,170,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,9,01:18,12,24,,Free Throw In (3/3 -  11 pt),122,FirstQuarter
+E2025,2,1,0,171,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,9,01:18,12,25,,Free Throw In (4/4 -  12 pt),123,FirstQuarter
+E2025,2,1,0,172,BAS,P013367,TO,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,9,01:03,,,,Turnover (1),124,FirstQuarter
+E2025,2,1,0,173,OLY,P008829,ST,"PETERS, ALEC",Olympiacos Piraeus,25,9,01:01,,,,Steal (1),125,FirstQuarter
+E2025,2,1,0,174,OLY,P008829,TO,"PETERS, ALEC",Olympiacos Piraeus,25,9,01:01,,,,Turnover (1),126,FirstQuarter
+E2025,2,1,0,175,BAS,P013367,ST,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,9,01:01,,,,Steal (1),127,FirstQuarter
+E2025,2,1,0,176,BAS,P011948,3FGM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,9,01:01,15,25,,Three Pointer (1/3 -  3 pt),128,FirstQuarter
+E2025,2,1,0,177,BAS,P007230,AS,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,9,01:01,,,,Assist (1),129,FirstQuarter
+E2025,2,1,0,179,OLY,P013380,TO,"FOURNIER, EVAN",Olympiacos Piraeus,94,10,00:37,,,,Turnover (1),130,FirstQuarter
+E2025,2,1,0,180,BAS,P008072,ST,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,10,00:36,,,,Steal (1),131,FirstQuarter
+E2025,2,1,0,181,BAS,P011948,3FGM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,10,00:32,18,25,,Three Pointer (2/4 -  6 pt),132,FirstQuarter
+E2025,2,1,0,182,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,10,00:30,,,,Assist (2),133,FirstQuarter
+E2025,2,1,0,183,OLY,P009849,3FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,10,00:13,,,,Missed Three Pointer (2/5 -  12 pt),134,FirstQuarter
+E2025,2,1,0,184,OLY,,O,,Olympiacos Piraeus,,10,00:11,,,,Off Rebound (3),135,FirstQuarter
+E2025,2,1,0,185,BAS,P011948,OUT,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,10,00:11,,,,Out,136,FirstQuarter
+E2025,2,1,0,186,BAS,P008173,IN,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,10,00:11,,,,In,137,FirstQuarter
+E2025,2,1,0,187,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,10,00:11,,,,Out,138,FirstQuarter
+E2025,2,1,0,188,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,10,00:11,,,,In,139,FirstQuarter
+E2025,2,1,0,189,OLY,P008829,2FGM,"PETERS, ALEC",Olympiacos Piraeus,25,10,00:06,18,27,,Two Pointer (1/1 -  2 pt),140,FirstQuarter
+E2025,2,1,0,190,OLY,P013389,AS,"LEE, SABEN",Olympiacos Piraeus,9,10,00:04,,,,Assist (1),141,FirstQuarter
+E2025,2,1,0,191,BAS,P013367,RV,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,10,00:01,,,,Foul Drawn (1),142,FirstQuarter
+E2025,2,1,0,192,OLY,P009849,CM,"DORSEY, TYLER",Olympiacos Piraeus,22,10,00:01,,,,Foul (1),143,FirstQuarter
+E2025,2,1,0,193,BAS,P013367,FTM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,10,00:01,19,27,,Free Throw In (1/1 -  1 pt),144,FirstQuarter
+E2025,2,1,0,194,BAS,P013367,FTM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,10,00:01,20,27,,Free Throw In (2/2 -  2 pt),145,FirstQuarter
+E2025,2,1,0,195,BAS,P013367,OUT,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,10,00:01,,,,Out,146,FirstQuarter
+E2025,2,1,0,196,BAS,P014107,IN,"JOKSIMOVIC, STEFAN",Baskonia Vitoria-Gasteiz,77,10,00:01,,,,In,147,FirstQuarter
+E2025,2,1,0,197,OLY,P009849,3FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,10,00:01,,,,Missed Three Pointer (2/6 -  12 pt),148,FirstQuarter
+E2025,2,1,0,199,,,EP,,,,11,,,,,End Period,149,FirstQuarter
+E2025,2,2,0,210,,,BP,,,,11,,,,,Begin Period,150,SecondQuarter
+E2025,2,2,0,200,BAS,P011948,IN,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,11,10:00,,,,In,151,SecondQuarter
+E2025,2,2,0,201,BAS,P014086,OUT,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,11,10:00,,,,Out,152,SecondQuarter
+E2025,2,2,0,202,BAS,P012080,IN,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,11,10:00,,,,In,153,SecondQuarter
+E2025,2,2,0,203,BAS,P008173,OUT,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,11,10:00,,,,Out,154,SecondQuarter
+E2025,2,2,0,204,BAS,P013367,IN,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,11,10:00,,,,In,155,SecondQuarter
+E2025,2,2,0,205,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,11,10:00,,,,In,156,SecondQuarter
+E2025,2,2,0,206,BAS,P014107,OUT,"JOKSIMOVIC, STEFAN",Baskonia Vitoria-Gasteiz,77,11,10:00,,,,Out,157,SecondQuarter
+E2025,2,2,0,207,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,11,10:00,,,,Out,158,SecondQuarter
+E2025,2,2,0,208,OLY,P012610,IN,"WARD, TYSON",Olympiacos Piraeus,3,11,10:00,,,,In,159,SecondQuarter
+E2025,2,2,0,209,OLY,P013380,OUT,"FOURNIER, EVAN",Olympiacos Piraeus,94,11,10:00,,,,Out,160,SecondQuarter
+E2025,2,2,0,211,OLY,,TO,,Olympiacos Piraeus,,11,09:35,,,,Turnover (1),161,SecondQuarter
+E2025,2,2,0,212,BAS,P007230,3FGA,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,11,09:21,,,,Missed Three Pointer (0/1 -  0 pt),162,SecondQuarter
+E2025,2,2,0,213,OLY,P011196,D,"HALL, DONTA",Olympiacos Piraeus,45,11,09:17,,,,Def Rebound (1),163,SecondQuarter
+E2025,2,2,0,215,OLY,P008829,2FGA,"PETERS, ALEC",Olympiacos Piraeus,25,12,08:56,,,,Missed Two Pointer (1/2 -  2 pt),164,SecondQuarter
+E2025,2,2,0,216,BAS,P012080,D,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,12,08:54,,,,Def Rebound (2),165,SecondQuarter
+E2025,2,2,0,217,BAS,P011948,3FGM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,12,08:49,23,27,,Three Pointer (3/5 -  9 pt),166,SecondQuarter
+E2025,2,2,0,218,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,12,08:47,,,,Assist (3),167,SecondQuarter
+E2025,2,2,0,219,OLY,P011196,2FGA,"HALL, DONTA",Olympiacos Piraeus,45,12,08:23,,,,Missed Two Pointer (0/1 -  0 pt),168,SecondQuarter
+E2025,2,2,0,220,BAS,P012080,D,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,12,08:21,,,,Def Rebound (3),169,SecondQuarter
+E2025,2,2,0,221,BAS,P011948,TO,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,12,08:17,,,,Turnover (1),170,SecondQuarter
+E2025,2,2,0,222,OLY,P013389,ST,"LEE, SABEN",Olympiacos Piraeus,9,12,08:16,,,,Steal (1),171,SecondQuarter
+E2025,2,2,0,223,OLY,P013389,2FGM,"LEE, SABEN",Olympiacos Piraeus,9,12,08:13,23,29,,Two Pointer (1/1 -  2 pt),172,SecondQuarter
+E2025,2,2,0,224,OLY,P012610,AS,"WARD, TYSON",Olympiacos Piraeus,3,12,08:11,,,,Assist (1),173,SecondQuarter
+E2025,2,2,0,226,BAS,P012080,RV,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,13,07:59,,,,Foul Drawn (1),174,SecondQuarter
+E2025,2,2,0,227,OLY,P012610,CM,"WARD, TYSON",Olympiacos Piraeus,3,13,07:59,,,,Foul (1),175,SecondQuarter
+E2025,2,2,0,228,OLY,P008855,IN,"WALKUP, THOMAS",Olympiacos Piraeus,0,13,07:59,,,,In,176,SecondQuarter
+E2025,2,2,0,229,OLY,P009849,OUT,"DORSEY, TYLER",Olympiacos Piraeus,22,13,07:59,,,,Out,177,SecondQuarter
+E2025,2,2,0,230,BAS,P013367,2FGM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,13,07:50,25,29,,Two Pointer (1/2 -  4 pt),178,SecondQuarter
+E2025,2,2,0,231,OLY,P012610,RV,"WARD, TYSON",Olympiacos Piraeus,3,13,07:31,,,,Foul Drawn (1),179,SecondQuarter
+E2025,2,2,0,232,BAS,P011948,CM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,13,07:31,,,,Foul (2),180,SecondQuarter
+E2025,2,2,0,233,OLY,P012610,FTM,"WARD, TYSON",Olympiacos Piraeus,3,13,07:31,25,30,,Free Throw In (1/1 -  1 pt),181,SecondQuarter
+E2025,2,2,0,234,OLY,P012610,FTM,"WARD, TYSON",Olympiacos Piraeus,3,13,07:31,25,31,,Free Throw In (2/2 -  2 pt),182,SecondQuarter
+E2025,2,2,0,235,BAS,P012080,2FGA,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,13,07:14,,,,Missed Two Pointer (0/1 -  3 pt),183,SecondQuarter
+E2025,2,2,0,236,BAS,P012080,O,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,13,07:13,,,,Off Rebound (1),184,SecondQuarter
+E2025,2,2,0,237,BAS,P012080,2FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,13,07:11,27,31,,Two Pointer (1/2 -  5 pt),185,SecondQuarter
+E2025,2,2,0,239,OLY,P011196,2FGA,"HALL, DONTA",Olympiacos Piraeus,45,14,06:48,,,,Missed Two Pointer (0/2 -  0 pt),186,SecondQuarter
+E2025,2,2,0,240,OLY,P011196,AG,"HALL, DONTA",Olympiacos Piraeus,45,14,06:48,,,,Shot Rejected (1),187,SecondQuarter
+E2025,2,2,0,241,BAS,P008072,FV,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,14,06:47,,,,Block (1),188,SecondQuarter
+E2025,2,2,0,242,BAS,P012080,D,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,14,06:45,,,,Def Rebound (4),189,SecondQuarter
+E2025,2,2,0,243,BAS,P013367,2FGM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,14,06:42,29,31,,Two Pointer (2/3 -  6 pt),190,SecondQuarter
+E2025,2,2,0,244,BAS,P012080,AS,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,14,06:39,,,,Assist (1),191,SecondQuarter
+E2025,2,2,0,245,BAS,P011948,OUT,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,14,06:39,,,,Out,192,SecondQuarter
+E2025,2,2,0,246,BAS,P014119,IN,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,14,06:39,,,,In,193,SecondQuarter
+E2025,2,2,0,247,BAS,P014086,IN,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,14,06:39,,,,In,194,SecondQuarter
+E2025,2,2,0,248,BAS,P012080,OUT,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,14,06:39,,,,Out,195,SecondQuarter
+E2025,2,2,0,249,OLY,P011196,2FGM,"HALL, DONTA",Olympiacos Piraeus,45,14,06:21,29,33,,Two Pointer (1/3 -  2 pt),196,SecondQuarter
+E2025,2,2,0,250,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,14,06:19,,,,Assist (3),197,SecondQuarter
+E2025,2,2,0,251,BAS,P007230,TO,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,14,06:09,,,,Turnover (1),198,SecondQuarter
+E2025,2,2,0,252,OLY,P008855,ST,"WALKUP, THOMAS",Olympiacos Piraeus,0,14,06:08,,,,Steal (2),199,SecondQuarter
+E2025,2,2,0,253,OLY,P012610,3FGM,"WARD, TYSON",Olympiacos Piraeus,3,14,06:02,29,36,,Three Pointer (1/1 -  5 pt),200,SecondQuarter
+E2025,2,2,0,254,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,14,06:00,,,,Assist (4),201,SecondQuarter
+E2025,2,2,0,256,BAS,P014086,2FGM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,15,05:51,31,36,,Two Pointer (1/3 -  2 pt),202,SecondQuarter
+E2025,2,2,0,257,OLY,P013389,2FGM,"LEE, SABEN",Olympiacos Piraeus,9,15,05:41,31,38,,Two Pointer (2/2 -  4 pt),203,SecondQuarter
+E2025,2,2,0,258,BAS,P013367,3FGA,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,15,05:28,,,,Missed Three Pointer (0/1 -  6 pt),204,SecondQuarter
+E2025,2,2,0,259,BAS,P008072,O,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,15,05:26,,,,Off Rebound (1),205,SecondQuarter
+E2025,2,2,0,260,BAS,P013367,RV,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,15,05:19,,,,Foul Drawn (2),206,SecondQuarter
+E2025,2,2,0,261,OLY,P011196,CM,"HALL, DONTA",Olympiacos Piraeus,45,15,05:19,,,,Foul (1),207,SecondQuarter
+E2025,2,2,0,262,BAS,P007230,OUT,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,15,05:19,,,,Out,208,SecondQuarter
+E2025,2,2,0,263,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,15,05:19,,,,Out,209,SecondQuarter
+E2025,2,2,0,264,BAS,P014026,IN,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,15,05:19,,,,In,210,SecondQuarter
+E2025,2,2,0,265,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,15,05:19,,,,In,211,SecondQuarter
+E2025,2,2,0,266,OLY,P013389,OUT,"LEE, SABEN",Olympiacos Piraeus,9,15,05:19,,,,Out,212,SecondQuarter
+E2025,2,2,0,267,OLY,P001255,IN,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,15,05:19,,,,In,213,SecondQuarter
+E2025,2,2,0,268,BAS,P013367,FTM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,15,05:19,32,38,,Free Throw In (3/3 -  7 pt),214,SecondQuarter
+E2025,2,2,0,269,BAS,P013367,FTM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,15,05:19,33,38,,Free Throw In (4/4 -  8 pt),215,SecondQuarter
+E2025,2,2,0,270,BAS,P008173,IN,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,15,05:19,,,,In,216,SecondQuarter
+E2025,2,2,0,271,BAS,P013367,OUT,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,15,05:19,,,,Out,217,SecondQuarter
+E2025,2,2,0,272,OLY,P008829,2FGM,"PETERS, ALEC",Olympiacos Piraeus,25,15,05:05,33,40,,Two Pointer (2/3 -  4 pt),218,SecondQuarter
+E2025,2,2,0,273,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,15,05:03,,,,Assist (5),219,SecondQuarter
+E2025,2,2,0,275,BAS,P014119,TO,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,16,04:55,,,,Turnover (2),220,SecondQuarter
+E2025,2,2,0,276,OLY,P011196,ST,"HALL, DONTA",Olympiacos Piraeus,45,16,04:45,,,,Steal (1),221,SecondQuarter
+E2025,2,2,0,277,OLY,P001255,TO,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,16,04:44,,,,Turnover (1),222,SecondQuarter
+E2025,2,2,0,278,,,TOUT_TV,,,,16,04:44,,,,TV Time Out (2),223,SecondQuarter
+E2025,2,2,0,279,BAS,P014119,3FGA,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,16,04:38,,,,Missed Three Pointer (0/2 -  1 pt),224,SecondQuarter
+E2025,2,2,0,280,OLY,P001255,D,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,16,04:35,,,,Def Rebound (1),225,SecondQuarter
+E2025,2,2,0,281,OLY,P008829,3FGM,"PETERS, ALEC",Olympiacos Piraeus,25,16,04:13,33,43,,Three Pointer (1/1 -  7 pt),226,SecondQuarter
+E2025,2,2,0,282,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,16,04:11,,,,Assist (6),227,SecondQuarter
+E2025,2,2,0,283,OLY,P008855,CM,"WALKUP, THOMAS",Olympiacos Piraeus,0,16,04:05,,,,Foul (1),228,SecondQuarter
+E2025,2,2,0,284,BAS,P007579,RV,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,16,04:05,,,,Foul Drawn (1),229,SecondQuarter
+E2025,2,2,0,285,BAS,P014026,RV,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,16,04:02,,,,Foul Drawn (1),230,SecondQuarter
+E2025,2,2,0,286,OLY,P008829,CM,"PETERS, ALEC",Olympiacos Piraeus,25,16,04:02,,,,Foul (1),231,SecondQuarter
+E2025,2,2,0,288,BAS,P014086,2FGM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,17,03:54,35,43,,Two Pointer (2/4 -  4 pt),232,SecondQuarter
+E2025,2,2,0,289,OLY,P012610,2FGM,"WARD, TYSON",Olympiacos Piraeus,3,17,03:40,35,45,,Two Pointer (1/1 -  7 pt),233,SecondQuarter
+E2025,2,2,0,290,OLY,P001255,AS,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,17,03:38,,,,Assist (1),234,SecondQuarter
+E2025,2,2,0,291,BAS,P007579,2FGM,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,17,03:27,37,45,,Two Pointer (1/2 -  2 pt),235,SecondQuarter
+E2025,2,2,0,292,BAS,P008173,AS,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,17,03:25,,,,Assist (2),236,SecondQuarter
+E2025,2,2,0,293,OLY,P012610,RV,"WARD, TYSON",Olympiacos Piraeus,3,17,03:09,,,,Foul Drawn (2),237,SecondQuarter
+E2025,2,2,0,294,BAS,P014026,CM,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,17,03:09,,,,Foul (1),238,SecondQuarter
+E2025,2,2,0,295,BAS,P012080,IN,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,17,03:09,,,,In,239,SecondQuarter
+E2025,2,2,0,296,BAS,P008173,OUT,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,17,03:09,,,,Out,240,SecondQuarter
+E2025,2,2,0,297,OLY,P003941,IN,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,17,03:09,,,,In,241,SecondQuarter
+E2025,2,2,0,298,OLY,P011196,OUT,"HALL, DONTA",Olympiacos Piraeus,45,17,03:09,,,,Out,242,SecondQuarter
+E2025,2,2,0,299,OLY,P012610,FTM,"WARD, TYSON",Olympiacos Piraeus,3,17,03:09,37,46,,Free Throw In (3/3 -  8 pt),243,SecondQuarter
+E2025,2,2,0,300,OLY,P012610,FTM,"WARD, TYSON",Olympiacos Piraeus,3,17,03:09,37,47,,Free Throw In (4/4 -  9 pt),244,SecondQuarter
+E2025,2,2,0,302,BAS,P007579,2FGA,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,18,02:58,,,,Missed Two Pointer (1/3 -  2 pt),245,SecondQuarter
+E2025,2,2,0,303,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,18,02:56,,,,Def Rebound (5),246,SecondQuarter
+E2025,2,2,0,304,OLY,P003941,2FGA,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,18,02:35,,,,Missed Two Pointer (2/5 -  4 pt),247,SecondQuarter
+E2025,2,2,0,305,BAS,P014026,D,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,18,02:33,,,,Def Rebound (2),248,SecondQuarter
+E2025,2,2,0,306,BAS,P012080,2FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,18,02:24,39,47,,Two Pointer (2/3 -  7 pt),249,SecondQuarter
+E2025,2,2,0,308,OLY,P003941,RV,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,19,01:59,,,,Foul Drawn (3),250,SecondQuarter
+E2025,2,2,0,309,BAS,P007579,CM,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,19,01:59,,,,Foul (1),251,SecondQuarter
+E2025,2,2,0,310,BAS,P007230,IN,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,19,01:59,,,,In,252,SecondQuarter
+E2025,2,2,0,311,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,19,01:59,,,,In,253,SecondQuarter
+E2025,2,2,0,312,BAS,P014026,OUT,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,19,01:59,,,,Out,254,SecondQuarter
+E2025,2,2,0,313,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,19,01:59,,,,Out,255,SecondQuarter
+E2025,2,2,0,314,OLY,P003469,IN,"VEZENKOV, SASHA",Olympiacos Piraeus,14,19,01:59,,,,In,256,SecondQuarter
+E2025,2,2,0,315,OLY,P008829,OUT,"PETERS, ALEC",Olympiacos Piraeus,25,19,01:59,,,,Out,257,SecondQuarter
+E2025,2,2,0,316,OLY,P003941,FTM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,19,01:59,39,48,,Free Throw In (1/1 -  5 pt),258,SecondQuarter
+E2025,2,2,0,317,OLY,P001255,AS,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,19,01:59,,,,Assist (2),259,SecondQuarter
+E2025,2,2,0,318,OLY,P003941,FTM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,19,01:59,39,49,,Free Throw In (2/2 -  6 pt),260,SecondQuarter
+E2025,2,2,0,319,BAS,P014086,RV,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,19,01:51,,,,Foul Drawn (1),261,SecondQuarter
+E2025,2,2,0,320,OLY,P001255,CM,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,19,01:51,,,,Foul (1),262,SecondQuarter
+E2025,2,2,0,321,BAS,P014119,OUT,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,19,01:51,,,,Out,263,SecondQuarter
+E2025,2,2,0,322,BAS,P013367,IN,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,19,01:51,,,,In,264,SecondQuarter
+E2025,2,2,0,323,BAS,P014086,FTA,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,19,01:51,,,,Missed Free Throw (0/1 -  4 pt),265,SecondQuarter
+E2025,2,2,0,324,BAS,P014086,FTM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,19,01:51,40,49,,Free Throw In (1/2 -  5 pt),266,SecondQuarter
+E2025,2,2,0,325,BAS,P008072,AS,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,19,01:51,,,,Assist (1),267,SecondQuarter
+E2025,2,2,0,326,BAS,P014086,FTM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,19,01:51,41,49,,Free Throw In (2/3 -  6 pt),268,SecondQuarter
+E2025,2,2,0,327,OLY,P012610,TO,"WARD, TYSON",Olympiacos Piraeus,3,19,01:27,,,,Turnover (1),269,SecondQuarter
+E2025,2,2,0,328,BAS,P012080,ST,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,19,01:26,,,,Steal (1),270,SecondQuarter
+E2025,2,2,0,329,BAS,P012080,3FGA,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,19,01:21,,,,Missed Three Pointer (1/3 -  7 pt),271,SecondQuarter
+E2025,2,2,0,330,BAS,P008072,O,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,19,01:19,,,,Off Rebound (2),272,SecondQuarter
+E2025,2,2,0,331,OLY,P008855,OUT,"WALKUP, THOMAS",Olympiacos Piraeus,0,19,01:19,,,,Out,273,SecondQuarter
+E2025,2,2,0,332,OLY,P013389,IN,"LEE, SABEN",Olympiacos Piraeus,9,19,01:19,,,,In,274,SecondQuarter
+E2025,2,2,0,333,BAS,P012080,3FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,19,01:19,44,49,,Three Pointer (2/4 -  10 pt),275,SecondQuarter
+E2025,2,2,0,334,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,19,01:19,,,,Assist (4),276,SecondQuarter
+E2025,2,2,0,336,OLY,P001255,TO,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,20,00:54,,,,Turnover (2),277,SecondQuarter
+E2025,2,2,0,337,BAS,P014086,ST,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,20,00:53,,,,Steal (1),278,SecondQuarter
+E2025,2,2,0,338,BAS,P014086,2FGM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,20,00:49,46,49,,Two Pointer (3/5 -  8 pt),279,SecondQuarter
+E2025,2,2,0,339,OLY,,TOUT,,Olympiacos Piraeus,,20,00:50,,,,Time Out (1),280,SecondQuarter
+E2025,2,2,0,340,OLY,P012610,RV,"WARD, TYSON",Olympiacos Piraeus,3,20,00:40,,,,Foul Drawn (3),281,SecondQuarter
+E2025,2,2,0,341,BAS,P008072,CM,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,20,00:40,,,,Foul (2),282,SecondQuarter
+E2025,2,2,0,342,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,20,00:40,,,,Out,283,SecondQuarter
+E2025,2,2,0,343,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,20,00:40,,,,In,284,SecondQuarter
+E2025,2,2,0,344,OLY,P003469,3FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,20,00:28,,,,Missed Three Pointer (0/3 -  7 pt),285,SecondQuarter
+E2025,2,2,0,345,BAS,P014086,D,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,20,00:26,,,,Def Rebound (1),286,SecondQuarter
+E2025,2,2,0,346,BAS,P013367,3FGA,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,20,00:19,,,,Missed Three Pointer (0/2 -  8 pt),287,SecondQuarter
+E2025,2,2,0,347,BAS,P014086,O,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,20,00:16,,,,Off Rebound (2),288,SecondQuarter
+E2025,2,2,0,348,BAS,P013367,2FGM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,20,00:11,48,49,,Two Pointer (3/4 -  10 pt),289,SecondQuarter
+E2025,2,2,0,349,BAS,P014086,AS,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,20,00:12,,,,Assist (1),290,SecondQuarter
+E2025,2,2,0,350,OLY,,TOUT,,Olympiacos Piraeus,,20,00:12,,,,Time Out (2),291,SecondQuarter
+E2025,2,2,0,351,OLY,P008855,IN,"WALKUP, THOMAS",Olympiacos Piraeus,0,20,00:12,,,,In,292,SecondQuarter
+E2025,2,2,0,352,OLY,P012610,OUT,"WARD, TYSON",Olympiacos Piraeus,3,20,00:12,,,,Out,293,SecondQuarter
+E2025,2,2,0,353,OLY,P013389,OUT,"LEE, SABEN",Olympiacos Piraeus,9,20,00:12,,,,Out,294,SecondQuarter
+E2025,2,2,0,354,OLY,P001255,OUT,"PAPANIKOLAOU, KOSTAS",Olympiacos Piraeus,16,20,00:12,,,,Out,295,SecondQuarter
+E2025,2,2,0,355,OLY,P009849,IN,"DORSEY, TYLER",Olympiacos Piraeus,22,20,00:12,,,,In,296,SecondQuarter
+E2025,2,2,0,356,OLY,P013380,IN,"FOURNIER, EVAN",Olympiacos Piraeus,94,20,00:12,,,,In,297,SecondQuarter
+E2025,2,2,0,357,OLY,P013380,3FGA,"FOURNIER, EVAN",Olympiacos Piraeus,94,20,00:00,,,,Missed Three Pointer (0/2 -  2 pt),298,SecondQuarter
+E2025,2,2,0,358,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,20,00:00,,,,Off Rebound (4),299,SecondQuarter
+E2025,2,2,0,360,,,EP,,,,21,,,,,End Period,300,SecondQuarter
+E2025,2,3,0,365,,,BP,,,,21,,,,,Begin Period,301,ThirdQuarter
+E2025,2,3,0,361,BAS,P011948,IN,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,21,10:00,,,,In,302,ThirdQuarter
+E2025,2,3,0,362,BAS,P012080,OUT,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,21,10:00,,,,Out,303,ThirdQuarter
+E2025,2,3,0,363,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,21,10:00,,,,In,304,ThirdQuarter
+E2025,2,3,0,364,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,21,10:00,,,,Out,305,ThirdQuarter
+E2025,2,3,0,366,OLY,P003469,3FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,21,09:42,,,,Missed Three Pointer (0/4 -  7 pt),306,ThirdQuarter
+E2025,2,3,0,367,OLY,P009849,O,"DORSEY, TYLER",Olympiacos Piraeus,22,21,09:40,,,,Off Rebound (1),307,ThirdQuarter
+E2025,2,3,0,368,OLY,P013380,3FGA,"FOURNIER, EVAN",Olympiacos Piraeus,94,21,09:30,,,,Missed Three Pointer (0/3 -  2 pt),308,ThirdQuarter
+E2025,2,3,0,369,OLY,P008855,O,"WALKUP, THOMAS",Olympiacos Piraeus,0,21,09:28,,,,Off Rebound (2),309,ThirdQuarter
+E2025,2,3,0,370,OLY,P003469,3FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,21,09:25,,,,Missed Three Pointer (0/5 -  7 pt),310,ThirdQuarter
+E2025,2,3,0,371,OLY,P008855,O,"WALKUP, THOMAS",Olympiacos Piraeus,0,21,09:23,,,,Off Rebound (3),311,ThirdQuarter
+E2025,2,3,0,372,OLY,P008855,2FGA,"WALKUP, THOMAS",Olympiacos Piraeus,0,21,09:21,,,,Missed Two Pointer (0/1 -  0 pt),312,ThirdQuarter
+E2025,2,3,0,373,OLY,P008855,AG,"WALKUP, THOMAS",Olympiacos Piraeus,0,21,09:21,,,,Shot Rejected (1),313,ThirdQuarter
+E2025,2,3,0,374,BAS,P008072,FV,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,21,09:21,,,,Block (2),314,ThirdQuarter
+E2025,2,3,0,375,OLY,,O,,Olympiacos Piraeus,,21,09:21,,,,Off Rebound (4),315,ThirdQuarter
+E2025,2,3,0,376,OLY,P009849,TO,"DORSEY, TYLER",Olympiacos Piraeus,22,21,09:12,,,,Turnover (1),316,ThirdQuarter
+E2025,2,3,0,378,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,22,08:57,,,,Missed Three Pointer (3/6 -  9 pt),317,ThirdQuarter
+E2025,2,3,0,379,BAS,P007230,O,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,22,08:55,,,,Off Rebound (1),318,ThirdQuarter
+E2025,2,3,0,380,BAS,P007230,3FGM,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,22,08:49,51,49,,Three Pointer (1/2 -  3 pt),319,ThirdQuarter
+E2025,2,3,0,381,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,22,08:47,,,,Assist (5),320,ThirdQuarter
+E2025,2,3,0,382,OLY,P003469,2FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,,,,Missed Two Pointer (3/7 -  7 pt),321,ThirdQuarter
+E2025,2,3,0,383,OLY,P003469,O,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,,,,Off Rebound (3),322,ThirdQuarter
+E2025,2,3,0,384,OLY,P003469,2FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,,,,Missed Two Pointer (3/8 -  7 pt),323,ThirdQuarter
+E2025,2,3,0,385,OLY,P003469,O,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,,,,Off Rebound (4),324,ThirdQuarter
+E2025,2,3,0,386,OLY,P003469,RV,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,,,,Foul Drawn (2),325,ThirdQuarter
+E2025,2,3,0,387,BAS,P014086,CM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,22,08:27,,,,Foul (1),326,ThirdQuarter
+E2025,2,3,0,388,OLY,P003469,FTM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,51,50,,Free Throw In (2/2 -  8 pt),327,ThirdQuarter
+E2025,2,3,0,389,OLY,P003469,FTM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,22,08:27,51,51,,Free Throw In (3/3 -  9 pt),328,ThirdQuarter
+E2025,2,3,0,390,BAS,P013367,2FGM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,22,08:16,53,51,,Two Pointer (4/5 -  12 pt),329,ThirdQuarter
+E2025,2,3,0,391,BAS,P008072,AS,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,22,08:14,,,,Assist (2),330,ThirdQuarter
+E2025,2,3,0,392,OLY,P013380,2FGM,"FOURNIER, EVAN",Olympiacos Piraeus,94,22,08:03,53,53,,Two Pointer (1/1 -  4 pt),331,ThirdQuarter
+E2025,2,3,0,394,BAS,P011948,2FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,23,07:48,,,,Missed Two Pointer (0/1 -  9 pt),332,ThirdQuarter
+E2025,2,3,0,395,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,23,07:46,,,,Def Rebound (6),333,ThirdQuarter
+E2025,2,3,0,396,OLY,P003469,3FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,23,07:39,53,56,,Three Pointer (1/6 -  12 pt),334,ThirdQuarter
+E2025,2,3,0,397,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,23,07:36,,,,Assist (7),335,ThirdQuarter
+E2025,2,3,0,398,BAS,P011948,RV,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,23,07:32,,,,Foul Drawn (1),336,ThirdQuarter
+E2025,2,3,0,399,OLY,P008855,CM,"WALKUP, THOMAS",Olympiacos Piraeus,0,23,07:32,,,,Foul (2),337,ThirdQuarter
+E2025,2,3,0,400,BAS,P014086,3FGA,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,23,07:22,,,,Missed Three Pointer (0/1 -  8 pt),338,ThirdQuarter
+E2025,2,3,0,401,BAS,,O,,Baskonia Vitoria-Gasteiz,,23,07:21,,,,Off Rebound (5),339,ThirdQuarter
+E2025,2,3,0,402,BAS,P013367,2FGA,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,23,07:13,,,,Missed Two Pointer (4/6 -  12 pt),340,ThirdQuarter
+E2025,2,3,0,403,BAS,P014086,O,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,23,07:11,,,,Off Rebound (3),341,ThirdQuarter
+E2025,2,3,0,404,BAS,P014086,2FGM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,23,07:09,55,56,,Two Pointer (4/6 -  10 pt),342,ThirdQuarter
+E2025,2,3,0,406,OLY,P013380,2FGA,"FOURNIER, EVAN",Olympiacos Piraeus,94,24,06:50,,,,Missed Two Pointer (1/2 -  4 pt),343,ThirdQuarter
+E2025,2,3,0,407,BAS,P013367,D,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,24,06:48,,,,Def Rebound (1),344,ThirdQuarter
+E2025,2,3,0,408,BAS,P014086,OUT,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,24,06:42,,,,Out,345,ThirdQuarter
+E2025,2,3,0,409,BAS,P012080,IN,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,24,06:42,,,,In,346,ThirdQuarter
+E2025,2,3,0,410,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,24,06:42,,,,Out,347,ThirdQuarter
+E2025,2,3,0,411,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,24,06:42,,,,In,348,ThirdQuarter
+E2025,2,3,0,688,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,24,06:42,,,,Missed Three Pointer (3/7 -  9 pt),349,ThirdQuarter
+E2025,2,3,0,413,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,24,06:42,,,,Def Rebound (3),350,ThirdQuarter
+E2025,2,3,0,414,OLY,P009849,3FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,24,06:22,,,,Missed Three Pointer (2/7 -  12 pt),351,ThirdQuarter
+E2025,2,3,0,415,BAS,,D,,Baskonia Vitoria-Gasteiz,,24,06:23,,,,Def Rebound (1),352,ThirdQuarter
+E2025,2,3,0,416,BAS,P007579,RV,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,24,06:23,,,,Foul Drawn (2),353,ThirdQuarter
+E2025,2,3,0,417,OLY,P003469,CM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,24,06:23,,,,Foul (1),354,ThirdQuarter
+E2025,2,3,0,418,BAS,P007579,3FGM,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,24,06:08,58,56,,Three Pointer (1/2 -  5 pt),355,ThirdQuarter
+E2025,2,3,0,419,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,24,06:07,,,,Assist (6),356,ThirdQuarter
+E2025,2,3,0,421,OLY,P009849,3FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:40,,,,Missed Three Pointer (2/8 -  12 pt),357,ThirdQuarter
+E2025,2,3,0,422,BAS,P007230,D,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,25,05:37,,,,Def Rebound (2),358,ThirdQuarter
+E2025,2,3,0,423,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,25,05:32,,,,Missed Three Pointer (3/8 -  9 pt),359,ThirdQuarter
+E2025,2,3,0,424,OLY,P009849,D,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:29,,,,Def Rebound (1),360,ThirdQuarter
+E2025,2,3,0,425,OLY,P009849,2FGM,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:27,58,58,,Two Pointer (2/3 -  14 pt),361,ThirdQuarter
+E2025,2,3,0,426,OLY,P009849,RV,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:27,,,,Foul Drawn (3),362,ThirdQuarter
+E2025,2,3,0,427,BAS,P011948,CM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,25,05:27,,,,Foul (3),363,ThirdQuarter
+E2025,2,3,0,428,BAS,P011948,OUT,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,25,05:27,,,,Out,364,ThirdQuarter
+E2025,2,3,0,429,BAS,P014119,IN,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,25,05:27,,,,In,365,ThirdQuarter
+E2025,2,3,0,430,BAS,P007230,OUT,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,25,05:27,,,,Out,366,ThirdQuarter
+E2025,2,3,0,431,BAS,P014026,IN,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,25,05:27,,,,In,367,ThirdQuarter
+E2025,2,3,0,432,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:27,58,59,,Free Throw In (5/5 -  15 pt),368,ThirdQuarter
+E2025,2,3,0,433,BAS,P014119,TO,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,25,05:14,,,,Turnover (3),369,ThirdQuarter
+E2025,2,3,0,434,OLY,P009849,RV,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:01,,,,Foul Drawn (4),370,ThirdQuarter
+E2025,2,3,0,435,BAS,P012080,CM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,25,05:01,,,,Foul (2),371,ThirdQuarter
+E2025,2,3,0,436,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:01,58,60,,Free Throw In (6/6 -  16 pt),372,ThirdQuarter
+E2025,2,3,0,437,OLY,P008855,AS,"WALKUP, THOMAS",Olympiacos Piraeus,0,25,05:01,,,,Assist (8),373,ThirdQuarter
+E2025,2,3,0,438,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:01,58,61,,Free Throw In (7/7 -  17 pt),374,ThirdQuarter
+E2025,2,3,0,439,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,25,05:01,58,62,,Free Throw In (8/8 -  18 pt),375,ThirdQuarter
+E2025,2,3,0,441,BAS,P007579,TO,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,26,04:50,,,,Turnover (3),376,ThirdQuarter
+E2025,2,3,0,442,,,TOUT_TV,,,,26,04:50,,,,TV Time Out (3),377,ThirdQuarter
+E2025,2,3,0,443,OLY,P008855,RV,"WALKUP, THOMAS",Olympiacos Piraeus,0,26,04:43,,,,Foul Drawn (1),378,ThirdQuarter
+E2025,2,3,0,444,BAS,P014119,CM,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,26,04:43,,,,Foul (3),379,ThirdQuarter
+E2025,2,3,0,445,OLY,P003941,2FGM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,26,04:27,58,64,,Two Pointer (3/6 -  8 pt),380,ThirdQuarter
+E2025,2,3,0,446,BAS,P014026,3FGA,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,26,04:14,,,,Missed Three Pointer (2/3 -  8 pt),381,ThirdQuarter
+E2025,2,3,0,447,OLY,P009849,D,"DORSEY, TYLER",Olympiacos Piraeus,22,26,04:12,,,,Def Rebound (2),382,ThirdQuarter
+E2025,2,3,0,449,OLY,P009849,TO,"DORSEY, TYLER",Olympiacos Piraeus,22,27,03:51,,,,Turnover (2),383,ThirdQuarter
+E2025,2,3,0,450,BAS,P014119,ST,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,27,03:50,,,,Steal (1),384,ThirdQuarter
+E2025,2,3,0,451,BAS,P014119,2FGM,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,27,03:47,60,64,,Two Pointer (1/1 -  3 pt),385,ThirdQuarter
+E2025,2,3,0,452,OLY,P003469,TO,"VEZENKOV, SASHA",Olympiacos Piraeus,14,27,03:27,,,,Turnover (2),386,ThirdQuarter
+E2025,2,3,0,453,BAS,P013367,ST,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,27,03:26,,,,Steal (2),387,ThirdQuarter
+E2025,2,3,0,454,BAS,P014119,3FGM,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,27,03:20,63,64,,Three Pointer (1/3 -  6 pt),388,ThirdQuarter
+E2025,2,3,0,455,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,27,03:18,,,,Assist (7),389,ThirdQuarter
+E2025,2,3,0,457,OLY,P008855,3FGA,"WALKUP, THOMAS",Olympiacos Piraeus,0,28,02:57,,,,Missed Three Pointer (0/2 -  0 pt),390,ThirdQuarter
+E2025,2,3,0,458,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,28,02:55,,,,Off Rebound (5),391,ThirdQuarter
+E2025,2,3,0,459,BAS,P008173,IN,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,28,02:51,,,,In,392,ThirdQuarter
+E2025,2,3,0,460,BAS,P013367,OUT,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,28,02:51,,,,Out,393,ThirdQuarter
+E2025,2,3,0,461,OLY,P003469,2FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,28,02:51,,,,Missed Two Pointer (3/9 -  12 pt),394,ThirdQuarter
+E2025,2,3,0,462,BAS,P012080,D,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,28,02:51,,,,Def Rebound (5),395,ThirdQuarter
+E2025,2,3,0,463,BAS,P007579,2FGM,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,28,02:39,65,64,,Two Pointer (2/4 -  7 pt),396,ThirdQuarter
+E2025,2,3,0,464,OLY,P008855,2FGM,"WALKUP, THOMAS",Olympiacos Piraeus,0,28,02:21,65,66,,Two Pointer (1/2 -  2 pt),397,ThirdQuarter
+E2025,2,3,0,465,BAS,P008173,2FGA,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,28,02:02,,,,Missed Two Pointer (0/1 -  0 pt),398,ThirdQuarter
+E2025,2,3,0,466,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,28,02:00,,,,Def Rebound (4),399,ThirdQuarter
+E2025,2,3,0,468,OLY,P009849,2FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,29,01:55,,,,Missed Two Pointer (2/4 -  18 pt),400,ThirdQuarter
+E2025,2,3,0,469,OLY,P009849,AG,"DORSEY, TYLER",Olympiacos Piraeus,22,29,01:55,,,,Shot Rejected (1),401,ThirdQuarter
+E2025,2,3,0,470,BAS,P014026,FV,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,29,01:55,,,,Block (1),402,ThirdQuarter
+E2025,2,3,0,471,OLY,P003469,O,"VEZENKOV, SASHA",Olympiacos Piraeus,14,29,01:55,,,,Off Rebound (5),403,ThirdQuarter
+E2025,2,3,0,472,OLY,P003469,2FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,29,01:55,65,68,,Two Pointer (4/10 -  14 pt),404,ThirdQuarter
+E2025,2,3,0,473,OLY,P003469,RV,"VEZENKOV, SASHA",Olympiacos Piraeus,14,29,01:55,,,,Foul Drawn (3),405,ThirdQuarter
+E2025,2,3,0,474,BAS,P008173,CM,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,29,01:55,,,,Foul (1),406,ThirdQuarter
+E2025,2,3,0,475,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,29,01:55,,,,In,407,ThirdQuarter
+E2025,2,3,0,476,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,29,01:55,,,,Out,408,ThirdQuarter
+E2025,2,3,0,477,OLY,P008855,OUT,"WALKUP, THOMAS",Olympiacos Piraeus,0,29,01:55,,,,Out,409,ThirdQuarter
+E2025,2,3,0,478,OLY,P013389,IN,"LEE, SABEN",Olympiacos Piraeus,9,29,01:55,,,,In,410,ThirdQuarter
+E2025,2,3,0,479,OLY,P003469,FTM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,29,01:55,65,69,,Free Throw In (4/4 -  15 pt),411,ThirdQuarter
+E2025,2,3,0,480,OLY,P003941,OUT,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,29,01:55,,,,Out,412,ThirdQuarter
+E2025,2,3,0,481,OLY,P011196,IN,"HALL, DONTA",Olympiacos Piraeus,45,29,01:55,,,,In,413,ThirdQuarter
+E2025,2,3,0,482,BAS,P012080,3FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,29,01:38,68,69,,Three Pointer (3/5 -  13 pt),414,ThirdQuarter
+E2025,2,3,0,483,BAS,P012080,RV,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,29,01:38,,,,Foul Drawn (2),415,ThirdQuarter
+E2025,2,3,0,484,OLY,P013380,CM,"FOURNIER, EVAN",Olympiacos Piraeus,94,29,01:38,,,,Foul (2),416,ThirdQuarter
+E2025,2,3,0,485,BAS,P012080,FTM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,29,01:38,69,69,,Free Throw In (1/1 -  14 pt),417,ThirdQuarter
+E2025,2,3,0,486,OLY,P013389,2FGA,"LEE, SABEN",Olympiacos Piraeus,9,29,01:17,,,,Missed Two Pointer (2/3 -  4 pt),418,ThirdQuarter
+E2025,2,3,0,487,BAS,P008072,D,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,29,01:15,,,,Def Rebound (1),419,ThirdQuarter
+E2025,2,3,0,488,BAS,P012080,2FGA,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,29,01:10,,,,Missed Two Pointer (2/4 -  14 pt),420,ThirdQuarter
+E2025,2,3,0,489,BAS,,O,,Baskonia Vitoria-Gasteiz,,29,01:10,,,,Off Rebound (6),421,ThirdQuarter
+E2025,2,3,0,491,BAS,P014119,TO,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,30,00:57,,,,Turnover (4),422,ThirdQuarter
+E2025,2,3,0,492,OLY,P009849,ST,"DORSEY, TYLER",Olympiacos Piraeus,22,30,00:55,,,,Steal (2),423,ThirdQuarter
+E2025,2,3,0,493,OLY,P003469,2FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,30,00:51,69,71,,Two Pointer (5/11 -  17 pt),424,ThirdQuarter
+E2025,2,3,0,494,OLY,P009849,AS,"DORSEY, TYLER",Olympiacos Piraeus,22,30,00:50,,,,Assist (1),425,ThirdQuarter
+E2025,2,3,0,495,BAS,P014119,3FGA,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,30,00:38,,,,Missed Three Pointer (1/4 -  6 pt),426,ThirdQuarter
+E2025,2,3,0,496,BAS,P008072,O,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,30,00:37,,,,Off Rebound (3),427,ThirdQuarter
+E2025,2,3,0,497,BAS,P008072,2FGA,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,30,00:35,,,,Missed Two Pointer (0/1 -  0 pt),428,ThirdQuarter
+E2025,2,3,0,500,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,30,00:28,,,,Def Rebound (5),429,ThirdQuarter
+E2025,2,3,0,501,OLY,P011196,2FGM,"HALL, DONTA",Olympiacos Piraeus,45,30,00:13,69,73,,Two Pointer (2/4 -  4 pt),430,ThirdQuarter
+E2025,2,3,0,502,OLY,P003469,AS,"VEZENKOV, SASHA",Olympiacos Piraeus,14,30,00:11,,,,Assist (1),431,ThirdQuarter
+E2025,2,3,0,503,BAS,P008072,RV,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,30,00:03,,,,Foul Drawn (1),432,ThirdQuarter
+E2025,2,3,0,504,OLY,P013380,CM,"FOURNIER, EVAN",Olympiacos Piraeus,94,30,00:03,,,,Foul (3),433,ThirdQuarter
+E2025,2,3,0,505,BAS,P014119,OUT,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,30,00:03,,,,Out,434,ThirdQuarter
+E2025,2,3,0,506,BAS,P014086,IN,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,30,00:03,,,,In,435,ThirdQuarter
+E2025,2,3,0,507,BAS,P008072,FTA,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,30,00:03,,,,Missed Free Throw (0/1 -  0 pt),436,ThirdQuarter
+E2025,2,3,0,508,BAS,P008072,FTM,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,30,00:03,70,73,,Free Throw In (1/2 -  1 pt),437,ThirdQuarter
+E2025,2,3,0,509,BAS,P014119,AS,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,30,00:03,,,,Assist (2),438,ThirdQuarter
+E2025,2,3,0,510,BAS,P010035,IN,"VILLAR, RAFA",Baskonia Vitoria-Gasteiz,4,30,00:03,,,,In,439,ThirdQuarter
+E2025,2,3,0,511,BAS,P008173,OUT,"SPAGNOLO, MATTEO",Baskonia Vitoria-Gasteiz,10,30,00:03,,,,Out,440,ThirdQuarter
+E2025,2,3,0,513,,,EP,,,,31,,,,,End Period,441,ThirdQuarter
+E2025,2,4,0,520,,,BP,,,,31,,,,,Begin Period,442,ForthQuarter
+E2025,2,4,0,514,BAS,P011948,IN,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,31,10:00,,,,In,443,ForthQuarter
+E2025,2,4,0,515,BAS,P010035,OUT,"VILLAR, RAFA",Baskonia Vitoria-Gasteiz,4,31,10:00,,,,Out,444,ForthQuarter
+E2025,2,4,0,516,BAS,P014086,OUT,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,31,10:00,,,,Out,445,ForthQuarter
+E2025,2,4,0,517,BAS,P013367,IN,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,31,10:00,,,,In,446,ForthQuarter
+E2025,2,4,0,518,OLY,P012610,IN,"WARD, TYSON",Olympiacos Piraeus,3,31,10:00,,,,In,447,ForthQuarter
+E2025,2,4,0,519,OLY,P013380,OUT,"FOURNIER, EVAN",Olympiacos Piraeus,94,31,10:00,,,,Out,448,ForthQuarter
+E2025,2,4,0,521,BAS,P008072,2FGM,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,31,09:46,72,73,,Two Pointer (1/2 -  3 pt),449,ForthQuarter
+E2025,2,4,0,522,BAS,P012080,AS,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,31,09:43,,,,Assist (2),450,ForthQuarter
+E2025,2,4,0,523,OLY,P011196,2FGA,"HALL, DONTA",Olympiacos Piraeus,45,31,09:25,,,,Missed Two Pointer (2/5 -  4 pt),451,ForthQuarter
+E2025,2,4,0,524,OLY,P011196,O,"HALL, DONTA",Olympiacos Piraeus,45,31,09:22,,,,Off Rebound (1),452,ForthQuarter
+E2025,2,4,0,525,OLY,P011196,2FGM,"HALL, DONTA",Olympiacos Piraeus,45,31,09:22,72,75,,Two Pointer (3/6 -  6 pt),453,ForthQuarter
+E2025,2,4,0,526,BAS,P014026,3FGA,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,31,09:15,,,,Missed Three Pointer (2/4 -  8 pt),454,ForthQuarter
+E2025,2,4,0,527,OLY,P012610,D,"WARD, TYSON",Olympiacos Piraeus,3,31,09:13,,,,Def Rebound (1),455,ForthQuarter
+E2025,2,4,0,528,BAS,P012080,CM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,31,09:04,,,,Foul (3),456,ForthQuarter
+E2025,2,4,0,529,OLY,P011196,RV,"HALL, DONTA",Olympiacos Piraeus,45,31,09:04,,,,Foul Drawn (1),457,ForthQuarter
+E2025,2,4,0,530,BAS,P007230,IN,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,31,09:04,,,,In,458,ForthQuarter
+E2025,2,4,0,531,BAS,P014026,OUT,"FRISCH, CLEMENT",Baskonia Vitoria-Gasteiz,25,31,09:04,,,,Out,459,ForthQuarter
+E2025,2,4,0,533,OLY,P003469,3FGA,"VEZENKOV, SASHA",Olympiacos Piraeus,14,32,08:58,,,,Missed Three Pointer (1/7 -  17 pt),460,ForthQuarter
+E2025,2,4,0,534,BAS,P008072,D,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,32,08:55,,,,Def Rebound (2),461,ForthQuarter
+E2025,2,4,0,535,BAS,P012080,3FGA,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,32,08:45,,,,Missed Three Pointer (3/6 -  14 pt),462,ForthQuarter
+E2025,2,4,0,536,BAS,P007230,O,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,32,08:43,,,,Off Rebound (2),463,ForthQuarter
+E2025,2,4,0,537,BAS,P013367,3FGA,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,32,08:39,,,,Missed Three Pointer (0/3 -  12 pt),464,ForthQuarter
+E2025,2,4,0,538,BAS,P008072,O,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,32,08:37,,,,Off Rebound (4),465,ForthQuarter
+E2025,2,4,0,539,BAS,P012080,2FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,32,08:32,74,75,,Two Pointer (3/5 -  16 pt),466,ForthQuarter
+E2025,2,4,0,540,BAS,P012080,RV,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,32,08:32,,,,Foul Drawn (3),467,ForthQuarter
+E2025,2,4,0,541,OLY,P011196,CM,"HALL, DONTA",Olympiacos Piraeus,45,32,08:32,,,,Foul (2),468,ForthQuarter
+E2025,2,4,0,542,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,32,08:32,,,,Assist (8),469,ForthQuarter
+E2025,2,4,0,543,BAS,P012080,FTM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,32,08:32,75,75,,Free Throw In (2/2 -  17 pt),470,ForthQuarter
+E2025,2,4,0,544,OLY,P009849,2FGM,"DORSEY, TYLER",Olympiacos Piraeus,22,32,08:17,75,77,,Two Pointer (3/5 -  20 pt),471,ForthQuarter
+E2025,2,4,0,545,BAS,P012080,3FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,32,08:01,78,77,,Three Pointer (4/7 -  20 pt),472,ForthQuarter
+E2025,2,4,0,547,BAS,P008072,AS,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,33,07:59,,,,Assist (3),473,ForthQuarter
+E2025,2,4,0,548,OLY,P003469,2FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,33,07:39,78,79,,Two Pointer (6/12 -  19 pt),474,ForthQuarter
+E2025,2,4,0,549,OLY,P009849,AS,"DORSEY, TYLER",Olympiacos Piraeus,22,33,07:36,,,,Assist (2),475,ForthQuarter
+E2025,2,4,0,550,BAS,P012080,3FGM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,33,07:31,81,79,,Three Pointer (5/8 -  23 pt),476,ForthQuarter
+E2025,2,4,0,551,BAS,P007230,AS,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,33,07:29,,,,Assist (2),477,ForthQuarter
+E2025,2,4,0,552,OLY,P012610,RV,"WARD, TYSON",Olympiacos Piraeus,3,33,07:13,,,,Foul Drawn (4),478,ForthQuarter
+E2025,2,4,0,553,BAS,P012080,CM,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,33,07:13,,,,Foul (4),479,ForthQuarter
+E2025,2,4,0,554,OLY,P008855,IN,"WALKUP, THOMAS",Olympiacos Piraeus,0,33,07:13,,,,In,480,ForthQuarter
+E2025,2,4,0,555,OLY,P013389,OUT,"LEE, SABEN",Olympiacos Piraeus,9,33,07:13,,,,Out,481,ForthQuarter
+E2025,2,4,0,556,OLY,P003469,OUT,"VEZENKOV, SASHA",Olympiacos Piraeus,14,33,07:13,,,,Out,482,ForthQuarter
+E2025,2,4,0,557,OLY,P008829,IN,"PETERS, ALEC",Olympiacos Piraeus,25,33,07:13,,,,In,483,ForthQuarter
+E2025,2,4,0,558,BAS,P014086,IN,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,33,07:13,,,,In,484,ForthQuarter
+E2025,2,4,0,559,BAS,P012080,OUT,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,33,07:13,,,,Out,485,ForthQuarter
+E2025,2,4,0,560,OLY,P012610,FTM,"WARD, TYSON",Olympiacos Piraeus,3,33,07:13,81,80,,Free Throw In (5/5 -  10 pt),486,ForthQuarter
+E2025,2,4,0,561,OLY,P013389,AS,"LEE, SABEN",Olympiacos Piraeus,9,33,07:13,,,,Assist (2),487,ForthQuarter
+E2025,2,4,0,562,OLY,P012610,FTM,"WARD, TYSON",Olympiacos Piraeus,3,33,07:13,81,81,,Free Throw In (6/6 -  11 pt),488,ForthQuarter
+E2025,2,4,0,564,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,34,06:55,,,,Missed Three Pointer (3/9 -  9 pt),489,ForthQuarter
+E2025,2,4,0,565,BAS,P008072,O,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,34,06:53,,,,Off Rebound (5),490,ForthQuarter
+E2025,2,4,0,566,BAS,P007230,3FGM,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,34,06:48,84,81,,Three Pointer (2/3 -  6 pt),491,ForthQuarter
+E2025,2,4,0,567,BAS,P011948,AS,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,34,06:46,,,,Assist (1),492,ForthQuarter
+E2025,2,4,0,568,OLY,P011196,RV,"HALL, DONTA",Olympiacos Piraeus,45,34,06:27,,,,Foul Drawn (2),493,ForthQuarter
+E2025,2,4,0,569,BAS,P008072,CM,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,34,06:27,,,,Foul (3),494,ForthQuarter
+E2025,2,4,0,570,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,34,06:27,,,,Out,495,ForthQuarter
+E2025,2,4,0,571,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,34,06:27,,,,In,496,ForthQuarter
+E2025,2,4,0,572,OLY,P011196,FTM,"HALL, DONTA",Olympiacos Piraeus,45,34,06:27,84,82,,Free Throw In (1/1 -  7 pt),497,ForthQuarter
+E2025,2,4,0,573,OLY,P009849,AS,"DORSEY, TYLER",Olympiacos Piraeus,22,34,06:27,,,,Assist (3),498,ForthQuarter
+E2025,2,4,0,574,OLY,P011196,FTM,"HALL, DONTA",Olympiacos Piraeus,45,34,06:27,84,83,,Free Throw In (2/2 -  8 pt),499,ForthQuarter
+E2025,2,4,0,575,BAS,P007230,3FGA,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,34,06:14,,,,Missed Three Pointer (2/4 -  6 pt),500,ForthQuarter
+E2025,2,4,0,576,OLY,P008855,D,"WALKUP, THOMAS",Olympiacos Piraeus,0,34,06:13,,,,Def Rebound (1),501,ForthQuarter
+E2025,2,4,0,578,OLY,P008829,2FGA,"PETERS, ALEC",Olympiacos Piraeus,25,35,05:53,,,,Missed Two Pointer (2/4 -  7 pt),502,ForthQuarter
+E2025,2,4,0,579,BAS,P007579,D,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,35,05:52,,,,Def Rebound (2),503,ForthQuarter
+E2025,2,4,0,580,BAS,P011948,TO,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,35,05:36,,,,Turnover (2),504,ForthQuarter
+E2025,2,4,0,581,OLY,P008855,ST,"WALKUP, THOMAS",Olympiacos Piraeus,0,35,05:35,,,,Steal (3),505,ForthQuarter
+E2025,2,4,0,582,OLY,P012610,RV,"WARD, TYSON",Olympiacos Piraeus,3,35,05:34,,,,Foul Drawn (5),506,ForthQuarter
+E2025,2,4,0,583,BAS,P007230,CM,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,35,05:34,,,,Foul (1),507,ForthQuarter
+E2025,2,4,0,584,OLY,,CCH,,Olympiacos Piraeus,,35,05:34,,,,Coach Challenge (1),508,ForthQuarter
+E2025,2,4,0,585,OLY,P009849,2FGA,"DORSEY, TYLER",Olympiacos Piraeus,22,35,05:19,,,,Missed Two Pointer (3/6 -  20 pt),509,ForthQuarter
+E2025,2,4,0,586,BAS,P013367,D,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,35,05:17,,,,Def Rebound (2),510,ForthQuarter
+E2025,2,4,0,589,BAS,P014086,RV,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,35,05:16,,,,Foul Drawn (2),511,ForthQuarter
+E2025,2,4,0,590,OLY,P008855,CM,"WALKUP, THOMAS",Olympiacos Piraeus,0,35,05:16,,,,Foul (3),512,ForthQuarter
+E2025,2,4,0,591,OLY,P003469,IN,"VEZENKOV, SASHA",Olympiacos Piraeus,14,35,05:16,,,,In,513,ForthQuarter
+E2025,2,4,0,592,OLY,P008829,OUT,"PETERS, ALEC",Olympiacos Piraeus,25,35,05:16,,,,Out,514,ForthQuarter
+E2025,2,4,0,593,OLY,,CCH,,Olympiacos Piraeus,,35,05:16,,,,Coach Challenge (2),515,ForthQuarter
+E2025,2,4,0,595,BAS,P014086,2FGM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,36,04:57,86,83,,Two Pointer (5/7 -  12 pt),516,ForthQuarter
+E2025,2,4,0,596,BAS,P011948,AS,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,36,04:57,,,,Assist (2),517,ForthQuarter
+E2025,2,4,0,597,BAS,P014086,RV,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,36,04:57,,,,Foul Drawn (3),518,ForthQuarter
+E2025,2,4,0,598,OLY,P011196,CM,"HALL, DONTA",Olympiacos Piraeus,45,36,04:57,,,,Foul (3),519,ForthQuarter
+E2025,2,4,0,599,OLY,P012610,OUT,"WARD, TYSON",Olympiacos Piraeus,3,36,04:57,,,,Out,520,ForthQuarter
+E2025,2,4,0,600,OLY,P013380,IN,"FOURNIER, EVAN",Olympiacos Piraeus,94,36,04:57,,,,In,521,ForthQuarter
+E2025,2,4,0,601,,,TOUT_TV,,,,36,04:57,,,,TV Time Out (4),522,ForthQuarter
+E2025,2,4,0,602,OLY,P003941,IN,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,36,04:57,,,,In,523,ForthQuarter
+E2025,2,4,0,603,OLY,P011196,OUT,"HALL, DONTA",Olympiacos Piraeus,45,36,04:57,,,,Out,524,ForthQuarter
+E2025,2,4,0,604,BAS,P014086,FTM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,36,04:57,87,83,,Free Throw In (3/4 -  13 pt),525,ForthQuarter
+E2025,2,4,0,605,OLY,P013380,RV,"FOURNIER, EVAN",Olympiacos Piraeus,94,36,04:36,,,,Foul Drawn (2),526,ForthQuarter
+E2025,2,4,0,606,BAS,P014086,CM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,36,04:36,,,,Foul (2),527,ForthQuarter
+E2025,2,4,0,607,OLY,P013380,FTM,"FOURNIER, EVAN",Olympiacos Piraeus,94,36,04:36,87,84,,Free Throw In (3/3 -  5 pt),528,ForthQuarter
+E2025,2,4,0,608,OLY,P013380,FTM,"FOURNIER, EVAN",Olympiacos Piraeus,94,36,04:36,87,85,,Free Throw In (4/4 -  6 pt),529,ForthQuarter
+E2025,2,4,0,609,BAS,P013367,2FGA,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,36,04:21,,,,Missed Two Pointer (4/7 -  12 pt),530,ForthQuarter
+E2025,2,4,0,610,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,36,04:19,,,,Def Rebound (6),531,ForthQuarter
+E2025,2,4,0,611,OLY,P008855,2FGA,"WALKUP, THOMAS",Olympiacos Piraeus,0,36,04:13,,,,Missed Two Pointer (1/3 -  2 pt),532,ForthQuarter
+E2025,2,4,0,612,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,36,04:11,,,,Off Rebound (6),533,ForthQuarter
+E2025,2,4,0,613,OLY,P013380,3FGA,"FOURNIER, EVAN",Olympiacos Piraeus,94,36,04:04,,,,Missed Three Pointer (0/4 -  6 pt),534,ForthQuarter
+E2025,2,4,0,614,BAS,P007230,D,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,36,04:02,,,,Def Rebound (3),535,ForthQuarter
+E2025,2,4,0,616,BAS,P011948,3FGA,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,37,03:57,,,,Missed Three Pointer (3/10 -  9 pt),536,ForthQuarter
+E2025,2,4,0,617,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,37,03:56,,,,Def Rebound (7),537,ForthQuarter
+E2025,2,4,0,618,OLY,P003469,RV,"VEZENKOV, SASHA",Olympiacos Piraeus,14,37,03:56,,,,Foul Drawn (4),538,ForthQuarter
+E2025,2,4,0,619,BAS,P007579,CM,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,37,03:56,,,,Foul (2),539,ForthQuarter
+E2025,2,4,0,620,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,37,03:56,,,,In,540,ForthQuarter
+E2025,2,4,0,621,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,37,03:56,,,,Out,541,ForthQuarter
+E2025,2,4,0,622,OLY,P003469,FTM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,37,03:56,87,86,,Free Throw In (5/5 -  20 pt),542,ForthQuarter
+E2025,2,4,0,623,OLY,P003469,FTM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,37,03:56,87,87,,Free Throw In (6/6 -  21 pt),543,ForthQuarter
+E2025,2,4,0,624,BAS,P011948,3FGM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,37,03:32,90,87,,Three Pointer (4/11 -  12 pt),544,ForthQuarter
+E2025,2,4,0,625,OLY,P013380,2FGM,"FOURNIER, EVAN",Olympiacos Piraeus,94,37,03:20,90,89,,Two Pointer (2/3 -  8 pt),545,ForthQuarter
+E2025,2,4,0,626,BAS,P014086,OUT,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,37,03:20,,,,Out,546,ForthQuarter
+E2025,2,4,0,627,BAS,P012080,IN,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,37,03:20,,,,In,547,ForthQuarter
+E2025,2,4,0,629,BAS,P007230,3FGA,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,38,02:57,,,,Missed Three Pointer (2/5 -  6 pt),548,ForthQuarter
+E2025,2,4,0,630,OLY,P003941,D,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,38,02:54,,,,Def Rebound (7),549,ForthQuarter
+E2025,2,4,0,631,OLY,P013380,2FGM,"FOURNIER, EVAN",Olympiacos Piraeus,94,38,02:42,90,91,,Two Pointer (3/4 -  10 pt),550,ForthQuarter
+E2025,2,4,0,632,BAS,,TOUT,,Baskonia Vitoria-Gasteiz,,38,02:42,,,,Time Out (1),551,ForthQuarter
+E2025,2,4,0,633,BAS,P007230,2FGM,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,38,02:31,92,91,,Two Pointer (1/1 -  8 pt),552,ForthQuarter
+E2025,2,4,0,634,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,38,02:29,,,,Assist (9),553,ForthQuarter
+E2025,2,4,0,635,OLY,P013380,3FGA,"FOURNIER, EVAN",Olympiacos Piraeus,94,38,02:16,,,,Missed Three Pointer (0/5 -  10 pt),554,ForthQuarter
+E2025,2,4,0,636,OLY,P003941,O,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,38,02:14,,,,Off Rebound (7),555,ForthQuarter
+E2025,2,4,0,637,OLY,P003941,RV,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,38,02:14,,,,Foul Drawn (4),556,ForthQuarter
+E2025,2,4,0,638,BAS,P011948,CM,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,38,02:14,,,,Foul (4),557,ForthQuarter
+E2025,2,4,0,639,BAS,P011948,OUT,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,38,02:14,,,,Out,558,ForthQuarter
+E2025,2,4,0,640,BAS,P014086,IN,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,38,02:14,,,,In,559,ForthQuarter
+E2025,2,4,0,641,OLY,P003941,FTM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,38,02:14,92,92,,Free Throw In (3/3 -  9 pt),560,ForthQuarter
+E2025,2,4,0,642,OLY,P003941,FTM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,38,02:14,92,93,,Free Throw In (4/4 -  10 pt),561,ForthQuarter
+E2025,2,4,0,644,BAS,,TO,,Baskonia Vitoria-Gasteiz,,39,01:49,,,,Turnover (2),562,ForthQuarter
+E2025,2,4,0,645,BAS,P008072,OUT,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,39,01:49,,,,Out,563,ForthQuarter
+E2025,2,4,0,646,BAS,P007579,IN,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,39,01:49,,,,In,564,ForthQuarter
+E2025,2,4,0,647,OLY,P003469,3FGM,"VEZENKOV, SASHA",Olympiacos Piraeus,14,39,01:29,92,96,,Three Pointer (2/8 -  24 pt),565,ForthQuarter
+E2025,2,4,0,648,OLY,P013380,AS,"FOURNIER, EVAN",Olympiacos Piraeus,94,39,01:28,,,,Assist (1),566,ForthQuarter
+E2025,2,4,0,649,BAS,P011948,IN,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,39,01:28,,,,In,567,ForthQuarter
+E2025,2,4,0,650,BAS,P007230,OUT,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,39,01:28,,,,Out,568,ForthQuarter
+E2025,2,4,0,651,BAS,P007579,3FGA,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,39,01:11,,,,Missed Three Pointer (1/3 -  7 pt),569,ForthQuarter
+E2025,2,4,0,652,BAS,P014086,O,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,39,01:08,,,,Off Rebound (4),570,ForthQuarter
+E2025,2,4,0,653,BAS,P011948,RV,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,39,01:02,,,,Foul Drawn (2),571,ForthQuarter
+E2025,2,4,0,654,OLY,P008855,CM,"WALKUP, THOMAS",Olympiacos Piraeus,0,39,01:02,,,,Foul (4),572,ForthQuarter
+E2025,2,4,0,656,BAS,P014086,2FGM,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,40,00:51,94,96,,Two Pointer (6/8 -  15 pt),573,ForthQuarter
+E2025,2,4,0,657,BAS,P013367,AS,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,40,00:53,,,,Assist (10),574,ForthQuarter
+E2025,2,4,0,658,OLY,P008855,3FGM,"WALKUP, THOMAS",Olympiacos Piraeus,0,40,00:40,94,99,,Three Pointer (1/3 -  5 pt),575,ForthQuarter
+E2025,2,4,0,659,BAS,P013367,RV,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,40,00:29,,,,Foul Drawn (3),576,ForthQuarter
+E2025,2,4,0,660,OLY,P003941,CM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,40,00:29,,,,Foul (1),577,ForthQuarter
+E2025,2,4,0,661,BAS,P011948,OUT,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,40,00:29,,,,Out,578,ForthQuarter
+E2025,2,4,0,662,BAS,P014119,IN,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,40,00:29,,,,In,579,ForthQuarter
+E2025,2,4,0,663,BAS,P013367,FTM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,40,00:29,95,99,,Free Throw In (5/5 -  13 pt),580,ForthQuarter
+E2025,2,4,0,664,BAS,P013367,FTM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,40,00:29,96,99,,Free Throw In (6/6 -  14 pt),581,ForthQuarter
+E2025,2,4,0,665,BAS,P007230,IN,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,40,00:29,,,,In,582,ForthQuarter
+E2025,2,4,0,666,BAS,P007579,OUT,"SAMANIC, LUKA",Baskonia Vitoria-Gasteiz,99,40,00:29,,,,Out,583,ForthQuarter
+E2025,2,4,0,667,OLY,P003941,2FGM,"MILUTINOV, NIKOLA",Olympiacos Piraeus,33,40,00:15,96,101,,Two Pointer (4/7 -  12 pt),584,ForthQuarter
+E2025,2,4,0,668,OLY,P013380,AS,"FOURNIER, EVAN",Olympiacos Piraeus,94,40,00:15,,,,Assist (2),585,ForthQuarter
+E2025,2,4,0,669,BAS,,TOUT,,Baskonia Vitoria-Gasteiz,,40,00:15,,,,Time Out (2),586,ForthQuarter
+E2025,2,4,0,670,BAS,P011948,IN,"HOWARD, MARKUS",Baskonia Vitoria-Gasteiz,0,40,00:15,,,,In,587,ForthQuarter
+E2025,2,4,0,671,BAS,P014119,OUT,"NOWELL, MARKQUIS",Baskonia Vitoria-Gasteiz,3,40,00:15,,,,Out,588,ForthQuarter
+E2025,2,4,0,672,BAS,P012080,OUT,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,40,00:15,,,,Out,589,ForthQuarter
+E2025,2,4,0,673,BAS,P008072,IN,"DIOP, KHALIFA",Baskonia Vitoria-Gasteiz,18,40,00:15,,,,In,590,ForthQuarter
+E2025,2,4,0,674,OLY,,TOUT,,Olympiacos Piraeus,,40,00:15,,,,Time Out (1),591,ForthQuarter
+E2025,2,4,0,675,BAS,P007230,3FGA,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,40,00:09,,,,Missed Three Pointer (2/6 -  8 pt),592,ForthQuarter
+E2025,2,4,0,676,OLY,P009849,D,"DORSEY, TYLER",Olympiacos Piraeus,22,40,00:07,,,,Def Rebound (3),593,ForthQuarter
+E2025,2,4,0,677,OLY,P009849,RV,"DORSEY, TYLER",Olympiacos Piraeus,22,40,00:05,,,,Foul Drawn (5),594,ForthQuarter
+E2025,2,4,0,678,BAS,P013367,CM,"FORREST, TRENT",Baskonia Vitoria-Gasteiz,11,40,00:05,,,,Foul (2),595,ForthQuarter
+E2025,2,4,0,679,OLY,P009849,FTA,"DORSEY, TYLER",Olympiacos Piraeus,22,40,00:05,,,,Missed Free Throw (8/9 -  20 pt),596,ForthQuarter
+E2025,2,4,0,680,OLY,P009849,FTM,"DORSEY, TYLER",Olympiacos Piraeus,22,40,00:05,96,102,,Free Throw In (9/10 -  21 pt),597,ForthQuarter
+E2025,2,4,0,681,BAS,,TOUT,,Baskonia Vitoria-Gasteiz,,40,00:05,,,,Time Out (3),598,ForthQuarter
+E2025,2,4,0,682,BAS,P007230,OUT,"SEDEKERSKIS, TADAS",Baskonia Vitoria-Gasteiz,8,40,00:05,,,,Out,599,ForthQuarter
+E2025,2,4,0,683,BAS,P012080,IN,"LUWAWU-CABARROT, TIMOTHE",Baskonia Vitoria-Gasteiz,9,40,00:05,,,,In,600,ForthQuarter
+E2025,2,4,0,684,BAS,P014086,3FGA,"DIALLO, HAMIDOU",Baskonia Vitoria-Gasteiz,6,40,00:05,,,,Missed Three Pointer (0/2 -  15 pt),601,ForthQuarter
+E2025,2,4,0,685,OLY,P003469,D,"VEZENKOV, SASHA",Olympiacos Piraeus,14,40,00:05,,,,Def Rebound (8),602,ForthQuarter
+E2025,2,4,0,690,,,EG,,,,41,,,,,End Game,603,ForthQuarter

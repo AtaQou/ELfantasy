@@ -1,0 +1,2 @@
+PASS test_phase8c_transfer_demo_and_zero_transfer_recommendations_are_consistent
+PASS test_phase8c_demo_rejects_duplicates_overflow_and_invalid_transfer_count

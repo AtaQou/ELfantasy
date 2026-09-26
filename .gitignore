@@ -1,0 +1,44 @@
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Playwright authentication state. This may contain reusable session secrets.
+.auth/
+.env
+.env.*
+!.env.example
+
+# Full/raw future downloads stay local. The deliberately small audit sample is kept.
+data/raw/*
+!data/raw/.gitkeep
+
+# Reproducible local analytical databases are generated from raw artifacts.
+data/db/*
+!data/db/.gitkeep
+
+# Per-run live predictions and human-comparison benchmarks are local outputs.
+data/predictions/*
+!data/predictions/.gitkeep
+data/benchmarks/*
+!data/benchmarks/.gitkeep
+
+# Reproducible Phase 3 modelling artifacts are regenerated from the database.
+data/derived/*
+!data/derived/.gitkeep
+!data/derived/phase4b/
+data/derived/phase4b/*
+!data/derived/phase4b/frozen_prediction/
+!data/derived/phase4b/frozen_prediction/**
+!data/derived/phase6b/
+data/derived/phase6b/*
+!data/derived/phase6b/frozen_prediction/
+!data/derived/phase6b/frozen_prediction/**
+!data/derived/phase6b/research/
+data/derived/phase6b/research/*
+!data/derived/phase6b/research/results.json

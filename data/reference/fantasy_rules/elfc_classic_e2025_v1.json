@@ -1,0 +1,108 @@
+{
+  "ruleset_version": "elfc_classic_e2025_v1",
+  "competition": "EuroLeague Fantasy Challenge Classic",
+  "season_codes": ["E2025"],
+  "effective_phase": "REGULAR_SEASON",
+  "verification_status": "VERIFIED_FOR_E2025_REPLAY",
+  "verified_at": "2026-08-23T00:00:00+03:00",
+  "roster": {
+    "budget_credits": 100.0,
+    "players": 10,
+    "coaches": 1,
+    "position_counts": {"GUARD": 4, "FORWARD": 4, "CENTER": 2},
+    "team_player_limit": 6,
+    "coach_counts_toward_team_limit": false
+  },
+  "lineup": {
+    "starting_players": 5,
+    "sixth_man_players": 1,
+    "bench_players_excluding_sixth": 4,
+    "formations_guard_forward_center": [
+      [2, 2, 1], [1, 2, 2], [2, 1, 2], [1, 3, 1], [3, 1, 1]
+    ],
+    "captain_must_be_starter": true,
+    "captain_multiplier": 2.0,
+    "starter_multiplier": 1.0,
+    "sixth_man_multiplier": 1.0,
+    "bench_multiplier": 0.5,
+    "sixth_man_is_designated": true,
+    "sixth_man_must_remain_bench": true
+  },
+  "turns": {
+    "definition": "LOCAL_CALENDAR_DAY_BLOCK",
+    "field_bench_changes_between_turns": true,
+    "formation_changes_between_turns": true,
+    "captain_changes_between_turns": true,
+    "incoming_player_must_not_have_played": true,
+    "incoming_captain_must_not_have_played": true,
+    "played_starter_may_move_to_bench": true,
+    "played_bench_player_may_not_move_to_field": true
+  },
+  "trades": {
+    "regular_season_limit": 4,
+    "coach_counts_as_trade": true,
+    "unlimited_after_rounds": [6, 13, 18, 23, 28, 34],
+    "postseason_unlimited": true,
+    "new_team_budget_increment_per_completed_round": 0.3
+  },
+  "coach_scoring": {
+    "overtime_uses_close_result_bucket": true,
+    "win_margin_1_10": 10.0,
+    "win_margin_11_20": 20.0,
+    "win_margin_21_plus": 25.0,
+    "loss_margin_1_10": -5.0,
+    "loss_margin_11_20": -10.0,
+    "loss_margin_21_plus": -20.0,
+    "absence_still_scores_team_result": true
+  },
+  "postponed_games": {
+    "outside_adjacent_round_window_uses_real_result": true,
+    "overlapping_round_window_awards_prior_average_at_end_of_t1": true,
+    "average_score_captain_multiplier": 1.0,
+    "cancelled_during_open_round_preserves_captain_multiplier": true,
+    "special_event_discretionary_override": true
+  },
+  "sources": [
+    {
+      "title": "Official Classic Mode",
+      "url": "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode",
+      "supports": ["roster_size", "captain", "bench", "turns"]
+    },
+    {
+      "title": "Official Initial team",
+      "url": "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/initial-team",
+      "supports": ["budget", "positions", "formations", "team_limit"]
+    },
+    {
+      "title": "Official Managing your team",
+      "url": "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/managing-your-team",
+      "supports": ["turn_definition", "substitutions", "captain_changes", "trades"]
+    },
+    {
+      "title": "Official Coach scoring",
+      "url": "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/coach-scoring",
+      "supports": ["coach_scoring"]
+    },
+    {
+      "title": "Official Suspended or changed games",
+      "url": "https://fantaking.gitbook.io/euroleague-fantasy-challenge-rules/classic-mode/suspended-or-changed-games",
+      "supports": ["postponed_games"]
+    },
+    {
+      "title": "Dunkest 2024/25 Classic Mode archive",
+      "url": "https://www.dunkest.com/en/euroleague/news/fantasy-basketball/187071/euroleague-fantasy-challenge-how-the-classic-mode-works/",
+      "supports": ["historical_rule_continuity", "sixth_man", "captain", "formations"]
+    }
+  ],
+  "explicit_interpretations": [
+    "A 20-point margin is in the published inclusive 11-20 bucket; 21+ uses the top bucket.",
+    "The sixth man is treated as a designated bench player and is not changed between Turns because the official between-Turn rule explicitly authorizes field/bench, formation, and captain changes but does not authorize changing the sixth-man designation.",
+    "The six-player same-club limit applies to players and does not include the coach because the source says players.",
+    "Historical E2025 Turn numbers are reconstructed from each game's local calendar date, as required by the official day-block definition."
+  ],
+  "production_gates": {
+    "E2025_replay": true,
+    "E2026_live": false,
+    "E2026_block_reason": "Current E2026 market and an E2026 rules/scoring compatibility attestation are not present."
+  }
+}

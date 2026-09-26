@@ -1,0 +1,12 @@
+test_freshness_ignores_observations_after_cutoff (tests.test_audit_regressions.AuditRegressions.test_freshness_ignores_observations_after_cutoff) ... ok
+test_http_rejects_bad_lengths_nonfinite_json_and_unknown_api (tests.test_audit_regressions.AuditRegressions.test_http_rejects_bad_lengths_nonfinite_json_and_unknown_api) ... ok
+test_nonfinite_bank_rejected (tests.test_audit_regressions.AuditRegressions.test_nonfinite_bank_rejected) ... ok
+test_referenced_game_accepts_final_score_without_replacing_parent (tests.test_audit_regressions.AuditRegressions.test_referenced_game_accepts_final_score_without_replacing_parent)
+A01 remains open: production update skips referenced final results. ... expected failure
+test_refresh_reports_returned_prediction_status (tests.test_audit_regressions.AuditRegressions.test_refresh_reports_returned_prediction_status) ... ok
+test_saved_recommendation_restores_full_contract_and_rejects_tampering (tests.test_audit_regressions.AuditRegressions.test_saved_recommendation_restores_full_contract_and_rejects_tampering) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.192s
+
+OK (expected failures=1)

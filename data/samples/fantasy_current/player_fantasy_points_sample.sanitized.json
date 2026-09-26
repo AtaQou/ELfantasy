@@ -1,0 +1,88 @@
+{
+  "data": {
+    "matchday": {
+      "id": 1000,
+      "number": 38
+    },
+    "round": {
+      "id": 1701,
+      "number": 2
+    },
+    "match": {
+      "id": 8325,
+      "status": "played",
+      "ot": false,
+      "started_at": "2026-04-17T17:30:00.000000Z",
+      "home_team": {
+        "id": 138,
+        "name": "AS Monaco",
+        "abbreviation": "ASM",
+        "score": 105
+      },
+      "away_team": {
+        "id": 165,
+        "name": "Hapoel IBI Tel Aviv",
+        "abbreviation": "HTA",
+        "score": 85
+      }
+    },
+    "fantasy_pts": 30.8,
+    "stats_items": [
+      {
+        "id": 191,
+        "name": "pts",
+        "value": 20,
+        "fantasy_pts": 20
+      },
+      {
+        "id": 192,
+        "name": "reb",
+        "value": 3,
+        "fantasy_pts": 3
+      },
+      {
+        "id": 193,
+        "name": "ast",
+        "value": 7,
+        "fantasy_pts": 7
+      },
+      {
+        "id": 194,
+        "name": "stl",
+        "value": 1,
+        "fantasy_pts": 1
+      },
+      {
+        "id": 195,
+        "name": "tov",
+        "value": 2,
+        "fantasy_pts": -2
+      },
+      {
+        "id": 197,
+        "name": "blka",
+        "value": 1,
+        "fantasy_pts": -1
+      },
+      {
+        "id": 198,
+        "name": "fd",
+        "value": 4,
+        "fantasy_pts": 4
+      },
+      {
+        "id": 199,
+        "name": "pf",
+        "value": 2,
+        "fantasy_pts": -2
+      },
+      {
+        "id": 200,
+        "name": "fg_missed",
+        "value": 2,
+        "fantasy_pts": -2
+      }
+    ],
+    "label": "opponent"
+  }
+}

@@ -1,0 +1,13 @@
+# Python 3.13. The wrapper is retained for comparison and notebook exploration;
+# the project client uses requests directly so raw response bodies are preserved.
+euroleague-api==0.1.1
+duckdb==1.5.5
+pandas==3.0.5
+playwright==1.62.0
+requests==2.34.2
+pytz==2025.2
+scikit-learn==1.9.0
+scipy==1.18.0
+catboost==1.2.10
+xgboost==3.3.0
+lightgbm==4.7.0

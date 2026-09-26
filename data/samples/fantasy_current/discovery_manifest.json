@@ -1,0 +1,811 @@
+{
+  "description": "Sanitized Fantasy market discovery. No request headers, cookies, tokens, callback URLs, or user-specific Fantasy ownership were saved.",
+  "captured_at_utc": "2026-08-10T21:49:26.880487+00:00",
+  "endpoint": {
+    "origin": "https://fantaking-api.dunkest.com",
+    "path": "/api/v1/players-lists/30/matchdays/1000/players",
+    "query": {
+      "page": [
+        "1"
+      ],
+      "per_page": [
+        "-1"
+      ]
+    }
+  },
+  "method": "GET",
+  "status": 200,
+  "route_parameters": {
+    "players_list_id": 30,
+    "matchday_id": 1000
+  },
+  "authentication_mechanism": {
+    "authorization_header_present": true,
+    "authorization_scheme": "Bearer",
+    "cookie_header_present": false,
+    "csrf_header_present": false
+  },
+  "playwright_storage_state_reused": true,
+  "playwright_api_request_context": {
+    "tested": false,
+    "successful": false,
+    "note": "Not needed in direct mode."
+  },
+  "normal_authenticated_http_client": {
+    "tested": true,
+    "implementation": "requests.Session using token recovered in memory from Playwright storage state",
+    "status": 200,
+    "successful": true,
+    "note": "No credential value was persisted outside .auth or logged. Playwright is needed for login/bootstrap, not normal JSON reads."
+  },
+  "public_config_status": 200,
+  "historical_price_classification": "B. Limited historical Fantasy prices appear available.",
+  "historical_probes": [
+    {
+      "basis": "matchday ID supplied by anonymous current league config",
+      "matchday_id": 999,
+      "matchday_number": 37,
+      "endpoint": {
+        "origin": "https://fantaking-api.dunkest.com",
+        "path": "/api/v1/players-lists/30/matchdays/999/players",
+        "query": {
+          "page": [
+            "1"
+          ],
+          "per_page": [
+            "-1"
+          ]
+        }
+      },
+      "status": 200,
+      "response_sha256": "6a40343bcfa35ed72b83ee36ff099f5ef81b7828a73375d5df8df89b892b5321",
+      "summary": {
+        "record_count": 365,
+        "top_level_fields": [
+          "data"
+        ],
+        "record_fields": [
+          "avg_pts",
+          "face_path",
+          "fantasy_team",
+          "first_name",
+          "id",
+          "is_injured",
+          "is_on_fire",
+          "jersey",
+          "label",
+          "last_name",
+          "opponent",
+          "popularity",
+          "position",
+          "probability_of_playing",
+          "quotation",
+          "round",
+          "started_from_bench",
+          "team"
+        ],
+        "useful_field_paths": {
+          "fantasy_player_id": [
+            "data[].id",
+            "data[].opponent.id",
+            "data[].position.id",
+            "data[].round.id",
+            "data[].team.id"
+          ],
+          "official_player_id_candidate": [],
+          "player_name": [
+            "data[].first_name",
+            "data[].last_name",
+            "data[].opponent.name",
+            "data[].position.name",
+            "data[].team.name"
+          ],
+          "team": [
+            "data[].team"
+          ],
+          "position": [
+            "data[].position",
+            "data[].team.position"
+          ],
+          "current_price": [
+            "data[].quotation"
+          ],
+          "previous_price": [],
+          "price_change": [],
+          "fantasy_average": [
+            "data[].avg_pts"
+          ],
+          "recent_scores": [],
+          "availability": [
+            "data[].is_injured",
+            "data[].probability_of_playing"
+          ],
+          "market_state": [],
+          "starter_bench": [
+            "data[].started_from_bench"
+          ],
+          "round_matchday": [
+            "data[].round"
+          ],
+          "season_competition": [],
+          "timestamps": []
+        },
+        "value_summary": {
+          "unique_fantasy_ids": 365,
+          "unique_team_ids": 20,
+          "position_counts": {
+            "Center": 68,
+            "Forward": 127,
+            "Guard": 150,
+            "Head Coach": 20
+          },
+          "round_counts": {
+            "id=1698,number=1": 182,
+            "id=1699,number=2": 183
+          },
+          "quotation": {
+            "numeric_count": 365,
+            "null_count": 0,
+            "minimum": 4,
+            "maximum": 21.8
+          }
+        },
+        "status_value_summary": {
+          "is_injured": {
+            "false": 337,
+            "true": 28
+          },
+          "probability_of_playing": {
+            "1": 309,
+            "0": 28,
+            "0.5": 28
+          },
+          "started_from_bench": {
+            "true": 217,
+            "false": 148
+          }
+        },
+        "schema_inventory": {
+          "$": [
+            "object"
+          ],
+          "data": [
+            "array"
+          ],
+          "data[]": [
+            "object"
+          ],
+          "data[].avg_pts": [
+            "integer",
+            "number"
+          ],
+          "data[].face_path": [
+            "null"
+          ],
+          "data[].fantasy_team": [
+            "string"
+          ],
+          "data[].first_name": [
+            "string"
+          ],
+          "data[].id": [
+            "integer"
+          ],
+          "data[].is_injured": [
+            "boolean"
+          ],
+          "data[].is_on_fire": [
+            "boolean",
+            "null"
+          ],
+          "data[].jersey": [
+            "null",
+            "string"
+          ],
+          "data[].label": [
+            "string"
+          ],
+          "data[].last_name": [
+            "string"
+          ],
+          "data[].opponent": [
+            "object"
+          ],
+          "data[].opponent.abbreviation": [
+            "string"
+          ],
+          "data[].opponent.id": [
+            "integer"
+          ],
+          "data[].opponent.name": [
+            "string"
+          ],
+          "data[].popularity": [
+            "integer",
+            "number"
+          ],
+          "data[].position": [
+            "object"
+          ],
+          "data[].position.id": [
+            "integer"
+          ],
+          "data[].position.name": [
+            "string"
+          ],
+          "data[].probability_of_playing": [
+            "integer",
+            "number"
+          ],
+          "data[].quotation": [
+            "integer",
+            "number"
+          ],
+          "data[].round": [
+            "object"
+          ],
+          "data[].round.id": [
+            "integer"
+          ],
+          "data[].round.number": [
+            "integer"
+          ],
+          "data[].started_from_bench": [
+            "boolean"
+          ],
+          "data[].team": [
+            "object"
+          ],
+          "data[].team.abbreviation": [
+            "string"
+          ],
+          "data[].team.id": [
+            "integer"
+          ],
+          "data[].team.name": [
+            "string"
+          ],
+          "data[].team.position": [
+            "string"
+          ]
+        }
+      },
+      "comparison_with_current": {
+        "current_records": 365,
+        "historical_records": 365,
+        "shared_player_ids": 365,
+        "players_with_different_price": 237,
+        "players_with_different_position": 0,
+        "players_with_different_is_injured": 0,
+        "players_with_different_probability_of_playing": 0,
+        "players_with_different_started_from_bench": 0,
+        "players_with_different_injury_or_status": 0,
+        "players_with_different_average_points": 0,
+        "players_with_different_team_object": 214,
+        "players_with_different_team_id": 0,
+        "players_with_different_team_home_away": 214,
+        "players_with_different_opponent_object": 365,
+        "players_with_different_opponent_id": 365,
+        "players_with_different_round": 365
+      }
+    },
+    {
+      "basis": "matchday ID supplied by anonymous current league config",
+      "matchday_id": 981,
+      "matchday_number": 19,
+      "endpoint": {
+        "origin": "https://fantaking-api.dunkest.com",
+        "path": "/api/v1/players-lists/30/matchdays/981/players",
+        "query": {
+          "page": [
+            "1"
+          ],
+          "per_page": [
+            "-1"
+          ]
+        }
+      },
+      "status": 200,
+      "response_sha256": "b3df123e21d54f8c3500c7318061dc7c020db6cf543fbdf70dfc06bb7f38c05a",
+      "summary": {
+        "record_count": 348,
+        "top_level_fields": [
+          "data"
+        ],
+        "record_fields": [
+          "avg_pts",
+          "face_path",
+          "fantasy_team",
+          "first_name",
+          "id",
+          "is_injured",
+          "is_on_fire",
+          "jersey",
+          "label",
+          "last_name",
+          "opponent",
+          "popularity",
+          "position",
+          "probability_of_playing",
+          "quotation",
+          "round",
+          "started_from_bench",
+          "team"
+        ],
+        "useful_field_paths": {
+          "fantasy_player_id": [
+            "data[].id",
+            "data[].opponent.id",
+            "data[].position.id",
+            "data[].round.id",
+            "data[].team.id"
+          ],
+          "official_player_id_candidate": [],
+          "player_name": [
+            "data[].first_name",
+            "data[].last_name",
+            "data[].opponent.name",
+            "data[].position.name",
+            "data[].team.name"
+          ],
+          "team": [
+            "data[].team"
+          ],
+          "position": [
+            "data[].position",
+            "data[].team.position"
+          ],
+          "current_price": [
+            "data[].quotation"
+          ],
+          "previous_price": [],
+          "price_change": [],
+          "fantasy_average": [
+            "data[].avg_pts"
+          ],
+          "recent_scores": [],
+          "availability": [
+            "data[].is_injured",
+            "data[].probability_of_playing"
+          ],
+          "market_state": [],
+          "starter_bench": [
+            "data[].started_from_bench"
+          ],
+          "round_matchday": [
+            "data[].round"
+          ],
+          "season_competition": [],
+          "timestamps": []
+        },
+        "value_summary": {
+          "unique_fantasy_ids": 348,
+          "unique_team_ids": 20,
+          "position_counts": {
+            "Center": 65,
+            "Forward": 120,
+            "Guard": 143,
+            "Head Coach": 20
+          },
+          "round_counts": {
+            "id=1661,number=1": 135,
+            "id=1662,number=2": 213
+          },
+          "quotation": {
+            "numeric_count": 348,
+            "null_count": 0,
+            "minimum": 4,
+            "maximum": 18.3
+          }
+        },
+        "status_value_summary": {
+          "is_injured": {
+            "false": 320,
+            "true": 28
+          },
+          "probability_of_playing": {
+            "1": 293,
+            "0": 28,
+            "0.5": 27
+          },
+          "started_from_bench": {
+            "true": 201,
+            "false": 147
+          }
+        },
+        "schema_inventory": {
+          "$": [
+            "object"
+          ],
+          "data": [
+            "array"
+          ],
+          "data[]": [
+            "object"
+          ],
+          "data[].avg_pts": [
+            "integer",
+            "number"
+          ],
+          "data[].face_path": [
+            "null"
+          ],
+          "data[].fantasy_team": [
+            "string"
+          ],
+          "data[].first_name": [
+            "string"
+          ],
+          "data[].id": [
+            "integer"
+          ],
+          "data[].is_injured": [
+            "boolean"
+          ],
+          "data[].is_on_fire": [
+            "boolean",
+            "null"
+          ],
+          "data[].jersey": [
+            "null",
+            "string"
+          ],
+          "data[].label": [
+            "string"
+          ],
+          "data[].last_name": [
+            "string"
+          ],
+          "data[].opponent": [
+            "object"
+          ],
+          "data[].opponent.abbreviation": [
+            "string"
+          ],
+          "data[].opponent.id": [
+            "integer"
+          ],
+          "data[].opponent.name": [
+            "string"
+          ],
+          "data[].popularity": [
+            "integer",
+            "number"
+          ],
+          "data[].position": [
+            "object"
+          ],
+          "data[].position.id": [
+            "integer"
+          ],
+          "data[].position.name": [
+            "string"
+          ],
+          "data[].probability_of_playing": [
+            "integer",
+            "number"
+          ],
+          "data[].quotation": [
+            "integer",
+            "number"
+          ],
+          "data[].round": [
+            "object"
+          ],
+          "data[].round.id": [
+            "integer"
+          ],
+          "data[].round.number": [
+            "integer"
+          ],
+          "data[].started_from_bench": [
+            "boolean"
+          ],
+          "data[].team": [
+            "object"
+          ],
+          "data[].team.abbreviation": [
+            "string"
+          ],
+          "data[].team.id": [
+            "integer"
+          ],
+          "data[].team.name": [
+            "string"
+          ],
+          "data[].team.position": [
+            "string"
+          ]
+        }
+      },
+      "comparison_with_current": {
+        "current_records": 365,
+        "historical_records": 348,
+        "shared_player_ids": 348,
+        "players_with_different_price": 283,
+        "players_with_different_position": 0,
+        "players_with_different_is_injured": 0,
+        "players_with_different_probability_of_playing": 0,
+        "players_with_different_started_from_bench": 0,
+        "players_with_different_injury_or_status": 0,
+        "players_with_different_average_points": 0,
+        "players_with_different_team_object": 206,
+        "players_with_different_team_id": 5,
+        "players_with_different_team_home_away": 203,
+        "players_with_different_opponent_object": 347,
+        "players_with_different_opponent_id": 347,
+        "players_with_different_round": 348
+      }
+    },
+    {
+      "basis": "matchday ID supplied by anonymous current league config",
+      "matchday_id": 963,
+      "matchday_number": 1,
+      "endpoint": {
+        "origin": "https://fantaking-api.dunkest.com",
+        "path": "/api/v1/players-lists/30/matchdays/963/players",
+        "query": {
+          "page": [
+            "1"
+          ],
+          "per_page": [
+            "-1"
+          ]
+        }
+      },
+      "status": 200,
+      "response_sha256": "b27170913947dc31b46d37fc49c036a2ea79deb11109775fa83a4ffd8fbe3eef",
+      "summary": {
+        "record_count": 307,
+        "top_level_fields": [
+          "data"
+        ],
+        "record_fields": [
+          "avg_pts",
+          "face_path",
+          "fantasy_team",
+          "first_name",
+          "id",
+          "is_injured",
+          "is_on_fire",
+          "jersey",
+          "label",
+          "last_name",
+          "opponent",
+          "popularity",
+          "position",
+          "probability_of_playing",
+          "quotation",
+          "round",
+          "started_from_bench",
+          "team"
+        ],
+        "useful_field_paths": {
+          "fantasy_player_id": [
+            "data[].id",
+            "data[].opponent.id",
+            "data[].position.id",
+            "data[].round.id",
+            "data[].team.id"
+          ],
+          "official_player_id_candidate": [],
+          "player_name": [
+            "data[].first_name",
+            "data[].last_name",
+            "data[].opponent.name",
+            "data[].position.name",
+            "data[].team.name"
+          ],
+          "team": [
+            "data[].team"
+          ],
+          "position": [
+            "data[].position",
+            "data[].team.position"
+          ],
+          "current_price": [
+            "data[].quotation"
+          ],
+          "previous_price": [],
+          "price_change": [],
+          "fantasy_average": [
+            "data[].avg_pts"
+          ],
+          "recent_scores": [],
+          "availability": [
+            "data[].is_injured",
+            "data[].probability_of_playing"
+          ],
+          "market_state": [],
+          "starter_bench": [
+            "data[].started_from_bench"
+          ],
+          "round_matchday": [
+            "data[].round"
+          ],
+          "season_competition": [],
+          "timestamps": []
+        },
+        "value_summary": {
+          "unique_fantasy_ids": 307,
+          "unique_team_ids": 20,
+          "position_counts": {
+            "Center": 54,
+            "Forward": 108,
+            "Guard": 125,
+            "Head Coach": 20
+          },
+          "round_counts": {
+            "id=1622,number=1": 219,
+            "id=1624,number=2": 88
+          },
+          "quotation": {
+            "numeric_count": 307,
+            "null_count": 0,
+            "minimum": 4,
+            "maximum": 16
+          }
+        },
+        "status_value_summary": {
+          "is_injured": {
+            "false": 280,
+            "true": 27
+          },
+          "probability_of_playing": {
+            "1": 253,
+            "0": 27,
+            "0.5": 27
+          },
+          "started_from_bench": {
+            "true": 163,
+            "false": 144
+          }
+        },
+        "schema_inventory": {
+          "$": [
+            "object"
+          ],
+          "data": [
+            "array"
+          ],
+          "data[]": [
+            "object"
+          ],
+          "data[].avg_pts": [
+            "integer",
+            "number"
+          ],
+          "data[].face_path": [
+            "null"
+          ],
+          "data[].fantasy_team": [
+            "string"
+          ],
+          "data[].first_name": [
+            "string"
+          ],
+          "data[].id": [
+            "integer"
+          ],
+          "data[].is_injured": [
+            "boolean"
+          ],
+          "data[].is_on_fire": [
+            "null"
+          ],
+          "data[].jersey": [
+            "null",
+            "string"
+          ],
+          "data[].label": [
+            "string"
+          ],
+          "data[].last_name": [
+            "string"
+          ],
+          "data[].opponent": [
+            "object"
+          ],
+          "data[].opponent.abbreviation": [
+            "string"
+          ],
+          "data[].opponent.id": [
+            "integer"
+          ],
+          "data[].opponent.name": [
+            "string"
+          ],
+          "data[].popularity": [
+            "integer",
+            "number"
+          ],
+          "data[].position": [
+            "object"
+          ],
+          "data[].position.id": [
+            "integer"
+          ],
+          "data[].position.name": [
+            "string"
+          ],
+          "data[].probability_of_playing": [
+            "integer",
+            "number"
+          ],
+          "data[].quotation": [
+            "integer",
+            "number"
+          ],
+          "data[].round": [
+            "object"
+          ],
+          "data[].round.id": [
+            "integer"
+          ],
+          "data[].round.number": [
+            "integer"
+          ],
+          "data[].started_from_bench": [
+            "boolean"
+          ],
+          "data[].team": [
+            "object"
+          ],
+          "data[].team.abbreviation": [
+            "string"
+          ],
+          "data[].team.id": [
+            "integer"
+          ],
+          "data[].team.name": [
+            "string"
+          ],
+          "data[].team.position": [
+            "string"
+          ]
+        }
+      },
+      "comparison_with_current": {
+        "current_records": 365,
+        "historical_records": 307,
+        "shared_player_ids": 307,
+        "players_with_different_price": 295,
+        "players_with_different_position": 0,
+        "players_with_different_is_injured": 0,
+        "players_with_different_probability_of_playing": 0,
+        "players_with_different_started_from_bench": 0,
+        "players_with_different_injury_or_status": 0,
+        "players_with_different_average_points": 0,
+        "players_with_different_team_object": 190,
+        "players_with_different_team_id": 10,
+        "players_with_different_team_home_away": 186,
+        "players_with_different_opponent_object": 307,
+        "players_with_different_opponent_id": 307,
+        "players_with_different_round": 307
+      }
+    }
+  ],
+  "single_player_fantasy_points_probe": {
+    "tested": true,
+    "status": 200,
+    "fantasy_player_id": 3765,
+    "matchday_id": 1000,
+    "method": "GET",
+    "path_template": "/api/v1/players/{fantasy_player_id}/fantasy-pts",
+    "historical_matchday_probe": {
+      "status": 200,
+      "matchday_id": 963,
+      "matchday_number": 1
+    }
+  },
+  "saved_files": [
+    "market_response.sanitized.json",
+    "market_summary.json",
+    "league_config.sanitized.json",
+    "discovery_manifest.json",
+    "player_fantasy_points_sample.sanitized.json",
+    "player_fantasy_points_summary.json",
+    "player_fantasy_points_matchday_1.sanitized.json",
+    "player_fantasy_points_matchday_1_summary.json"
+  ]
+}

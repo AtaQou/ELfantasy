@@ -1,0 +1,205 @@
+[
+  {
+    "module": "tests.test_control_center_focused_workflows",
+    "name": "test_current_team_strategy_uses_saved_roster_and_respects_locks",
+    "status": "PASS",
+    "seconds": 0.533
+  },
+  {
+    "module": "tests.test_control_center_focused_workflows",
+    "name": "test_history_queries_return_existing_game_player_and_team_box_data",
+    "status": "PASS",
+    "seconds": 1.521
+  },
+  {
+    "module": "tests.test_control_center_focused_workflows",
+    "name": "test_market_players_remain_visible_without_predictions_and_keep_official_status",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/tests/test_control_center_focused_workflows.py\", line 36, in test_market_players_remain_visible_without_predictions_and_keep_official_status\n    rows = service.players(state=ControlCenterState(\n        season_code=\"E2026\", fantasy_matchday=1, scenario_id=\"base\",\n    ))\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/src/control_center/service.py\", line 368, in players\n    context = self.repository.prediction_context(\n        state.season_code, state.fantasy_matchday, require_usable=True,\n    )\nTypeError: test_market_players_remain_visible_without_predictions_and_keep_official_status.<locals>.<lambda>() got an unexpected keyword argument 'require_usable'\n",
+    "seconds": 1.003
+  },
+  {
+    "module": "tests.test_control_center_focused_workflows",
+    "name": "test_ui_connects_current_team_strategy_history_and_apply_workflow",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/tests/test_control_center_focused_workflows.py\", line 134, in test_ui_connects_current_team_strategy_history_and_apply_workflow\n    assert 'data-tab=\"history\"' in html and \"Preseason / External\" in html\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+    "seconds": 0.006
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_after_turn_demo_exposes_cross_position_formation_and_probabilities",
+    "status": "PASS",
+    "seconds": 0.013
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_critical_layouts_have_keyboard_tablet_and_mobile_rules",
+    "status": "PASS",
+    "seconds": 0.0
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_demo_catalog_covers_exact_a_through_t_states",
+    "status": "PASS",
+    "seconds": 0.0
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_demo_mode_is_explicit_in_memory_and_production_disconnected",
+    "status": "PASS",
+    "seconds": 0.011
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_demo_override_is_reversible_without_source_mutation",
+    "status": "PASS",
+    "seconds": 0.036
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_demo_rejects_duplicates_overflow_and_invalid_transfer_count",
+    "status": "PASS",
+    "seconds": 0.029
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_force_include_resolved_out_warns_but_remains_explicit",
+    "status": "PASS",
+    "seconds": 0.044
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_http_demo_scenario_switch_is_integrated",
+    "status": "PASS",
+    "seconds": 1.152
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_manual_override_keeps_source_user_and_resolved_status_separate",
+    "status": "PASS",
+    "seconds": 0.006
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_market_without_predictions_keeps_market_but_blocks_prediction_use",
+    "status": "PASS",
+    "seconds": 0.004
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_mixed_availability_has_text_safe_green_yellow_red_states",
+    "status": "PASS",
+    "seconds": 0.004
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_monitoring_marks_low_sample_and_stays_read_only",
+    "status": "PASS",
+    "seconds": 0.013
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_no_legal_switch_demo_has_explicit_no_action_evidence",
+    "status": "PASS",
+    "seconds": 0.009
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_no_season_state_has_intentional_empty_data_and_block_reasons",
+    "status": "PASS",
+    "seconds": 0.003
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_production_refresh_failure_is_structured_and_preserves_last_state",
+    "status": "PASS",
+    "seconds": 0.961
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_production_refresh_rejects_duplicate_requests",
+    "status": "PASS",
+    "seconds": 0.869
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_refresh_success_and_failure_return_steps_changes_and_retry_state",
+    "status": "PASS",
+    "seconds": 0.012
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_roster_states_expose_exact_slot_and_budget_errors",
+    "status": "PASS",
+    "seconds": 0.007
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_rules_scoring_and_stale_market_states_remain_blocked",
+    "status": "PASS",
+    "seconds": 0.006
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_transfer_demo_and_zero_transfer_recommendations_are_consistent",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/tests/test_phase8c.py\", line 80, in test_phase8c_transfer_demo_and_zero_transfer_recommendations_are_consistent\n    assert result[\"status\"] == \"SUCCEEDED\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+    "seconds": 0.008
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_ui_connects_team_builder_and_recommendations",
+    "status": "PASS",
+    "seconds": 0.003
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_ui_exposes_direct_budget_and_transfer_limited_modes",
+    "status": "PASS",
+    "seconds": 0.001
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_ui_guards_stale_loads_requests_and_shadow_scoped_lineups",
+    "status": "PASS",
+    "seconds": 0.0
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_ui_has_global_readiness_demo_empty_and_page_landmarks",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/tests/test_phase8c.py\", line 190, in test_phase8c_ui_has_global_readiness_demo_empty_and_page_landmarks\n    assert \"Update Turn Results / Re-evaluate Strategy\" in html\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+    "seconds": 0.001
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_ui_has_presets_override_dialog_and_accessible_status_text",
+    "status": "PASS",
+    "seconds": 0.0
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_ui_renders_switch_captain_formations_and_full_team_evidence",
+    "status": "PASS",
+    "seconds": 0.001
+  },
+  {
+    "module": "tests.test_phase8c",
+    "name": "test_phase8c_version_and_frozen_phase7_artifact_are_unchanged",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/tests/test_phase8c.py\", line 286, in test_phase8c_version_and_frozen_phase7_artifact_are_unchanged\n    assert validate_phase7_artifact()[\"strategy_model_version\"] == (\n           ~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/Users/heliasantoniou/PycharmProjects/ELfantasy/src/strategy/artifact.py\", line 122, in validate_phase7_artifact\n    raise ValueError(f\"Phase 7 code artifact mismatch: {relative}\")\nValueError: Phase 7 code artifact mismatch: scripts/optimize_fantasy.py\n",
+    "seconds": 0.056
+  },
+  {
+    "module": "tests.test_minutes_calibration",
+    "name": "test_cold_start_blend_only_changes_returners_with_zero_current_games",
+    "status": "PASS",
+    "seconds": 0.01
+  },
+  {
+    "module": "tests.test_minutes_calibration",
+    "name": "test_expected_role_label_uses_existing_minutes_role_boundaries",
+    "status": "PASS",
+    "seconds": 0.0
+  }
+]

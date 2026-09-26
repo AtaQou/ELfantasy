@@ -1,0 +1,5 @@
+{
+  "referenced_score": "PASS",
+  "referenced_tip": "Constraint Error: Violates foreign key constraint because key \"id: 1\" is still referenced by a foreign key in a different table. If this is an unexpected constraint violation, please refer to our foreign key limitations in the documentation",
+  "mixed_config": "Connection Error: Can't open a connection to same database file with a different configuration than existing connections"
+}
