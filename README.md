@@ -2,7 +2,9 @@
 
 A local data, prediction, and decision-support application for EuroLeague Fantasy Challenge.
 
-The project collects official EuroLeague results and Fantasy market data, stores point-in-time snapshots in DuckDB, predicts player minutes and Fantasy-point distributions, and builds legal Fantasy teams under budget, position, transfer, captain, sixth-man, and Turn constraints. Its browser UI supports three saved teams, pre-round optimization, live between-Turn decisions, historical analysis, availability overrides, and model monitoring.
+The project helps a Fantasy manager decide which players to own, which five to start, who to use as sixth man and captain, and whether to change the lineup after an early Turn. It combines official EuroLeague results, current Fantasy prices, upcoming games, player availability, historical performance, and the manager's existing roster in one browser-based control center.
+
+For every upcoming game, the application estimates a player's minutes and a full range of possible Fantasy-point outcomes rather than relying only on season averages. It then searches for legal rosters and roles under the real budget, position, team, transfer, captain, sixth-man, and Turn rules. The same data also powers sortable player history, round analysis, live scores, price tracking, and model monitoring across three independently saved Fantasy teams.
 
 > This is an independent research project. It is not an official EuroLeague or EuroLeague Fantasy product.
 
@@ -22,23 +24,17 @@ The project collects official EuroLeague results and Fantasy market data, stores
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A[Official EuroLeague APIs] --> D[Incremental ingestion]
-    B[Fantasy market and prices] --> D
-    C[Availability sources and user decisions] --> D
-    D --> E[(DuckDB point-in-time store)]
-    E --> F[Leakage-safe feature builder]
-    F --> G[Frozen prediction models]
-    G --> H[Player FP distributions]
-    E --> I[Fantasy rules and current rosters]
-    H --> J[Monte Carlo strategy engine]
-    I --> J
-    J --> K[Legal roster and Turn recommendations]
-    E --> L[History and monitoring]
-    K --> M[Local Control Center UI]
-    L --> M
-```
+| Stage | What happens | Result |
+|---|---|---|
+| **1. Collect** | Official EuroLeague data, the current Fantasy market, prices, schedules, and availability evidence are updated incrementally. | Timestamped source records |
+| **2. Store** | Raw and normalized point-in-time data are written to DuckDB with source provenance. | Reproducible historical snapshots |
+| **3. Predict** | Leakage-safe pre-game features are passed through frozen, chronologically validated models. | Expected minutes, expected FP, quantiles, and upside/downside probabilities |
+| **4. Select** | Forecasts, the current roster, available credits, and Fantasy rules enter the optimization and simulation engines. | Legal roster, formation, captain, sixth-man, and Turn choices |
+| **5. Explain** | Recommendations, uncertainty, live results, history, and data freshness are shown in the local Control Center. | Decisions that can be reviewed before acting |
+
+The data flow is:
+
+**EuroLeague and Fantasy sources → DuckDB snapshots → pre-game features → player forecasts → rules-based optimization and Monte Carlo simulation → Control Center recommendations**
 
 The pipeline deliberately separates four concerns:
 
@@ -48,6 +44,17 @@ The pipeline deliberately separates four concerns:
 4. **Presentation** explains the inputs, recommendations, uncertainty, and live Turn actions in the local web UI.
 
 The central player forecast remains the frozen Phase 6C model. Phase 7 supplies the rules engine, exact mixed-integer roster solver, simulations, and between-Turn recourse. Later research remains isolated unless it beats the frozen production model through chronological validation.
+
+### How the AI selection works
+
+The “AI” is a combination of predictive machine learning, mathematical optimization, and simulation:
+
+1. **Forecast each player.** The frozen models use only information known before the game, including historical minutes, Fantasy production, usage and offensive involvement, opponent context, venue, and resolved availability. They estimate expected FP plus P10–P95 outcomes and high-score probabilities. Forecasts are conditional on the player taking part; uncertain availability remains visible instead of being silently guessed.
+2. **Generate legal teams.** An exact mixed-integer solver considers the eligible market and chooses players, coach, starters, sixth man, captain, and formation while enforcing credits, positions, club limits, transfers, locks, and exclusions.
+3. **Test uncertainty.** Monte Carlo simulations draw many plausible player and coach outcomes from the forecast distributions. The strategy engine compares candidate lineups by expected final score, floor, upside, and the value of legal changes between Turns.
+4. **Present usable choices.** The UI returns **Best Overall**, **Safer**, and **Higher-Upside** options with complete rosters, projected scores, credit use, transfers, Turn balance, and later-Turn replacement paths. After a Turn, actual FP replace projections for completed games and only legal remaining actions are evaluated.
+
+The selection process is deterministic and reproducible for the same data, model artifacts, constraints, and simulation seed. Model and strategy fingerprints are stored with each recommendation so results can be audited later.
 
 ## Technology
 
