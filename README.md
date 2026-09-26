@@ -368,5 +368,3 @@ The following stay local through `.gitignore`:
 - `data/benchmarks/` local human-comparison exports
 - most reproducible generated artifacts
 - virtual environments and IDE files
-
-Review `git status` before publishing changes, especially after adding a new data source.
