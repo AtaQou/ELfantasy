@@ -2,9 +2,11 @@
 # the project client uses requests directly so raw response bodies are preserved.
 euroleague-api==0.1.1
 duckdb==1.5.5
+numpy==2.5.2
 pandas==3.0.5
 playwright==1.62.0
 requests==2.34.2
+urllib3==2.7.0
 pytz==2025.2
 scikit-learn==1.9.0
 scipy==1.18.0

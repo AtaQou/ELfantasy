@@ -83,10 +83,15 @@ From the repository root:
 python3.13 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
+```
+
+Install all required Python libraries automatically from the tracked requirements file:
+
+```bash
 python -m pip install -r requirements.txt
 ```
 
-Activation is optional. You can replace `python` in every command with `.venv/bin/python`.
+Activation is optional. You can replace `python` in every command with `.venv/bin/python`. Re-run the requirements command after pulling changes that update `requirements.txt`.
 
 ### 2. Try the UI safely
 
