@@ -455,22 +455,30 @@ def _rotation_layout_shortlist(
     candidates = list(_layout_shortlist(
         mean_layout, roster, rules, max_layouts=max(max_layouts * 2, 9),
     ))
-    positions = {
-        str(row.player_id): str(row.position) for row in roster.itertuples(index=False)
+    turns = {
+        str(row.player_id): int(row.turn) for row in roster.itertuples(index=False)
     }
-    if sum(_has_later_turn_substitution(value, roster) for value in candidates) < max_layouts:
+    positions = {
+        str(row.player_id): normalize_position(row.position)
+        for row in roster.itertuples(index=False)
+    }
+    names = {
+        str(row.player_id): str(row.name) for row in roster.itertuples(index=False)
+    }
+
+    def has_later_turn_substitution(value: Lineup) -> bool:
+        return bool(_rotation_options_from_lookups(value, turns, positions, names))
+
+    if sum(has_later_turn_substitution(value) for value in candidates) < max_layouts:
         candidates.extend(enumerate_candidate_lineups(
             mean_layout.player_ids, mean_layout.coach_id, positions, rules,
         ))
     means = {
         str(row.player_id): float(row.expected_fp) for row in roster.itertuples(index=False)
     }
-    turns = {
-        str(row.player_id): int(row.turn) for row in roster.itertuples(index=False)
-    }
     unique = {
         _lineup_identity(value): value for value in candidates
-        if _has_later_turn_substitution(value, roster)
+        if has_later_turn_substitution(value)
     }
     ordered = sorted(
         unique.values(),
@@ -484,17 +492,10 @@ def _rotation_layout_shortlist(
     return tuple(ordered[:max_layouts])
 
 
-def _has_later_turn_substitution(lineup: Lineup, roster: pd.DataFrame) -> bool:
-    return bool(_rotation_options(lineup, roster))
-
-
 def _rotation_options(lineup: Lineup, roster: pd.DataFrame) -> list[dict[str, Any]]:
     turns = {
         str(row.player_id): int(row.turn) for row in roster.itertuples(index=False)
     }
-    if not turns or len(set(turns.values())) < 2:
-        return []
-    first_turn = min(turns.values())
     positions = {
         str(row.player_id): normalize_position(row.position)
         for row in roster.itertuples(index=False)
@@ -502,6 +503,18 @@ def _rotation_options(lineup: Lineup, roster: pd.DataFrame) -> list[dict[str, An
     names = {
         str(row.player_id): str(row.name) for row in roster.itertuples(index=False)
     }
+    return _rotation_options_from_lookups(lineup, turns, positions, names)
+
+
+def _rotation_options_from_lookups(
+        lineup: Lineup,
+        turns: Mapping[str, int],
+        positions: Mapping[str, str],
+        names: Mapping[str, str],
+) -> list[dict[str, Any]]:
+    if not turns or len(set(turns.values())) < 2:
+        return []
+    first_turn = min(turns.values())
     options: list[dict[str, Any]] = []
     for later in sorted(lineup.bench, key=lambda player: (turns[player], names[player])):
         if turns[later] <= first_turn:
@@ -854,6 +867,9 @@ def _decision_threshold(
 ) -> tuple[float | None, str | None]:
     played = roster[roster["turn"].le(1)]
     baseline = {str(row.player_id): float(row.expected_fp) for row in played.itertuples(index=False)}
+    names = {
+        str(row.player_id): str(row.name) for row in roster.itertuples(index=False)
+    }
     row = roster[roster["player_id"].astype(str).eq(target)].iloc[0]
     low = float(row["p10_fp"]) - 30.0;
     high = float(row["p95_fp"]) + 30.0
@@ -870,8 +886,9 @@ def _decision_threshold(
             promoted = next((item["player_id"] for item in actions
                              if item["action"] == "MOVE_TO_FIELD"), None)
             description = (
-                f"Replace with {promoted}" if moved and promoted else
-                f"Change captain to {after.captain}" if changed_captain else "Apply recommended recourse"
+                f"Replace with {names.get(promoted, promoted)}" if moved and promoted else
+                f"Change captain to {names.get(after.captain, after.captain)}"
+                if changed_captain else "Apply recommended recourse"
             )
         return relevant, description
 

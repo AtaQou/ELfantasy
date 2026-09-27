@@ -20,7 +20,10 @@ from src.control_center.service import (
     _prediction_failure_message,
 )
 from src.control_center.state import ControlCenterState
-from src.control_center.repository import ControlCenterRepository
+from src.control_center.repository import (
+    ControlCenterRepository,
+    recommendation_for_entity_roster,
+)
 from src.control_center.shadow import recommendation_for_lineup
 from src.live.freshness import record_source_refresh, source_freshness
 from src.db.database import initialize_database, connect_database
@@ -78,6 +81,84 @@ class AuditRegressions(unittest.TestCase):
         })
         self.assertEqual(selected["label"], "SAFER")
         self.assertEqual(recommendation_for_lineup(snapshot, None)["label"], "BEST_OVERALL")
+
+    def test_live_reevaluation_uses_the_recommendation_owned_by_saved_team(self):
+        def recommendation(label, prefix):
+            players = [f"{prefix}{index}" for index in range(10)]
+            return {
+                "label": label,
+                "players": [
+                    {"player_id": player, "entity_id": f"E-{player}"}
+                    for player in players
+                ],
+                "coach": {"coach_id": f"C-{prefix}", "entity_id": f"EC-{prefix}"},
+                "starting_five": players[:5],
+                "sixth_man": players[5],
+                "captain": players[0],
+            }
+
+        best = recommendation("BEST_OVERALL", "B")
+        owned = recommendation("SAFER_ALTERNATIVE", "S")
+        saved_entities = tuple(
+            [row["entity_id"] for row in owned["players"]]
+            + [owned["coach"]["entity_id"]]
+        )
+        state = ControlCenterState(
+            season_code="E2026", fantasy_matchday=1,
+            roster_entity_ids=saved_entities,
+        )
+
+        class Repository:
+            @staticmethod
+            def load_state(profile_id):
+                return state
+
+            @staticmethod
+            def latest_shadow_snapshot(profile_id, **filters):
+                return {
+                    "shadow_snapshot_id": "shadow",
+                    "recommendations": [best, owned],
+                }
+
+        service = ControlCenterService.__new__(ControlCenterService)
+        service.profile_id = "default"
+        service.repository = Repository()
+        service._state_with_matchday = lambda value: value
+        captured = {}
+
+        def attach(repository, shadow_snapshot_id, *, current_lineup=None):
+            captured.update(current_lineup or {})
+            return {"status": "NO_COMPLETED_TURN"}
+
+        with patch("src.control_center.service.attach_completed_turn_results", attach):
+            result = service.reevaluate_strategy(refresh_first=False)
+
+        self.assertEqual(result["status"], "NO_COMPLETED_TURN")
+        self.assertEqual(set(captured["player_ids"]), {f"S{index}" for index in range(10)})
+        self.assertEqual(captured["coach_id"], "C-S")
+
+    def test_shadow_roster_identity_uses_recommended_entities_not_optimizer_input(self):
+        recommendation = {
+            "players": [
+                {"player_id": f"P{index}", "entity_id": f"OUTPUT-{index}"}
+                for index in range(10)
+            ],
+            "coach": {"coach_id": "COACH", "entity_id": "OUTPUT-COACH"},
+        }
+        output_roster = tuple(
+            [f"OUTPUT-{index}" for index in range(10)] + ["OUTPUT-COACH"]
+        )
+        optimizer_input = tuple(
+            [f"INPUT-{index}" for index in range(10)] + ["INPUT-COACH"]
+        )
+
+        self.assertEqual(
+            recommendation_for_entity_roster([recommendation], output_roster),
+            recommendation,
+        )
+        self.assertIsNone(
+            recommendation_for_entity_roster([recommendation], optimizer_input)
+        )
 
     def test_automatic_availability_policy_is_team_independent(self):
         self.assertEqual(_automatic_availability_decision_payload(), {

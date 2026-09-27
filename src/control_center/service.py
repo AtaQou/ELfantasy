@@ -37,8 +37,12 @@ from .price import (
     register_price_artifact,
 )
 from .recommendations import generate_recommendations, validate_current_team
-from .repository import ControlCenterRepository
-from .shadow import attach_completed_turn_results, evaluate_shadow_snapshot
+from .repository import ControlCenterRepository, recommendation_for_entity_roster
+from .shadow import (
+    attach_completed_turn_results,
+    evaluate_shadow_snapshot,
+    lineup_from_recommendation,
+)
 from .state import (
     CONTROL_CENTER_VERSION,
     ControlCenterState,
@@ -926,6 +930,22 @@ class ControlCenterService:
         snapshot = self.current_shadow_snapshot(state)
         if snapshot is None:
             return self._current_roster_turn_analysis(state, refresh_payload)
+        if current_lineup is None:
+            matched_recommendation = snapshot.get(
+                "matched_recommendation"
+            ) or recommendation_for_entity_roster(
+                snapshot.get("recommendations", []), state.roster_entity_ids,
+            )
+            if matched_recommendation is None:
+                return self._current_roster_turn_analysis(state, refresh_payload)
+            matched_lineup = lineup_from_recommendation(matched_recommendation)
+            current_lineup = {
+                "player_ids": list(matched_lineup.player_ids),
+                "coach_id": matched_lineup.coach_id,
+                "starters": sorted(matched_lineup.starters),
+                "sixth_man": matched_lineup.sixth_man,
+                "captain": matched_lineup.captain,
+            }
         attached = attach_completed_turn_results(
             self.repository, snapshot["shadow_snapshot_id"], current_lineup=current_lineup,
         )

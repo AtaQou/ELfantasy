@@ -6,10 +6,14 @@ from tempfile import TemporaryDirectory
 import json
 import threading
 import unittest
+from unittest.mock import patch
 from urllib.request import urlopen
+
+import pandas as pd
 
 from src.control_center.http import create_server
 from src.control_center.recommendations import (
+    _rotation_layout_shortlist,
     generate_recommendations,
     validate_current_team,
 )
@@ -479,8 +483,30 @@ def test_phase8a_strategy_thresholds_come_from_phase7_recourse() -> None:
         evaluation_simulations=20, max_rosters=3, max_layouts_per_roster=3,
     )
     assert result["strategy"]["initial_captain"]
+    player_names = set(players["name"].astype(str))
     for rule in result["strategy"]["decision_rules"]:
         assert rule["derivation"] == "Frozen Phase 7 expected-final-value decision boundary"
+        assert any(rule["action_below_threshold"].endswith(name) for name in player_names)
+
+
+def test_phase8a_rotation_shortlist_does_not_rescan_dataframe_per_lineup() -> None:
+    players, coaches, rules, initial, _ = _current_state()
+    roster = players[players["player_id"].isin(initial.lineup.player_ids)].copy()
+    original = pd.DataFrame.itertuples
+    calls = 0
+
+    def counted(frame, *args, **kwargs):
+        nonlocal calls
+        calls += 1
+        return original(frame, *args, **kwargs)
+
+    with patch.object(pd.DataFrame, "itertuples", counted):
+        layouts = _rotation_layout_shortlist(
+            initial.lineup, roster, rules, max_layouts=7,
+        )
+
+    assert layouts
+    assert calls < 20
 
 
 def test_phase8a_manual_override_uses_append_only_phase5a_precedence() -> None:

@@ -1168,6 +1168,7 @@ function renderRecommendationsState() {
     $("#recommendation-cards").className = "recommendation-grid empty-state";
     $("#recommendation-cards").innerHTML = `<div><strong>Recommendation is out of date.</strong><p>Roster, availability, market, or pool inputs changed. Run optimization again.</p></div>`;
     $("#alternatives-panel").classList.add("hidden");
+    $("#strategy-content").className = "empty-state hidden";
     return;
   }
   if (app.recommendation) return renderRecommendations(app.recommendation);
@@ -1175,6 +1176,7 @@ function renderRecommendationsState() {
   const message = !d.fantasy_players ? "The current Fantasy market is not available yet." : !d.predictions_current ? "Predictions are missing or stale; Optimize will generate the current snapshot automatically." : "Run optimization to compare legal strategies.";
   $("#recommendation-cards").className = "recommendation-grid empty-state";
   $("#recommendation-cards").textContent = message;
+  $("#strategy-content").className = "empty-state hidden";
 }
 
 function recommendationPositionClass(position) {
@@ -1348,7 +1350,15 @@ function renderStrategy(strategy) {
   const root = $("#strategy-content");
   if (!strategy) { root.className = "empty-state"; root.textContent = "Pre-Matchday strategy appears after a successful optimization."; return; }
   root.className = "strategy-grid";
-  root.innerHTML = `<section class="panel"><p class="eyebrow">CAPTAIN PATH</p><h3>${esc(nameForPlayer(strategy.initial_captain))}</h3><p>Later alternative: <strong>${esc(nameForPlayer(strategy.best_later_captain_alternative))}</strong></p><p class="reason">${esc(strategy.instruction)}</p></section><section class="panel"><p class="eyebrow">USEFUL EARLY UPSIDE</p>${(strategy.useful_early_upside || []).map(player => `<div class="strategy-rule"><strong>${esc(player.name)}</strong><span>P90 ${num(player.p90)} with later legal recourse</span></div>`).join("") || emptyInline("None identified for this roster.")}</section><section class="panel"><p class="eyebrow">COMPUTED DECISION RULES</p>${(strategy.decision_rules || []).map(rule => `<div class="strategy-rule"><strong>If ${esc(rule.player)} scores below ${num(rule.threshold)}</strong><span>${esc(rule.action_below_threshold)}</span><small>${esc(rule.derivation)}</small></div>`).join("") || emptyInline("No legal replacement boundary exists.")}</section><section class="panel"><p class="eyebrow">DOWNSIDE PROTECTION</p><p><b>Protected:</b> ${(strategy.downside_protected_players || []).map(nameForPlayer).map(esc).join(", ") || "None"}</p><p><b>No later safety net:</b> ${(strategy.players_without_later_safety_net || []).map(player => esc(player.name)).join(", ") || "None"}</p></section>`;
+  root.innerHTML = `<section class="panel"><p class="eyebrow">CAPTAIN PATH</p><h3>${esc(nameForPlayer(strategy.initial_captain))}</h3><p>Later alternative: <strong>${esc(nameForPlayer(strategy.best_later_captain_alternative))}</strong></p><p class="reason">${esc(strategy.instruction)}</p></section><section class="panel"><p class="eyebrow">USEFUL EARLY UPSIDE</p>${(strategy.useful_early_upside || []).map(player => `<div class="strategy-rule"><strong>${esc(player.name)}</strong><span>P90 ${num(player.p90)} with later legal recourse</span></div>`).join("") || emptyInline("None identified for this roster.")}</section><section class="panel"><p class="eyebrow">COMPUTED DECISION RULES</p>${(strategy.decision_rules || []).map(rule => `<div class="strategy-rule"><strong>If ${esc(rule.player)} scores below ${num(rule.threshold)}</strong><span>${esc(strategyActionLabel(rule.action_below_threshold))}</span><small>${esc(rule.derivation)}</small></div>`).join("") || emptyInline("No legal replacement boundary exists.")}</section><section class="panel"><p class="eyebrow">DOWNSIDE PROTECTION</p><p><b>Protected:</b> ${(strategy.downside_protected_players || []).map(nameForPlayer).map(esc).join(", ") || "None"}</p><p><b>No later safety net:</b> ${(strategy.players_without_later_safety_net || []).map(player => esc(player.name)).join(", ") || "None"}</p></section>`;
+}
+
+function strategyActionLabel(value) {
+  const text = String(value || "");
+  for (const prefix of ["Replace with ", "Change captain to "]) {
+    if (text.startsWith(prefix)) return `${prefix}${nameForPlayer(text.slice(prefix.length))}`;
+  }
+  return text;
 }
 
 async function loadHistory(section=app.history.section, explicitFilters=null) {
@@ -1752,12 +1762,16 @@ function shadowMatchesCurrent(shadow, data) {
   const matchday = shadow.matchday ?? shadow.fantasy_matchday;
   if (season !== data.state.season_code) return false;
   if (Number(matchday) !== Number(data.state.fantasy_matchday)) return false;
-  const shadowRoster = shadow.knowledge?.current_roster;
   const currentRoster = data.state.roster_entity_ids || [];
-  if (!Array.isArray(shadowRoster)) return false;
   const normalized = values => [...values].map(String).sort();
-  if (JSON.stringify(normalized(shadowRoster)) !== JSON.stringify(normalized(currentRoster))) return false;
-  return true;
+  const expected = JSON.stringify(normalized(currentRoster));
+  return (shadow.recommendations || []).some(recommendation => {
+    const roster = [
+      ...(recommendation.players || []).map(player => player.entity_id),
+      recommendation.coach?.entity_id,
+    ].filter(Boolean);
+    return JSON.stringify(normalized(roster)) === expected;
+  });
 }
 
 function showMessage(selector, message, kind="info") {

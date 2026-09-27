@@ -213,6 +213,8 @@ def test_ui_connects_current_team_strategy_history_and_apply_workflow() -> None:
     assert "Expected Role" in script and "expectedRole(perf)" in script
     assert "const compactExpectedRole" in script
     assert "expected-role-callout" in styles
+    assert "strategyActionLabel(rule.action_below_threshold)" in script
+    assert html.index('id="strategy-content"') < html.index('id="tab-strategy"')
     assert "FP/min" in script and "fp_per_minute" in script
     assert "renderQuickAlternatives" in script and "credit_distance" in script
     assert 'const toggle = `<button class="tiny toggle-team-lock"' in script

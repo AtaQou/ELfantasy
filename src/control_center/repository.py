@@ -19,6 +19,40 @@ from src.modeling.fantasy_scoring import score_player_game
 from .state import ControlCenterState, json_fingerprint, state_from_payload
 
 
+def recommendation_roster_entity_ids(
+        recommendation: Mapping[str, Any],
+) -> frozenset[str]:
+    """Return the persisted Fantasy entity IDs owned by a recommendation."""
+
+    players = recommendation.get("players") or []
+    coach = recommendation.get("coach") or {}
+    return frozenset(
+        str(entity_id)
+        for entity_id in [
+            *(row.get("entity_id") for row in players if isinstance(row, Mapping)),
+            coach.get("entity_id") if isinstance(coach, Mapping) else None,
+        ]
+        if entity_id not in (None, "")
+    )
+
+
+def recommendation_for_entity_roster(
+        recommendations: list[Mapping[str, Any]] | tuple[Mapping[str, Any], ...],
+        roster_entity_ids: list[str] | tuple[str, ...] | frozenset[str],
+) -> dict[str, Any] | None:
+    """Return the recommendation whose complete roster is currently saved."""
+
+    expected = frozenset(map(str, roster_entity_ids))
+    return next(
+        (
+            dict(recommendation)
+            for recommendation in recommendations
+            if recommendation_roster_entity_ids(recommendation) == expected
+        ),
+        None,
+    )
+
+
 class ControlCenterRepository:
     def __init__(self, database_path: Path | str = DEFAULT_DATABASE_PATH) -> None:
         self.database_path = Path(database_path)
@@ -1526,7 +1560,7 @@ class ControlCenterRepository:
         with connect_database(self.database_path, read_only=True) as connection:
             rows = connection.execute(
                 f"""
-                SELECT shadow_snapshot_id, knowledge_json
+                SELECT shadow_snapshot_id, recommendations_json
                 FROM fantasy_shadow_prelock_snapshots
                 WHERE {' AND '.join(clauses)}
                 ORDER BY created_at DESC, shadow_snapshot_id DESC
@@ -1537,15 +1571,19 @@ class ControlCenterRepository:
             sorted(map(str, roster_entity_ids))
             if roster_entity_ids is not None else None
         )
-        for shadow_id, knowledge_json in rows:
+        for shadow_id, recommendations_json in rows:
+            matched_recommendation: dict[str, Any] | None = None
             if expected_roster is not None:
-                knowledge = _json(knowledge_json, {})
-                stored_roster = knowledge.get("current_roster")
-                if not isinstance(stored_roster, list):
+                recommendations = _json(recommendations_json, [])
+                matched_recommendation = recommendation_for_entity_roster(
+                    recommendations, expected_roster,
+                )
+                if matched_recommendation is None:
                     continue
-                if sorted(map(str, stored_roster)) != expected_roster:
-                    continue
-            return self.shadow_snapshot(str(shadow_id))
+            snapshot = self.shadow_snapshot(str(shadow_id))
+            if snapshot is not None and matched_recommendation is not None:
+                snapshot["matched_recommendation"] = matched_recommendation
+            return snapshot
         return None
 
     def shadow_snapshot_ids(self, profile_id: str = "default") -> list[str]:
