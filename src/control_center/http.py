@@ -165,6 +165,9 @@ def create_server(
                         seed=int(body.get("seed", 20250801)),
                         training_simulations=int(body.get("training_simulations", 96)),
                         evaluation_simulations=int(body.get("evaluation_simulations", 512)),
+                        temporary_excluded_entity_ids=(
+                            body.get("temporary_excluded_entity_ids") or []
+                        ),
                     )
                 elif parsed.path == "/api/reevaluate":
                     result = active_service.reevaluate_strategy(

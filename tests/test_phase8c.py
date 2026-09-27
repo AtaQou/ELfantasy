@@ -224,6 +224,11 @@ def test_phase8c_ui_connects_team_builder_and_recommendations() -> None:
     assert "CREDIT IMPACT" in script and "FP IMPROVEMENT" in script
     assert 'api("/api/team"' in script and "useRecommendationAsCurrentTeam" in script
     assert ".suggestion-list" in styles and ".recommendation-actions" in styles
+    assert 'id="temporary-exclusions-panel"' in html
+    assert "temporary_excluded_entity_ids" in script
+    assert "Find lineups without selected" in script
+    assert "Clear all and restore original" in script
+    assert ".temporary-exclusion-choice" in styles
 
 
 def test_phase8c_ui_has_presets_override_dialog_and_accessible_status_text() -> None:

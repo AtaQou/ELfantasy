@@ -9,6 +9,7 @@ const app = {
   },
   teamDraftSelections: new Set(),
   teamBuilderDrafts: new Map(),
+  temporaryOptimizationExclusions: new Map(),
 };
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -181,10 +182,11 @@ async function switchActiveTeam(value) {
   if (app.busy.size) return toast("Wait for the current action to finish before switching teams.", "warning");
   ++app.loadEpoch;
   const previousSlot = app.activeTeamSlot;
-  const previousAnalysis = {recommendation:app.recommendation, advisor:app.advisor, teamStrategy:app.teamStrategy, analysisStale:app.analysisStale};
+  const previousAnalysis = {recommendation:app.recommendation, advisor:app.advisor, teamStrategy:app.teamStrategy, analysisStale:app.analysisStale, temporaryOptimizationExclusions:app.temporaryOptimizationExclusions};
   app.activeTeamSlot = slot;
   localStorage.setItem("elfantasy-active-team", String(slot));
   app.recommendation = null; app.advisor = null; app.teamStrategy = null;
+  app.temporaryOptimizationExclusions = new Map();
   app.analysisStale = false; app.teamDraftSelections.clear();
   $("#team-search").value = "";
   $("#optimize-bank-credits").value = "";
@@ -1135,6 +1137,9 @@ async function optimize() {
       body.max_changes = changes;
     }
   }
+  if (mode !== "BUILD_NEW" && app.temporaryOptimizationExclusions.size) {
+    body.temporary_excluded_entity_ids = [...app.temporaryOptimizationExclusions.keys()];
+  }
   const button = $("#optimize-button"); setBusy("optimize", true, button, "Simulating legal teams…");
   showMessage("#optimization-message", "Checking current predictions, then running constrained roster generation and frozen Phase 7 simulation…", "info");
   try {
@@ -1145,7 +1150,10 @@ async function optimize() {
       const availabilityNote = result.availability_assumption_policy === "PLAY_ALL_UNRESOLVED"
         ? " Players with no resolved availability evidence were treated as playing for this shared prediction snapshot; explicit OUT decisions stayed excluded."
         : "";
-      showMessage("#optimization-message", `${result.prediction_generated_on_demand ? "Current predictions generated automatically. " : ""}Saved reproducible run ${result.control_center_run_id || "with current fingerprints"}.${availabilityNote}`, "success");
+      const savedMessage = result.temporary_run
+        ? "Temporary alternatives generated. They were not saved; clear the skipped players or reload to return to the original recommendations."
+        : `Saved reproducible run ${result.control_center_run_id || "with current fingerprints"}.`;
+      showMessage("#optimization-message", `${result.prediction_generated_on_demand ? "Current predictions generated automatically. " : ""}${savedMessage}${availabilityNote}`, "success");
     } else {
       renderRecommendations(result);
       showMessage("#optimization-message", (result.blocked_reasons || ["No legal roster is available."]).join(" · "), "error");
@@ -1168,6 +1176,7 @@ function renderRecommendationsState() {
     $("#recommendation-cards").className = "recommendation-grid empty-state";
     $("#recommendation-cards").innerHTML = `<div><strong>Recommendation is out of date.</strong><p>Roster, availability, market, or pool inputs changed. Run optimization again.</p></div>`;
     $("#alternatives-panel").classList.add("hidden");
+    $("#temporary-exclusions-panel").classList.add("hidden");
     $("#strategy-content").className = "empty-state hidden";
     return;
   }
@@ -1176,6 +1185,7 @@ function renderRecommendationsState() {
   const message = !d.fantasy_players ? "The current Fantasy market is not available yet." : !d.predictions_current ? "Predictions are missing or stale; Optimize will generate the current snapshot automatically." : "Run optimization to compare legal strategies.";
   $("#recommendation-cards").className = "recommendation-grid empty-state";
   $("#recommendation-cards").textContent = message;
+  $("#temporary-exclusions-panel").classList.add("hidden");
   $("#strategy-content").className = "empty-state hidden";
 }
 
@@ -1227,20 +1237,67 @@ function recommendationRotation(rec) {
   return `<div class="strategy-rule"><strong>Later-Turn rotation kept available</strong><span>${options.map(option => `${esc(option.name)} (T${esc(option.turn)}) can replace ${option.can_replace.map(player => esc(player.name)).join(" or ")} after T1`).join(" · ")}</span></div>`;
 }
 
-function recommendationTransfers(rec) {
-  const column = (label, items, cssClass) => `<section class="transfer-column ${cssClass}"><h4>${label}</h4>${items.length ? items.map(player => recommendationPlayerRow(player, cssClass)).join("") : `<p>None</p>`}</section>`;
+function temporaryExclusionChoice(player) {
+  const entityId = String(player.entity_id || "");
+  if (!entityId) return recommendationPlayerRow(player, "incoming");
+  const selected = app.temporaryOptimizationExclusions.has(entityId);
+  const forced = String(app.data?.state?.player_constraints?.[entityId] || "").toUpperCase() === "FORCE_INCLUDE";
+  return `<div class="transfer-candidate ${selected ? "selected" : ""}">
+    ${recommendationPlayerRow(player, "incoming")}
+    <label class="temporary-exclusion-choice ${forced ? "disabled" : ""}" title="${forced ? "This player is manually locked into the optimizer pool." : "Temporarily ask the optimizer for another lineup without this player."}">
+      <input class="temporary-exclusion-toggle" type="checkbox" data-entity-id="${esc(entityId)}" data-entity-name="${esc(player.name)}" ${selected ? "checked" : ""} ${forced ? "disabled" : ""}>
+      <span>${forced ? "Locked in" : "Try without this player"}</span>
+    </label>
+  </div>`;
+}
+
+function recommendationTransfers(rec, selectable=false) {
+  const column = (label, items, cssClass) => `<section class="transfer-column ${cssClass}"><h4>${label}</h4>${items.length ? items.map(player => selectable && cssClass === "incoming" ? temporaryExclusionChoice(player) : recommendationPlayerRow(player, cssClass)).join("") : `<p>None</p>`}</section>`;
   return `<div class="transfer-players">${column("OUT", rec.players_out || [], "outgoing")}${column("IN", rec.players_in || [], "incoming")}</div>`;
+}
+
+function setTemporaryOptimizationExclusion(entityId, name, selected) {
+  if (selected) app.temporaryOptimizationExclusions.set(String(entityId), String(name || entityId));
+  else app.temporaryOptimizationExclusions.delete(String(entityId));
+  renderRecommendations(app.recommendation);
+}
+
+function renderTemporaryExclusions(result) {
+  const panel = $("#temporary-exclusions-panel");
+  const mode = result?.optimization_mode || optimizationMode();
+  const supported = mode === "CURRENT_TEAM" || mode === "COMPLETE_ROSTER";
+  if (!supported || (!result?.recommendations?.length && !app.temporaryOptimizationExclusions.size && !result?.temporary_run)) {
+    panel.classList.add("hidden");
+    return;
+  }
+  const selected = [...app.temporaryOptimizationExclusions.entries()];
+  const hasTemporaryResult = Boolean(result?.temporary_run);
+  panel.classList.remove("hidden");
+  panel.innerHTML = `<div class="temporary-exclusions-heading"><div><p class="eyebrow">TRY A DIFFERENT LINEUP</p><h3>Temporarily skip advised incoming players</h3><p>Tick players in the IN column of any recommendation card, then run the optimizer again. These choices stay only in this browser session and reset when you reload.</p></div><span class="choice-badge">${selected.length} SELECTED</span></div>
+    <div class="temporary-exclusion-list">${selected.length ? selected.map(([entityId,name]) => `<button class="temporary-exclusion-chip" type="button" data-remove-temporary-exclusion="${esc(entityId)}" title="Remove ${esc(name)} from this temporary list"><span>${esc(name)}</span><b aria-hidden="true">×</b></button>`).join("") : `<span class="temporary-exclusion-empty">No incoming players selected yet.</span>`}</div>
+    <div class="temporary-exclusion-actions"><button id="rerun-with-temporary-exclusions" class="secondary" type="button" ${selected.length ? "" : "disabled"}>Find lineups without selected (${selected.length})</button><button id="restore-original-recommendations" class="ghost" type="button" ${selected.length || hasTemporaryResult ? "" : "disabled"}>Clear all and restore original</button></div>`;
+  $$('[data-remove-temporary-exclusion]').forEach(button => button.addEventListener("click", () => {
+    app.temporaryOptimizationExclusions.delete(String(button.dataset.removeTemporaryExclusion));
+    renderRecommendations(app.recommendation);
+  }));
+  $("#rerun-with-temporary-exclusions").addEventListener("click", optimize);
+  $("#restore-original-recommendations").addEventListener("click", () => {
+    app.temporaryOptimizationExclusions.clear();
+    optimize();
+  });
 }
 
 function renderRecommendations(result) {
   if (!result || result.status !== "SUCCEEDED") {
     $("#recommendation-cards").className = "recommendation-grid empty-state";
     $("#recommendation-cards").textContent = "Optimization is blocked. Resolve the readiness and roster errors shown above.";
+    renderTemporaryExclusions(result);
     return;
   }
   const recommendations = result.recommendations || [], best = recommendations[0] || {};
   const selectedMode = result.optimization_mode || optimizationMode();
   const transferMode = selectedMode === "CURRENT_TEAM";
+  const selectableTransfers = selectedMode === "CURRENT_TEAM" || selectedMode === "COMPLETE_ROSTER";
   const showFullRoster = true;
   const cards = $("#recommendation-cards"); cards.className = "recommendation-grid";
   cards.innerHTML = recommendations.map((rec,index) => {
@@ -1259,13 +1316,15 @@ function renderRecommendations(result) {
       <div class="recommendation-facts"><span><b>Captain</b>${esc(captain?.name || nameForPlayer(rec.captain))}</span><span><b>Formation</b>${esc(formation)}</span><span><b>Credits</b>${num(rec.credits_used)}</span><span><b>Changes</b>${esc(rec.transfers_required)}</span></div>
       ${recommendationRotation(rec)}
       ${showFullRoster ? recommendationRoster(rec) : ""}
-      ${recommendationTransfers(rec)}
+      ${recommendationTransfers(rec, selectableTransfers)}
       <div class="transfer-summary"><div><strong>CREDIT IMPACT</strong>Before ${num(accounting.credits_before)} · +${num(accounting.credits_received)} received · −${num(accounting.credits_spent)} spent · ${num(accounting.credits_remaining)} remaining</div><div><strong>FP IMPROVEMENT</strong>${num(rec.predicted_team_fp_before)} before → ${num(rec.predicted_team_fp_after)} after · ${signed(rec.predicted_improvement)}</div></div>
       <div class="recommendation-actions">${action}</div>
     </article>`;
   }).join("");
   $$(".use-current-team").forEach(button => button.addEventListener("click", () => useRecommendationAsCurrentTeam(Number(button.dataset.index), "loaded")));
   $$(".apply-recommendation").forEach(button => button.addEventListener("click", () => useRecommendationAsCurrentTeam(Number(button.dataset.index), "applied")));
+  $$(".temporary-exclusion-toggle").forEach(input => input.addEventListener("change", () => setTemporaryOptimizationExclusion(input.dataset.entityId, input.dataset.entityName, input.checked)));
+  renderTemporaryExclusions(result);
   const panel = $("#alternatives-panel"), alternatives = result.player_alternatives || [];
   panel.classList.toggle("hidden", !alternatives.length);
   panel.innerHTML = alternatives.length ? `<div class="panel-heading"><div><h3>Re-optimized player alternatives</h3><span>Each alternative rebuilds the full legal roster.</span></div></div><div class="alternative-grid">${alternatives.map(item => `<div class="alternative-row"><div><span class="choice-badge ${item.alternative_type === "SAFER" ? "safe" : "risk"}">${esc(pretty(item.alternative_type))}</span><strong>${esc(item.player.name)}</strong><small>instead of ${esc(item.replaces.name)} · T${esc(item.turn)}</small></div><div><span>Credits ${signed(item.credits_difference)}</span><span>Mean ${signed(item.expected_final_team_fp_difference)}</span><span>P10 ${signed(item.p10_difference)}</span><span>P90 ${signed(item.p90_difference)}</span></div></div>`).join("")}</div>` : "";
@@ -1698,6 +1757,8 @@ function renderMetricList(selector, rows) { $(selector).innerHTML = rows.map(([l
 
 function invalidateAnalysis(reason, {clearLineup=false}={}) {
   app.analysisStale = true; app.recommendation = null; app.teamStrategy = null;
+  app.temporaryOptimizationExclusions.clear();
+  $("#temporary-exclusions-panel")?.classList.add("hidden");
   if (clearLineup) { app.advisor = null; clearScopedLineup(); }
   $("#stale-recommendation").textContent = `${reason} Run optimization again before acting.`;
   $("#stale-recommendation").classList.remove("hidden");

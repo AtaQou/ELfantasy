@@ -254,7 +254,8 @@ class DemoControlCenterService:
 
     def optimize(
             self, *, mode: str = "CURRENT_TEAM", bank_credits: float | None = None,
-            max_changes: int | None = None, **_: Any,
+            max_changes: int | None = None,
+            temporary_excluded_entity_ids: list[str] | tuple[str, ...] = (), **_: Any,
     ) -> dict[str, Any]:
         payload = self.bootstrap()
         if payload["dashboard"]["optimization_blocked"]:
@@ -262,6 +263,20 @@ class DemoControlCenterService:
                     payload["dashboard"]["blocked_reasons"], "recommendations": []}
         result = deepcopy(payload["latest_recommendation"])
         result["optimization_mode"] = str(mode).upper()
+        temporary_excluded = {
+            str(entity) for entity in temporary_excluded_entity_ids if str(entity)
+        }
+        result["temporary_run"] = bool(temporary_excluded)
+        result["temporary_excluded_entity_ids"] = sorted(temporary_excluded)
+        result["control_center_run_id"] = None if temporary_excluded else result.get(
+            "control_center_run_id"
+        )
+        result["snapshot_path"] = None if temporary_excluded else result.get("snapshot_path")
+        if temporary_excluded:
+            result["shadow"] = {
+                "status": "TEMPORARY_NOT_PERSISTED",
+                "reason": "Try-without optimization results are session-only",
+            }
         if result["optimization_mode"] == "BUILD_NEW":
             return result
         team = payload["current_team"]
@@ -301,6 +316,8 @@ class DemoControlCenterService:
         for recommendation in result["recommendations"]:
             selected = {row["entity_id"] for row in recommendation["players"]}
             selected.add(recommendation["coach"]["entity_id"])
+            if selected & temporary_excluded:
+                continue
             if not locked.issubset(selected):
                 continue
             incoming = selected - current
@@ -340,7 +357,8 @@ class DemoControlCenterService:
             ) or "roster"
             return {"status": "BLOCKED", "blocked_reasons": [
                 f"No legal {needs} combination fits the credits, locks, and change limit."
-            ], "recommendations": []}
+            ], "recommendations": [], "temporary_run": bool(temporary_excluded),
+                "temporary_excluded_entity_ids": sorted(temporary_excluded)}
         result["recommendations"] = viable
         return result
 

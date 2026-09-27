@@ -132,6 +132,7 @@ def generate_recommendations(
         max_layouts_per_roster: int = 7,
         mode: str = "CURRENT_TEAM",
         total_budget: float | None = None,
+        temporary_excluded_entity_ids: Iterable[str] = (),
 ) -> dict[str, Any]:
     """Return three distribution-selected teams under current-team constraints."""
 
@@ -179,6 +180,10 @@ def generate_recommendations(
     )
     if conflicts:
         raise RuleViolation("entities cannot be both excluded and forced: " + ", ".join(conflicts))
+    temporary_excluded = {
+        str(entity).strip() for entity in temporary_excluded_entity_ids
+        if str(entity).strip()
+    }
     excluded = {key for key, value in constraints.items() if value == "EXCLUDE"}
     forced = {key for key, value in constraints.items() if value == "FORCE_INCLUDE"}
     locked: set[str] = set()
@@ -192,6 +197,13 @@ def generate_recommendations(
                 + ", ".join(excluded_locked)
             )
         forced.update(locked)
+    temporary_conflicts = sorted(temporary_excluded & forced)
+    if temporary_conflicts:
+        raise RuleViolation(
+            "Temporarily skipped entities cannot also be locked or forced: "
+            + ", ".join(temporary_conflicts)
+        )
+    excluded.update(temporary_excluded)
     player_pool = players[~players["entity_id"].astype(str).isin(excluded)].copy().reset_index(drop=True)
     coach_pool = coaches[~coaches["entity_id"].astype(str).isin(excluded)].copy().reset_index(drop=True)
     turn_values = pd.to_numeric(
@@ -319,6 +331,7 @@ def generate_recommendations(
         "recommendations": recommendations, "player_alternatives": alternatives,
         "strategy": strategy, "available_budget": budget,
         "optimization_mode": optimization_mode,
+        "temporary_excluded_entity_ids": sorted(temporary_excluded),
         "candidate_rosters": len(candidate_results), "candidate_layouts": len(evaluated),
         "competitive_mean_floor": competitive_floor,
         "selection_principle": (

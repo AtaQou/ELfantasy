@@ -10,7 +10,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import threading
 import time
-from typing import Any, Callable, Mapping
+from typing import Any, Callable, Iterable, Mapping
 
 import pandas as pd
 
@@ -702,7 +702,15 @@ class ControlCenterService:
             seed: int = 20250801,
             training_simulations: int = 96,
             evaluation_simulations: int = 512,
+            temporary_excluded_entity_ids: Iterable[str] = (),
     ) -> dict[str, Any]:
+        if isinstance(temporary_excluded_entity_ids, (str, bytes, Mapping)):
+            raise ValueError("temporary_excluded_entity_ids must be a list")
+        temporary_exclusions = tuple(sorted({
+            str(entity).strip() for entity in temporary_excluded_entity_ids
+            if str(entity).strip()
+        }))
+        temporary_run = bool(temporary_exclusions)
         state = self._state_with_matchday(self.repository.load_state(self.profile_id))
         optimization_mode = str(mode).upper()
         if optimization_mode not in {"BUILD_NEW", "COMPLETE_ROSTER", "CURRENT_TEAM"}:
@@ -722,7 +730,10 @@ class ControlCenterService:
             raise ValueError("total budget cannot be negative")
         dashboard = self.dashboard(state)
         if dashboard["optimization_blocked"]:
-            return self._blocked_run(state, dashboard["blocked_reasons"])
+            return self._blocked_run(
+                state, dashboard["blocked_reasons"], persist=not temporary_run,
+                temporary_excluded_entity_ids=temporary_exclusions,
+            )
         prediction_generated_on_demand = False
         conservative_availability_assumptions = False
         availability_assumption_policy: str | None = None
@@ -765,6 +776,8 @@ class ControlCenterService:
                 return self._blocked_run(
                     state,
                     [f"Prediction generation failed: {_friendly_error(error)}"],
+                    persist=not temporary_run,
+                    temporary_excluded_entity_ids=temporary_exclusions,
                 )
             dashboard = self.dashboard(state)
             if not dashboard["predictions_current"]:
@@ -780,16 +793,24 @@ class ControlCenterService:
                 return self._blocked_run(
                     state, list(dict.fromkeys(str(value) for value in reasons if value)),
                     context=dashboard.get("prediction"),
+                    persist=not temporary_run,
+                    temporary_excluded_entity_ids=temporary_exclusions,
                 )
         context = dashboard["prediction"]
         if state.fantasy_matchday is None or context is None:
-            return self._blocked_run(state, ["Current Matchday/prediction is unavailable"])
+            return self._blocked_run(
+                state, ["Current Matchday/prediction is unavailable"],
+                persist=not temporary_run,
+                temporary_excluded_entity_ids=temporary_exclusions,
+            )
         scenario = state.scenario_id
         if not scenario and len(context["scenarios"]) == 1:
             scenario = context["scenarios"][0]
         if not scenario:
             return self._blocked_run(
-                state, ["Multiple availability scenarios exist; select one before optimization"]
+                state, ["Multiple availability scenarios exist; select one before optimization"],
+                persist=not temporary_run,
+                temporary_excluded_entity_ids=temporary_exclusions,
             )
         try:
             players, coaches = self.pool_loader(
@@ -824,17 +845,23 @@ class ControlCenterService:
                     state, players, coaches, self.rules, market_entities=market_rows,
                 )
                 if not validation["legal"]:
-                    return self._blocked_run(state, validation["errors"], context=context)
+                    return self._blocked_run(
+                        state, validation["errors"], context=context,
+                        persist=not temporary_run,
+                        temporary_excluded_entity_ids=temporary_exclusions,
+                    )
                 if optimization_mode == "CURRENT_TEAM" and not validation["complete"]:
                     return self._blocked_run(state, [
                         "Improve My Team requires a complete current roster; "
                         "use Complete My Roster to fill empty positions"
-                    ], context=context)
+                    ], context=context, persist=not temporary_run,
+                        temporary_excluded_entity_ids=temporary_exclusions)
             result = self.recommendation_runner(
                 players, coaches, self.rules, state, seed=seed,
                 training_simulations=training_simulations,
                 evaluation_simulations=evaluation_simulations,
                 mode=optimization_mode, total_budget=total_budget,
+                temporary_excluded_entity_ids=temporary_exclusions,
             )
             market_lookup = {
                 str(row["entity_id"]): row
@@ -853,7 +880,10 @@ class ControlCenterService:
                         or entity.get("team_name") or entity.get("team_id")
                     )
         except (ValueError, RuleViolation) as error:
-            return self._blocked_run(state, [str(error)], context=context)
+            return self._blocked_run(
+                state, [str(error)], context=context, persist=not temporary_run,
+                temporary_excluded_entity_ids=temporary_exclusions,
+            )
         overrides = self.repository.active_overrides(state.season_code, state.fantasy_matchday)
         snapshot = {
             "market_fingerprint": context["market_snapshot_fingerprint"],
@@ -870,6 +900,8 @@ class ControlCenterService:
             "profile_id": state.profile_id, "season": state.season_code,
             "matchday": state.fantasy_matchday, "generated_at": datetime.now(UTC).isoformat(),
             "optimization_mode": optimization_mode,
+            "temporary_run": temporary_run,
+            "temporary_excluded_entity_ids": list(temporary_exclusions),
             "prediction_generated_on_demand": prediction_generated_on_demand,
             "conservative_availability_assumptions": conservative_availability_assumptions,
             "availability_assumption_policy": availability_assumption_policy,
@@ -890,8 +922,17 @@ class ControlCenterService:
             "optimization_mode": optimization_mode,
             "total_budget": payload["total_budget"],
             "constraints": payload["constraints"], "scenario_id": scenario,
+            "temporary_excluded_entity_ids": list(temporary_exclusions),
             "simulation": result["simulation"],
         })
+        if temporary_run:
+            payload["snapshot_path"] = None
+            payload["control_center_run_id"] = None
+            payload["shadow"] = {
+                "status": "TEMPORARY_NOT_PERSISTED",
+                "reason": "Try-without optimization results are session-only",
+            }
+            return payload
         path = self._write_snapshot(payload)
         payload["snapshot_path"] = str(path)
         payload["control_center_run_id"] = self.repository.persist_run(
@@ -1338,6 +1379,8 @@ class ControlCenterService:
             reasons: list[str],
             *,
             context: Mapping[str, Any] | None = None,
+            persist: bool = True,
+            temporary_excluded_entity_ids: Iterable[str] = (),
     ) -> dict[str, Any]:
         overrides = self.repository.active_overrides(state.season_code, state.fantasy_matchday)
         snapshot = {
@@ -1357,14 +1400,25 @@ class ControlCenterService:
             "bank_credits": state.bank_credits,
             "transfers_available": state.transfers_available,
             "constraints": dict(state.player_constraints), "recommendations": [],
+            "temporary_run": not persist,
+            "temporary_excluded_entity_ids": list(temporary_excluded_entity_ids),
         }
         payload["input_fingerprint"] = json_fingerprint({
             "snapshot": snapshot, "current_roster": payload["current_roster"],
             "bank_credits": state.bank_credits,
             "transfers_available": state.transfers_available,
             "constraints": payload["constraints"], "blocked_reasons": reasons,
+            "temporary_excluded_entity_ids": list(temporary_excluded_entity_ids),
         })
-        self.repository.persist_run(payload, snapshot_path=None)
+        if persist:
+            self.repository.persist_run(payload, snapshot_path=None)
+        else:
+            payload["snapshot_path"] = None
+            payload["control_center_run_id"] = None
+            payload["shadow"] = {
+                "status": "TEMPORARY_NOT_PERSISTED",
+                "reason": "Try-without optimization results are session-only",
+            }
         return payload
 
     def _write_snapshot(self, payload: Mapping[str, Any]) -> Path:

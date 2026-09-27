@@ -392,6 +392,64 @@ def test_phase8a_optimize_generates_missing_prediction_before_solving() -> None:
     assert result["prediction_generated_on_demand"] is True
 
 
+def test_phase8a_temporary_optimization_does_not_replace_persisted_recommendation() -> None:
+    players, coaches, rules, _, _ = _current_state()
+    captured: dict[str, object] = {}
+
+    def recommendation_runner(*args, **kwargs):
+        captured.update(kwargs)
+        return {
+            "recommendations": [], "player_alternatives": [], "strategy": {},
+            "available_budget": 100.0, "simulation": {"seed": kwargs["seed"]},
+            "optimization_mode": "BUILD_NEW",
+            "temporary_excluded_entity_ids": list(
+                kwargs["temporary_excluded_entity_ids"]
+            ),
+        }
+
+    def must_not_persist(*args, **kwargs):
+        raise AssertionError("temporary optimization must not be persisted")
+
+    with TemporaryDirectory() as directory:
+        service = ControlCenterService(
+            Path(directory) / "phase8a.duckdb", rules=rules,
+            snapshot_root=Path(directory) / "snapshots",
+            pool_loader=lambda *args: (players, coaches),
+            recommendation_runner=recommendation_runner,
+        )
+        state = ControlCenterState(
+            season_code="E2025", fantasy_matchday=1, scenario_id="BASE",
+        )
+        context = {
+            "prediction_run_id": "prediction-1", "status": "SUCCEEDED",
+            "scenarios": ["BASE"], "market_snapshot_fingerprint": "market-fp",
+            "prediction_fingerprint": "prediction-fp",
+            "predictive_artifact_fingerprint": "artifact-fp",
+        }
+        service.repository.load_state = lambda profile="default": state
+        service.dashboard = lambda current=None: {
+            "optimization_blocked": False, "blocked_reasons": [],
+            "predictions_current": True, "prediction": context,
+            "prediction_refresh_reasons": [],
+        }
+        service.repository.player_predictions = lambda *args: []
+        service.repository.market_entities = lambda *args: []
+        service.repository.active_overrides = lambda *args: []
+        service.repository.persist_run = must_not_persist
+        service._write_snapshot = must_not_persist
+        result = service.optimize(
+            mode="BUILD_NEW", total_budget=100.0,
+            temporary_excluded_entity_ids=["skip-me"],
+            training_simulations=2, evaluation_simulations=2,
+        )
+
+    assert captured["temporary_excluded_entity_ids"] == ("skip-me",)
+    assert result["temporary_run"] is True
+    assert result["control_center_run_id"] is None
+    assert result["snapshot_path"] is None
+    assert result["shadow"]["status"] == "TEMPORARY_NOT_PERSISTED"
+
+
 def test_phase8a_zero_transfers_preserves_all_players_and_coach() -> None:
     players, coaches, rules, _, state = _current_state(transfers=0, bank=50)
     result = generate_recommendations(
@@ -434,6 +492,40 @@ def test_phase8a_force_include_and_exclude_are_hard_constraints() -> None:
         entities = {row["entity_id"] for row in item["players"]}
         assert str(unselected.entity_id) in entities
         assert str(selected.entity_id) not in entities
+
+
+def test_phase8a_temporary_exclusions_reoptimize_without_selected_incoming_player() -> None:
+    players, coaches = _pools()
+    rules = load_rules()
+    selected = []
+    for position, count in rules.position_counts.items():
+        selected.extend(
+            players[players.position.eq(position)]
+            .sort_values("expected_fp")
+            .head(count)
+            .entity_id.astype(str)
+        )
+    coach_id = str(coaches.sort_values("expected_score").iloc[0].entity_id)
+    state = ControlCenterState(
+        season_code="E2026", fantasy_matchday=1,
+        roster_entity_ids=tuple(selected + [coach_id]),
+        bank_credits=100.0, transfers_available=3,
+    )
+    baseline = generate_recommendations(
+        players, coaches, rules, state, training_simulations=6,
+        evaluation_simulations=12, max_rosters=2, max_layouts_per_roster=2,
+    )
+    excluded = str(baseline["recommendations"][0]["players_in"][0]["entity_id"])
+    alternative = generate_recommendations(
+        players, coaches, rules, state, training_simulations=6,
+        evaluation_simulations=12, max_rosters=2, max_layouts_per_roster=2,
+        temporary_excluded_entity_ids=[excluded],
+    )
+    assert alternative["temporary_excluded_entity_ids"] == [excluded]
+    for recommendation in alternative["recommendations"]:
+        selected = {str(row["entity_id"]) for row in recommendation["players"]}
+        selected.add(str(recommendation["coach"]["entity_id"]))
+        assert excluded not in selected
 
 
 def test_phase8a_returns_three_distribution_selected_legal_teams() -> None:
